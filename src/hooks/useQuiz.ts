@@ -28,32 +28,69 @@ function buildDeck(config: QuizConfig): Question[] {
   return pool
 }
 
+export function isMultiSelect(q: Question): boolean {
+  return Array.isArray(q.answer)
+}
+
+export function isCorrect(q: Question, selected: number[]): boolean {
+  if (Array.isArray(q.answer)) {
+    const sorted = [...selected].sort((a, b) => a - b)
+    return sorted.length === q.answer.length && sorted.every((v, i) => v === (q.answer as number[])[i])
+  }
+  return selected.length === 1 && selected[0] === q.answer
+}
+
 export function useQuiz(config: QuizConfig) {
   const [questions] = useState<Question[]>(() => buildDeck(config))
   const [index, setIndex] = useState(0)
-  const [selected, setSelected] = useState<number | null>(null)
+  const [selected, setSelected] = useState<number[]>([])
+  const [confirmed, setConfirmed] = useState(false)
   const [results, setResults] = useState<QuizResult[]>([])
   const [startTime] = useState(() => Date.now())
 
   const current = questions[index]
-  const isAnswered = selected !== null
+  const multi = current ? isMultiSelect(current) : false
+  const isAnswered = confirmed
   const isLast = index === questions.length - 1
+  const requiredCount = current && Array.isArray(current.answer) ? current.answer.length : 1
+  const canConfirm = multi && selected.length === requiredCount
 
-  const choose = useCallback((optionIndex: number) => {
-    if (selected !== null || !current) return
-    setSelected(optionIndex)
-    setResults(prev => [
-      ...prev,
-      {
+  const toggle = useCallback((optionIndex: number) => {
+    if (confirmed || !current) return
+
+    if (!multi) {
+      // Single answer: immediately confirm
+      const sel = [optionIndex]
+      setSelected(sel)
+      setConfirmed(true)
+      setResults(prev => [...prev, {
         question: current,
         selectedAnswer: optionIndex,
-        correct: optionIndex === current.answer,
-      },
-    ])
-  }, [selected, current])
+        correct: isCorrect(current, sel),
+      }])
+    } else {
+      // Multi-select: toggle selection
+      setSelected(prev =>
+        prev.includes(optionIndex)
+          ? prev.filter(i => i !== optionIndex)
+          : [...prev, optionIndex]
+      )
+    }
+  }, [confirmed, current, multi])
+
+  const confirm = useCallback(() => {
+    if (!current || !multi || confirmed) return
+    setConfirmed(true)
+    setResults(prev => [...prev, {
+      question: current,
+      selectedAnswer: selected,
+      correct: isCorrect(current, selected),
+    }])
+  }, [current, multi, confirmed, selected])
 
   const next = useCallback(() => {
-    setSelected(null)
+    setSelected([])
+    setConfirmed(false)
     setIndex(i => i + 1)
   }, [])
 
@@ -68,8 +105,12 @@ export function useQuiz(config: QuizConfig) {
     results,
     isAnswered,
     isLast,
+    multi,
+    canConfirm,
+    requiredCount,
     elapsedSeconds,
-    choose,
+    toggle,
+    confirm,
     next,
   }
 }

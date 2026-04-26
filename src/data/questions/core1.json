@@ -1,1 +1,3505 @@
-[]
+[
+  {
+    "id": "core1-001",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "The printer in the accounting department has stopped all printing processes. The print queue shows seven jobs in the queue waiting to be printed. Which of the following would be the best next troubleshooting step?",
+    "options": [
+      "Send a test job to the printer and move it to the top of the queue",
+      "Restart the printer's spooler",
+      "Install an updated version of the printer driver",
+      "Delete everything in the queue and resend the print jobs"
+    ],
+    "answer": 1,
+    "explanation": "The print spooler is the software responsible for storing print jobs and sending them to the printer. If the printer spooler has failed or has stopped, then none of the print jobs will be sent to the printer."
+  },
+  {
+    "id": "core1-002",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A system administrator has connected an external USB drive to a computer to transfer some documents. When booting the computer, the system tries to boot from the external drive and gives an error message. Which of the following would be the best way to prevent the USB drive from booting?",
+    "options": [
+      "Modify the BIOS to boot from the internal hard drive",
+      "Modify the boot order in Windows Disk Management",
+      "Rebuild the MBR on the external hard drive",
+      "Disable the external drive in Device Manager"
+    ],
+    "answer": 0,
+    "explanation": "The boot order is managed in the system BIOS, and one way to avoid the computer from attempting to boot from an external storage device is to move the internal drive to have a higher boot priority."
+  },
+  {
+    "id": "core1-003",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A user's print jobs to a new multifunction printer produce pages of garbled text, but jobs from other users are printing normally. Which of the following would be the most likely reason for this issue?",
+    "options": [
+      "Printer driver specifies secured prints",
+      "Faulty network cable",
+      "Print driver is configured for PCL",
+      "Application is not authorized to print"
+    ],
+    "answer": 2,
+    "explanation": "The page description language configured in a printer driver must match the language on the printer. If a device prints to a PostScript printer using Hewlett-Packard's PCL (Printer Command Language), the output will appear garbled and unreadable."
+  },
+  {
+    "id": "core1-004",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A network connection in a conference room was installed years ago, and there’s no documentation for the cable run. Connecting a device to the cable results in a successful Ethernet connection, so the other end of the cable should terminate somewhere in the wiring closet. Which of these tools would be the best choice to find the other end of the network connection?",
+    "options": [
+      "Cable tester",
+      "Tone generator",
+      "Multimeter",
+      "Crimper"
+    ],
+    "answer": 1,
+    "explanation": "A tone generator is used to produce an analog tone on the cable, and an inductive probe is used to \"listen\" for the tone on the other end of the cable."
+  },
+  {
+    "id": "core1-005",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A network administrator has received a ticket complaining of port flapping on an Ethernet switch. Which of the following would be the most likely reason for this issue?",
+    "options": [
+      "Firewall rule is blocking traffic",
+      "Faulty crimp on an Ethernet connector",
+      "Excessive jitter measurements",
+      "Duplex mismatch"
+    ],
+    "answer": 1,
+    "explanation": "Port flapping describes a network interface which constantly transitions between connected and disconnected. This can sometimes be related to software or firmware, but is most likely associated with a hardware issue. For example, a faulty cable or connector could cause intermittent connectivity and create a flapping Ethernet port."
+  },
+  {
+    "id": "core1-006",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A user has powered on their computer and received the message “Operating system not found.” A check of the system shows the SATA drive cables are properly connected. Which of the following would be the next best troubleshooting step?",
+    "options": [
+      "Boot to Safe Mode",
+      "Replace the boot drive",
+      "Restore from a known good backup",
+      "Check for removable drives"
+    ],
+    "answer": 3,
+    "explanation": "If a USB (Universal Serial Bus) storage device is connected to a computer and the BIOS (Basic Input/Output System) is checking USB devices before the primary storage drive, the \"Operating system not found\" error could appear with some USB devices. To avoid this error, the boot order in the BIOS can be changed, or the USB device can be disconnected during the boot process and reconnected after the operating system has started."
+  },
+  {
+    "id": "core1-007",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A user is having an issue with a smartphone battery bulging and physically pushing the screen away from the phone. The rest of the phone appears to be operating normally. Which of the following should be the best next troubleshooting step?",
+    "options": [
+      "Power off the phone and contact support",
+      "Upgrade to the latest OS version",
+      "Replace the screen",
+      "Perform a factory reset"
+    ],
+    "answer": 0,
+    "explanation": "A swollen battery indicates damage to the battery and could potentially be a fire hazard. The phone should be powered down and the damaged battery should be removed by a trained smartphone support technician."
+  },
+  {
+    "id": "core1-008",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A client’s laptop appears to boot normally, but nothing ever appears on the LCD. After closer inspection, you notice the output is visible but it's too faint to clearly see anything. What is the most likely cause of this issue?",
+    "options": [
+      "Video card",
+      "Inverter",
+      "Video driver",
+      "Power adapter"
+    ],
+    "answer": 1,
+    "explanation": "The inverter powers the CCFL (Cold Cathode Fluorescent Lamp) LCD (Liquid Crystal Display) backlight, allowing you to easily view the pixels on the display. Most newer laptops will use LED (Light Emitting Diode) backlights with existing DC (Direct Current) power and these LED lights don’t require an inverter."
+  },
+  {
+    "id": "core1-009",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A graphics designer is experiencing increasing delays when accessing files on her hard drive. The user maintains a daily backup of all data on the drive. Which of these would be the best next troubleshooting step for this issue?",
+    "options": [
+      "Reinstall Windows",
+      "Perform a hard drive diagnostic",
+      "Restore from the daily backup",
+      "Boot to Safe Mode"
+    ],
+    "answer": 1,
+    "explanation": "Before making any changes, it would be useful to gather more information about this problem. A hardware diagnostic would determine if the hard drive itself is working properly. If the hard drive is operating normally, the troubleshooting process can then focus on the operating system and software."
+  },
+  {
+    "id": "core1-010",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "Which of the following would be most likely found on an optical disc?",
+    "options": [
+      "Document archive",
+      "Operating system boot files",
+      "RAID parity files",
+      "BIOS configurations"
+    ],
+    "answer": 0,
+    "explanation": "An optical disc such as a DVD-ROM (Digital Versatile Disc - Read Only Memory) has the advantage of a relatively large storage area and the ability to write once and never worry about an accidental deletion. The storage of documents and other files is a common use of optical discs."
+  },
+  {
+    "id": "core1-011",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "When a user starts their computer, the screen remains blank and the computer beeps twice. Which of these would be the most likely cause of this issue?",
+    "options": [
+      "The boot device is not connected",
+      "The memory is faulty",
+      "The operating system has become corrupted",
+      "The PC is infected with malware"
+    ],
+    "answer": 1,
+    "explanation": "The POST (Power On Self Test) is the initial hardware check during the startup process. If a major hardware component is faulty, the computer will beep and a message will be displayed on the screen. If the issue is related to a critical component, the computer will not be able to display a message on the screen and instead will beep a certain number of times as a code to specify the error."
+  },
+  {
+    "id": "core1-012",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A firewall is configured to block email transfers from a remote server. Which of the following ports is the firewall blocking?",
+    "options": [
+      "443",
+      "22",
+      "23",
+      "25"
+    ],
+    "answer": 3,
+    "explanation": "Port 25 is used by SMTP (Simple Mail Transfer Protocol) to send email messages from devices and transfer those messages between SMTP email servers."
+  },
+  {
+    "id": "core1-013",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A technician is connecting a laptop to an LCD projector in a conference room. The display on the laptop works properly, but the projector image is constantly flickering and pixelating. The technician has modified the resolution and refresh rates, but the projector image continues to flicker. Which of the following would be the best next troubleshooting step?",
+    "options": [
+      "Replace the video cable",
+      "Disable the laptop display",
+      "Replace the projector bulb",
+      "Power cycle the projector"
+    ],
+    "answer": 0,
+    "explanation": "A display issue associated with flickering and poor video quality would commonly point to the connection between the video adapter and the display device. In the case of an LCD (Liquid Crystal Display) projector, there's sometimes a very long (and very worn) cable which can cause signal issues to show on the projected image."
+  },
+  {
+    "id": "core1-014",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "The stylus on an Android tablet will no longer interact with the user interface. Which of these would be the most likely cause of this issue?",
+    "options": [
+      "Digitizer",
+      "Backlight",
+      "Contrast",
+      "Inverter"
+    ],
+    "answer": 0,
+    "explanation": "The digitizer is the component in a touch screen to convert analog input from a fingerprint or stylus into a digital input. If the digitizer is having an issue, then problems will occur with any direct screen input."
+  },
+  {
+    "id": "core1-015",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A user in the accounting department needs to print a form on the laser printer on both sides of the page. Which of the following options should be configured in the accounting software?",
+    "options": [
+      "Tray settings",
+      "Orientation",
+      "Duplex",
+      "Resolution"
+    ],
+    "answer": 2,
+    "explanation": "The duplex setting prints the output on both sides of the page, and a printer which supports duplexing will flip the page over without any manual intervention from the user."
+  },
+  {
+    "id": "core1-016",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A server administrator has received an alert showing one drive in a RAID 1 array has failed. Which of the following would be the best way to resolve this alert?",
+    "options": [
+      "Replace the bad drive and resync the array",
+      "Replace all drives in the array and resync the array",
+      "Replace the bad drive and restore from backup",
+      "Convert the array to RAID 0 and replace the drive",
+      "Replace all drives in the array and restore from backup"
+    ],
+    "answer": 0,
+    "explanation": "A RAID 1 (Redundant Array of Independent Disks, level 1) array is a mirrored array, which means all of the information on one physical drive is also copied and maintained on a separate drive. If one drive fails, the drive with the redundant data continues to be available. To repair the array, the bad drive needs to be replaced and the data from the redundant drive is synchronized to the new drive."
+  },
+  {
+    "id": "core1-017",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A system administrator is building a server for a data center in another country. The server will manage a print queue and provide a local storage partition for temporary file transfers. Which of the following power supply specifications will be the most important for this server?",
+    "options": [
+      "Voltage input options",
+      "Number of PCIe connectors",
+      "Modular cabling",
+      "Fan noise rating"
+    ],
+    "answer": 0,
+    "explanation": "Connecting to the power source in a different country is an important consideration when selecting a power supply. If the voltage specifications are incorrect, the server may not operate at all or components in the server may be damaged. Servers using auto-switching power supplies are compatible with the power systems in other countries."
+  },
+  {
+    "id": "core1-018",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "Which of the following ports are used for file transfers? (Select TWO)",
+    "options": [
+      "21",
+      "110",
+      "25",
+      "23",
+      "20",
+      "53"
+    ],
+    "answer": [
+      0,
+      4
+    ],
+    "explanation": "FTP (File Transfer Protocol) is a standard method of transferring files across different operating systems. FTP uses TCP (Transmission Control Protocol) port 21 for control messages and port 20 to transfer data."
+  },
+  {
+    "id": "core1-019",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "Which of these technologies do not require a backlight to provide a viewable display?",
+    "options": [
+      "LCD",
+      "IPS",
+      "OLED",
+      "Mini LED"
+    ],
+    "answer": 2,
+    "explanation": "An OLED (Organic Light Emitting Diode) display emits light when a current is provided to an organic compound. A backlight would not be necessary with an OLED display."
+  },
+  {
+    "id": "core1-020",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A system administrator has tripped over an Ethernet cable and the cable’s RJ45 connector has broken. Which of the following should be used to resolve this issue?",
+    "options": [
+      "Punch-down tool",
+      "Tone generator and probe",
+      "Cable tester",
+      "Crimper"
+    ],
+    "answer": 3,
+    "explanation": "A crimper is used to attach a modular connector to a cable. In this example, a new connector can be reattached to the cable using an RJ45 (Registered Jack type 45) crimper."
+  },
+  {
+    "id": "core1-021",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A newly installed multifunction device provides an option to \"scan to SMB.\" Which of the following would best describe this feature?",
+    "options": [
+      "Print jobs can be sent from mobile devices",
+      "All scans are checked for malware",
+      "Files are stored on a Microsoft share",
+      "Documents are scanned from the cloud"
+    ],
+    "answer": 2,
+    "explanation": "SMB (Server Message Block) is the protocol used by Microsoft operating systems to share files, print jobs, and other information between other Microsoft OS devices. Many multifunction devices can scan a document and store the scanned file on a central network share using SMB."
+  },
+  {
+    "id": "core1-022",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A network administrator is powering their access points using voltage provided through the existing Ethernet cables. Which of the following technologies is associated with this power source?",
+    "options": [
+      "UPS",
+      "PoE switch",
+      "Router",
+      "Surge protector"
+    ],
+    "answer": 1,
+    "explanation": "A PoE (Power over Ethernet) switch provides voltage over the Ethernet cable itself. This allows devices to power and communicate using voltage added to the Ethernet cable at a PoE switch or using an PoE injector."
+  },
+  {
+    "id": "core1-023",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "In which of the following would a Lightning cable most likely be used?",
+    "options": [
+      "Connect a server to a display monitor",
+      "Increase the available memory of a device",
+      "Remotely control a mobile device",
+      "Charge a mobile device"
+    ],
+    "answer": 3,
+    "explanation": "The Lightning interface is a proprietary interface used exclusively on mobile devices from Apple. The Lightning interface is a common connection for data transfers and power charging for many Apple mobile devices."
+  },
+  {
+    "id": "core1-024",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A network administrator would like to enable DHCP on a laptop, but they would like the same IP address to be assigned to the laptop each time it starts. Which of the following would provide this functionality?",
+    "options": [
+      "Create an IP reservation on the DHCP server",
+      "Administratively configure the laptop’s MAC address",
+      "Use APIPA addressing",
+      "Assign the laptop to a static IP VLAN"
+    ],
+    "answer": 0,
+    "explanation": "A DHCP (Dynamic Host Configuration Protocol) server will automatically assign IP (Internet Protocol) addresses to devices on the network from an available pool. This means the IP address for a device may change over time based on the addresses currently available in the pool. To force the same IP address assignment each time, the network administrator can create an IP reservation in the DHCP server to associate a specific IP address to the MAC (Media Access Control) address of the laptop."
+  },
+  {
+    "id": "core1-025",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A user is complaining about slow network performance from their workstation. A network technician checks the data closet and finds the wires are not properly seated in the 110 block. Which of the following should the technician use to correct this issue?",
+    "options": [
+      "Crimper",
+      "Multimeter",
+      "Punch-down tool",
+      "Cable tester"
+    ],
+    "answer": 2,
+    "explanation": "A punch-down tool is used to firmly \"punch\" a wire into a wiring block. These blocks are usually located in a wiring closet or on a patch panel."
+  },
+  {
+    "id": "core1-026",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A user has just connected to a new wireless network, but they cannot view any Internet web sites. Their network configuration shows the IP address as 169.254.228.109, the subnet mask is 255.255.0.0, and they have not been assigned a default gateway. Which of these is the most likely cause of this issue?",
+    "options": [
+      "The subnet mask is not correct",
+      "The Internet provider is experiencing a temporary outage",
+      "The DHCP server is down",
+      "The wireless adapter is not working properly"
+    ],
+    "answer": 2,
+    "explanation": "If a DHCP (Dynamic Host Configuration Protocol) server is not responding, the local workstation will configure itself with an APIPA (Automatic Private IP Addressing) address. The usable APIPA addresses range between 169.254.1.0 through 169.254.254.255. An APIPA address is a link-local address, so network communication is limited to the local IP subnet."
+  },
+  {
+    "id": "core1-027",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "While configuring a new workstation in the lab, one of the engineers recommends using 255.255.255.0. What part of the configuration is this associated with?",
+    "options": [
+      "Default gateway",
+      "Subnet mask",
+      "DNS server",
+      "IP address"
+    ],
+    "answer": 1,
+    "explanation": "Subnet masks are used by a device to determine what subnet it's connected to. Subnet masks are a series of binary ones that are used to \"mask\" the subnet address from the host address. Instead of representing this mask in binary, it's almost always shown in decimal form. Common decimal representations of subnet mask start with 255, such as 255.255.255.0."
+  },
+  {
+    "id": "core1-028",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "Which of the following best describes a Bluetooth network?",
+    "options": [
+      "PAN",
+      "WAN",
+      "LAN",
+      "MAN"
+    ],
+    "answer": 0,
+    "explanation": "A PAN (Personal Area Network) is designed for a small area and usually is associated with an individual. Bluetooth devices such as headsets, speakers, and automobile connections are considered PANs."
+  },
+  {
+    "id": "core1-029",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "During the onboarding process, an employee's phone has been added to the corporate MDM. Which of the following would best describe this deployment strategy?",
+    "options": [
+      "COPE",
+      "SaaS",
+      "BYOD",
+      "SMB"
+    ],
+    "answer": 2,
+    "explanation": "BYOD (Bring Your Own Device) describes the use of personal devices in corporate settings. These devices are often managed through a centralized MDM (Mobile Device Manager)."
+  },
+  {
+    "id": "core1-030",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A user's smartphone shows a black screen and does not respond to any screen taps or button presses. A check of the SIM card shows a red label but no physical damage. Which of the following is the most likely reason for these issues?",
+    "options": [
+      "Overheating",
+      "Digitizer failure",
+      "Liquid damage",
+      "Invalid SIM card"
+    ],
+    "answer": 2,
+    "explanation": "Most smartphones and tablets include a liquid contact indicator (LCI). This indicator is usually white, and it can often be seen without disassembling the device. If the LCI turns pink or red, the device has been in close contact with liquid."
+  },
+  {
+    "id": "core1-031",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "An administrator needs to obtain the MAC address of a print server. Which of the following would be the best source of this information?",
+    "options": [
+      "Router",
+      "NIC",
+      "Firewall",
+      "ONT"
+    ],
+    "answer": 1,
+    "explanation": "A MAC (Media Access Control) address is commonly associated with a NIC (Network Interface Card). Each MAC address is a unique value and is burned-in to the ROM (Read Only Memory) of the NIC."
+  },
+  {
+    "id": "core1-032",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "A user would like to access email from their Windows 11 laptop using a smartphone’s Internet connection. Which of these technologies needs to be enabled on the laptop?",
+    "options": [
+      "5G",
+      "802.11",
+      "NFC",
+      "GPS"
+    ],
+    "answer": 1,
+    "explanation": "An Internet hotspot commonly uses 802.11 wireless connections to connect a laptop and a smartphone together. The laptop will communicate to the smartphone over 802.11, and the smartphone is used to connect to resources on the Internet using 5G or a similar cellular technology."
+  },
+  {
+    "id": "core1-033",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "A system administrator needs to upgrade a laptop from a hard drive to an SSD. Which of the following would provide the most efficient method of upgrading this system?",
+    "options": [
+      "Create an image of the hard drive and restore to the SSD",
+      "Install a new Windows license and application files on the SSD",
+      "Backup all user documents and copy them to another computer",
+      "Compress the home directory and upload it to cloud storage"
+    ],
+    "answer": 0,
+    "explanation": "A system image contains everything on the storage drive, so the restored system will have the same operating system, configuration options, user documents, and installed applications as the original system."
+  },
+  {
+    "id": "core1-034",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "A new employee has been assigned a corporate smartphone, but the camera and the installation of third-party apps has been disabled. Which of the following is the most likely reason for these issues?",
+    "options": [
+      "The smartphone is out of storage space",
+      "The smartphone OS needs to be upgraded",
+      "An MDM has disabled the features",
+      "The smartphone hardware is faulty"
+    ],
+    "answer": 2,
+    "explanation": "An MDM (Mobile Device Manager) can enable or disable effectively any feature on the smartphone, including the camera and the app installation process."
+  },
+  {
+    "id": "core1-035",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A system administrator is using a maintenance kit on a network-connected laser printer. Which of the following should be the last step when performing this maintenance?",
+    "options": [
+      "Examine the feed rollers",
+      "Wait until the fuser unit cools down and replace it",
+      "Reset the page counter",
+      "Replace the power cord"
+    ],
+    "answer": 2,
+    "explanation": "The page counter is a helpful metric to determine how much the printer is used, which in turn determines when the next maintenance should be scheduled. After performing the current maintenance cycle and verifying the printer's operation, the page counter should be reset so the next maintenance time-frame can be properly estimated."
+  },
+  {
+    "id": "core1-036",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "An application developer needs to test an application across all of the operating systems used by the company. Each operating system will be tested individually in a lab environment. The company would like to minimize any additional hardware purchases for this project. Which of the following would be the best way to test this application?",
+    "options": [
+      "Purchase a system configured just above the hardware requirements for the highest-end operating system. Create separate VMs for each operating system.",
+      "Purchase individual test computers which match the hardware requirements for each OS. Install different operating systems on each test computer.",
+      "Designate existing user workstations to be used as testing systems. Run all application tests during non-working hours.",
+      "Purchase a system which matches the minimum hardware requirements for the highest-end operating system. Create a system image for each operating system and reimage the computer between tests."
+    ],
+    "answer": 0,
+    "explanation": "hardware requirements for the highest-end operating system. Create separate VMs for each operating system. Creating virtual machines for these tests would be a great way to minimize hardware costs, and the machine used for the testing should be able to properly virtualize the testing OS while the host OS is running. Purchasing a system that is slightly more powerful than the highest-level operating system configuration should cover any technical requirements."
+  },
+  {
+    "id": "core1-037",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A graphics editor is purchasing a new monitor which will best match the color output of their laser printer. Which of the following specifications would best meet this requirement?",
+    "options": [
+      "Pixel density",
+      "Screen resolution",
+      "Color gamut",
+      "Refresh rate"
+    ],
+    "answer": 2,
+    "explanation": "The color gamut describes the range of colors available on a device. A display with a comprehensive color gamut can best match the colors on other devices, including color laser printers."
+  },
+  {
+    "id": "core1-038",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A user in the manufacturing department reports every page printed from the central networked laser printer is jamming inside of the printer. Which of the following is the most likely cause of this issue?",
+    "options": [
+      "The printer driver is outdated",
+      "The printer language is not properly configured",
+      "The paper is an incorrect weight",
+      "The toner is low"
+    ],
+    "answer": 2,
+    "explanation": "The paper path of a printer has been engineered for a specific range of paper weights, and going outside of this range can cause paper jams and creased pages in the final output."
+  },
+  {
+    "id": "core1-039",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "Which mobile device connection is commonly used for making payments at a store checkout?",
+    "options": [
+      "NFC",
+      "Infrared",
+      "Cellular",
+      "Bluetooth"
+    ],
+    "answer": 0,
+    "explanation": "NFC (Near Field Communication) is designed to transfer small amounts of data wirelessly over a limited area. It's common to use a smart phone or smart watch with a credit card terminal to pay for goods or services."
+  },
+  {
+    "id": "core1-040",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "A company hosts a cloud-based application which includes redundant servers located in different data centers around the world. Which of the following cloud computing characteristics would best describe this application design?",
+    "options": [
+      "Elasticity",
+      "Availability",
+      "Non-metered",
+      "VDI"
+    ],
+    "answer": 1,
+    "explanation": "If a single server fails, there are other servers available in different data centers for clients to access. This highly available design ensures the services are always available to the users."
+  },
+  {
+    "id": "core1-041",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "An administrator is installing a new database server. Which of the following technologies would maximize the data bandwidth when accessing memory modules?",
+    "options": [
+      "Multiple channels",
+      "Error correcting code",
+      "Double data rate RAM",
+      "NVMe storage",
+      "Parity storage"
+    ],
+    "answer": 0,
+    "explanation": "A motherboard supporting multi-channel memory can use multiple memory modules to increase overall throughput."
+  },
+  {
+    "id": "core1-042",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "A manager’s computer is able to connect to Internet sites while in conference rooms or in the building courtyard. When the laptop is brought back to the manager’s desk and placed into the docking station, the Internet access is unavailable but all other features are working. Which of the following should be the first troubleshooting task for this issue?",
+    "options": [
+      "Replace the docking station power supply",
+      "Upgrade the laptop BIOS",
+      "Replace the docking station",
+      "Check the docking station network cable"
+    ],
+    "answer": 3,
+    "explanation": "The Internet access on the laptop appears to be working properly on the wireless network, but the docking station connection would use a wired Ethernet connection. If everything else is working properly, then the issue would most likely be associated with the Ethernet interface in the docking station."
+  },
+  {
+    "id": "core1-043",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "The manager of the Accounting department would like to add another phone number to their iPhone to use while working at a regional site in another country. Which of the following would provide this functionality?",
+    "options": [
+      "MDM",
+      "eSIM",
+      "Bluetooth",
+      "Tether"
+    ],
+    "answer": 1,
+    "explanation": "An eSIM (Embedded Subscriber Identity Module) is an electronic method of applying carrier and user information to a smartphone. No additional hardware is required when using an eSIM, and the additional phone number can be updated in the phone software directly."
+  },
+  {
+    "id": "core1-044",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A technician is working with a desktop computer where the display shows a completely black screen. Powering the computer and monitor off and back on does not correct the issue. Which of the following would be the most likely reason for this issue?",
+    "options": [
+      "The computer resolution is different than the monitor",
+      "The monitor input is incorrect",
+      "Image scaling is disabled",
+      "The monitor has a dead pixel"
+    ],
+    "answer": 1,
+    "explanation": "Many monitors have multiple input interfaces, but not all monitors will automatically switch to the active interface. Adjusting the input interface on the monitor controls will resolve any issues associated with the interface type and connection."
+  },
+  {
+    "id": "core1-045",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "An engineer has manually configured IP addresses for a small office which uses a cable modem for Internet connectivity. However, none of the devices configured with a manual IP address are able to browse Internet websites. All devices are connected to the cable modem with twisted-pair Ethernet cables. This is the configuration of one device: IP address: 192.168.1.7 Subnet mask: 255.255.255.0 Default gateway: 192.168.1.1 DNS: 192.168.1.7 The engineer can successfully ping the local IP address and the default gateway address. Which of the following should be the next troubleshooting step?",
+    "options": [
+      "Check for duplicate IP addresses",
+      "Replace the Ethernet cable",
+      "Check the DNS configuration",
+      "Replace the cable modem"
+    ],
+    "answer": 2,
+    "explanation": "One of the most noticeable IP (Internet Protocol) configuration settings was the DNS (Domain Name Service) server IP address set to the same IP address the local device. Since DNS servers are commonly separate devices, it would be unusual to see a DNS configured with the same IP address of the local device. The next step should be to confirm the DNS settings with the local network administrator."
+  },
+  {
+    "id": "core1-046",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A user in a remote office is connecting a device using an F-connector. Which of the following would be most likely associated with this connection?",
+    "options": [
+      "Cable modem",
+      "Switch",
+      "Punchdown block",
+      "DSL modem"
+    ],
+    "answer": 0,
+    "explanation": "A cable modem is commonly associated with a coaxial cable input using an F-connector. The output from the cable modem commonly uses an RJ45 Ethernet connector."
+  },
+  {
+    "id": "core1-047",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A user in the accounting department has turned on their computer and received the message “Date and Time not set.” Which of the following would be the most likely reason for this message?",
+    "options": [
+      "The motherboard battery has discharged",
+      "Windows update has rebooted the computer",
+      "Daylight Saving Time occurred during the weekend",
+      "The BIOS was just upgraded"
+    ],
+    "answer": 0,
+    "explanation": "The battery on a motherboard is used to maintain the date and time configuration when the computer is not connected to a power source. If the battery has discharged, the computer will not be able to maintain the proper time and an error message will appear during startup."
+  },
+  {
+    "id": "core1-048",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "A system administrator has created a cloud configuration which automatically monitors utilization for usage-based billing. Which of the following describes this cloud computing characteristic?",
+    "options": [
+      "Metered",
+      "File synchronization",
+      "Elasticity",
+      "Availability"
+    ],
+    "answer": 0,
+    "explanation": "Metering will measure transaction activity, CPU utilization, storage use, and other important metrics. These are often used for billing purposes, where the customer will pay for CPU or storage by the application instance. However, this metering does not automatically add or remove instances."
+  },
+  {
+    "id": "core1-049",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A group of wireless laptops in a conference room are reporting intermittent connectivity issues. The wired computers in the room are not experiencing any network problems. A check of the laptops shows the IP addresses and configurations appear to be correct. Which of the following would be the best next troubleshooting step?",
+    "options": [
+      "Verify the wireless signal strength",
+      "Check the ARP table on the default gateway",
+      "Confirm the operation of the DHCP server",
+      "Perform a wire map on the network drops"
+    ],
+    "answer": 0,
+    "explanation": "Since the wired devices are working properly, the troubleshooting process should focus on the wireless network. The connectivity is also intermittent, which means that the network is operating normally during certain periods. This would move the focus from the network configuration to a connectivity or signal strength issue."
+  },
+  {
+    "id": "core1-050",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A server administrator has been asked to troubleshoot a system which has been slowing down over time. While examining the computer, the administrator can hear a series of clicks from the inside of the case. Which of the following should be the first step to address this issue?",
+    "options": [
+      "Replace the motherboard",
+      "Power the system off and back on",
+      "Replace the hard drive",
+      "Perform a full backup of the server",
+      "Replace the power supply"
+    ],
+    "answer": 3,
+    "explanation": "A clicking noise indicates some type of hardware issue with the computer, so the first step would be to confirm that a recent backup is available for all of the data on this system. If the computer fails completely, at least the data will be secure."
+  },
+  {
+    "id": "core1-051",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "When pressing the power button on a desktop computer, the power indicator lights up but the computer does not display any message on the screen. The voltage at the wall outlet has been checked and it appears to be normal. The motherboard power connector voltage was checked, and the 12 volt pin was showing 6 volts. What is the most likely cause of this issue?",
+    "options": [
+      "The components using 12 volt power are faulty",
+      "The power supply is faulty",
+      "The wall outlet voltage does not match the power supply",
+      "The motherboard is faulty"
+    ],
+    "answer": 1,
+    "explanation": "If the 12 volt line from the power supply to the motherboard is showing 6 volts, it's likely a problem with the power supply itself. A power supply replacement should be the next troubleshooting step for this system."
+  },
+  {
+    "id": "core1-052",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A manager would like print jobs sent to a network laser printer to use paper from the third tray. However, no tray options are listed when submitting the print job. Which of the following would resolve this issue?",
+    "options": [
+      "Restart the printer",
+      "Update the printer driver",
+      "Stop and restart the print server",
+      "Change the printer permissions"
+    ],
+    "answer": 1,
+    "explanation": "The printer driver contains information about the printer, available printing configurations, and a list of trays to use for the print job. The printer driver determines if these configurations will appear on a user's print options."
+  },
+  {
+    "id": "core1-053",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A remote user is visiting their corporate office. They have connected their laptop to the wireless network, but the corporate Internet access is performing much slower than their remote site network. Which of the following would be the most likely reason for this issue?",
+    "options": [
+      "The default gateway is incorrect",
+      "The laptop has been assigned an APIPA address",
+      "The user does not have permission to use the wireless network",
+      "There is interference with the wireless signal"
+    ],
+    "answer": 3,
+    "explanation": "Poor performance can be caused by many different variables, but the only choice which would cause a performance problem is interference. A disruption to the wireless signal could potentially cause slowdowns and disconnections for anyone using the wireless network."
+  },
+  {
+    "id": "core1-054",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "Which of the following would best describe the use of a port replicator?",
+    "options": [
+      "Increase the number of available USB interfaces",
+      "Extend the length of an HDMI cable",
+      "Send a copy of network frames to a protocol analyzer",
+      "Maintain a redundant array of storage drives"
+    ],
+    "answer": 0,
+    "explanation": "A port replicator is used to increase or duplicate interfaces on a device. Port replicators usually connect to a computer using USB and provide numerous USB, video, flash card, and other assorted interfaces."
+  },
+  {
+    "id": "core1-055",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A user is reporting a shared laser printer in the marketing department is not printing from one particular application. The front panel of the printer shows the printer is online and ready to receive print jobs. Other users in the department are able to successfully print to the printer. Which of the following would be the best next troubleshooting step?",
+    "options": [
+      "Power cycle the printer",
+      "Restart the print spooler",
+      "Perform a test print from the printer console",
+      "Verify the network printer name in the application"
+    ],
+    "answer": 3,
+    "explanation": "We know that the printer is working normally because other people are able to print successfully. This also means that the spooling process is working and the print server is successfully queuing the print jobs. Given the other options, it's most likely that the user is directing the print job to a different printer."
+  },
+  {
+    "id": "core1-056",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A network administrator is connecting four company locations in different countries. Which of the following would best describe this configuration?",
+    "options": [
+      "LAN",
+      "PAN",
+      "MAN",
+      "WAN"
+    ],
+    "answer": 3,
+    "explanation": "A WAN (Wide Area Network) connects LANs across a long geographical distance. Once the link extends past the local city area, the connection would be considered a WAN link."
+  },
+  {
+    "id": "core1-057",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A system administrator has received a report of customers receiving email messages from the company, but upon further analysis the administrator finds the messages were not actually sent by the corporation. Which of the following should be implemented to prevent these spoofed email messages?",
+    "options": [
+      "Add multi-factor authentication to all email logins",
+      "Change the passwords on all email accounts",
+      "Configure an SPF record in the DNS",
+      "Modify the firewall rules to prevent outgoing emails"
+    ],
+    "answer": 2,
+    "explanation": "An SPF (Sender Policy Framework) record in the DNS (Domain Name System) server provides a list of all servers authorized to send emails for a domain. Any emails not originating from an authorized source can be dismissed as unauthorized or invalid."
+  },
+  {
+    "id": "core1-058",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "A system administrator has configured a VM for dual processors, 16 GB of RAM, and 120 GB of disk space. Which of the following is required to start this VM?",
+    "options": [
+      "Shared network address",
+      "Hypervisor",
+      "Virtual switch",
+      "Video display"
+    ],
+    "answer": 1,
+    "explanation": "A hypervisor, or virtual machine manager, is the software that manages the virtual platform and guest operating systems."
+  },
+  {
+    "id": "core1-059",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A site manager has noticed her smartphone has a short battery life when used at work, and the battery life is normal when working from home. The work location has limited mobile service reception, but most office services are provided over the local 802.11 Wi-Fi network. The site manager does not enable Bluetooth on her smartphone. Which of the following would be the best way to extend the battery life of her mobile device?",
+    "options": [
+      "Disable 802.11 Wi-Fi",
+      "Disable the cellular radio at work",
+      "Replace the battery",
+      "Enable Bluetooth on the mobile device"
+    ],
+    "answer": 1,
+    "explanation": "When a mobile provider's network isn't available, a phone will constantly try to find and reconnect to a cellular network. This reconnection process constantly uses the radio, and subsequently more of the battery is used in the process. To conserve battery life, it would be useful to disable the cellular network connection when outside of a coverage area."
+  },
+  {
+    "id": "core1-060",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A desktop computer has just abruptly shut off, and pressing the power button doesn’t restart the system. There are no fans spinning, no lights are on, and no messages appear on the display. Which of these would be the most likely cause of this issue?",
+    "options": [
+      "The BIOS is configured with a startup password",
+      "The LCD display backlight has failed",
+      "The power supply is faulty",
+      "The master boot record is corrupted",
+      "The boot sector is missing"
+    ],
+    "answer": 2,
+    "explanation": "A faulty power supply could cause a loss of power across all computer systems, and the lack of fans, lights, and output on the display would be the most likely cause given the available options."
+  },
+  {
+    "id": "core1-061",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "What kind of device is commonly used to filter traffic based on a predefined set of rules?",
+    "options": [
+      "PoE switch",
+      "ONT",
+      "DSL modem",
+      "Firewall"
+    ],
+    "answer": 3,
+    "explanation": "A firewall is designed to evaluate inbound traffic, compare that traffic to predefined security policies, and allow or block that traffic from passing through the firewall. Firewalls are common security appliances between an organization's internal network and the Internet."
+  },
+  {
+    "id": "core1-062",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "Which of these connection types are commonly delivered using coax to provide Internet data, voice, and video over the same wire?",
+    "options": [
+      "DSL",
+      "Cable broadband",
+      "ONT",
+      "PoE"
+    ],
+    "answer": 1,
+    "explanation": "Cable television brought video into everyone's home, and now voice and Internet services are included on the same coax cable."
+  },
+  {
+    "id": "core1-063",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A manager's smartphone will normally update applications automatically, but the update app doesn't show any new upgrades in over two weeks. Which of the following would be the most likely reason for this issue?",
+    "options": [
+      "The digitizer is damaged",
+      "The battery is swollen",
+      "Storage space is low",
+      "Bluetooth is disabled"
+    ],
+    "answer": 2,
+    "explanation": "An operating system needs enough available storage space to download, uncompress, and install a new version of an app. If storage space is slow, the upgrade process cannot proceed due to this lack of space."
+  },
+  {
+    "id": "core1-064",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "A user is pairing a Bluetooth headset to their smartphone. What type of security is used during the pairing process to authorize this connection?",
+    "options": [
+      "802.1X",
+      "Client certificate",
+      "Pre-shared key",
+      "PIN",
+      "Username and password"
+    ],
+    "answer": 3,
+    "explanation": "A PIN (Personal Identification Number) is used to validate the device connecting during the Bluetooth pairing process. This authorization prevents a third-party from connecting to a smartphone or tablet without permission."
+  },
+  {
+    "id": "core1-065",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "A company is deploying cloud-hosted virtual desktops for training room classes. The VMs have already been configured in the cloud. Which of the following is required to access these VMs using thin clients in the training room?",
+    "options": [
+      "High-end video cards",
+      "Separate Internet connection",
+      "Mouse, keyboard, and monitor",
+      "Category 6A cabling"
+    ],
+    "answer": 2,
+    "explanation": "Cloud-hosted virtual desktops are a type of VDI (Virtual Desktop Infrastructure). Access to the desktop is provided over a remote accessstyle client, and access can be provided from almost any operating system using a low-bandwidth network connection. The client device is usually a thin-client that has a minimum set of resources, a mouse, keyboard, and a monitor."
+  },
+  {
+    "id": "core1-066",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A technician has connected a laptop to an LCD. The LCD is displaying the correct information, but all of the content appears to be fuzzy and difficult to read. Which of the following is the most likely reason for this issue?",
+    "options": [
+      "The LCD display is faulty",
+      "The laptop display adapter is incompatible with the LCD display",
+      "The laptop resolution is incorrect",
+      "The LCD display cable is faulty"
+    ],
+    "answer": 2,
+    "explanation": "An LCD (Liquid Crystal Display) has a native resolution based on the physical dimensions of the display. If the resolution settings in the operating system don't match the native resolution of the physical display, the information on the screen may appear blurry or distorted. Matching the native resolution in the operating system will resolve this issue."
+  },
+  {
+    "id": "core1-067",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "An engineering firm is upgrading their storage array to include additional drive space for documents and designs. The primary goal is to provide high performance and uptime, even if two drives were to fail. Which of the following would be the best choice for this firm?",
+    "options": [
+      "RAID 1",
+      "RAID 5",
+      "RAID 0",
+      "RAID 10"
+    ],
+    "answer": 3,
+    "explanation": "RAID (Redundant Array of Independent Disks) is a method of combining storage drives together to add speed and/or redundancy. A RAID 10 array is a nested RAID configuration that creates a mirrored set of RAID 0 drives. As long as only one drive fails in each RAID 0 mirror, the redundancy will remain valid and the user's data will continue to be available."
+  },
+  {
+    "id": "core1-068",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "The installation parameters for an access point specify a configuration option for 40 MHz. Which of the following best describes this configuration option?",
+    "options": [
+      "Bandwidth",
+      "Channel",
+      "Category",
+      "Frequency",
+      "802.11 standard"
+    ],
+    "answer": 0,
+    "explanation": "The bandwidth describes how much of the frequency range will be used when transmitting or receiving information. Generally speaking, larger bandwidths allow for faster data transfers."
+  },
+  {
+    "id": "core1-069",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A company needs to purchase a new printer for an open work area. The primary requirement of this printer is to be as quiet as possible. Which of these printer types would be the best fit for this requirement?",
+    "options": [
+      "Dot-matrix",
+      "Inkjet",
+      "Laser",
+      "Thermal"
+    ],
+    "answer": 3,
+    "explanation": "Of the available options, thermal printers are the quietest. The only moving parts in a thermal printer are the motors that push the paper through the printer, and those motors are small and run almost silently."
+  },
+  {
+    "id": "core1-070",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "A user in the marketing department would like to use a stylus to provide input through an external digitizer. Which of the following would be the best choice for this requirement?",
+    "options": [
+      "LCD touchscreen",
+      "Port replicator",
+      "Wireless mouse",
+      "Drawing pad"
+    ],
+    "answer": 3,
+    "explanation": "A drawing pad connects to a desktop or laptop computer to provide very precise input using a digitizer and stylus."
+  },
+  {
+    "id": "core1-071",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "A company has designed a platform to scale up when the application use increases during the day, and scale back down at night. Which of the following best describes this characteristic of cloud computing?",
+    "options": [
+      "Resource pooling",
+      "Measured service",
+      "Hybrid",
+      "Elasticity"
+    ],
+    "answer": 3,
+    "explanation": "Scaling up and down as needed is a significant characteristic of cloud computing. This allows organizations to manage and pay for resources when busy, but save time and money when the resources are no longer needed."
+  },
+  {
+    "id": "core1-072",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A user’s tablet has stopped responding to any type of finger input on the screen. The clock and other tablet functions appear to be working. Which of the following would be the best way to correct this issue?",
+    "options": [
+      "Replace the screen",
+      "Reset the wireless network",
+      "Connect to a power source",
+      "Restart the tablet"
+    ],
+    "answer": 3,
+    "explanation": "Before making any changes to hardware or software, it's useful to restart the tablet to see if a software glitch may have been the underlying issue."
+  },
+  {
+    "id": "core1-073",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A system administrator needs a secure method of storing encryption keys. Which of the following would be the best choice for this requirement?",
+    "options": [
+      "BIOS",
+      "Secure Boot",
+      "NTFS",
+      "HSM"
+    ],
+    "answer": 3,
+    "explanation": "An HSM (Hardware Security Module) is commonly used as a secure method of key backup. The HSM can be deployed as a standalone server or in a lightweight form with Smart Cards or USB keys."
+  },
+  {
+    "id": "core1-074",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A server administrator is upgrading the memory in a web server from 16 GB of non-ECC RAM to 64 GB of ECC RAM. After starting the system with the new memory, the computer beeps and nothing is displayed on the screen. Changing the number and location of new RAM modules results in the same beeping sounds and blank screen. After replacing the original 16 GB modules, the system starts normally. Which of the following is the most likely reason for this issue?",
+    "options": [
+      "The new memory is not compatible with the motherboard",
+      "The new memory is faulty",
+      "The BIOS needs to be updated",
+      "The system is overheating during the startup process"
+    ],
+    "answer": 0,
+    "explanation": "ECC (Error Correcting Code) memory is designed to detect errors and correct the errors on the fly. Not all systems use ECC memory, and it's important the memory match the motherboard requirements. If nonECC RAM (Random Access Memory) is replaced with ECC RAM and the system fails to start, then the issue is most likely associated with the change from non-ECC to ECC RAM."
+  },
+  {
+    "id": "core1-075",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A workstation has been assigned an APIPA address. Which of the following would be the most likely reason for this assignment?",
+    "options": [
+      "The workstation is not connected to the wireless network",
+      "The DNS server is misconfigured",
+      "The network is using public Internet addresses",
+      "The DHCP server is down"
+    ],
+    "answer": 3,
+    "explanation": "APIPA (Automatic Private IP Addressing) is an IPv4 (Internet Protocol version 4) link-local addressing scheme. If a device does not have a static IP address and an address is not available from a DHCP server, the local device will assign itself an APIPA address and communication to other APIPA devices on the same subnet will be available."
+  },
+  {
+    "id": "core1-076",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "Which of the following can be used to forward traffic based on a destination MAC address?",
+    "options": [
+      "Unmanaged switch",
+      "PoE injector",
+      "Router",
+      "Firewall"
+    ],
+    "answer": 0,
+    "explanation": "Switches determine how traffic is forwarded based on the destination MAC (Media Access Control) address in the frame. The qualification of managed or unmanaged is not important in this case, since both types of switches make forwarding decisions the same way. The difference between a managed and unmanaged switch are based on features not associated with the forwarding process."
+  },
+  {
+    "id": "core1-077",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A system administrator made some BIOS changes to a desktop computer running Windows 11, and now this message appears when starting the computer: “This drive can only boot in UEFI mode.” Which of the following would be the BEST next troubleshooting step?",
+    "options": [
+      "Modify the boot drive sequence",
+      "Enable Secure Boot",
+      "Remove the BIOS password",
+      "Boot the system with the Windows setup media"
+    ],
+    "answer": 1,
+    "explanation": "Secure Boot is part of the UEFI (Unified Extensible Firmware Interface) standard for a computer BIOS (Basic Input Output System). Secure Boot ensures that the underlying operating system has not been modified by malware or any other process."
+  },
+  {
+    "id": "core1-078",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "A new employee has been provided a corporate smartphone. After the initial login, all of the corporate email server configurations have been automatically installed and updated in real-time. Which of the following is providing this functionality?",
+    "options": [
+      "ACL",
+      "SSID",
+      "SPICE",
+      "MDM"
+    ],
+    "answer": 3,
+    "explanation": "A corporate MDM (Mobile Device Manager) is used to manage and control all of the smartphones and tablets used by the organization. The manager of the MDM can also configure email server settings, security parameters, and almost any other aspect of the mobile device."
+  },
+  {
+    "id": "core1-079",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A technician is installing a DSL modem in a data center. Which of the following connectors would be used to connect the DSL modem to the Internet provider line?",
+    "options": [
+      "DB-9",
+      "RJ11",
+      "BNC",
+      "F-connector"
+    ],
+    "answer": 1,
+    "explanation": "The RJ11 connector (Registered Jack 11) is the modular connector commonly associated with analog POTS (Plain Old Telephone System) lines. Since DSL (Digital Subscriber Line) uses the existing telephone lines, the DSL connection from an Internet Service Provider will also use those same lines with RJ11 connectors. These connectors will be the same for residential, large-scale commercial, and SOHO (Small Office / Home Office) use."
+  },
+  {
+    "id": "core1-080",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "Which of the following would be the BEST choice for capturing an image from a printed page and saving it on a computer?",
+    "options": [
+      "Print server",
+      "Optical drive",
+      "Flatbed scanner",
+      "Webcam"
+    ],
+    "answer": 2,
+    "explanation": "A flatbed scanner is designed to capture images from paper and convert them into digital form."
+  },
+  {
+    "id": "core1-081",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A server administrator has four identical drives to install into a database server. Which of these RAID types would provide both redundancy and the most available storage space?",
+    "options": [
+      "RAID 5",
+      "RAID 10",
+      "RAID 0",
+      "RAID 1"
+    ],
+    "answer": 0,
+    "explanation": "With RAID 5, three drives would contain user data and the fourth drive would store parity information. This efficient use of space and the included redundancy make RAID 5 the best option."
+  },
+  {
+    "id": "core1-082",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A user is attempting to charge their iPhone, but the charging icon does not appear when connecting the charging cable. A working cable from another iPhone exhibits the same symptoms. Which of the following is the most likely reason for this issue?",
+    "options": [
+      "The screen is locked",
+      "An iOS update is pending",
+      "The iPhone has low signal",
+      "The charging port is damaged"
+    ],
+    "answer": 3,
+    "explanation": "A damaged physical interface would prevent the phone from charging, even while attempting to charge with different cables."
+  },
+  {
+    "id": "core1-083",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A user in the marketing department needs an LCD with the best possible color representation. Which of the following would be the best choice for this requirement?",
+    "options": [
+      "TN",
+      "CCFL",
+      "IPS",
+      "VA"
+    ],
+    "answer": 2,
+    "explanation": "An IPS (In Plane Switching) display provides excellent color representation and would be the best choice of the available options."
+  },
+  {
+    "id": "core1-084",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A company is receiving an increase in malware delivered to random employees through email attachments. Which of the following would be the best way to protect users against this malicious software?",
+    "options": [
+      "Spam gateway",
+      "DHCP services",
+      "Syslog",
+      "VLANs"
+    ],
+    "answer": 0,
+    "explanation": "A spam gateway acts as a filter for unauthorized or unsolicited email messages. Most spam gateways can scan files for malicious software and filter those messages before delivery to the recipient."
+  },
+  {
+    "id": "core1-085",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A user has reported their tablet is not able to retrieve or send mail, browse the Internet, or connect to video conferences. Apps on the device which do not require connectivity are working as expected. Which of these would be the most likely cause of this issue?",
+    "options": [
+      "Battery is very low",
+      "The Wi-Fi network is out of range",
+      "The touch screen needs calibration",
+      "The tablet is overheated"
+    ],
+    "answer": 1,
+    "explanation": "A Wi-Fi network has limited range, and poor connectivity would result in communications issues, application faults, and other networking issues."
+  },
+  {
+    "id": "core1-086",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A PC technician has been asked to replace the LCD on a touch-screen laptop computer. Which of the following would be the most important component to test after this replacement?",
+    "options": [
+      "Digitizer",
+      "Keyboard",
+      "Audio controls",
+      "System memory"
+    ],
+    "answer": 0,
+    "explanation": "A digitizer is built into the LCD display, and it would be the most likely component to have a problem after the entire display has been replaced."
+  },
+  {
+    "id": "core1-087",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "The computers in the shipping department are receiving the message “No connectivity” on their computers. The ipconfig output on one of the computers provides this information: IPv4 Address: 192.168.1.22 Subnet Mask: 255.255.255.0 Default Gateway: 192.168.1.1 From this device, a technician is able to successfully ping 127.0.0.1 and 192.168.1.22. The technician can also ping other devices in the shipping department, but cannot receive a ping response from servers in the data center or from the 192.168.1.1 address. Which of these would be the most likely cause of this issue?",
+    "options": [
+      "The DHCP server is down",
+      "The wireless network is experiencing interference",
+      "The local router is down",
+      "The Internet provider is experiencing an outage"
+    ],
+    "answer": 2,
+    "explanation": "The default gateway is the local router for the IP subnet. If the default gateway address of 192.168.1.1 is not responding to a ping, then the router may not be operational."
+  },
+  {
+    "id": "core1-088",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "Which of the following would be the best way to activate the screen of a smartphone without physically touching the display?",
+    "options": [
+      "Trackpad",
+      "Port replicator",
+      "Smart card reader",
+      "Stylus"
+    ],
+    "answer": 3,
+    "explanation": "A stylus provides for interaction of a touch screen without physically pressing the display with a fingertip. A stylus is often referenced as a touchscreen pen, touch screen stylus, or capacitive stylus."
+  },
+  {
+    "id": "core1-089",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A graphics designer is working on a computer that powers itself off after about an hour of work. The computer tends to power down when working on complex designs that require extensive CPU utilization. Which of the following would be the most likely reason for this issue?",
+    "options": [
+      "The case fans are blocked",
+      "The hard drive is failing",
+      "The graphics software is corrupted",
+      "A device driver is outdated"
+    ],
+    "answer": 0,
+    "explanation": "Most motherboards are designed to power off automatically if the temperatures become excessive. If the case fans are blocked, the inside of the computer will not be able to efficiently cool the system. Eventually, the heat from the heavily-worked CPU will cause the system to power down."
+  },
+  {
+    "id": "core1-090",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "Which of these services would be associated with a Windows file transfer?",
+    "options": [
+      "LDAP",
+      "SMB",
+      "IMAP",
+      "SSH"
+    ],
+    "answer": 1,
+    "explanation": "SMB (Server Message Block) is the protocol used by Microsoft Windows for file sharing, printer sharing, and other Windows services. SMB commonly uses port 445 to provide direct SMB communication between Windows devices."
+  },
+  {
+    "id": "core1-091",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "An administrator has installed a hypervisor on a server, but the administrator is not installing Windows or Linux. Which of the following would best describe this installation?",
+    "options": [
+      "VDI",
+      "Containerization",
+      "Hybrid cloud",
+      "Type 1"
+    ],
+    "answer": 3,
+    "explanation": "Type 1 hypervisors are also called bare metal hypervisors because they are installed without any underlying Windows or Linux operating system. Type 2 hypervisors are installed on an existing operating system."
+  },
+  {
+    "id": "core1-092",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "A technician is removing a cover from the bottom of a Windows laptop. Which of the following would be the most likely reason for this task?",
+    "options": [
+      "Replace the thermal paste",
+      "Reset the operating system",
+      "Connect an external display",
+      "Upgrade the memory",
+      "Add a stylus"
+    ],
+    "answer": 3,
+    "explanation": "Some laptop models provide options for easily upgrading RAM (Random Access Memory) through a small cover on the bottom of the laptop. Some covers also allow for easy upgrades of storage drives and other components."
+  },
+  {
+    "id": "core1-093",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "A company is using a cloud-based service that provides a hardware platform and no additional software. Which of these would best describe this purchase?",
+    "options": [
+      "SaaS",
+      "Hybrid",
+      "Metered",
+      "IaaS"
+    ],
+    "answer": 3,
+    "explanation": "IaaS (Infrastructure as a Service) is a model that provides the computing platform, but no additional software. The user will usually configure the platform with the appropriate CPU, memory, and storage options, and the service provider is only responsible for the uptime and availability of the hardware platform. The user is generally responsible for all software administration."
+  },
+  {
+    "id": "core1-094",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "While working at their desk, a laptop user would like to use a full-size keyboard and external mouse. They would also like to connect to a monitor and wired network without connecting and disconnecting cables each time they leave the desk. Which of these would be the best way to provide this functionality?",
+    "options": [
+      "Use separate desktop and laptop computers",
+      "Install a docking station at the user’s desk",
+      "Use a wireless access point at the user’s desk",
+      "Install a USB hub for the laptop"
+    ],
+    "answer": 1,
+    "explanation": "A docking station provides the laptop with a single connection to video, network, keyboard, mouse, and other peripheral connections on their desk."
+  },
+  {
+    "id": "core1-095",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A server administrator needs to store gigabytes of server performance statistics for future analysis. The data needs to be always be available, even if a storage drive fails. Which of the following would be the best choice for this data?",
+    "options": [
+      "Optical drive",
+      "Flash drive",
+      "RAID",
+      "DDR"
+    ],
+    "answer": 2,
+    "explanation": "Most RAID (Redundant Array of Independent Disks) configurations support the use of multiple drives for redundancy, even if a single drive was to fail."
+  },
+  {
+    "id": "core1-096",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "In which of the following would a cable with a DB-9 connector be used?",
+    "options": [
+      "Attaching a mouse or keyboard to a desktop computer",
+      "Configuring a router",
+      "Connecting an external storage device",
+      "Attaching a video camera to a computer"
+    ],
+    "answer": 1,
+    "explanation": "A DB-9 connector, or less commonly, DE-9 (D-subminiature size E, 9 pin) is a connector used to send serial signals to another device. A DB-9 connector on a computer is commonly used to connect to the management interface of a switch, router, firewall, or another infrastructure device."
+  },
+  {
+    "id": "core1-097",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A workstation administrator is configuring a new system for graphics designers, and the users have requested the fastest possible storage speed for reading and writing data. Which of the following would be the best choice for this requirement?",
+    "options": [
+      "10 TB NAS",
+      "8 TB HDD",
+      "5 TB SAN",
+      "2 TB SSD"
+    ],
+    "answer": 3,
+    "explanation": "The most important requirement for this new system is the speed of reading and writing data. Of the available options, the fastest throughput is an SSD (Solid-State Drive). Although the storage space is the lowest of the available options, the users didn't specify any minimum storage size requirements."
+  },
+  {
+    "id": "core1-098",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A user has connected a new laptop to an LCD projector in a conference room. About thirty minutes into the presentation, the projector light turns off but the projector fans continue to run. Which of the following would be the most likely reason for this issue?",
+    "options": [
+      "Incorrect laptop cable",
+      "Poor projector airflow",
+      "Dead pixels",
+      "Incorrect resolution setting"
+    ],
+    "answer": 1,
+    "explanation": "The lamp in an LCD projector can get very hot, and there are often many fans used to keep the lamp cool enough to work properly. If the fans are not working properly or the airflow is blocked, the projector will automatically shut down to prevent any heat damage."
+  },
+  {
+    "id": "core1-099",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A marketing manager is printing a document on the company letterhead stored in one of the printer trays. However, the output is instead printed from a tray containing plain paper. Which of the following would be the best way to resolve this issue?",
+    "options": [
+      "Select the duplex print option",
+      "Enable collated output",
+      "Modify the output tray in the print dialog",
+      "Change the output orientation"
+    ],
+    "answer": 2,
+    "explanation": "The printer dialog shown during the print process should provide an option to choose the tray for the print job. If the tray selection is available, the option should be available in the print driver properties."
+  },
+  {
+    "id": "core1-100",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "A system administrator has noticed that their cloud implementation supports multiple application instances during the busy workday, but only one application instance is available during the slower evening shifts. Which of the following would best describe this functionality?",
+    "options": [
+      "Metered utilization",
+      "Elasticity",
+      "Availability",
+      "Shared resources",
+      "File synchronization"
+    ],
+    "answer": 1,
+    "explanation": "Elasticity is a cloud characteristic used to increase and decrease the available resources as the application load changes."
+  },
+  {
+    "id": "core1-101",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "A security administrator would like to ensure that each login attempt from a smartphone is from someone physically located inside the corporate office. Which of the following would provide this functionality?",
+    "options": [
+      "Serial interface",
+      "GPS",
+      "VPN",
+      "Hotspot"
+    ],
+    "answer": 1,
+    "explanation": "GPS (Global Positioning System) devices are very useful for mapping travel routes and destinations, and the GPS locations can be used by an application to identify the location of the device."
+  },
+  {
+    "id": "core1-102",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A technician is connecting USB interfaces on a computer case to the motherboard. Which of the following would be commonly used for this connectivity?",
+    "options": [
+      "PCIe",
+      "eSATA",
+      "TPM",
+      "Headers"
+    ],
+    "answer": 3,
+    "explanation": "A header, or pin header, is a group of pins on the motherboard. These pins provide connectivity to different motherboard features, such as power, lights, peripheral connections, and more."
+  },
+  {
+    "id": "core1-103",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A manufacturing company uses a specialized printer which connects to a Windows computer over a USB connection. Which of the following would be the best way to allow all Windows devices in the company to send print jobs to this printer?",
+    "options": [
+      "Connect the printer to an Ethernet switch",
+      "Configure Windows Printer Sharing",
+      "Use Print to File and copy the file to the printer",
+      "Copy the print jobs to a USB drive"
+    ],
+    "answer": 1,
+    "explanation": "Windows Printer Sharing allows the Windows computer to act as a print server. All devices on the network can view the printer and send print jobs to the printer using the Printer Sharing feature."
+  },
+  {
+    "id": "core1-104",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "Which of these would commonly be used to connect to an external storage device?",
+    "options": [
+      "F-connector",
+      "ST",
+      "eSATA",
+      "Molex"
+    ],
+    "answer": 2,
+    "explanation": "eSATA (External Serial ATA) is the external version of the SATA standard. The connectors for eSATA are slightly different than the internal SATA connectors."
+  },
+  {
+    "id": "core1-105",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A company has acquired computers that were previously part of a thirdparty lease. All of the computers prompt for a password when powering on the system before the operating system will load, but the password was not included with the computers. Which of the following would be the best way to resolve this issue?",
+    "options": [
+      "Replace the primary storage drive",
+      "Boot from the Windows installation media",
+      "Reset the BIOS using jumpers on the motherboard",
+      "Disconnect the power cable for ten minutes"
+    ],
+    "answer": 2,
+    "explanation": "The BIOS (Basic Input Output System) of a computer can often be assigned configuration or management passwords to prevent any changes to the BIOS settings. The BIOS also supports a boot or user password, and the system will not boot until the correct password is entered. This password can often be reset by shorting a jumper on the motherboard and restarting."
+  },
+  {
+    "id": "core1-106",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A user has complained that a laptop will not charge the battery past 25% percent, and the laptop only operates for fifteen minutes when on battery power. The battery and the AC adapter have already been replaced. Which of the following components would be the most likely cause of this issue?",
+    "options": [
+      "Motherboard",
+      "Backlight inverter",
+      "802.11 adapter",
+      "CPU"
+    ],
+    "answer": 0,
+    "explanation": "The motherboard on a laptop usually contains all of the major subsystems, including the CPU (Central Processing Unit), memory, video, and power. If the laptop will not charge a battery or power the system, then the entire motherboard will need to be replaced."
+  },
+  {
+    "id": "core1-107",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "A field engineer is working at a remote site that is under construction, but the site does not have an Ethernet or Wi-Fi Internet connection. Which of the following would be the best way to get access to the Internet at this location?",
+    "options": [
+      "Bluetooth",
+      "Hotspot",
+      "MAN",
+      "NFC"
+    ],
+    "answer": 1,
+    "explanation": "Configuring a mobile phone as a hotspot allows one or more people to use the phone's Internet connection over Wi-Fi. If Internet isn't currently available from another 802.11 wireless network, then using the hotspot feature can provide an option for Internet access."
+  },
+  {
+    "id": "core1-108",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "Which of the following would be the most likely reason the finishing function of a printer would punch two holes in a page instead of three?",
+    "options": [
+      "The incorrect paper tray is selected",
+      "The print driver is not configured properly",
+      "The printer is low on toner",
+      "The connection between the computer and the printer is faulty"
+    ],
+    "answer": 1,
+    "explanation": "Some large printers include finishing features for adding staples or holes to the final document. If the print driver is not set correctly, these options may be placed in the incorrect location or not used at all. The printer driver may need to be reconfigured or updated to support these finishing features."
+  },
+  {
+    "id": "core1-109",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A technician is upgrading the RAM on a laptop computer. Which of the following would best describe the memory required for this upgrade?",
+    "options": [
+      "SSD",
+      "SO-DIMM",
+      "Memory card",
+      "ECC"
+    ],
+    "answer": 1,
+    "explanation": "The SO-DIMM (Small Outline Dual In-line Memory Module) form factor is about half the length of standard DIMMs. This smaller size makes it a common option for memory modules in laptop computers where size is limited."
+  },
+  {
+    "id": "core1-110",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A hospital would like to use a hands-free authentication system based on the user's proximity to the computer. Which of the following technologies would be the best choice for this system?",
+    "options": [
+      "NFC",
+      "5G",
+      "MDM",
+      "SSD"
+    ],
+    "answer": 0,
+    "explanation": "NFC (Near-Field Communication) is a short-distance networking technology which communicates over short distances of approximately 4 centimeters or less. An NFC-based authentication system would recognize when a user comes into close proximity of a device and provide the proper authentication."
+  },
+  {
+    "id": "core1-111",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "An IT department is building out a new floor of office space for the company. Which of the following cables would be the best choice to install in the active airspace above the drop ceiling?",
+    "options": [
+      "Plenum-rated",
+      "Shielded twisted-pair",
+      "Coaxial",
+      "PVC jacketed twisted-pair"
+    ],
+    "answer": 0,
+    "explanation": "The plenum space is the area above a drop ceiling used for building air circulation. In the case of a fire, this area should contain objects which have specific characteristics when heated. Network cables in this area are categorized as plenum-rated, and their construction will limit smoke and toxic fumes."
+  },
+  {
+    "id": "core1-112",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A developer is connecting a laptop to an LCD projector, but the projected image is flickering and occasionally part of the output will appear blocky and difficult to read. Which of the following should resolve this issue?",
+    "options": [
+      "Replace the projector's video cable",
+      "Turn the projector off and back on again",
+      "Update the laptop's video driver",
+      "Connect the laptop to a power source"
+    ],
+    "answer": 0,
+    "explanation": "The visual \"glitches\" displayed by the LCD projector are often associated with a failure of the digital signal. The only connection between the laptop and the projector is the cable, so most of these issues can be resolved by replacing the faulty cable."
+  },
+  {
+    "id": "core1-113",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A graphics designer needs to connect their macOS computer to a second monitor and an external storage drive. Which of the following interface types would provide this connectivity?",
+    "options": [
+      "Lightning",
+      "DisplayPort",
+      "DVI-D",
+      "Thunderbolt"
+    ],
+    "answer": 3,
+    "explanation": "The Thunderbolt standard was created by Intel to connect external peripherals to a computer at high speeds. The Thunderbolt standard supports many different peripheral types, including displays, external storage, Ethernet network connections, and many others."
+  },
+  {
+    "id": "core1-114",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "What cloud-based service provides hardware, but still requires the user to setup, configure, and manage the operating system and applications?",
+    "options": [
+      "SaaS",
+      "PaaS",
+      "IaaS",
+      "DaaS"
+    ],
+    "answer": 2,
+    "explanation": "IaaS (Infrastructure as a Service) is an option that provides CPU, memory, network connections, and storage, and the customer installs and manages all of the software running on the infrastructure hardware."
+  },
+  {
+    "id": "core1-115",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "Which of the following would be most associated with a SAN?",
+    "options": [
+      "Bluetooth",
+      "RAID",
+      "APIPA",
+      "Cellular"
+    ],
+    "answer": 1,
+    "explanation": "A SAN (Storage Area Network) provides access to a relatively large storage system over the network. RAID (Redundant Array of Independent Disks) is a common method of providing data redundancy for storage systems."
+  },
+  {
+    "id": "core1-116",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A network administrator is using a laptop computer to configure a switch over a direct cable connection. Which of the following would best describe this connectivity?",
+    "options": [
+      "Bluetooth",
+      "Thunderbolt",
+      "Serial",
+      "Lightning"
+    ],
+    "answer": 2,
+    "explanation": "Most infrastructure devices provide a management or console interface over a serial link. These have traditionally used DB-9 (D-Subminiature size B - 9 pin) interfaces, but newer devices often use USB (Universal Serial Bus) connections."
+  },
+  {
+    "id": "core1-117",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A manager in the accounting department is complaining of slow performance on her computer. Initial troubleshooting shows low utilization of CPU and memory. A network speed test reports normal throughput to the local network devices. Which of the following would be the best next step for troubleshooting this issue?",
+    "options": [
+      "Boot to Safe Mode",
+      "Upgrade the BIOS",
+      "Replace the memory modules",
+      "Perform a hard drive diagnostic"
+    ],
+    "answer": 3,
+    "explanation": "If a slowdown is not associated with CPU, memory, or the network, then the issue may be with some other type of hardware. A diagnostic of the hard drive would identify any issues that may be slowing down the computer."
+  },
+  {
+    "id": "core1-118",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A server administrator has moved a database server from a lab to a data center. After installing the server in a data center rack, the system does not power on. None of the system lights are on, and the power supply and cooling fans do not spin up. Which of the following should be the first troubleshooting step for this issue?",
+    "options": [
+      "Replace the power supply",
+      "Reseat all of the internal components",
+      "Check the power cable",
+      "Replace the motherboard"
+    ],
+    "answer": 2,
+    "explanation": "When troubleshooting, the easiest possible solution should usually be the first one to check. This particular system has already been in use, and the system administrator was the person who moved it from one location to another. Of the available options, checking the power cable should be the first thing to check when power issues arise."
+  },
+  {
+    "id": "core1-119",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "A user is traveling and has enabled airplane mode on their laptop, but they would still like to use their wireless headset. Which of these settings should be enabled to allow this functionality?",
+    "options": [
+      "Wi-Fi",
+      "USB",
+      "Bluetooth",
+      "Cellular"
+    ],
+    "answer": 2,
+    "explanation": "Bluetooth networks are PANs (Personal Area Networks) that provide a short-distance connection to local peripherals. For example, it's common to use a Bluetooth link to connect to headsets, wireless mice, keyboards, or speakers."
+  },
+  {
+    "id": "core1-120",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A user has submitted a job to a network printer, but the printer will not begin to print until the user has typed their PIN on the printer console. Which of the following would best describe this scenario?",
+    "options": [
+      "Badging",
+      "Secured prints",
+      "Active Directory",
+      "ADF"
+    ],
+    "answer": 1,
+    "explanation": "With secured prints, the user can define a PIN (Personal Identification Number) on their computer, and this PIN must be used on the printer to start the printing process. This process ensures the output is not sitting unattended on the printer."
+  },
+  {
+    "id": "core1-121",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "An error message has appeared when starting up a laptop computer with the message \"SMART Failure Predicted.\" Which of the following would be most related to this notification message?",
+    "options": [
+      "Storage drive is failing",
+      "RAM failed a memory diagnostic",
+      "Battery life is below 20%",
+      "Network connectivity is intermittent"
+    ],
+    "answer": 0,
+    "explanation": "SMART ( Self-Monitoring, Analysis, and Reporting Technology), or S.M.A.R.T., refers to a storage drive monitoring feature integrated with most modern hard drives and solid state drives. A message indicating a SMART error is specific to the storage subsystem of the device."
+  },
+  {
+    "id": "core1-122",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A system administrator needs to install an access point using PoE. However, the installed Ethernet switch does not support any PoE interfaces. Which of the following would be the best way to provide PoE functionality?",
+    "options": [
+      "Use a different access point",
+      "Replace the switch with a router",
+      "Upgrade the switch's power supply",
+      "Add an injector"
+    ],
+    "answer": 3,
+    "explanation": "An injector sits inline with an existing wired Ethernet connection to add PoE (Power over Ethernet) voltage to the existing Ethernet cable."
+  },
+  {
+    "id": "core1-123",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A network administrator is capturing all network traffic from a specific NIC. Which of the following would best describe the unique network identifier associated with this NIC?",
+    "options": [
+      "MAC address",
+      "APIPA",
+      "Serial number",
+      "Subnet mask"
+    ],
+    "answer": 0,
+    "explanation": "The MAC (Media Access Control) address is a unique identifier burnedin to the NIC (Network Interface Card) hardware. All traffic sent over the network from this device contains the MAC address of this NIC."
+  },
+  {
+    "id": "core1-124",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "An organization has implemented a cloud solution using a third-party data center. Access to the cloud service is available to anyone on the Internet. Which of the following describes this deployment model?",
+    "options": [
+      "Hybrid",
+      "Public",
+      "Community",
+      "Private"
+    ],
+    "answer": 1,
+    "explanation": "Public cloud deployments are for organizations that would like to provide services to anyone on the Internet. Google Mail is an example of a public cloud service."
+  },
+  {
+    "id": "core1-125",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "What voltages would be commonly found on a motherboard's power supply connector?",
+    "options": [
+      "120 V AC",
+      "12 V AC, 5 V AC, 3.3 V AC",
+      "12 V DC, 5 V DC, 3.3 V DC",
+      "120 V DC"
+    ],
+    "answer": 2,
+    "explanation": "A computer's power supply provides direct current (DC) at twelve volts, five volts, and 3.3 volts."
+  },
+  {
+    "id": "core1-126",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A user is reporting this message on their Windows computer taskbar icon: \"Limited or No connectivity.\" Which of the following would be the best next troubleshooting step?",
+    "options": [
+      "Check the local IP address configuration",
+      "Restart the computer",
+      "Ping the default gateway",
+      "Check the switch VLAN configuration",
+      "Check for a duplicate IP address"
+    ],
+    "answer": 0,
+    "explanation": "The message of limited connectivity is usually based on a system with no access to network resources. This is often occurs when a system is unable to contact a DHCP (Dynamic Host Configuration Protocol) server and instead assigns itself an APIPA (Automatic Private IP Addressing) address. A check of the local IP address may identify a configuration error or a link-local address."
+  },
+  {
+    "id": "core1-127",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "What kind of device is installed into a computer and directly connects the computer to an Ethernet network?",
+    "options": [
+      "NIC",
+      "Switch",
+      "Repeater",
+      "Bridge"
+    ],
+    "answer": 0,
+    "explanation": "A NIC (Network Interface Card) is the hardware used to connect a device to a network. Some NICs are integrated into computer motherboards, and other NICs are separate interface cards."
+  },
+  {
+    "id": "core1-128",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A network administrator is planning to connect the network of two buildings together with a Category 6A cable. Ten Ethernet cables have been run from a wiring closet, through a conduit, and into a wiring closet on the other side. The network administrator needs to identify the ends of the cables so they can be properly terminated on each side. Which of the following should be used to complete this task?",
+    "options": [
+      "Cable stripper",
+      "Loopback plug",
+      "Tone generator",
+      "Crimper"
+    ],
+    "answer": 2,
+    "explanation": "A tone generator places an analog audio tone onto the wires of a cable, and an inductive probe is used on the other end to precisely identify the cable with the tone. By moving the tone generator to each of the ten cables, the other end of the cable can be easily identified and labeled."
+  },
+  {
+    "id": "core1-129",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A server administrator has configured a database server with a RAID 0 array containing four hard drives. An error notification from the RAID controller states that disk 3 has failed. Which of the following would be the BEST way to address this disk failure?",
+    "options": [
+      "Replace the drive and re-mirror the array",
+      "Replace the drive and resynchronize the array",
+      "Replace the drive and restore from backup",
+      "Replace all drives and restore from backup",
+      "Replace all drives and resynchronize the array"
+    ],
+    "answer": 2,
+    "explanation": "RAID 0 (Redundant Array of Independent Disks, Level 0) provides an efficient storage method at the expense of redundancy. Data in RAID 0 is striped across multiple drives, and if one drive is lost the data in the array is also lost. To repair a failed RAID 0 array, the bad drive will need to be replaced and all of the data must be restored from a backup."
+  },
+  {
+    "id": "core1-130",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A company is installing a new communications link using SC interfaces. Which of the following would best describe this connection?",
+    "options": [
+      "Fiber optic",
+      "USB-C",
+      "10GBASE-T",
+      "M.2"
+    ],
+    "answer": 0,
+    "explanation": "An SC (Subscriber Connector) interface is a common fiber optic connection type. Some network administrators refer to this connection as the \"square connector\" due to the unique shape of the interface."
+  },
+  {
+    "id": "core1-131",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A technician believes the photosensitive drum on a networked laser printer is scratched. Which of the following helped the technician identify this issue?",
+    "options": [
+      "Garbled text",
+      "Toner not sticking to the paper",
+      "Grinding noises",
+      "Solid line down the printed page"
+    ],
+    "answer": 3,
+    "explanation": "A scratched photosensitive drum in a laser printer will cause toner to attach itself to that scratch. This additional toner appears as a single line running down the length of the laser printer output."
+  },
+  {
+    "id": "core1-132",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "An application developer is designing an app which uses three servers running simultaneously as VMs on her desktop. An upgrade to the application will add three additional servers to the list of running VMs. Which of these hardware resources will be the most important for this upgrade?",
+    "options": [
+      "Video adapter",
+      "Network connection",
+      "RAM",
+      "CPU"
+    ],
+    "answer": 2,
+    "explanation": "Without any additional information about the applications, the most critical resource for these new servers will be the amount of RAM required to keep all of the operating systems running simultaneously."
+  },
+  {
+    "id": "core1-133",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A network engineer is troubleshooting an issue communicating to the Internet over a newly installed DSL connection. A laptop is connected to a DSL router over twisted pair copper. The IP configuration of the laptop is: IP address: 169.254.228.109 Subnet mask: 255.255.0.0 DNS: 9.9.9.9 Which of the following should be the next troubleshooting step?",
+    "options": [
+      "Reset the DSL modem",
+      "Modify the subnet mask",
+      "Change the DNS server address",
+      "Check the status of the DHCP server"
+    ],
+    "answer": 3,
+    "explanation": "A DHCP (Dynamic Host Configuration Protocol) server automatically distributes IP addresses to new devices connecting to a network. If the DHCP server isn't available, a device will commonly auto-configure itself with an APIPA (Automatic Private IP Addressing) address. Addresses between the range of 169.254.1.0 through 169.254.254.255 are assigned to devices using APIPA."
+  },
+  {
+    "id": "core1-134",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "A user in the accounting department has configured their mobile phone as a hotspot. Which of these would best describe this configuration?",
+    "options": [
+      "Use the phone as a method of payment",
+      "Fast-charge the phone",
+      "Access the Internet through the phone",
+      "Connect to external speakers"
+    ],
+    "answer": 2,
+    "explanation": "Many smartphones include a hotspot feature, allowing a user to turn their phone into an Internet router. The phone provides access to the Internet over the cellular network, and other devices can use this Internet link by connecting to the smartphone over 802.11 wireless."
+  },
+  {
+    "id": "core1-135",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "A user has logged into their laptop using a fingerprint reader on the laptop's keyboard tray. Which of the following would best describe this technology?",
+    "options": [
+      "NFC",
+      "GPS",
+      "Screen digitizer",
+      "Biometrics"
+    ],
+    "answer": 3,
+    "explanation": "Biometrics provide a way to authenticate using something physical about a person. Some common biometric systems will evaluate a fingerprint, face recognition, or other physical trait to complete the authentication process."
+  },
+  {
+    "id": "core1-136",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "An organization has recently implemented a browser-based email system that requires no additional software on the user devices. Which of the following would describe this type of application?",
+    "options": [
+      "SaaS",
+      "IaaS",
+      "HaaS",
+      "PaaS"
+    ],
+    "answer": 0,
+    "explanation": "SaaS (Software as a Service) is on-demand software. The client does not maintain a local software installation, and the application support is managed by the service provider. Google Mail is an example of SaaS."
+  },
+  {
+    "id": "core1-137",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "What type of power supply can operate across countries using different voltages?",
+    "options": [
+      "High-voltage",
+      "Primary",
+      "Modular",
+      "Voltage switching"
+    ],
+    "answer": 3,
+    "explanation": "An auto voltage switching power supply can automatically detect and use different input voltages without the need to manually select an input voltage. This is especially useful when moving equipment in countries with 120 volts of AC (alternating current) to a country using 240 volts of AC."
+  },
+  {
+    "id": "core1-138",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A user is reporting after starting their desktop, they receive the message “Windows has detected an IP address conflict.” Which of the following would be the BEST way to resolve this issue?",
+    "options": [
+      "Replace the Ethernet patch cable",
+      "Enable DHCP on the workstation",
+      "Bounce the switch port",
+      "Reboot the default gateway"
+    ],
+    "answer": 1,
+    "explanation": "One of the more useful features of a DHCP (Dynamic Host Configuration Protocol) server is the controlled assignment of IP (Internet Protocol) addresses. If the DHCP server is assigning all IP addresses, then a duplicate is unlikely. If a device is configured for manual addressing, then configuring the device to receive IP addresses via DHCP can avoid possible address duplication."
+  },
+  {
+    "id": "core1-139",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "Each time a user logs in, they must insert their company ID card to a USB card reader to complete the authentication. Which of the following would best describe the technology used for this authentication?",
+    "options": [
+      "802.11",
+      "Bluetooth",
+      "SMB",
+      "RFID"
+    ],
+    "answer": 3,
+    "explanation": "RFID (Radio Frequency Identification) uses a small electronic tag to provide an identification number to an RFID reader. Many company ID cards include an RFID chip inside of the card itself."
+  },
+  {
+    "id": "core1-140",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "Which of the following connectors would be used to terminate a copper Ethernet patch cable?",
+    "options": [
+      "BNC",
+      "Lightning",
+      "RJ45",
+      "DB-9"
+    ],
+    "answer": 2,
+    "explanation": "Copper Ethernet cables are commonly terminated with an 8P8C (Eight Position / Eight Conductor) RJ45 (Registered Jack 45) standard connector."
+  },
+  {
+    "id": "core1-141",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A user has started their laptop, but the screen is completely covered with colored lines and flashing colors. Which of the following would best resolve this issue?",
+    "options": [
+      "Replace the laptop screen",
+      "Enable the display's scaling option",
+      "Change the output resolution",
+      "Disable the dynamic color temperature option"
+    ],
+    "answer": 0,
+    "explanation": "A damaged LCD display will often show colored lines, flashing colors, or have visible cracks on the screen. Unfortunately, the only way to resolve this type of issue is to completely replace the LCD screen."
+  },
+  {
+    "id": "core1-142",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A system administrator has just received a laptop previously sent out for repair. However, after powering on the computer, the laptop no longer responds to the stylus. Which of the following is the most likely reason for this issue?",
+    "options": [
+      "The GPU requires an updated device driver",
+      "The display needs a new inverter",
+      "The display needs to be paired to the laptop motherboard",
+      "The digitizer is faulty"
+    ],
+    "answer": 3,
+    "explanation": "The digitizer converts the touch of a finger or a stylus to digital signals used by the computer. If the digitizer is not operational, then the screen will not be able to interpret the input from a stylus."
+  },
+  {
+    "id": "core1-143",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A graphics designer has noticed that small dots on their screen remain a solid black color, even when the image should display a different color. Which of the following would describe this issue?",
+    "options": [
+      "Burn-in",
+      "Non-native resolution",
+      "Incorrect data source",
+      "Dead pixel"
+    ],
+    "answer": 3,
+    "explanation": "A dead pixel is a single dot (pixel) on the screen that always remains black and does not change with the image."
+  },
+  {
+    "id": "core1-144",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A gaming enthusiast has upgraded his home computer from integrated graphics to a separate video adapter card. The computer operates as expected for web browsing and word processing applications. However, playing a game results in the system shutting down after a few minutes of operation. Which of the following would be the most likely component causing this issue?",
+    "options": [
+      "CPU",
+      "Power supply",
+      "RAM",
+      "SSD"
+    ],
+    "answer": 1,
+    "explanation": "Adding additional components to a computer can often increase the power usage, and video adapter cards are one of the most power-hungry devices you can add to a computer. If a system is displaying errors or shutting down during periods of heavy use, then the issue is commonly related to heat or power."
+  },
+  {
+    "id": "core1-145",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A network administrator has just installed a new access point in a downtown office building, but now users are reporting intermittent connectivity to the Internet. Which of the following would be the first thing to check?",
+    "options": [
+      "SSID broadcast option",
+      "Firmware version",
+      "MAC filter",
+      "Channel interference levels"
+    ],
+    "answer": 3,
+    "explanation": "In areas with many different organizations located near each other, it's possible that the frequencies used on different wireless access points could conflict with each other and cause interference with wireless communication. In busy areas, it's recommended to perform an analysis of the frequencies in use before installing a new access point."
+  },
+  {
+    "id": "core1-146",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A company would like to advertise a list of email servers authorized to send messages on their behalf. Which of the following would be the best way to provide this information?",
+    "options": [
+      "APIPA",
+      "Proxy server",
+      "UTM",
+      "SPF record"
+    ],
+    "answer": 3,
+    "explanation": "An SPF (Sender Policy Framework) record is part of a DNS (Domain Name System) server configuration, and it lists all servers authorized to send emails for a particular domain."
+  },
+  {
+    "id": "core1-147",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A company assigns IP addresses automatically to each device, and those addresses will remain on the device for a minimum of 8 hours. Which of the following best describes this configuration?",
+    "options": [
+      "Subnet mask",
+      "Lease",
+      "SDN",
+      "Reservation"
+    ],
+    "answer": 1,
+    "explanation": "A lease is used in DHCP (Dynamic Host Configuration Protocol) to automatically associate an IP address configuration with a specific device for a certain amount of time. The device usually has the option to renew the lease to extended the configuration settings for another interval."
+  },
+  {
+    "id": "core1-148",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "Users in the marketing department are reporting that one network printer is not working. There are many print jobs in the queue, but none of the jobs are printing. A test print from the printer's front panel does not print any pages. What is the most likely reason for this printing issue?",
+    "options": [
+      "Printer drivers need to be updated",
+      "Network is disconnected",
+      "Printer hardware has failed",
+      "Print spooler needs to be restarted"
+    ],
+    "answer": 2,
+    "explanation": "If the printer was operational, then a printer test from the front panel should provide some output. The test print bypasses the network and print spooler and provides a check for print quality. If the local test print isn't working, then the printer itself has some type of hardware failure."
+  },
+  {
+    "id": "core1-149",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A member of the accounting department would like to work remotely while attending a conference in another city. Which of these technologies would best provide this functionality?",
+    "options": [
+      "VLAN",
+      "802.11",
+      "VPN",
+      "PAN"
+    ],
+    "answer": 2,
+    "explanation": "A VPN (Virtual Private Network) would allow a remote user to connect to the corporate office over a secure encrypted tunnel."
+  },
+  {
+    "id": "core1-150",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "In which of the following situations would you be most likely to use a network tap?",
+    "options": [
+      "Attach an RJ45 connector to the end of an Ethernet cable",
+      "Capture packets from a network link",
+      "Test packet loss on a router interface",
+      "Locate a specific workstation connection on a punch-down block"
+    ],
+    "answer": 1,
+    "explanation": "A network tap provides a physical connection for intercepting network traffic. The tap can send a copy of the intercepted traffic to a packet capture device or security tool."
+  },
+  {
+    "id": "core1-151",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A digital graphics department has been using a SAN to store their image files. The team now reports that all of the files on the SAN are no longer accessible. Which of the following should be the first thing to check on the SAN?",
+    "options": [
+      "RAID array status",
+      "CPU utilization",
+      "Input voltage",
+      "Cache hits"
+    ],
+    "answer": 0,
+    "explanation": "A SAN (Storage Area Network) is a network-connected storage array. If the SAN is unavailable, then it's possible that the drive array is having a technical issue. The first thing to check on the SAN is the RAID array health and network connectivity. Once those are verified to be working, the troubleshooting can continue."
+  },
+  {
+    "id": "core1-152",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A network administrator is installing a new access point between buildings. Which of the following would determine the usable frequencies and maximum signal strength for this connection?",
+    "options": [
+      "End User License Agreement",
+      "Type of data transferred",
+      "Acceptable Use Policy",
+      "Government regulations"
+    ],
+    "answer": 3,
+    "explanation": "Most governments will regulate the usable frequencies and maximum power for the wireless spectrum. These regulations can vary depending on location, frequencies, or type of network."
+  },
+  {
+    "id": "core1-153",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A network administrator is pinging a site on the Internet and receives these results: C:\\Users\\professor>ping 9.9.9.9 Pinging 9.9.9.9 with 32 bytes of data: Reply from 9.9.9.9: bytes=32 time=618ms TTL=128 Reply from 9.9.9.9: bytes=32 time=816ms TTL=128 Reply from 9.9.9.9: bytes=32 time=627ms TTL=128 Reply from 9.9.9.9: bytes=32 time=727ms TTL=128 Ping statistics for 9.9.9.9: Packets: Sent = 4, Received = 4, Lost = 0 (0% loss), Approximate round trip times in milli-seconds: Minimum = 618ms, Maximum = 816ms, Average = 697ms Which of the following would best describe these state of this network connection?",
+    "options": [
+      "Dropped packets",
+      "Excessive latency",
+      "Port flapping",
+      "Network loop"
+    ],
+    "answer": 1,
+    "explanation": "An average response time of 697 milliseconds is relatively long, especially considering that most local devices will respond in 1 or 2 milliseconds. This large response time indicates significant latency between the local device and the remote site."
+  },
+  {
+    "id": "core1-154",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A system administrator needs to upgrade the hard drives in a RAID array. Which of the following would be the best measurement of read and write times on the new hard drives?",
+    "options": [
+      "S. M. A. R. T.",
+      "Jitter",
+      "IOPS",
+      "RPM"
+    ],
+    "answer": 2,
+    "explanation": "IOPS (Input/Output Operations Per Second) is a measure of read and write performance, and it provides a good comparison of performance between different storage devices."
+  },
+  {
+    "id": "core1-155",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A user normally stores files in their H: drive, but the drive letter is not appearing in File Explorer. Which of the following would be the most likely reason for this issue?",
+    "options": [
+      "Local drive performance is slow",
+      "Login script did not run",
+      "A drive in a RAID 1 array has failed",
+      "The share is already in use"
+    ],
+    "answer": 1,
+    "explanation": "The login script is often used to configure a user's work environment, including the mapping of network shares to a drive letter."
+  },
+  {
+    "id": "core1-156",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A user’s desktop computer does not start in the morning when the power button is pressed. A technician notices that the screen remains dark, but fans are spinning inside of the computer case. No messages are displayed and no beeps are heard. Which of the following would be the most likely reason for this issue?",
+    "options": [
+      "Faulty RAM",
+      "No boot drive found",
+      "The CPU is overheating",
+      "Bad power supply"
+    ],
+    "answer": 3,
+    "explanation": "A bad power supply can sometimes provide power for some voltages but not others. If the fans are running but no other devices are working, then a bad power supply should be a consideration."
+  },
+  {
+    "id": "core1-157",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "A user in the shipping department needs a charging cable for their Android phone. Which of the following connectors would be the most likely to work on this phone?",
+    "options": [
+      "USB-C",
+      "Lightning",
+      "RJ45",
+      "Thunderbolt"
+    ],
+    "answer": 0,
+    "explanation": "Android devices commonly used the USB standard for connectivity, and USB-C is a common connector for many mobile devices."
+  },
+  {
+    "id": "core1-158",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A company has installed a page scanner that outputs the scanned files to SMB. Which of the following would be the most likely destination for these scanned images?",
+    "options": [
+      "Cloud storage",
+      "Windows share",
+      "eSATA drive",
+      "Network printer",
+      "Email inbox"
+    ],
+    "answer": 1,
+    "explanation": "Windows uses the SMB (Server Message Block) protocol to transfer files between other Windows devices. SMB is commonly used to transfer files to a Windows share."
+  },
+  {
+    "id": "core1-159",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A workstation administrator has been asked to troubleshoot an issue with Internet connectivity on a laptop computer. The network status in the taskbar shows a yellow exclamation mark with the message “No Internet access.” When examining the Ethernet connection on the laptop, the cable sheath is an inch short and individual copper wires are visibly disconnected from the RJ45 connector. Which of the following should be used to correct this issue?",
+    "options": [
+      "Crimper",
+      "Punch-down tool",
+      "Loopback plug",
+      "Cable tester"
+    ],
+    "answer": 0,
+    "explanation": "A crimper is used to attach modular connectors to the end of cables. In this example, the cable would be cut back past the missing cable sheath and the wires would be attached to a new connector using an RJ45 crimper."
+  },
+  {
+    "id": "core1-160",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A network administrator needs to connect two sites located on opposite sides of the city. Which of these network connections would be the most appropriate?",
+    "options": [
+      "MAN",
+      "PAN",
+      "LAN",
+      "WAN"
+    ],
+    "answer": 0,
+    "explanation": "A MAN (Metropolitan Area Network) connects locations in the same city or metropolitan area. Once the distance is outside the scope of the immediate metro area, the connection is categorized as a WAN (Wide Area Network)."
+  },
+  {
+    "id": "core1-161",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "Which of the following would be the best way to remove toner and paper dust from the inside of a laser printer?",
+    "options": [
+      "Use a chemical cleaner that removes toner particles",
+      "Run a cleaning page through the printer",
+      "Wipe the inside with a damp cloth",
+      "Use compressed air to blow out the particles"
+    ],
+    "answer": 2,
+    "explanation": "There can be a significant amount of dust and toner particles inside of a laser printer, and using a normal vacuum cleaner or compressed air would release the particles into the air. Instead, a damp cloth will capture the toner and dust without causing issues with airborne particles in the immediate area."
+  },
+  {
+    "id": "core1-162",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A system administrator is connecting a remote site to the Internet over a single pair of copper wires. Which of the following is the administrator using for this installation?",
+    "options": [
+      "PoE switch",
+      "Tap",
+      "DSL modem",
+      "ONT"
+    ],
+    "answer": 2,
+    "explanation": "DSL (Digital Subscriber Line) Internet connections use the same single copper pair of wires that are traditionally used by POTS (Plain Old Telephone Service) lines. DSL modems connect to this pair of wires and convert the signal to an Ethernet connection for other devices."
+  },
+  {
+    "id": "core1-163",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "Which of the following would most commonly be associated with a thermal pad?",
+    "options": [
+      "Connect a heat sink to a processor",
+      "Install a fan in a desktop computer case",
+      "Mount a radiator for liquid cooling",
+      "Manage CPU speed based on the current temperature"
+    ],
+    "answer": 0,
+    "explanation": "A thermal pad can be used to improve thermal conductivity between a hot component and a heat sink. Thermal pads are somewhat easier to install than traditional thermal paste."
+  },
+  {
+    "id": "core1-164",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "A system administrator has been assigned the task of installing an operating system, application, and data onto a cloud-based server. Which of these best describes this scenario?",
+    "options": [
+      "Infrastructure as a Service",
+      "Platform as a Service",
+      "Hybrid Cloud",
+      "Software as a Service"
+    ],
+    "answer": 0,
+    "explanation": "IaaS (Infrastructure as a Service) provides the CPU, memory, storage, and other infrastructure components necessary for the installation of an operating system and application."
+  },
+  {
+    "id": "core1-165",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A network engineer is installing a device allowing wireless devices to access the wired Ethernet network. Which of the following would best describe this technology?",
+    "options": [
+      "DSL",
+      "Managed switch",
+      "VLAN",
+      "Access point"
+    ],
+    "answer": 3,
+    "explanation": "An access point bridges the 802.11 wireless network with a wired Ethernet network. Since the access point is acting as a bridge, it's making forwarding decisions based on the destination MAC (Media Access Control) address of the network frame."
+  },
+  {
+    "id": "core1-166",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A systems administrator has added a new video adapter to a desktop computer, installed the latest video driver, and rebooted the system. When the system starts, it shows a Windows Stop Error before it reaches the login prompt. Which of the following would be the best next troubleshooting step?",
+    "options": [
+      "Press F8 during startup and choose “Boot from last known working configuration”",
+      "Upgrade the system BIOS using an update file from the motherboard manufacturer",
+      "Disconnect all USB storage devices and restart the system",
+      "Reinstall the operating system"
+    ],
+    "answer": 0,
+    "explanation": "“Boot from last known working configuration” If a recent configuration causes a boot issue, Windows can restart the operating system using the last known working configuration. Each time Windows successfully boots, it makes a backup of that configuration. If the startup option to \"boot from last known working configuration\" is selected, that working backup is used instead of the current Windows configuration. This can help resolve Windows Stop Error issues like those detailed in this question."
+  },
+  {
+    "id": "core1-167",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "A system administrator is configuring a lab computer that will run five server VMs at the same time. Which of the following hardware resources will be the most important for this configuration?",
+    "options": [
+      "CPU",
+      "Storage space",
+      "Video adapter",
+      "NIC"
+    ],
+    "answer": 1,
+    "explanation": "Adding five virtual machines to a single device would require as much storage space as five separate operating systems. Of the available options, the system storage will be used the most."
+  },
+  {
+    "id": "core1-168",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "A user's smartphone contains both personal and corporate data. When the user attempts to install a new app, the installation is halted and an error message appears. Which of the following would be the most likely reason for this issue?",
+    "options": [
+      "NFC",
+      "Bluetooth",
+      "MDM",
+      "GPS"
+    ],
+    "answer": 2,
+    "explanation": "MDM (Mobile Device Management) provides centralized management for mobile devices. An MDM can be used to set policies on app use, data storage, camera use, and almost any other feature on the smartphone."
+  },
+  {
+    "id": "core1-169",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "Which of the following would provide segmentation of broadcast domains on the same physical switch?",
+    "options": [
+      "VLAN",
+      "DNS",
+      "VPN",
+      "DHCP"
+    ],
+    "answer": 0,
+    "explanation": "A VLAN (Virtual Local Area Network) is used to segment interfaces on a single switch or across multiple switches. This allows a network administrator to separate networks on a single switch instead of installing multiple physical switches."
+  },
+  {
+    "id": "core1-170",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A user is reporting every page printed from a networked laser printer appears as garbled graphics and text characters. Which of the following is the most likely cause of this issue?",
+    "options": [
+      "Incorrect printer driver",
+      "Damaged network cable",
+      "Printer is low on memory",
+      "Toner is low"
+    ],
+    "answer": 0,
+    "explanation": "The printer driver formats the print job into a language that the printer can understand. If the incorrect driver is used, the language sent to the printer may not be interpreted correctly and the output may appear very different than the original document. In extreme cases, the output may appear as unreadable pages of garbled text and graphics."
+  },
+  {
+    "id": "core1-171",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "During a presentation in a conference room, the lamp in an LCD projector is turning off after five minutes of use and back on ten minutes later. Which of the following would be the most likely reason for this issue?",
+    "options": [
+      "The video cable is faulty",
+      "The display lamp has failed",
+      "The cooling process is failing",
+      "The display resolution is incorrect"
+    ],
+    "answer": 2,
+    "explanation": "If an LCD (Liquid Crystal Display) projector becomes overheated, it will automatically turn off to protect the bulb and other components. This is similar to the automatic protections found in laptop and desktop computers, and once the system cools down it can be restarted. If the cooling fans are blocked or not working, this process may continue the cycle until the cooling problem is resolved."
+  },
+  {
+    "id": "core1-172",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A system administrator has just completed a memory upgrade on a database server. When starting the system, this message is displayed: “Boot Device Not Found.” The BIOS configuration does not show any hard drives in the system. Which of the following would be the next best troubleshooting step?",
+    "options": [
+      "Replace the hard drive",
+      "Upgrade the BIOS",
+      "Check the hard drive cables",
+      "Modify the BIOS boot sequence"
+    ],
+    "answer": 2,
+    "explanation": "A memory upgrade would require work inside of a computer case, and it's very easy to accidentally unseat or disconnect other cables. Since the only change was the memory upgrade, a change to the storage subsystem would not be expected. The most likely cause would be a cable issue."
+  },
+  {
+    "id": "core1-173",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "If a laptop's inverter is faulty, which of the following would be the most likely result?",
+    "options": [
+      "The battery will not recharge",
+      "The system will not power on",
+      "The screen will be difficult to see",
+      "The USB interfaces will not be powered"
+    ],
+    "answer": 2,
+    "explanation": "The inverter is used to convert the DC (Direct Current) power inside of the laptop to AC (Alternating Current). The AC power is then used to power the CCFL (Cold Cathode Florescent Lamp) backlights found in older laptop computers. Without the backlight, it will be very difficult to see the information displayed on an LCD (Liquid Crystal Display) screen."
+  },
+  {
+    "id": "core1-174",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "What is the most common use for the switch on a computer’s power supply?",
+    "options": [
+      "Sets the input voltage",
+      "Controls the speed of the CPU",
+      "Sets the cooling fan speed",
+      "Boots from different operating system partitions"
+    ],
+    "answer": 0,
+    "explanation": "The input voltage to a power supply should match the capabilities of the power supply unit. Many power supply units are voltage switching, and they will automatically adjust between 120 volts and 240 volts based on the input voltage. Alternatively, some power supply units have a switch that must be manually set to specify input voltage."
+  },
+  {
+    "id": "core1-175",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "Which of these devices would be used to configure an 802.1Q trunk?",
+    "options": [
+      "Router",
+      "Repeater",
+      "Managed switch",
+      "Cable modem"
+    ],
+    "answer": 2,
+    "explanation": "A managed switch includes features not found in an unmanaged switch, such as traffic prioritization, redundancy support, remote management, and VLAN (Virtual Local Area Network) support for connectivity to other switches via 802.1Q."
+  },
+  {
+    "id": "core1-176",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "A user is trying to connect a Bluetooth headset to his smartphone, but the headset does not appear in a list of available Bluetooth devices. Which of the following would be the best next step?",
+    "options": [
+      "Upgrade the smartphone OS",
+      "Enable Bluetooth pairing on the headset",
+      "Connect to the headset with a USB cable",
+      "Replace the smartphone battery"
+    ],
+    "answer": 1,
+    "explanation": "A smartphone will often require the Bluetooth devices to be in paring mode for it to appear in the list of available Bluetooth devices."
+  },
+  {
+    "id": "core1-177",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A network administrator needs to connect an Ethernet link between two buildings located across the parking lot from each other. The total distance between the buildings is approximately 400 meters. Which of the following technologies would be the best choice for this installation?",
+    "options": [
+      "Coax",
+      "Category 6A",
+      "Fiber",
+      "UTP"
+    ],
+    "answer": 2,
+    "explanation": "Fiber optic communication can extend over very long distances using light instead of radio frequencies. Since the maximum supported distance of most Ethernet connections using copper are one hundred meters, any type of connection needing additional distance would be a good candidate for fiber optic cabling."
+  },
+  {
+    "id": "core1-178",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A systems administrator needs to configure a smartphone to retrieve email messages from the corporate mail server. Which of the following protocols could be configured for this purpose? (Pick TWO)",
+    "options": [
+      "IMAP",
+      "SSH",
+      "SMTP",
+      "LDAP",
+      "POP3",
+      "FTP",
+      "SMB"
+    ],
+    "answer": [
+      0,
+      4
+    ],
+    "explanation": "Two common protocols used to retrieve email messages are IMAP (Internet Message Access Protocol) and POP3 (Post Office Protocol 3)."
+  },
+  {
+    "id": "core1-179",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "A company manages the maintenance of farm equipment and grain silos, and this equipment is often miles away from the nearest Ethernet connection. Which of the following would be the best way to provide connectivity to the maintenance team?",
+    "options": [
+      "Bluetooth",
+      "5G",
+      "802.11",
+      "NFC"
+    ],
+    "answer": 1,
+    "explanation": "5G (Fifth generation cellular) provides data connectivity over cellular network technologies. This type of wireless connectivity provides access from almost anywhere using a hotspot or a smartphone with hotspot or tethering functionality."
+  },
+  {
+    "id": "core1-180",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "Which of these cloud computing architectures would best describe several organizations sharing the same resources?",
+    "options": [
+      "Community",
+      "IaaS",
+      "Public",
+      "Hybrid"
+    ],
+    "answer": 0,
+    "explanation": "A community cloud model is often used by multiple organizations to build a pool of resources with their combined financial contributions. This multi-tenant model provides a shared cloud-based deployment to organizations with similar goals and objectives."
+  },
+  {
+    "id": "core1-181",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "What port should be configured in a firewall to block secure terminal communication?",
+    "options": [
+      "23",
+      "443",
+      "22",
+      "110"
+    ],
+    "answer": 2,
+    "explanation": "Port 22 is used by SSH (Secure Shell), the encrypted terminal communication protocol."
+  },
+  {
+    "id": "core1-182",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A user has opened a ticket complaining of a constantly flashing light on the front of their desktop computer. Which of the following is the most likely reason for this issue?",
+    "options": [
+      "Power supply status",
+      "Network communication",
+      "Storage drive access",
+      "RAM module transfers"
+    ],
+    "answer": 2,
+    "explanation": "Most computers will provide status lights on the front of the computer. One of the more common lights is a solid light showing that power is available to the system. The other light usually blinks each time access is made to a storage device to visually show access to the drive."
+  },
+  {
+    "id": "core1-183",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A desktop administrator is troubleshooting an LCD display that shows a faint image at the bottom right of the screen. The faint image is displayed even when spreadsheets or browser screens are shown. Which of the following would be the most likely reason for this issue?",
+    "options": [
+      "Dead pixels",
+      "Incorrect resolution",
+      "Bad video cable",
+      "Burn-in"
+    ],
+    "answer": 3,
+    "explanation": "If an image is shown on a screen for an extended period of time, the display may continue to show a faint \"ghost\" of the image after the display has changed. This burn-in may be temporary, but it can be permanent in extreme circumstances."
+  },
+  {
+    "id": "core1-184",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A systems administrator is troubleshooting a Windows laptop that boots normally but becomes sluggish after login. Which of the following would provide the best source of troubleshooting information?",
+    "options": [
+      "Beep codes during startup",
+      "Power supply voltages",
+      "Number of installed DIMMs",
+      "Task Manager statistics"
+    ],
+    "answer": 3,
+    "explanation": "Task Manager can provide real-time performance information and can list the applications automatically launched during the startup process. The administrator can enable or disable startup applications to determine if they might be causing the sluggish performance."
+  },
+  {
+    "id": "core1-185",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A network administrator has installed a fifty meter network connection from one side of the building to the other, and now he would like to make sure that the punch-downs and crimps are connected to the correct pins on each side. Which of these tools would be the best way to confirm the wiring map?",
+    "options": [
+      "Network tap",
+      "Cable tester",
+      "Toner probe",
+      "Loopback plug"
+    ],
+    "answer": 1,
+    "explanation": "A cable tester can quickly perform a wire map to determine if all of the wires were properly crimped or punched down on both ends of the cable."
+  },
+  {
+    "id": "core1-186",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "An administrator is building a new server, and they would like the server to continue operating if the power supply fails. Which of the following would provide this functionality?",
+    "options": [
+      "Modular power supply",
+      "High wattage rating",
+      "Redundant power supplies",
+      "LCD inverter"
+    ],
+    "answer": 2,
+    "explanation": "One way to avoid an outage after a power supply failure is to have multiple power supplies installed and running. The two power supplies will share the load, and if one power supply fails the remaining power supply will be used to keep the system running."
+  },
+  {
+    "id": "core1-187",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A user in the shipping department would like to connect multiple displays to a desktop computer. Which of the following would support this requirement? (Pick TWO)",
+    "options": [
+      "RJ45",
+      "Lightning",
+      "Fiber",
+      "HDMI",
+      "DB-9",
+      "DVI-D"
+    ],
+    "answer": [
+      3,
+      5
+    ],
+    "explanation": "HDMI (High-Definition Multimedia Interface) and DVI-D (Digital Visual Interface-Digital) are two common video connection types. Some video adapters will provide multiple video connection types and allow different video outputs for each interface."
+  },
+  {
+    "id": "core1-188",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A user is trying to charge their smartphone using the built-in USB interface, but the phone does not show the charging icon and the battery does not charge. Which of the following would be the most likely reason for this issue?",
+    "options": [
+      "No wireless connectivity",
+      "Damaged charging port",
+      "Broken screen",
+      "Digitizer not calibrated"
+    ],
+    "answer": 1,
+    "explanation": "A damaged charging port would prevent the battery from charging through a connected USB cable. In some cases, the port can be cleaned to regain the charging function, but excessive damage may require a replacement of the interface or smartphone."
+  },
+  {
+    "id": "core1-189",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A system administrator is designing a network with a priority towards uptime and availability of the public-facing company website. Which of the following should be included with this design?",
+    "options": [
+      "AAA server",
+      "UTM",
+      "Load balancer",
+      "Patch panel"
+    ],
+    "answer": 2,
+    "explanation": "A load balancer is used to distribute a load between a group of available servers. If any server in this group was to fail, the load balancer would automatically redistribute the load to the remaining servers to provide uptime and availability."
+  },
+  {
+    "id": "core1-190",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A user is replacing an empty paper roll in a printer with one that was purchased to match the model of the printer. Which of the following would best describe this printer type?",
+    "options": [
+      "Thermal",
+      "Laser",
+      "Impact",
+      "Inkjet"
+    ],
+    "answer": 0,
+    "explanation": "Thermal printers require a specialized paper type which turns dark when heat is applied. There are many different sizes of thermal printers, so the paper is often purchased to match the specific thermal printer model."
+  },
+  {
+    "id": "core1-191",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A network engineer is installing a cable modem at a remote site. Which of these connectors would commonly be found on a cable modem?",
+    "options": [
+      "DB-9",
+      "eSATA",
+      "M.2",
+      "F-connector"
+    ],
+    "answer": 3,
+    "explanation": "The F-connector is the common coax screw-on connector used for television cable or cable modems. A cable modem installation will often use coax from the cable provider, and the F-connector is used to connect the coax to the cable modem."
+  },
+  {
+    "id": "core1-192",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A technician has just upgraded the memory on a desktop computer. After the computer runs for a few minutes, the system locks up completely and does not respond to keyboard or mouse input. After rebooting, no error messages are found in Event Viewer. Which of the following would be the best next troubleshooting step?",
+    "options": [
+      "Reinstall the operating system",
+      "Upgrade the BIOS",
+      "Update device drivers",
+      "Run hardware diagnostics"
+    ],
+    "answer": 3,
+    "explanation": "Issues that result in the system hanging without any additional information can be frustrating to troubleshoot. Since there are no error messages or log entries associated with the issue, the best option would be to perform a hardware diagnostic and at least confirm that the hardware is working as expected."
+  },
+  {
+    "id": "core1-193",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "Which of these network types would most likely be categorized as a WAN?",
+    "options": [
+      "A point-to-point connection to an office in another country",
+      "A fiber connection to a building across a campus",
+      "A connection to a remote office on the other side of town",
+      "A link between a mobile device and an automobile"
+    ],
+    "answer": 0,
+    "explanation": "in another country WAN (Wide Area Network) connections are between locations in different cities, states, or countries."
+  },
+  {
+    "id": "core1-194",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A technician is connecting two buildings using a fiber optic link. Which of these connectors would be commonly associated with this media type?",
+    "options": [
+      "RJ45",
+      "F",
+      "Molex",
+      "SC"
+    ],
+    "answer": 3,
+    "explanation": "An SC (Subscriber Connector or \"Square Connector\") interface is a common type of connection for fiber optic terminations."
+  },
+  {
+    "id": "core1-195",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A system administrator is configuring the IP address settings on a remote server. Which of these settings would enable the server to communicate with other devices using a fully qualified domain name?",
+    "options": [
+      "DHCP",
+      "IP address",
+      "DNS",
+      "Subnet mask"
+    ],
+    "answer": 2,
+    "explanation": "A DNS (Domain Name System) server provides the conversion between fully qualified domain names and IP (Internet Protocol) addresses. With a DNS, we can refer to servers by their name instead of using IP addresses."
+  },
+  {
+    "id": "core1-196",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "Which of the following devices makes forwarding decisions based on destination IP address?",
+    "options": [
+      "ONT",
+      "Router",
+      "NIC",
+      "Managed switch"
+    ],
+    "answer": 1,
+    "explanation": "A router decides the next hop of an packet based on the packet's destination IP (Internet Protocol) address."
+  },
+  {
+    "id": "core1-197",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "A system administrator needs to test a new application simultaneously across macOS, Windows, and Linux. Which of the following would be the best choice for this requirement?",
+    "options": [
+      "Multiple partitions",
+      "SaaS",
+      "Cross-platform virtualization",
+      "High availability"
+    ],
+    "answer": 2,
+    "explanation": "Cross-platform virtualization allows the user to run multiple operating systems simultaneously."
+  },
+  {
+    "id": "core1-198",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A user in the accounting department had a new laptop delivered and installed, but they are reporting that the network throughput seems much slower than the previous computer. Which of the following would be the most likely cause of these slow transfer speeds?",
+    "options": [
+      "Incorrect SSID",
+      "Device is assigned an APIPA address",
+      "Incorrect gateway configuration",
+      "Duplex mismatch",
+      "Device is assigned an RFC 1918 address"
+    ],
+    "answer": 3,
+    "explanation": "A mismatch of half-duplex and full-duplex will not cause a total disruption of network communication, but it will cause the network to perform slowly."
+  },
+  {
+    "id": "core1-199",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A workstation is configured with a video card that outputs DVI-D, but it needs to connect to an LCD projector with an HDMI connection. Which of the following would be the best way to connect this workstation to the projector?",
+    "options": [
+      "DVI-D to HDMI adapter",
+      "Digital to analog converter",
+      "VGA to HDMI adapter",
+      "USB to HDMI converter"
+    ],
+    "answer": 0,
+    "explanation": "DVI-D (Digital Visual Interface-Digital) and HDMI (High-Definition Multimedia Interface) are electrically compatible and only require an interface adapter to connect between devices. No conversion of the video signal is required between DVI-D and HDMI."
+  },
+  {
+    "id": "core1-200",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "An Android user needs to transfer some presentations from their desktop computer to their smartphone. Which of the following would be the best choice?",
+    "options": [
+      "Lightning",
+      "RJ45",
+      "USB-C",
+      "Thunderbolt"
+    ],
+    "answer": 2,
+    "explanation": "USB-C is a connection type used on many Android-based devices."
+  },
+  {
+    "id": "core1-201",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "What type of network connection is commonly used by DSL?",
+    "options": [
+      "Coax",
+      "Fiber optic",
+      "802.11",
+      "Twisted pair copper"
+    ],
+    "answer": 3,
+    "explanation": "DSL (Digital Subscriber Line) networks use the same twisted pair copper as traditional phone lines."
+  },
+  {
+    "id": "core1-202",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "An administrator is building a computer system to stream live corporate events. Which of the following should be installed to provide input for the live stream?",
+    "options": [
+      "Capture card",
+      "Thermal pads",
+      "HSM",
+      "M.2"
+    ],
+    "answer": 0,
+    "explanation": "A capture card can be used as an input for video and audio. This input can be stored on a drive or used as input to a streaming service."
+  },
+  {
+    "id": "core1-203",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A user's workstation has been configured with the IP address of 172.20.122.45. Which of the following would best describe this IP address type?",
+    "options": [
+      "Loopback",
+      "Private",
+      "Static",
+      "APIPA"
+    ],
+    "answer": 1,
+    "explanation": "An IP address is private if it is in the ranges of 10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16. The address of 172.20.122.45 is in the range between 172.16.0.0 through 172.31.255.255."
+  },
+  {
+    "id": "core1-204",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "What type of proprietary Apple connector can be plugged in face up or face down?",
+    "options": [
+      "Lightning",
+      "Thunderbolt",
+      "SATA",
+      "USB-C"
+    ],
+    "answer": 0,
+    "explanation": "The Apple lightning connector is only found on Apple devices, and it allows for a higher power output to charge larger phone and tablets. The connector can also be plugged in either face up or face down."
+  },
+  {
+    "id": "core1-205",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "Which of the following best describes elasticity in cloud computing?",
+    "options": [
+      "A cloud-based application framework is used to build more complex apps",
+      "The cloud operates in an internal virtualized data center",
+      "All cloud storage is managed from a central pool",
+      "Cloud resources can scale up as needed"
+    ],
+    "answer": 3,
+    "explanation": "Rapid elasticity is a cloud computing characteristic that allows the scaling up and down of cloud-based applications on an as-needed basis."
+  },
+  {
+    "id": "core1-206",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A company would like to configure a Sender Policy Framework (SPF) record in their DNS. Which of the following should be configured in the DNS server?",
+    "options": [
+      "AAAA",
+      "TXT",
+      "MX",
+      "DKIM"
+    ],
+    "answer": 1,
+    "explanation": "The TXT, or text record, can be used in a DNS server to specify the SPF information. The SPF record documents the list of email servers authorized to send emails for the domain."
+  },
+  {
+    "id": "core1-207",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "Which of the following would be most commonly associated with the management interface on a switch?",
+    "options": [
+      "ST",
+      "802.11",
+      "DB-9",
+      "Thunderbolt"
+    ],
+    "answer": 2,
+    "explanation": "The serial connectivity used with a DB-9 (D-subminiature size B, 9 pin) interface is usually associated with management ports on switches, router, and other infrastructure devices."
+  },
+  {
+    "id": "core1-208",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A user has reported they can't browse to Google's search page at https://www.google.com. The workstation IP address is 192.168.1.5, the subnet mask is 255.255.255.0, the default gateway is 192.168.1.1, and the domain name servers are 10.2.2.1 and 10.2.2.2. A technician can successfully ping the local IP address, the default gateway, and Google's DNS server at 8.8.8.8. Which of the following is the most likely cause of this issue?",
+    "options": [
+      "The Ethernet adapter's duplex setting is incorrect",
+      "The default gateway is faulty",
+      "The Internet connection is down",
+      "The DNS servers are faulty",
+      "The client's default gateway configuration is incorrect"
+    ],
+    "answer": 3,
+    "explanation": "The DNS (Domain Name System) servers are responsible for converting a fully-qualified domain name (www.google.com) to an IP address. If the DNS servers are not working, then an IP address for a device cannot be resolved and the communications process can't continue."
+  },
+  {
+    "id": "core1-209",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A user in the facilities department is having an issue printing their blueprints to a network laser printer. When they pick up their output, the page contains specks and small dots randomly printed on the page with the final output. Which of these is the most likely cause of this issue?",
+    "options": [
+      "Network is faulty",
+      "Optical drum is not clean",
+      "Page description language is incorrect",
+      "Printer is low on toner"
+    ],
+    "answer": 1,
+    "explanation": "The cleaning process of a laser printer removes any non-used toner from the optical drum after one cycle of the printing process. If the cleaning process isn't working properly, extra toner will remain on the drum and can be transferred to the next section of the page output as dots or specs on the page."
+  },
+  {
+    "id": "core1-210",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "A user would like to ensure all apps on their smartphone use 802.11 networking instead of the cellular network. Which of the following would provide this functionality?",
+    "options": [
+      "Enable data caps",
+      "Use biometric authentication",
+      "Synchronize to the cloud",
+      "VPN client"
+    ],
+    "answer": 0,
+    "explanation": "Most smartphones include the ability to set limits on how much data is transferred over certain network types. For example, iOS can be configured to allow or disallow downloads over a cellular network and can limit the size of downloads if a cellular network is enabled."
+  },
+  {
+    "id": "core1-211",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A network administrator is installing an Ethernet cable containing gel and a ground wire. Which of the following would most likely describe this cable?",
+    "options": [
+      "Plenum",
+      "Direct burial",
+      "Optical",
+      "Ethernet patch"
+    ],
+    "answer": 1,
+    "explanation": "A direct burial cable is designed to be installed in the ground, so it includes waterproof gel to protect the copper cables. The cables also include a ground wire to support an electrical ground."
+  },
+  {
+    "id": "core1-212",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A Windows computer is configured to obtain an IP address automatically. Which of the following would occur if the automatic assignment process was not working?",
+    "options": [
+      "The IP address would be set to 0.0.0.0",
+      "A link-local address would be assigned",
+      "The Ethernet adapter would be disabled",
+      "The last known good IP address would be used"
+    ],
+    "answer": 1,
+    "explanation": "If a device is configured to obtain an IP address from a DHCP (Dynamic Host Configuration Protocol) server and the DHCP server is not available, an APIPA (Automatic Private IP Addressing) address, or linklocal address, would be assigned."
+  },
+  {
+    "id": "core1-213",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A web server administrator has received a notification that disk 1 in a RAID 5 array has failed. Which of the following would be the best next step to resolve this drive failure?",
+    "options": [
+      "Replace disk 1 and restore from backup",
+      "Replace all drives and restore from backup",
+      "Replace all drives and rebuild the array",
+      "Replace disk 1 and rebuild the array"
+    ],
+    "answer": 3,
+    "explanation": "A RAID 5 (Redundant Array of Independent Disks, level 5) array is designed to maintain data availability in the event of a single drive failure. In this example, it's unlikely that the users even realized one of the drives on the array was suddenly unavailable because the array would continue to operate normally with all data intact. To resolve this issue, the bad drive would need to be replaced, and the array would rebuild the data on the new drive using the redundant data from other drives."
+  },
+  {
+    "id": "core1-214",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A high speed network provides access to a large array of hard drives. Which of the following would best describe this type of network?",
+    "options": [
+      "PAN",
+      "LAN",
+      "SAN",
+      "MAN"
+    ],
+    "answer": 2,
+    "explanation": "A SAN (Storage Area Network) is a high-speed network connecting users with large data stores. The SAN looks and feels like a local storage device, and provides block-level access for efficient reading and writing."
+  },
+  {
+    "id": "core1-215",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A user in the accounting department is reporting that all of the printed pages from a networked laser printer are completely blank. Nothing appears to be written on any of the printed pages. Which of the following would be the most likely cause of this issue?",
+    "options": [
+      "Incorrect page description language",
+      "Print drivers are incorrect",
+      "Printer out of memory",
+      "Toner cartridge is faulty"
+    ],
+    "answer": 3,
+    "explanation": "If the toner cartridge is completely empty or is not properly providing toner to the printer, then nothing will be printed on the final output."
+  },
+  {
+    "id": "core1-216",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A systems administrator has just installed a new server in a data center. When pressing the power button, there’s no response from the server, no lights appear on the front display, and no fans are spinning. Which of the following would be the most likely reason for this issue?",
+    "options": [
+      "An operating system is not installed on the server",
+      "The power supply switch is set to the wrong input voltage",
+      "The BIOS needs to be upgraded",
+      "The keyboard and mouse are not connected"
+    ],
+    "answer": 1,
+    "explanation": "If the data center power provides 120 volts and the computer's power supply is set to 240 volts, the computer will not be able to start. Some power supplies will attempt to start with the lower voltage while other power supplies will not work at all. In either case, the computer is not going to perform properly with the lower voltage and may be damaged by the difference in expected voltage."
+  },
+  {
+    "id": "core1-217",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "Which of the following services would automatically provide an IP address to any device connected to the network?",
+    "options": [
+      "DNS",
+      "Proxy",
+      "IPS",
+      "DHCP"
+    ],
+    "answer": 3,
+    "explanation": "DHCP (Dynamic Host Configuration Protocol) is used to automatically assign IP addresses to network devices. A device configured to use DHCP will be assigned an IP address without any intervention from the user or network administrator."
+  },
+  {
+    "id": "core1-218",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A network administrator is installing a network link containing an LC connector. Which of the following would be the most likely connection for this link?",
+    "options": [
+      "Cable modem",
+      "Access point",
+      "Internet firewall",
+      "Link between buildings"
+    ],
+    "answer": 3,
+    "explanation": "Connections between buildings tend to exceed the distance allowed for copper cabling, so fiber optics are often used to communicate over this extended distance. The LC (Lucent Connector) interface is a common fiber optic connector."
+  },
+  {
+    "id": "core1-219",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A computer lab is purchasing supplies for their dot-matrix printers. Which of the following should be included on this order?",
+    "options": [
+      "Toner cartridge",
+      "Heating element",
+      "Ink ribbon",
+      "Ink cartridge"
+    ],
+    "answer": 2,
+    "explanation": "Ink ribbons are commonly used by impact printers or dot matrix printers. The printer head of an impact printer pushes pins into the ribbon which then presses onto the page to provide the printed output."
+  },
+  {
+    "id": "core1-220",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "A system administrator is installing a lightweight and standalone executable package containing an application and all of its dependencies. This package is isolated from other installed packages and the underlying host operating system. Which of the following would best describe this package?",
+    "options": [
+      "Container",
+      "Archive",
+      "Cabinet",
+      "VDI"
+    ],
+    "answer": 0,
+    "explanation": "An application container is a standalone package containing everything needed to run an application instance, including all of the files and dependencies. The host operating system is not included in the container, and the OS is commonly shared across all containers on the system."
+  },
+  {
+    "id": "core1-221",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A server administrator is building a web server with three hard disk drives. The storage for the server requires the fastest possible access and redundancy is not a primary requirement. Which of the following would be the best choice for this server?",
+    "options": [
+      "RAID 10",
+      "RAID 1",
+      "RAID 0",
+      "RAID 5"
+    ],
+    "answer": 2,
+    "explanation": "RAID (Redundant Array of Independent Disks) level 0 does not provide any redundancy, but it will efficiently stripe data across multiple drives. RAID 0 does not require the duplication of data or calculation of parity, so it's commonly considered the fastest access of the RAID levels."
+  },
+  {
+    "id": "core1-222",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A company is consolidating Event Viewer information from all Windows Servers to a centralized repository. Which of the following services would provide this functionality?",
+    "options": [
+      "DNS",
+      "Syslog",
+      "NTP",
+      "UTM"
+    ],
+    "answer": 1,
+    "explanation": "Syslog is a standard protocol for transmitting log files from network devices to a centralized log database. This standard format allows routers, switches, servers, firewalls, and any other device to send their log information to this central repository."
+  },
+  {
+    "id": "core1-223",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "A developer has requested a server for testing a new application. To complete this request, the system administrator logs into his cloud console and allocates a new server configuration. Which of the following best describes the process of creating this server?",
+    "options": [
+      "Metered utilization",
+      "File synchronization",
+      "Availability",
+      "Shared resources"
+    ],
+    "answer": 3,
+    "explanation": "It's common to place all of the computing resources in one place for all cloud services. As new cloud-based systems are created, the CPU, memory, storage, and other technologies needed to build these systems are allocated from this central pool of shared resources."
+  },
+  {
+    "id": "core1-224",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "Which of the following would be the most efficient method of migrating from an HDD to an SSD?",
+    "options": [
+      "Use cloud-based backup and restore",
+      "Perform a drive-to-drive image",
+      "Install a new OS on the SSD",
+      "Use an SSD for the OS and HDD for the applications"
+    ],
+    "answer": 1,
+    "explanation": "A drive-to-drive image is a fast way to migrate from one drive type to another. Both drives are online at the same time, and third-party software can be used to quickly clone or copy all data from one drive to the other."
+  },
+  {
+    "id": "core1-225",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A technician is installing a CPU and heat sink into a new system. Which of the following should be used with these two components?",
+    "options": [
+      "Redundant power supply",
+      "Header",
+      "Loopback plug",
+      "Thermal pad"
+    ],
+    "answer": 3,
+    "explanation": "A thermal pad is used to create efficient thermal conductivity between components. The connection created by the thermal pad moves heat from the CPU (Central Processing Unit) into the fins of the heat sink, and that heat is moved out of the system using the computer's cooling system."
+  },
+  {
+    "id": "core1-226",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "The fans on a desktop computer are not able to move enough air to keep the system cool. A technician finds a significant amount of airflow is restricted by the internal wiring inside the computer case. Which of the following would help to resolve this issue?",
+    "options": [
+      "Modular power supply",
+      "Wireless networking",
+      "Bluetooth keyboard and mouse",
+      "Dual-channel memory"
+    ],
+    "answer": 0,
+    "explanation": "A modular power supply allows the technician to add or remove power cables as needed, so unused cables would not be attached or installed inside of the computer case. This keeps the number of cables inside the computer to a minimum and creates the best possible airflow through the system."
+  },
+  {
+    "id": "core1-227",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "A user would like to connect a set of Bluetooth speakers to their smartphone. Which of the following would be required for this connection?",
+    "options": [
+      "Pre-shared key",
+      "Biometrics",
+      "PIN",
+      "Key generation app"
+    ],
+    "answer": 2,
+    "explanation": "A PIN (Personal Identification Number) is used during the Bluetooth pairing process to verify the connectivity between two devices."
+  },
+  {
+    "id": "core1-228",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A user's virtualization software requires hardware support to be enabled. Which of the following would enable this functionality?",
+    "options": [
+      "Hypervisor configuration",
+      "BIOS settings",
+      "Motherboard header",
+      "PCIe adapter"
+    ],
+    "answer": 1,
+    "explanation": "The BIOS (Basic Input Output System) of a computer manages the hardware configuration of the system. If the CPU supports hardware virtualization, there is usually an option to enable or disable support in the BIOS settings."
+  },
+  {
+    "id": "core1-229",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A network administrator is viewing the interface statistics on a WAN router and has noticed that error rates are increasing. The administrator has replaced the WAN cables, but the errors continue. Which of the following tools should be used to best troubleshoot this issue?",
+    "options": [
+      "Loopback plug",
+      "Toner probe",
+      "Crimper",
+      "Cable tester"
+    ],
+    "answer": 0,
+    "explanation": "A loopback plug is useful when running diagnostics on a device interface. Data is sent out an interface, and the loopback plug redirects that data back to the same interface. By comparing the data sent and received, the technician can determine if an interface may not be operating properly."
+  },
+  {
+    "id": "core1-230",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A user has reported stuttering and dropouts occurring on most of their incoming VoIP calls. Other web-based applications appear to be working normally. Which of the following would provide the best information regarding this issue?",
+    "options": [
+      "Jitter measurements",
+      "Hard drive IOPS",
+      "SMART monitoring",
+      "Task Manager"
+    ],
+    "answer": 0,
+    "explanation": "Jitter measures the amount of inter-packet delay associated with VoIP traffic flows. If the packets arrive inconsistently or with delays between packets, the jitter values will increase to indicate congestion or delays."
+  },
+  {
+    "id": "core1-231",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "An administrator is trying to print some customer letters on company letterhead, but there are no messages on the printer and no pages are printing. Upon examining the queue, five print jobs are pending and waiting to print. Which of the following is the most likely cause of this issue?",
+    "options": [
+      "Tray selection in the printer driver is incorrect",
+      "The fuser is faulty",
+      "Print spooler has crashed",
+      "Printer does not support printing on letterhead"
+    ],
+    "answer": 2,
+    "explanation": "The print spooler is responsible for storing print jobs, queuing them, and sending them to the printer. A print spooler crash would cause all print jobs to stop completely, regardless of which page type is specified for the output."
+  },
+  {
+    "id": "core1-232",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A hardware technician has been asked to purchase a system to be used as a database server. One of the specifications for the server requires the system to detect and correct memory errors during operation. Which of the following would be the best option for this project?",
+    "options": [
+      "Parity memory",
+      "Single channel",
+      "ECC",
+      "SO-DIMM"
+    ],
+    "answer": 2,
+    "explanation": "ECC (Error Correcting Code) memory is designed to both identify memory errors and correct them if possible. It's common to see ECC RAM (Random Access Memory) used in servers to minimize any potential downtime."
+  },
+  {
+    "id": "core1-233",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "A system administrator is replacing a cracked LCD display on a Windows laptop. Which of the following would be the most important component to test after this replacement?",
+    "options": [
+      "Trackpad",
+      "Wireless network",
+      "USB devices",
+      "Primary storage drive"
+    ],
+    "answer": 1,
+    "explanation": "The antenna wires of the 802.11 wireless and Bluetooth adapters commonly wrap around the laptop display for the best possible height. When replacing the display, it's important to make sure that the wires are properly installed and have not detached from the antenna connectors on the wireless adapter or motherboard."
+  },
+  {
+    "id": "core1-234",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "Which of the following would be MOST associated with M.2?",
+    "options": [
+      "HDD",
+      "eSATA",
+      "RAID",
+      "SSD"
+    ],
+    "answer": 3,
+    "explanation": "SSDs (Solid State Drives) are storage devices with non-volatile memory and have no moving parts. The M.2 interface is a small form factor interface allowing for high-throughput storage in a smaller footprint than a 2.5-inch storage drive."
+  },
+  {
+    "id": "core1-235",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A user in the accounting department is reporting that her smartwatch is not synchronizing with her mobile phone. The phone is powered on and unlocked, but the phone does not show the smartwatch in a list of available devices. Which of the following would most likely solve this issue?",
+    "options": [
+      "Enable NFC on the smartwatch",
+      "Disable Wi-Fi on the phone",
+      "Enable Bluetooth on the smartwatch",
+      "Restart the phone and smartwatch"
+    ],
+    "answer": 2,
+    "explanation": "The PAN (Personal Area Network) used for connectivity between local devices is Bluetooth, so enabling Bluetooth on the smartwatch should allow the phone to properly communicate with the watch."
+  },
+  {
+    "id": "core1-236",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A computer used for testing high-resolution gaming displays has a highend video adapter and DisplayPort video connection. The computer works properly for word processing and spreadsheets, but it powers down after only a few minutes of graphics testing. Which of the following would be the most likely reason for this issue?",
+    "options": [
+      "The storage drive is not fast enough for the testing application",
+      "The CPU fan is faulty",
+      "The video display is not properly connected",
+      "One of the memory modules is faulty"
+    ],
+    "answer": 1,
+    "explanation": "If a system powers off after some intense CPU (Central Processing Unit) utilization, then the issue is most likely associated with heat or power. Most computers have many different temperature sensors to recognize when the system gets too hot, and they will automatically power down to prevent damaging the CPU, memory, and other hardware."
+  },
+  {
+    "id": "core1-237",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A network administrator has created a configuration for a server using the same IP address each time the server is started. Which of the following would best describe this configuration?",
+    "options": [
+      "Link-local address",
+      "IP reservation",
+      "Default gateway",
+      "APIPA"
+    ],
+    "answer": 1,
+    "explanation": "An IP (Internet Protocol) reservation is usually configured on a DHCP (Dynamic Host Configuration Protocol) server to ensure that specific devices always receive the same IP address. This is commonly done to ensure that important network resources are always available using the same IP address."
+  },
+  {
+    "id": "core1-238",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "A cloud-based application is distributed across multiple data centers and will continue to operate if any of the data centers have an outage. Which of the following characteristics would best describe this configuration?",
+    "options": [
+      "Availability",
+      "Shared resources",
+      "File synchronization",
+      "Elasticity",
+      "Metered utilization"
+    ],
+    "answer": 0,
+    "explanation": "A highly available cloud infrastructure ensures that a service will always be available regardless of what might occur behind the scenes. Redundant systems are commonly used to provide high availability."
+  },
+  {
+    "id": "core1-239",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A network technician is installing a new copper gigabit Ethernet connection, but when they plug in the network cable the status light indicators are dark. Which of the following would be the most likely status of the network connection?",
+    "options": [
+      "The DHCP server has not assigned an IP address",
+      "There is no signal on the Ethernet cable",
+      "The Ethernet link is running at 100 megabits per second instead of 1 gigabit per second",
+      "The primary DNS server is not responding"
+    ],
+    "answer": 1,
+    "explanation": "A least one light on the Ethernet adapter is commonly associated with the link status. The link light will turn on if a signal is identified on the Ethernet cable. Most Ethernet adapters will have lights to indicate the status of an Ethernet signal and the speed of the link."
+  },
+  {
+    "id": "core1-240",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A finance manager is printing a contract designed to be printed on both sides of the page, but the printer is only providing output on one side of the paper. Which of the following options would resolve this issue?",
+    "options": [
+      "Badging",
+      "Tray settings",
+      "Orientation",
+      "Duplex"
+    ],
+    "answer": 3,
+    "explanation": "The duplex setting on a printer enables printing on both sides of the page without requiring a person to manually flip the pages over."
+  },
+  {
+    "id": "core1-241",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A technician is troubleshooting a mobile phone that turns off after about an hour of normal use. Before powering off, the phone displays the message, “High temperature detected.” The phone is used inside the building at room temperature, and is not used in direct sunlight. Which of the following would be the most likely reason for this issue?",
+    "options": [
+      "An app is using a large amount of CPU",
+      "The Wi-Fi network is overloaded",
+      "The battery has low voltage",
+      "The mobile phone has liquid damage"
+    ],
+    "answer": 0,
+    "explanation": "Electronic devices generate a lot of heat, and the amount of heat from a CPU increases dramatically as it is used. Although most mobile devices will dissipate the heat using passive cooling, it's still possible to overheat the device in certain circumstances."
+  },
+  {
+    "id": "core1-242",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "The help desk has received a ticket about a desktop computer reporting slow performance. It takes sixty seconds to load a file that previously took five seconds, and an ongoing clicking noise can be heard when accessing the data. The CPU and memory utilization statistics show minimal resource use. Which of the following would be the best next step?",
+    "options": [
+      "Upgrade the RAM",
+      "Replace the hard drive",
+      "Upgrade the BIOS",
+      "Boot to Safe Mode",
+      "Upgrade the power supply"
+    ],
+    "answer": 1,
+    "explanation": "Slow file access and a low amount of memory and CPU utilization indicates a problem with the hard drive. Performing a backup and replacing the drive should return the system to normal operation."
+  },
+  {
+    "id": "core1-243",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A user in the marketing department was using their computer to send some email messages. The computer made an unexpected loud pop and immediately powered down. The computer would not respond to additional attempts to power it back on. Which of the following would be the most likely cause of this issue?",
+    "options": [
+      "Incorrect video refresh rate",
+      "Faulty capacitor",
+      "Incomplete software update",
+      "Bad memory module"
+    ],
+    "answer": 1,
+    "explanation": "Not all capacitors pop when they fail, but often a loud pop inside of a computer is related to a blown capacitor. The second symptom of the immediate powering off of the system also helps make the case that a capacitor is to blame."
+  },
+  {
+    "id": "core1-244",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "A manager in the shipping department needs to connect their laptop to wireless portable speakers while in the office. Which of these should be configured on their laptop?",
+    "options": [
+      "Tethering",
+      "Bluetooth",
+      "NFC",
+      "RFID"
+    ],
+    "answer": 1,
+    "explanation": "Most external portable speakers use Bluetooth to receive audio signals from a mobile device. Bluetooth has the best fit for connectivity options, distance requirements, and bandwidth for sending audio data."
+  },
+  {
+    "id": "core1-245",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A technician has two hard disk drives that need to be configured redundantly, and all information should be duplicated across physical drives. Which of the following should be configured?",
+    "options": [
+      "RAID 5",
+      "RAID 1",
+      "RAID 6",
+      "RAID 0"
+    ],
+    "answer": 1,
+    "explanation": "A RAID 1 (Redundant Array of Independent Disks) array keeps an exact duplicate of data across multiple drives. If one drive fails, the other drive containing the duplicated data continues to provide access to the data."
+  },
+  {
+    "id": "core1-246",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A system administrator has connected a desktop computer to a new LCD. After connecting the monitor, all of the desktop icons and windows appear oversized and the display appears to be fuzzy and out of focus. Which of the following would be the best way to correct this issue?",
+    "options": [
+      "Modify the display resolution",
+      "Use a different LCD display",
+      "Replace the monitor cable",
+      "Restart the desktop computer"
+    ],
+    "answer": 0,
+    "explanation": "The display resolution determines how many horizontal and vertical pixels are used when displaying information on a screen. If the resolution is set relatively low, the screen information will appear larger than a higher resolution and the output would appear blurry or fuzzy. To correct this oversized view, the system administrator will need to configure a higher resolution setting on the desktop computer."
+  },
+  {
+    "id": "core1-247",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "The camera on a user's smartphone works properly when at home, but the user is not able to take pictures while at their desk at work. Which of the following would be the most likely reason for this issue?",
+    "options": [
+      "NFC",
+      "Biometrics",
+      "Bluetooth pairing",
+      "MDM"
+    ],
+    "answer": 3,
+    "explanation": "An MDM (Mobile Device Manager) is a centralized administration tool for mobile devices. The administrator can enable or disable certain features, and some of those features can be disabled based on the device's current location."
+  },
+  {
+    "id": "core1-248",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A system administrator is installing a new LCD projector in the company conference room. Which of the following would most likely be used with this projector?",
+    "options": [
+      "Lightning",
+      "UTP",
+      "Coaxial",
+      "HDMI"
+    ],
+    "answer": 3,
+    "explanation": "HDMI (High-Definition Multimedia Interface) is a common interface for transmitting audio and video to televisions, displays, and projectors."
+  }
+]

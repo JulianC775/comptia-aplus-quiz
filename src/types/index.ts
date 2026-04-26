@@ -4,7 +4,7 @@ export interface Question {
   domain: string;
   question: string;
   options: string[];
-  answer: number;
+  answer: number | number[];  // single index or sorted array for multi-select
   explanation?: string;
 }
 
@@ -19,12 +19,12 @@ export interface QuizConfig {
 export interface QuizSession {
   questions: Question[];
   currentIndex: number;
-  answers: (number | null)[];
+  answers: (number | number[] | null)[];
   startTime: number;
 }
 
 export interface QuizResult {
   question: Question;
-  selectedAnswer: number | null;
+  selectedAnswer: number | number[] | null;
   correct: boolean;
 }

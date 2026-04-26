@@ -38,10 +38,17 @@ export default function ResultsSummary({ results, elapsedSeconds, onRestart, onH
             <div key={question.id} className="bg-gray-900 border border-gray-800 rounded-lg p-4 text-sm">
               <p className="text-gray-200 mb-2">{question.question}</p>
               <p className="text-red-400">
-                Your answer: {selectedAnswer !== null ? question.options[selectedAnswer] : '—'}
+                Your answer:{' '}
+                {selectedAnswer === null ? '—'
+                  : Array.isArray(selectedAnswer)
+                    ? selectedAnswer.map(i => question.options[i]).join(', ')
+                    : question.options[selectedAnswer]}
               </p>
               <p className="text-green-400">
-                Correct: {question.options[question.answer]}
+                Correct:{' '}
+                {Array.isArray(question.answer)
+                  ? question.answer.map(i => question.options[i]).join(', ')
+                  : question.options[question.answer]}
               </p>
               {question.explanation && (
                 <p className="text-gray-400 mt-2 leading-relaxed">{question.explanation}</p>

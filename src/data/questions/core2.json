@@ -1,1 +1,3568 @@
-[]
+[
+  {
+    "id": "core2-001",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A system administrator is installing a new server into the metal racks in a data center. During the installation process, the administrator can feel a faint tingling sensation when mounting the server. Which of the following safety systems should be tested and verified first?",
+    "options": [
+      "Equipment grounding",
+      "Air filtration",
+      "Cable management",
+      "Waste disposal regulations"
+    ],
+    "answer": 0,
+    "explanation": "Electrical safety is one of the highest priorities because of its association with personal safety. Before a single computer can be turned on, the facility has to be properly grounded and the power systems must be installed properly."
+  },
+  {
+    "id": "core2-002",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A user has opened a help desk ticket regarding the battery life on their mobile phone. The battery in the phone held a charge for most of the day prior to connecting to the corporate network. The battery now only lasts about half a day and the back of the phone is warmer than usual. The phone is configured as follows: Storage: 216.2 GB of 512 GB used Display and Brightness: Automatic Wi-Fi: Enabled Auto-lock: Disabled VPN: Not connected Low Power Mode: Disabled Battery Maximum Capacity: 100% Which of the following changes would have the best impact on battery performance?",
+    "options": [
+      "Enable auto-lock",
+      "Connect to the VPN",
+      "Increase available storage space",
+      "Disable Wi-Fi"
+    ],
+    "answer": 0,
+    "explanation": "The backlight of a mobile phone requires constant battery use, and the phone in an active state will use more battery than one which is locked or in a standby state."
+  },
+  {
+    "id": "core2-003",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A user in the accounting department is trying to install an app on their new corporate mobile phone, but the installation fails each time. Which of the following would be the most likely reason for this issue?",
+    "options": [
+      "Incorrect file system type",
+      "MDM policy restriction",
+      "Slow CPU speeds",
+      "Low battery level"
+    ],
+    "answer": 1,
+    "explanation": "An MDM (Mobile Device Manager) provides centralized management and administration for all mobile phones, tables, and other mobile devices. In this example, the MDM is most likely restricting the installation of any unauthorized apps."
+  },
+  {
+    "id": "core2-004",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A system administrator has required the use of FRT for authentication on all laptops, mobile phones, and tablets. Which of the following will be required to meet this requirement?",
+    "options": [
+      "Fingerprint reader",
+      "Badge reader",
+      "Token generator",
+      "Integrated camera"
+    ],
+    "answer": 3,
+    "explanation": "FRT (Facial Recognition Technology) is a common authentication method and requires the use of a camera or imaging system. Laptops, mobile phones, and tablets often integrate a camera into the hardware of the device."
+  },
+  {
+    "id": "core2-005",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A desktop technician is cleaning the outside of computers used on a manufacturing assembly line. The assembly line creates sawdust and wood chips, so most of the computers are protected with enclosed computer cases. Which of the following would be the most important item for the technician to include during this cleaning process?",
+    "options": [
+      "Surge suppressor",
+      "Temperature sensor",
+      "Air filter mask",
+      "ESD mat"
+    ],
+    "answer": 2,
+    "explanation": "A technician working with dust or debris in the air should use an air filter mask to prevent any particles in the air from entering their lungs."
+  },
+  {
+    "id": "core2-006",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "After a user authenticates to a web site, the browser performs very slowly and some of the items on the page will not properly display. Which of the following would be the best way to resolve this issue?",
+    "options": [
+      "Disable browser notifications",
+      "Update the web server certificate",
+      "Update the system BIOS",
+      "Clear the browser cache"
+    ],
+    "answer": 3,
+    "explanation": "The browser cache contains a copy of information downloaded on previous visits to a website. If this local cache is not updated with newer web page information, the website performance may be degraded. Clearing the cache can resolve this conflict and allow the browser to store a new copy of the web page."
+  },
+  {
+    "id": "core2-007",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "The motherboard of a server in the corporate data center has started smoking, and flames can be seen inside the computer case. Which of the following would be the best way to extinguish this fire?",
+    "options": [
+      "Water hose",
+      "Foam-based extinguisher",
+      "Disconnect the power",
+      "Carbon dioxide extinguisher"
+    ],
+    "answer": 3,
+    "explanation": "For an electrical fire, it's best to use carbon dioxide, FM-200, or other dry chemicals to extinguish any flames."
+  },
+  {
+    "id": "core2-008",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "Which of these Windows features provides full disk encryption for all data on a storage drive?",
+    "options": [
+      "Domain Services",
+      "EFS",
+      "RDP",
+      "BitLocker"
+    ],
+    "answer": 3,
+    "explanation": "BitLocker provides full disk encryption (FDE) for Windows operating system volumes."
+  },
+  {
+    "id": "core2-009",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A company maintains data retention requirements of five years for all customer names, addresses, and phone numbers. Which of the following would best describe this data?",
+    "options": [
+      "Credit card transactions",
+      "Government-issued information",
+      "PII",
+      "Healthcare data"
+    ],
+    "answer": 2,
+    "explanation": "PII (Personally Identifiable Information) is any data which could be used to identify an individual. A name, address, and phone number would be common examples of PII."
+  },
+  {
+    "id": "core2-010",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A user in the accounting department would like to ensure their mobile device data is always available. If the user's smartphone is damaged or stolen, they would like to replace the device and restore all data as quickly as possible. Which of the following would provide this functionality?",
+    "options": [
+      "Full device encryption",
+      "Remote backup",
+      "IoT isolation",
+      "Remote wipe"
+    ],
+    "answer": 1,
+    "explanation": "A cloud-based remote backup solution will constantly backup all user data to a remote service. If the device is replaced, all of the user data can be restored directly from this backup in the cloud."
+  },
+  {
+    "id": "core2-011",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "Each time a user starts a specific corporate application, a page of disclaimers and usage requirements is shown before the login prompt. Which of the following would best describe this page?",
+    "options": [
+      "Splash screen",
+      "Acceptable use policy",
+      "Standard operating procedures",
+      "Topology diagram"
+    ],
+    "answer": 0,
+    "explanation": "A splash screen displays a message, logo, or graphic during the startup process. This screen often contains a legal disclaimer regarding access to the system and information about the data contained in the application."
+  },
+  {
+    "id": "core2-012",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A system administrator is troubleshooting an older application on a Windows computer and needs to modify the UAC process. Which of the following options would provide access to these settings?",
+    "options": [
+      "Device Manager",
+      "System Information",
+      "Event Viewer",
+      "User Accounts"
+    ],
+    "answer": 3,
+    "explanation": "UAC (User Account Control) settings are contained in the Control Panel's User Accounts applet."
+  },
+  {
+    "id": "core2-013",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "An office power system occasionally experiences minor voltage spikes during the business day. Which of the following would be the best way to address this power issue?",
+    "options": [
+      "Power down when not actively working",
+      "Confirm the building has an electrical ground",
+      "Connect a surge suppressor to each system",
+      "Maintain an inventory of replacement power supplies"
+    ],
+    "answer": 2,
+    "explanation": "A surge suppressor can help even out voltage spikes in an electrical system. It's common to use a surge suppressor at each workstation to limit the effect of these voltage spikes."
+  },
+  {
+    "id": "core2-014",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "What is the maximum amount of RAM supported by a 32-bit version of an operating system?",
+    "options": [
+      "4 GB",
+      "8 GB",
+      "16 GB",
+      "192 GB"
+    ],
+    "answer": 0,
+    "explanation": "The limited address space of a 32-bit operating system can only support 4 GB of system memory."
+  },
+  {
+    "id": "core2-015",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A user is attempting to start an application on his laptop computer. Each time the application shows the starting graphic, it suddenly disappears and the application icon disappears from the taskbar. A technician would like to get more information about each previous occurrence of the application crash. Which of these choices would provide these details?",
+    "options": [
+      "Event Viewer",
+      "Task Manager",
+      "Startup Repair",
+      "Safe Mode"
+    ],
+    "answer": 0,
+    "explanation": "Event Viewer contains a consolidated list of all system and application logs. A technician can use Event Viewer to review all past events on the system."
+  },
+  {
+    "id": "core2-016",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "An attacker is using every combination of letters, numbers, and special characters in an attempt to discover a user's password. Which of the following would describe this attack type?",
+    "options": [
+      "Spoofing",
+      "Social engineering",
+      "Brute force attack",
+      "DDoS"
+    ],
+    "answer": 2,
+    "explanation": "A brute force attack works to determine a user's password by trying every possible combination of letters, numbers, and special characters until the proper combination is found."
+  },
+  {
+    "id": "core2-017",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A system administrator is upgrading an email service in the corporate data center. During the upgrade, an error message appears and the upgrade fails. Subsequent attempts to perform the upgrade also fail. Which of the following processes should the system administrator follow to return the email server to its previous state?",
+    "options": [
+      "Rollback plan",
+      "Disaster recovery plan",
+      "Incident response plan",
+      "Power plan"
+    ],
+    "answer": 0,
+    "explanation": "Even with the best planning, there can always be unexpected events. Every proposed change needs to have a rollback plan in case the environment needs to be returned to its original state."
+  },
+  {
+    "id": "core2-018",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "When connecting a new USB webcam to Windows, a message appears stating \"The controller does not have enough resources for this device.\" Which of the following would be the best next troubleshooting step?",
+    "options": [
+      "Close all large-memory processes",
+      "Modify the BCD",
+      "Move the webcam to a different USB interface",
+      "Use System Restore to rollback to a previous configuration"
+    ],
+    "answer": 2,
+    "explanation": "The resources associated with a USB (Universal Serial Bus) interface can vary based on the interface type and USB controller version. If these resources are exceeded on a USB controller, the system will display a message regarding the lack of resources."
+  },
+  {
+    "id": "core2-019",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A system administrator has created a shared folder on a server to store operating system images. Technicians access the shared folder to download the latest images when performing large-scale system installations. Which of the following will be the most likely method of accessing this data?",
+    "options": [
+      "Map the shared folder to an available drive letter",
+      "Download the shared folder through a proxy",
+      "Link the images to a cloud storage service",
+      "Access the folder using a remote access client"
+    ],
+    "answer": 0,
+    "explanation": "The easiest and most efficient way for technicians to access the drive share is to map a drive letter to the share and transfer the files directly."
+  },
+  {
+    "id": "core2-020",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A system administrator is installing a Windows Server device in the data center. Which of the following file systems would be the best choice for this task?",
+    "options": [
+      "ReFS",
+      "APFS",
+      "ext4",
+      "XFS"
+    ],
+    "answer": 0,
+    "explanation": "ReFS (Resilient File System) is a Windows file system supporting large storage systems and a focus on data availability."
+  },
+  {
+    "id": "core2-021",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A security technician has identified malware running in the OS kernel. Traditional anti-malware scans were not able to identify any problems on the computer. Which of the following would be the best description of this malware?",
+    "options": [
+      "Rootkit",
+      "Worm",
+      "Botnet",
+      "Cryptominer"
+    ],
+    "answer": 0,
+    "explanation": "A rootkit is malware which modifies core system files and can be invisible to the operating system. In this example, the rootkit is part of the kernel and can't be seen by traditional anti-malware."
+  },
+  {
+    "id": "core2-022",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A help desk technician has been called to a training room with Android tablets as presentation devices. An application used during the training program will not start on any of the tablets. When the application is selected, the splash screen appears for a moment and then completely disappears with no error message. Which of the following would be the best next troubleshooting step?",
+    "options": [
+      "Install all operating system updates",
+      "Uninstall the application",
+      "Power cycle the tablets",
+      "Roll back to the previous application version"
+    ],
+    "answer": 2,
+    "explanation": "Before making any changes to the operating system or application software, it would be useful to know if power cycling the tablets would have an effect. If the symptom was to disappear after the restart, then no significant changes would be required."
+  },
+  {
+    "id": "core2-023",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A user on the headquarters network has opened a help desk ticket about their Windows desktop. When starting their computer, the login process proceeds normally but the Windows desktop takes fifteen minutes to appear. Yesterday, the desktop appeared in just a few seconds. Which of the following would be the most likely reason for this issue?",
+    "options": [
+      "Slow profile load",
+      "Incorrect boot device order",
+      "Faulty RAM",
+      "Incorrect username and password"
+    ],
+    "answer": 0,
+    "explanation": "A roaming user profile is commonly used on enterprise Windows networks to allow a user's desktop to follow them to any computer. When a user logs in, their profile is downloaded to the local computer. If there is any network latency to the domain controller, the login process could be significantly slower."
+  },
+  {
+    "id": "core2-024",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A system administrator has been asked to install a new application on a server, but the application is 64-bit and the server operating system is 32-bit. Which of the following describes the issue associated with this installation?",
+    "options": [
+      "File permissions",
+      "OS compatibility",
+      "Installation method",
+      "Available drive space"
+    ],
+    "answer": 1,
+    "explanation": "Although 32-bit applications will run on 64-bit operating systems, the reverse is not true. A 64-bit application will require a 64-bit operating system to work."
+  },
+  {
+    "id": "core2-025",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A security guard has reported a person passing through a secure door without using a door badge. The intruder slipped through the door by closely following the person in front of them. Which of these would best describe these actions?",
+    "options": [
+      "Dumpster diving",
+      "Brute force",
+      "Phishing",
+      "Tailgating"
+    ],
+    "answer": 3,
+    "explanation": "Using someone else to gain access to a building or through a locked door is tailgating."
+  },
+  {
+    "id": "core2-026",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A Linux administrator needs to modify the configuration text file for a service. Which of the following utilities would provide this functionality?",
+    "options": [
+      "nano",
+      "chmod",
+      "df",
+      "sudo"
+    ],
+    "answer": 0,
+    "explanation": "The nano utility is a full-screen text editor available from the command line of a Linux device."
+  },
+  {
+    "id": "core2-027",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "An internal audit has found a server in the DMZ which appears to be infected with malware. The malware does not appear to be part of a file in the OS, and the malware runs each time the system is started. What type of malware would be most likely found on this server?",
+    "options": [
+      "Trojan",
+      "Ransomware",
+      "Keylogger",
+      "Spyware",
+      "Boot sector virus"
+    ],
+    "answer": 4,
+    "explanation": "Some boot sectors can be modified to run malware, and this means the malicious software is started each time the computer is booted. The Secure Boot features in a modern UEFI BIOS can prevent unsigned malicious software from running during the startup process."
+  },
+  {
+    "id": "core2-028",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A user has delivered a broken laptop to the help desk, and they are visibly upset and quite vocal about the problem they're having. The user is also asking for a very specific repair which doesn't appear to have any relationship to his issue. What's the best way to handle this situation?",
+    "options": [
+      "Repeat your understanding of the issue to the customer and provide an estimate and follow-up time",
+      "Refuse the repair until the customer calms down",
+      "Inform the customer of his mistake with the proposed repair",
+      "Refuse to make any commitments until the computer is examined"
+    ],
+    "answer": 0,
+    "explanation": "and provide an estimate and follow-up time The best response in a stressful situation is to listen, ask questions, and refrain from arguing or acting defensive. In this situation, the technician should gather as much information about the problem and keep all responses focused on resolving the problem."
+  },
+  {
+    "id": "core2-029",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A user in the finance department has purchased a new Android smartphone and has installed a number of productivity apps. After a day of use, the phone is displaying a large number of advertisements when browsing the Internet. Which of the following tasks should the user perform after completing a factory reset?",
+    "options": [
+      "Disable Bluetooth",
+      "Check app sharing permissions",
+      "Run a speed test on the cellular connection",
+      "Verify the source of each app before installation"
+    ],
+    "answer": 3,
+    "explanation": "It's always a good best practice to check the legitimacy of each app installed on a smartphone. In this example, it's likely one of the apps is infected with malware."
+  },
+  {
+    "id": "core2-030",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "When making configuration changes, a technician is assigned a temporary administrator password to use for the duration of the update. Once the administrator credentials are used, they are automatically deleted. Which of the following would best describe this process?",
+    "options": [
+      "Single sign-on",
+      "Data loss prevention",
+      "User Access Control",
+      "Just-in-time access"
+    ],
+    "answer": 3,
+    "explanation": "Just-in-time access describes the temporary assignment of authentication credentials or permissions. Credentials are created temporarily and deleted once the session is complete. This process prevents any ongoing misuse of the credentials by a bad actor."
+  },
+  {
+    "id": "core2-031",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A user has been provided with a username and password for accessing the corporate VPN. The user has also been provided with a hardware device displaying a six digit code, and the code changes every 30 seconds. Which of the following would best describe the use of this device?",
+    "options": [
+      "ACL",
+      "Group Policy",
+      "SMS",
+      "Least privilege",
+      "MFA"
+    ],
+    "answer": 4,
+    "explanation": "MFA (Multi-factor Authentication) adds an additional security factor to the authentication process. Instead of using only a username and password (something you know), additional factors are required to login. In this example, the hardware device creates a pseudo-random code to be included with the login process."
+  },
+  {
+    "id": "core2-032",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A user has installed multiple applications over the last week. During the startup process, the computer now takes over fifteen minutes to display the Windows desktop. Which of the following utilities would help the system administrator troubleshoot this issue?",
+    "options": [
+      "defrag",
+      "Performance Monitor",
+      "Task Manager",
+      "robocopy"
+    ],
+    "answer": 2,
+    "explanation": "The Windows Task Manager includes a Startup tab for managing the applications which launch during the login process."
+  },
+  {
+    "id": "core2-033",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A server administrator is replacing the memory in a database server. Which of the following steps should be followed first?",
+    "options": [
+      "Remove the existing memory modules",
+      "Wear an air filter mask",
+      "Disconnect all power sources",
+      "Connect an ESD strap"
+    ],
+    "answer": 2,
+    "explanation": "The first step when working inside of any computer or printer is to remove all power sources."
+  },
+  {
+    "id": "core2-034",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A technician is dismantling a test lab for a recently completed project, and the lab manager would like to use the existing computers on a new project. However, the security administrator would like to ensure none of the data from the previous project is accessible on the existing hard drives. Which of the following would be the best way to accomplish this?",
+    "options": [
+      "Quick format",
+      "Deguass",
+      "Regular format",
+      "Reinstall the operating system"
+    ],
+    "answer": 2,
+    "explanation": "A standard Windows format with the regular formatting option overwrites each sector of the drive with zeros. After this format is complete, the previous data on the drive is unrecoverable."
+  },
+  {
+    "id": "core2-035",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A system administrator needs to view a set of application log files contained in a folder named “logs.” Which of the following commands should be used to make this folder the current directory?",
+    "options": [
+      "cd logs",
+      "mv logs",
+      "dir logs",
+      "md logs"
+    ],
+    "answer": 0,
+    "explanation": "The \"cd\" command is an abbreviation for \"change working directory,\" and it can be used in Windows or Linux to traverse the file system."
+  },
+  {
+    "id": "core2-036",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A system administrator is configuring a server to use eight bootable partitions on a single SSD. Which of the following partition styles would be the best choice for this configuration?",
+    "options": [
+      "MBR",
+      "NTFS",
+      "diskpart",
+      "GPT"
+    ],
+    "answer": 3,
+    "explanation": "The GPT ( GUID Partition Table) partition style allows for up to 128 separate bootable partitions."
+  },
+  {
+    "id": "core2-037",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A technician is installing a fresh Windows operating system on a file server. Unfortunately, the drive controller in the system is not recognized during the installation process. Which of the following would be the best way to manage this issue?",
+    "options": [
+      "Load third-party drivers",
+      "Restart the system",
+      "Use a remote network installation",
+      "Boot from the recovery partition"
+    ],
+    "answer": 0,
+    "explanation": "The Windows installation program includes drivers for most hardware devices, but occasionally additional device drivers will need to be added during the installation process."
+  },
+  {
+    "id": "core2-038",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A security administrator is concerned a bad actor may use packet analysis to determine a list of web sites visited by their users. Which of the following would prevent this type of reconnaissance?",
+    "options": [
+      "Enable full disk encryption",
+      "Login with multifactor authentication",
+      "Use a secure DNS",
+      "Configure the BIOS for secure boot"
+    ],
+    "answer": 2,
+    "explanation": "By default, all DNS communication occurs over a non-encrypted session. This doesn't disclose any information from a website, but it can show which fully-qualified domain names are accessed by users. Configuring DNS over HTTPS (DoH) or a similar encryption method can prevent anyone from monitoring this information from packet captures."
+  },
+  {
+    "id": "core2-039",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A user in the sales department is attempting to upgrade the operating system of their smartphone, but the smartphone will not start the installation when selected. Which of the following is the most likely reason for this issue?",
+    "options": [
+      "Bluetooth is enabled",
+      "The smartphone storage is nearly full",
+      "Rotation lock is disabled",
+      "The phone is connected to a power source"
+    ],
+    "answer": 1,
+    "explanation": "To upgrade, a smartphone needs enough available storage to download and process the upgrade files. If the storage space is limited, the upgrade will not be processed."
+  },
+  {
+    "id": "core2-040",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "The hard drive in a macOS desktop has failed and none of the data on the drive is recoverable. A new storage drive has now been installed. Which of the following should be used to restore the data on the computer?",
+    "options": [
+      "Backup and Restore",
+      "Mission Control",
+      "Time Machine",
+      "Disk Utility"
+    ],
+    "answer": 2,
+    "explanation": "The built-in backup and restore utility in macOS is appropriately called Time Machine."
+  },
+  {
+    "id": "core2-041",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A user purchased a copy of home tax software and has installed it on their company computer. This morning, the user logs in and finds the tax software has been automatically removed from the system. Which of the following would be the most likely reason for this result?",
+    "options": [
+      "The company per-seat licenses are all in use",
+      "The software uses an open-source license",
+      "The user has installed a personal license",
+      "The software requires a USB key for DRM"
+    ],
+    "answer": 2,
+    "explanation": "Personally licensed software can be difficult to audit on computers owned by a company, and many organizations will not allow software to be installed on company-owned systems if the company has not purchased the license."
+  },
+  {
+    "id": "core2-042",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A system administrator is upgrading four workstations from Windows 8.1 to Windows 11. All of the user files and applications are stored on the server, and no documents or settings need to be retained between versions. Which of these installation methods would be the best way to provide this upgrade?",
+    "options": [
+      "Factory reset",
+      "Repair installation",
+      "Clean install",
+      "In-place upgrade"
+    ],
+    "answer": 2,
+    "explanation": "A clean install of Windows 11 will completely delete the previous operating system and install a new installation of the Windows 11 operating system. The previous Windows 8.1 operating system will no longer be available on the computer."
+  },
+  {
+    "id": "core2-043",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A computer on a manufacturing floor has been identified as a malwareinfected system. Which of the following should be the best next step to resolve this issue?",
+    "options": [
+      "Disconnect the network cable",
+      "Perform a malware scan",
+      "Disable System Restore",
+      "Download the latest anti-malware signatures"
+    ],
+    "answer": 0,
+    "explanation": "After identifying a system infected with malware, it's important to quarantine the system and restrict any access to the local network or devices. Disconnecting the network cable would be an important step during the quarantine process."
+  },
+  {
+    "id": "core2-044",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A technician has been called to resolve an issue with a networked laser printer not printing. When the technician arrives on-site, they find the printer will require a hardware replacement. All hardware is managed by a third-party and will take a week before the printer is operational again. Which of the following would be the technician’s best next step?",
+    "options": [
+      "Work on the next ticket in the queue",
+      "Add a follow-up event for one week later",
+      "Inform the user of the repair status",
+      "Order a printer maintenance kit"
+    ],
+    "answer": 2,
+    "explanation": "One of the most important skills for any technician is communication. Information about the delays should be shared with the customer, and the customer can then decide how they might want to proceed."
+  },
+  {
+    "id": "core2-045",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A system administrator is starting a Windows computer, but during startup they receive the message, \"One or more services failed to start.\" Additional reboots result in the same error message. Which of the following would be the best next troubleshooting step?",
+    "options": [
+      "Check for proper cooling",
+      "Run a hardware diagnostic",
+      "Modify the service permissions",
+      "Rebuild the BCD"
+    ],
+    "answer": 2,
+    "explanation": "Most Windows services start with generic system permissions, but some services may require additional rights. Authentication credentials can be added or changed in the service configuration to provide the correct permissions during startup. The Windows Event Viewer may also provide additional details about the startup error."
+  },
+  {
+    "id": "core2-046",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A system administrator would like all help desk computers to check for anti-virus signature updates every hour during the workday. Which of the following would be the best way to provide this functionality?",
+    "options": [
+      "System Configuration",
+      "Task Scheduler",
+      "Device Manager",
+      "Certificate Manager",
+      "SFC"
+    ],
+    "answer": 1,
+    "explanation": "The Task Scheduler allows for the automated scheduling of applications and scripts on a Windows computer. The anti-virus update process would be added to the Task Scheduler and would run at predetermined intervals."
+  },
+  {
+    "id": "core2-047",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A workstation on a manufacturing floor is taking much longer to boot than normal. Which of the following would be the best way to troubleshoot this issue?",
+    "options": [
+      "Replace the CPU",
+      "Disable the startup applications",
+      "Upgrade the RAM",
+      "Install the latest OS patches"
+    ],
+    "answer": 1,
+    "explanation": "Delays during the boot process can be caused by many issues, but a device which has been previously working properly most likely has been changed. A single application install can create issues, so disabling startup applications would be an easy way to remove those from the troubleshooting process."
+  },
+  {
+    "id": "core2-048",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A Windows user is installing a new application, and the installation process also installs a service. Which of the following permissions will be required for this installation?",
+    "options": [
+      "Guest",
+      "Power User",
+      "Administrator",
+      "Standard user"
+    ],
+    "answer": 2,
+    "explanation": "The Administrator account is the superuser of a Windows device. If an installation needs to modify system files or install a service, then Administrator access will be required."
+  },
+  {
+    "id": "core2-049",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A user working from home is not able to print to a laser printer at the corporate office. Which of the following would be the most likely reason for this issue?",
+    "options": [
+      "WPA3 settings",
+      "Outdated anti-virus signatures",
+      "Disconnected VPN",
+      "MDM configuration"
+    ],
+    "answer": 2,
+    "explanation": "Remote users will commonly connect to the corporate office over a VPN (Virtual Private Network). This VPN is an encrypted tunnel and all traffic between the locations is protected from anyone monitoring the connection. If the VPN link is not active, the remote user will be unable to use any resources at the corporate office."
+  },
+  {
+    "id": "core2-050",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "An employee has modified the NTFS permissions on a folder to provide read access to Everyone. However, users connecting from a different computer do not have access to the file. Which of the following is the reason for this issue?",
+    "options": [
+      "The NTFS permissions were not synchronized",
+      "Share permissions restrict access from remote devices",
+      "The user is an Administrator",
+      "Remote users are connecting with Guest accounts"
+    ],
+    "answer": 1,
+    "explanation": "NTFS (NT File System) permissions are used to control access from both local users and users over the network. For users connected over the network, the Windows share permissions are also used to determine access. If access is available locally but not across the network, then it's likely the share permissions include additional access restrictions."
+  },
+  {
+    "id": "core2-051",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A healthcare company has replaced some of their desktop computers with laptops and will be disposing of the older computers. The security administrator would like to guarantee none of the existing data on the hard drives could be recovered once the systems are sent to the recycling center. Which of the following methods would meet this requirement?",
+    "options": [
+      "Quick format",
+      "Reinstall the OS",
+      "Remove all user folders",
+      "Shred the drives"
+    ],
+    "answer": 3,
+    "explanation": "Of the available choices, the only option which would guarantee all data would be unrecoverable would be to physically destroy the drives."
+  },
+  {
+    "id": "core2-052",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A technician was assigned a support ticket with an urgently requested a laptop screen repair. The support team was able to locate a replacement and install a new LCD display in less than 24 hours. The laptop was returned to the user and the user immediately left on a business trip. Which of the following would be the best next step for this repair?",
+    "options": [
+      "Order a backup replacement display",
+      "Update the user's login script",
+      "Run diagnostics on the original screen",
+      "Contact the user to verify satisfaction"
+    ],
+    "answer": 3,
+    "explanation": "Much of the daily processes associated with an IT professional are not technical tasks. Our workloads are often based around communication and interpersonal skills, so keeping the lines of communication open are key. In this example, following up with the customer to check on their satisfaction would be an important last step to this very technical repair."
+  },
+  {
+    "id": "core2-053",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A user has received a pop up message on their computer stating applications on their computer are infected with a virus. A technician has determined the pop up message is a hoax and it needs to be removed from the computer. The technician has disabled System Restore to remove all previous restore points. Which of the following tasks would be the best next step?",
+    "options": [
+      "Update the anti-virus signatures",
+      "Educate the end-user",
+      "Schedule anti-virus scans for midnight each day",
+      "Boot the system with the original installation media"
+    ],
+    "answer": 0,
+    "explanation": "After disabling system restore, the next step in virus removal is to remediate the system. To remove the malware, it's important the technician is using the latest set of signatures."
+  },
+  {
+    "id": "core2-054",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A network administrator needs to manage a switch and a firewall in the local data center. Which of the following would be the best choice for this requirement?",
+    "options": [
+      "RDP",
+      "VPN",
+      "SSH",
+      "VNC"
+    ],
+    "answer": 2,
+    "explanation": "SSH (Secure Shell) provides encrypted console communication, and it's commonly used to manage devices across the network. If an administrator is managing a server, switch, router, or firewall, they're probably using SSH."
+  },
+  {
+    "id": "core2-055",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A user is using a smartphone at their desk, and they occasionally receive a security warning in the browser. After some additional troubleshooting, the technician determines the security warnings are fake. Which of the following should a technician follow to best resolve this issue?",
+    "options": [
+      "Put the phone into airplane mode",
+      "Connect to the corporate network using a VPN connection",
+      "Run an anti-malware scan on the smartphone",
+      "Remove any paired Bluetooth devices"
+    ],
+    "answer": 2,
+    "explanation": "Fake security warnings would be considered a strong indication of malware. This suspicious activity should be researched further and an antimalware scan should be used to test for any security issues."
+  },
+  {
+    "id": "core2-056",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A user on the research and development team reports her computer displays the message “Missing operating system” during boot. A technician runs hardware diagnostics and finds the RAM, CPU, storage drive, and power supply all pass the tests. The technician then finds a connected USB flash drive was causing the issue. Which of the following would prevent this issue from occurring in the future?",
+    "options": [
+      "Create a login script",
+      "Install the latest OS patches",
+      "Run SFC",
+      "Modify the BIOS boot order"
+    ],
+    "answer": 3,
+    "explanation": "If the BIOS is configured to boot from a USB interface prior to the internal storage drive, then any bootable flash drive would be used as a boot device. In this case, modifying the BIOS boot order would cause the system to boot from an internal drive first before attempting to boot from another device."
+  },
+  {
+    "id": "core2-057",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A user has opened a help desk ticket relating to desktop alerts randomly appearing throughout the day. Most of the alerts contain information about third-party products and services. Which of the following is the most likely cause of these messages?",
+    "options": [
+      "On-path attack",
+      "Corrupted email database",
+      "OS update failure",
+      "Adware"
+    ],
+    "answer": 3,
+    "explanation": "Attackers can make money by forcing advertisements to appear on a user's desktop. This system would need to be recovered from a known good backup to remove the malware."
+  },
+  {
+    "id": "core2-058",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "In which of the following file types would a system administrator expect to see the command, “cd c:\\source”?",
+    "options": [
+      ".sh",
+      ".vbs",
+      ".py",
+      ".bat"
+    ],
+    "answer": 3,
+    "explanation": "The .bat file extension refers to Windows batch files. The \"cd\" command can refer to many different operating systems, but the reference to the drive letter \"c:\" is common to the Windows operating system."
+  },
+  {
+    "id": "core2-059",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A malware infection has recently been removed from a computer. When starting the operating system, Windows shows errors during the startup process indicating some core operating system files are missing. Which of the following should be used to restore these missing files?",
+    "options": [
+      "gpupdate",
+      "winver",
+      "sfc",
+      "diskpart"
+    ],
+    "answer": 2,
+    "explanation": "The sfc (System File Checker) command is used to scan and replace any core operating system files which may be corrupted or missing. It's common to run the sfc utility after removing malware or after a significant operating system issue."
+  },
+  {
+    "id": "core2-060",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A desktop administrator has determined an employee in the corporate office has been using their computer to share copyrighted materials on the Internet. Which of the following should be the best next step?",
+    "options": [
+      "Create a firewall rule to block Internet access to this computer",
+      "Create a hash for each file which was shared",
+      "Compile a list of licenses for each set of copyrighted materials",
+      "Retrieve and securely store the computer"
+    ],
+    "answer": 3,
+    "explanation": "When a security incident has occurred, it's important to securely collect and store any evidence to create a chain of custody. The computer used to share copyrighted materials should be collected and stored until the proper authorities can take control of this evidence."
+  },
+  {
+    "id": "core2-061",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A system administrator would like to require a specific level of password complexity for all Active Directory users. Which of the following would be the best way to complete this requirement?",
+    "options": [
+      "Login script",
+      "Folder redirection",
+      "Port security",
+      "Group Policy"
+    ],
+    "answer": 3,
+    "explanation": "Group Policy is the centralized management feature of Active Directory. Group Policy allows an administrator to define specific desktop and security policies, such as the minimum complexity of passwords."
+  },
+  {
+    "id": "core2-062",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A system administrator is creating a series of shared folders which should not be visible when users browse the network for available resources. What symbol should be added to the end of a share name to provide this functionality?",
+    "options": [
+      ". (period)",
+      "$ (dollar sign)",
+      "! (exclamation mark / bang)",
+      "# (hash sign / number sign)"
+    ],
+    "answer": 1,
+    "explanation": "Windows shares ending with a dollar sign ($) are hidden and won't be shown in the normal list of available shares. The hidden share can still be accessed if the user knows the share name, so this should not be considered a security feature."
+  },
+  {
+    "id": "core2-063",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A user is having problems with the 802.11 wireless connection on his iOS phone. Although there are names appearing in the network list, his phone does not show any connectivity to a wireless network. The user has confirmed airplane mode is not enabled, Bluetooth is on, and VPN is not enabled. Which of the following is the most likely reason for this lack of wireless connectivity?",
+    "options": [
+      "The phone does not include a data plan",
+      "The wireless network is disabled",
+      "The Bluetooth connection is conflicting with the Wi-Fi",
+      "The Wi-Fi password is incorrect",
+      "The wireless radio is disabled"
+    ],
+    "answer": 3,
+    "explanation": "Since wireless network names are visible and the user is not connected to one of the available networks, it's most likely the authentication process has failed."
+  },
+  {
+    "id": "core2-064",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A desktop administrator is upgrading the video adapter in a workstation. Which of the following should the administrator use during this process?",
+    "options": [
+      "Tone generator",
+      "Anti-static strap",
+      "Safety goggles",
+      "Toner vacuum"
+    ],
+    "answer": 1,
+    "explanation": "Electrostatic discharge (ESD) is always a concern when working with the components inside of a computer. To minimize the potential for static discharge, it's always a good idea to use a static strap and other anti-static mats and bags."
+  },
+  {
+    "id": "core2-065",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A help desk director would like to identify and track computer systems which have been returned for service or moved from one location to another. Which of the following would be the best solution for these requirements?",
+    "options": [
+      "Cable labels",
+      "Asset tags",
+      "Topology diagrams",
+      "Login names"
+    ],
+    "answer": 1,
+    "explanation": "It's common for equipment to move between users, buildings, or departments. To keep track of this equipment, it's common to attach an internal asset tag to clearly show the equipment is owned by the company and to track the equipment using the internal reference number."
+  },
+  {
+    "id": "core2-066",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A technician is troubleshooting a computer infected with a virus. The user thought they were opening a spreadsheet, but the file was actually a virus executable. Which of the following Windows options were most likely associated with this issue?",
+    "options": [
+      "Always show icons, never thumbnails",
+      "Display the full path in the title bar",
+      "Always show menus",
+      "Hide extensions for known file types"
+    ],
+    "answer": 3,
+    "explanation": "With extensions hidden, it's difficult to know the type of file based only on the filename. A filename named \"Monthly Orders\" might be a spreadsheet, or it could be an executable containing a virus."
+  },
+  {
+    "id": "core2-067",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A financial management company would like to ensure mobile users are configured with the highest level of wireless encryption while working in the office. They would also like to include an additional user verification step during the login process. Which of the following would provide this functionality? (Choose TWO)",
+    "options": [
+      "RADIUS",
+      "UPnP",
+      "Multi-factor authentication",
+      "TKIP",
+      "TACACS",
+      "Kerberos",
+      "WPA3"
+    ],
+    "answer": [
+      2,
+      6
+    ],
+    "explanation": "Multi-factor authentication requires the user to login using two different verification methods, such as a password and a generated token. WPA3 (Wi-Fi Protected Access 3) enables strong encryption for all wireless communication."
+  },
+  {
+    "id": "core2-068",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A network consulting firm is upgrading the Internet firewalls for a large corporation. The proposal includes a description of the project and the network topology changes required to support the upgrade. The proposal also describes the risks involved with making this upgrade. Which of the following would be the last step in this upgrade?",
+    "options": [
+      "Detailed upgrade plan",
+      "Backout plan",
+      "Change control application",
+      "End-user acceptance"
+    ],
+    "answer": 3,
+    "explanation": "The last step of any change control process is to get sign-off from the end users associated with the change."
+  },
+  {
+    "id": "core2-069",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "An organization has been tasked with increasing the minimum password length. A systems administrator has created a policy to require all passwords to be at least ten characters long for all users. When testing this policy in the lab, a laptop computer allowed the creation of eightcharacter passwords. Which of the following commands should be used to apply this new policy on the laptop?",
+    "options": [
+      "net use",
+      "gpupdate",
+      "sfc",
+      "tasklist"
+    ],
+    "answer": 1,
+    "explanation": "The gpupdate (Group Policy Update) command forces centralized updates to be activated on target devices. In this example, the policy was created but the laptop computer had not yet received the new configuration."
+  },
+  {
+    "id": "core2-070",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A technician has been tasked with removing malware on a training room laptop. After updating the anti-virus software and removing the malware, the technician creates a backup of the system. After the training class ends, the technician is notified the malware has returned. Which of the following steps was missed and caused the system to be infected again?",
+    "options": [
+      "Boot to a pre-installation environment",
+      "Identify malware symptoms",
+      "Disable System Restore before removal",
+      "Update to the latest BIOS version"
+    ],
+    "answer": 2,
+    "explanation": "Malware does not like to be removed from a system, so it does everything it can to remain in the operating system. When the malware infects the running operating system, it also infects all of the previous restore points as well. If the restore points aren't removed with the malware, then going back in time to a previous restore point will reinfect the system."
+  },
+  {
+    "id": "core2-071",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A data center manager requires each server to maintain at least fifteen minutes of uptime during a power failure. Which of these would be the best choice for this requirement?",
+    "options": [
+      "Cloud-based storage",
+      "UPS",
+      "Redundant power supplies",
+      "Surge suppressor"
+    ],
+    "answer": 1,
+    "explanation": "A UPS (Uninterruptible Power Supply) provides short-term battery backup if a power outage or low-voltage situation was to occur."
+  },
+  {
+    "id": "core2-072",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A financial corporation is deploying laptops to their salespeople in the field. The sales teams require video playback functionality, but the Windows configuration does not include any multimedia utilities. Which of the following would be the most likely reason for these missing utilities?",
+    "options": [
+      "Laptops are using Windows N edition",
+      "Video playback is disabled in the BIOS",
+      "Laptop hardware does not support video playback",
+      "The video format is not recognized by the laptop"
+    ],
+    "answer": 0,
+    "explanation": "The N Edition is a version of Windows which does not include the Windows Media Player or any other multimedia utilities. Media players would need to be manually installed after Windows is up and running."
+  },
+  {
+    "id": "core2-073",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A system administrator is adding an additional drive to a server and extending the size of an existing volume. Which of the following utilities would provide a graphical summary of the existing storage configuration?",
+    "options": [
+      "Disk Management",
+      "Performance Monitor",
+      "Event Viewer",
+      "Task Scheduler",
+      "Device Manager"
+    ],
+    "answer": 0,
+    "explanation": "The Disk Management utility provides a graphical overview of the current disk configuration, status, free space, and other important metrics."
+  },
+  {
+    "id": "core2-074",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "While using a Windows laptop during presentations, a company vice president has reported her system is interrupting the meeting with system notifications from the browser, PDF reader, the Microsoft Store, and other applications. Which of the following would be the best way to address this issue?",
+    "options": [
+      "Use a different laptop for presentations",
+      "Run the presentation software as Administrator",
+      "Enable Airplane mode while presenting",
+      "Disable notifications while specific applications are running"
+    ],
+    "answer": 3,
+    "explanation": "are running Windows provides numerous configuration options for operating system notifications, including the ability to individually manage notifications by application, or to enable or disable all notifications. Windows also has an option to disable notifications while certain applications are running."
+  },
+  {
+    "id": "core2-075",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A system administrator needs to upgrade a training room of twenty systems to the latest Windows version. Which of the following would be the most efficient method of performing this upgrade process?",
+    "options": [
+      "Recovery partition",
+      "Remote network installation",
+      "Repair installation",
+      "USB key"
+    ],
+    "answer": 1,
+    "explanation": "A single network server can provide access for simultaneous upgrades. With additional customization, the upgrade process can be completely hands-off and can execute on all systems at the same time."
+  },
+  {
+    "id": "core2-076",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A user has opened a help desk ticket for application slowdowns and unwanted pop-up windows. A technician updates the anti-virus software, scans the computer, and removes the malware. The technician then schedules future scans and creates a new restore point. Which of the following should be the next step in the removal process?",
+    "options": [
+      "Disable System Restore",
+      "Update the anti-virus signatures",
+      "Quarantine the system",
+      "Educate the end user"
+    ],
+    "answer": 3,
+    "explanation": "After the malware has been removed and the system is protected from future infections, it's important to educate the end user on how they could prevent additional problems and when they should contact their support team for additional help."
+  },
+  {
+    "id": "core2-077",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "An employee at a company is responsible for determining the correct access controls for each user, manage the authentication process, and track all access to network resources. Which of the following would best describe this employee's job function?",
+    "options": [
+      "PAM",
+      "DLP",
+      "MDM",
+      "IAM"
+    ],
+    "answer": 3,
+    "explanation": "IAM (Identity Access Management) focuses on identity lifecycle management, where every network entity gets a digital identity. The objective of IAM is to prevent unauthorized access by giving the right permissions to the right people at the right time."
+  },
+  {
+    "id": "core2-078",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A user in the accounting department has opened a help desk ticket due to problems accessing the website of the company’s payroll service provider. While testing other website connections on the computer, the technician finds many pop-up windows are displayed. Which of the following would be the best way for the technician to resolve this issue?",
+    "options": [
+      "Uninstall the browser and reinstall with a different version",
+      "Restore the workstation from a known good backup",
+      "Start in Safe Mode and connect to the payroll website",
+      "Modify the browser’s proxy settings"
+    ],
+    "answer": 1,
+    "explanation": "The help desk technician would reasonably believe the pop-up windows indicated a malware infection. Given the available answers, the only one which would provide a resolution is to restore the system from a known good backup."
+  },
+  {
+    "id": "core2-079",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A business partner in a different country needs to access an internal company server during the very early morning hours. The internal firewall will limit the partner’s access to this single server. Which of these would be the most important security task to perform on this server?",
+    "options": [
+      "Restrict log-in times for the partner account",
+      "Remove the server from the Active Directory domain",
+      "Use only 64-bit applications",
+      "Run a weekly anti-virus scan"
+    ],
+    "answer": 0,
+    "explanation": "One way to prevent unauthorized access is to limit the times when access to the server is available. Restricting the log-in times will limit all access, including log-in attempts by unauthorized individuals."
+  },
+  {
+    "id": "core2-080",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A Linux administrator has been asked to upgrade the web server software on a device. Which of the following would provide the administrator with the appropriate rights and permissions for this upgrade?",
+    "options": [
+      "chmod",
+      "apt",
+      "dig",
+      "sudo"
+    ],
+    "answer": 3,
+    "explanation": "The sudo (superuser do) command will execute a command as the superuser or any other user on the system. When performing administrative tasks such as upgrading software, it's often necessary to use elevated rights and permissions."
+  },
+  {
+    "id": "core2-081",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A user is connecting their laptop to an external monitor and keyboard, but the laptop goes into sleep mode if the laptop screen is shut. Which of the following utilities can be used to keep the laptop running when the lid is closed?",
+    "options": [
+      "Power Options",
+      "Device Manager",
+      "Personalization",
+      "User Accounts"
+    ],
+    "answer": 0,
+    "explanation": "The Control Panel's Power Options provide configuration settings for the sleep button, the power button, and the options when closing the lid of a laptop computer."
+  },
+  {
+    "id": "core2-082",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A network administrator is configuring a wireless network at a small office. The administrator would like to allow wireless access for all computers but exclude a single kiosk in the lobby. Which of the following configuration settings would meet this requirement?",
+    "options": [
+      "SSID suppression",
+      "Content filtering",
+      "Secure management access",
+      "DHCP reservation",
+      "IP filtering"
+    ],
+    "answer": 4,
+    "explanation": "IP (Internet Protocol) address filtering can be configured to allow or deny access to the network based on the IP address of the network adapter. Given the available options, IP filtering would be the only way to provide this type of device exclusion."
+  },
+  {
+    "id": "core2-083",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A company has installed a Windows system in the conference room for use during meetings. However, the system has not received any recent OS updates and will no longer connect to the corporate network due to missing security patches. Which of the following would be the most likely reason for this issue?",
+    "options": [
+      "BIOS administrator password is enabled",
+      "No users are actively logged in",
+      "Firewall is filtering traffic",
+      "Guest accounts are disabled"
+    ],
+    "answer": 2,
+    "explanation": "Operating system updates are normally downloaded from a server across the network, so any restrictions or filtering of the network traffic flows will prevent updates of the operating system and applications."
+  },
+  {
+    "id": "core2-084",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A company is deploying laptops to all of their field sales teams. The company is concerned about protecting the security of data if the laptop is stolen or misplaced. Which of the following would be the best way to address this concern?",
+    "options": [
+      "Multifactor authentication",
+      "Strong password policies",
+      "Unique device certificates",
+      "Data-at-rest encryption"
+    ],
+    "answer": 3,
+    "explanation": "Data-at-rest encryption is associated with all data stored on the laptop's SSD or hard drives. If the laptop is stolen or misplaced, all of the data on the storage drive would be protected from unauthorized users."
+  },
+  {
+    "id": "core2-085",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A company has discovered a recent data breach, and this breach appears to have originated through a vulnerability introduced with a software upgrade. The vulnerability was added by the attacker at the source and distributed to all customers who performed the upgrade. Which of the following would best describe this attack type?",
+    "options": [
+      "Supply chain attack",
+      "Insider threat",
+      "Business email compromise",
+      "On-path attack"
+    ],
+    "answer": 0,
+    "explanation": "A supply chain attack takes advantage of the trust from a supplier and uses this trust to install or embed security vulnerabilities. A software vulnerability originally installed into the source code by the attacker and distributed to all customers would be an attack to the supply chain."
+  },
+  {
+    "id": "core2-086",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A technician is delivering a new laptop to a user and moving the older laptop to a different user. Which of the following would allow the existing hard drive to be used but prevent recovery of any of the previous user’s data?",
+    "options": [
+      "Perform a regular format",
+      "Run a defragmentation",
+      "Connect the laptop to the Windows Domain",
+      "Delete the \\Users folder"
+    ],
+    "answer": 0,
+    "explanation": "A regular format in Windows will overwrite each sector with zeros. Once this information is overwritten, it cannot be obtained or reconstructed."
+  },
+  {
+    "id": "core2-087",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A company has just performed annual laser printer maintenance, and has accumulated hundreds of used toner cartridges. Which of the following would be the best way to dispose of the old cartridges?",
+    "options": [
+      "Take to a hazardous waste facility",
+      "Send in bulk to the local landfill",
+      "Separate the parts and dispose of normally",
+      "Contract with an incineration company"
+    ],
+    "answer": 0,
+    "explanation": "The toner in a laser printer cartridge can be harmful, so it's important to dispose of the cartridges at a local hazardous waste facility."
+  },
+  {
+    "id": "core2-088",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A user needs to modify a spreadsheet for an upcoming meeting. The spreadsheet is currently stored on a remote computer in a shared drive. The user would like to access the shared drive as a drive letter inside of Windows File Explorer. Which of the following command line options would provide this functionality?",
+    "options": [
+      "tasklist",
+      "net use",
+      "diskpart",
+      "netstat"
+    ],
+    "answer": 1,
+    "explanation": "The net use command will assign a local drive letter to a network share. Once the net use command is completed, the drive letter can be used to reference the share in all applications and in the File Explorer."
+  },
+  {
+    "id": "core2-089",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A macOS server administrator needs a backup system to allow the recovery of data from any point in the last thirty days. Which of the following should be used for this requirement?",
+    "options": [
+      "Backup and Restore",
+      "Spotlight",
+      "Spaces",
+      "Time Machine"
+    ],
+    "answer": 3,
+    "explanation": "The backup utility included with macOS is called Time Machine. Time Machine will create backups automatically and maintain as many days as the backup media's free space can store."
+  },
+  {
+    "id": "core2-090",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "Why would a technician use an ESD strap?",
+    "options": [
+      "Protect electronic parts from extreme heat",
+      "Keep electronic parts dry and free from moisture",
+      "Prevent damage from static electricity",
+      "Protect computer parts from dust"
+    ],
+    "answer": 2,
+    "explanation": "An ESD (Electrostatic Discharge) strap, or anti-static strap, connects a person to the equipment they are working on. This commonly connects a wire from a user's wrist to a metal part on the computer or device."
+  },
+  {
+    "id": "core2-091",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A technician needs to uninstall a video editing utility from a macOS laptop. Which folder would be the most likely location of this utility?",
+    "options": [
+      "/Program Files",
+      "/Applications",
+      "/Library",
+      "/Users"
+    ],
+    "answer": 1,
+    "explanation": "In macOS, all of the applications are stored in a folder named /Applications. Each application is stored in a separate folder, and most applications can be quickly removed by simply deleting the entire folder."
+  },
+  {
+    "id": "core2-092",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A technician is scheduled to replace a faulty motherboard today, but the motherboard delivery has been delayed and will not arrive until tomorrow. The new motherboard will repair a laptop used by a company executive. Which of the following would be the best way to handle these events?",
+    "options": [
+      "Move the installation to the next business day",
+      "Schedule another repair into today's newly opened time slot",
+      "Ask the delivery company for a refund on the shipping charges",
+      "Contact the end user and inform them of the shipping issue"
+    ],
+    "answer": 3,
+    "explanation": "shipping issue It's important to always maintain an open line of communication with everyone involved in a project. When the situation is running as expected, a simple update may be the only thing necessary. However, the other participants may want to make alternative plans if problems occur. It's up to the technician to manage this open line of communication."
+  },
+  {
+    "id": "core2-093",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A system administrator has been tasked with locating all of the log files contained within an application folder. The folder currently contains over a thousand files, and only a portion of them have a .log extension. Which of these Windows commands would be the best way to find these files?",
+    "options": [
+      "sfc",
+      "diskpart",
+      "robocopy",
+      "dir"
+    ],
+    "answer": 3,
+    "explanation": "The dir (directory) command will display a list of files at the command line. The command includes filtering options, so using \"dir *.log\" would display all files in the current directory with a .log extension."
+  },
+  {
+    "id": "core2-094",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A user runs a corporate app on their smartphone which downloads a database each time the app is started. This download process normally takes a few seconds, but today the download is taking minutes to complete. Which of the following should a technician follow as the best next troubleshooting step?",
+    "options": [
+      "Disable Bluetooth",
+      "Run a network speed check",
+      "Charge the smartphone battery",
+      "Check the cloud storage resource usage"
+    ],
+    "answer": 1,
+    "explanation": "Delays associated with the download process would seems to indicate a problem with the network connection. A speed check would evaluate the network connectivity and provide a baseline for download speeds."
+  },
+  {
+    "id": "core2-095",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A system administrator is analyzing a problem with a USB flash drive on a Windows computer. When the flash drive is inserted, the CPU utilization increases to 100%. The administrator would like to disable one of the computer’s USB controllers for troubleshooting. Which of the following would provide this functionality?",
+    "options": [
+      "Services",
+      "Performance Monitor",
+      "Event Viewer",
+      "Device Manager"
+    ],
+    "answer": 3,
+    "explanation": "The Windows Device Manager provides access to device drivers which manage the hardware on a computer. Individual drivers can be enabled, disabled, and managed from the Device Manager utility."
+  },
+  {
+    "id": "core2-096",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A user is reporting some apps launched on their mobile phone will show an error message and then disappear without starting. This problem occurs with a group of apps normally used during the work day. Which of the following tasks would be the first step for troubleshooting this issue?",
+    "options": [
+      "Install the previous version of the apps",
+      "Connect the phone to a power source",
+      "Power cycle the phone",
+      "Disable the GPS radio"
+    ],
+    "answer": 2,
+    "explanation": "Before making any application or configuration changes, it's useful to power cycle a smartphone to reset the operating system. If the problem continues, then additional changes might be considered."
+  },
+  {
+    "id": "core2-097",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A technician has been asked to power down and store a server which has been exploited by an external attacker. The legal department will be performing tests and gathering information from this server. Which of the following would be most important to ensure the integrity of the server data?",
+    "options": [
+      "Report the server location to the proper channels",
+      "Compile all support tickets associated with the server",
+      "Maintain a chain of custody",
+      "Take photos of the server in the storage room"
+    ],
+    "answer": 2,
+    "explanation": "It will be important to ensure the data on the server is not modified. All access to the data should be tracked, so a chain of custody should be maintained at all times."
+  },
+  {
+    "id": "core2-098",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A user has opened a help desk ticket to remove malware from his laptop. A previous removal occurred two weeks earlier with a similar malware infection. Which of the following was missed during the first malware removal?",
+    "options": [
+      "Restart the computer",
+      "Educate the end-user",
+      "Enable System Protection",
+      "Quarantine infected systems"
+    ],
+    "answer": 1,
+    "explanation": "Of the available possible answers, this is the only option which would have resulted in a reinfection if not properly followed. Users aren't malware experts, and they may not realize their actions can have a negative impact on their system. Spending some quality time explaining anti-malware best practices can help prevent future infections."
+  },
+  {
+    "id": "core2-099",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "Which of the following features would be found in Windows 11 Pro but not in Windows 11 Home?",
+    "options": [
+      "32-bit and 64-bit versions",
+      "Domain access",
+      "RDP client",
+      "Windows Workgroup"
+    ],
+    "answer": 1,
+    "explanation": "Windows 11 Home does not include any access or connectivity to a Windows Domain."
+  },
+  {
+    "id": "core2-100",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A medical research company is using laptop computers when visiting testing centers. The IT security team is concerned about a data breach if a laptop is lost or stolen. Which of the following would be the best way to manage this issue?",
+    "options": [
+      "BIOS password",
+      "Authenticator application",
+      "Full disk encryption",
+      "Biometric authentication",
+      "Cable lock"
+    ],
+    "answer": 2,
+    "explanation": "Encrypting the laptop storage drives would prevent access to data if the laptops are lost or stolen."
+  },
+  {
+    "id": "core2-101",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A security administrator is installing a new VPN connection for remote users. The administrator would like all users to authenticate with their Windows Active Directory credentials. Which of the following technologies would provide this functionality?",
+    "options": [
+      "RADIUS",
+      "WPA3",
+      "TKIP",
+      "AES"
+    ],
+    "answer": 0,
+    "explanation": "RADIUS (Remote Authentication Dial-in User Service) is an authentication protocol commonly used to provide authentication from devices to a centralized database. A common use of RADIUS is to authenticate users to an Active Directory database from a router, switch, VPN concentrator, or any other service."
+  },
+  {
+    "id": "core2-102",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A mobile user is using apps on their smartphone for most business tasks. To ensure no data will be lost, the smartphone will need to have multiple backups each day. The user travels most of the time and rarely visits the home office. Which of the following would be the best way to provide these backups?",
+    "options": [
+      "Connect an external USB drive",
+      "Use incremental backups each night",
+      "Connect the smartphone to a laptop",
+      "Use a cloud backup service"
+    ],
+    "answer": 3,
+    "explanation": "Using a cloud backup service such as Apple iCloud or Google Drive provides an automated method to constantly backup all user data on the smartphone. If the phone is lost or stolen, the user can purchase a new smartphone and restore all of the data from the cloud."
+  },
+  {
+    "id": "core2-103",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A desktop administrator is moving an SSD from one laptop to another. Which of the following should be used to protect the SSD during the move?",
+    "options": [
+      "Padded envelope",
+      "Anti-static bag",
+      "Box with foam filler",
+      "Cloth wrap"
+    ],
+    "answer": 1,
+    "explanation": "An anti-static bag would protect the SSD (Solid State Drive) from inadvertent ESD (Electrostatic Discharge) while the component was moved between locations."
+  },
+  {
+    "id": "core2-104",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A user is performing a series of Google searches, but the results pages are displaying links and advertisements from a different website. This issue occurs each time a Google search is performed. The same Google search on a different computer results in a normal Google results page. Which of the following would resolve this issue?",
+    "options": [
+      "Run the search from Safe Mode",
+      "Install the latest operating system patches",
+      "Run a malware removal utility",
+      "Login as a different user"
+    ],
+    "answer": 2,
+    "explanation": "If the results page of one website is unexpectedly directing to a different site, the browser has most likely been hijacked by malware. Running a malware removal tool would be the best option of the available choices."
+  },
+  {
+    "id": "core2-105",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A user in the accounting department is having an issue with his smartphone reaching websites and retrieving mail when working from home. Inside the office, the phone appears to work normally. Which of the following would be the best next step for troubleshooting this issue?",
+    "options": [
+      "Verify the network configuration at home",
+      "Install the latest operating system updates",
+      "Connect the phone to power when working at home",
+      "Restart the smartphone after arriving at home"
+    ],
+    "answer": 0,
+    "explanation": "If the smartphone is working properly in the office, the overall functionality of the smartphone is working as expected. Since the issue is related to both websites and email, the focus should move to the network and the configuration of the user's home network."
+  },
+  {
+    "id": "core2-106",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A security administrator has been asked to reinstall Windows on a web server diagnosed with a rootkit infection. Which of the following installation methods would be the best choice for this server?",
+    "options": [
+      "In-place upgrade",
+      "Remote network installation",
+      "Clean install",
+      "Repair installation"
+    ],
+    "answer": 2,
+    "explanation": "A clean install would be the best way to guarantee the removal of any malware. Leaving any portion of the operating system in place could potentially leave malware on the system."
+  },
+  {
+    "id": "core2-107",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A local coffee shop has a public wireless network for customers and a private wireless network for company devices. The shop owner wants to be sure customers can never connect to the company network. Which of the following should be configured on this network?",
+    "options": [
+      "Install a new access point for company devices",
+      "Configure WPA3 on the company network",
+      "Require static IP addresses on the customer network",
+      "Assign MAC filters to the company network",
+      "Use a firewall between the customer and corporate network"
+    ],
+    "answer": 1,
+    "explanation": "Enabling WPA3 (Wi-Fi Protected Access version 3) would require a password to connect and would prevent customers from connecting to the company wireless network."
+  },
+  {
+    "id": "core2-108",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A user in the shipping department has logged into the Windows domain. However, the desktop does not show the user’s normal wallpaper and all of the user’s spreadsheets and documents in the “My Documents” folder are missing. Which of these would be the best way to restore the user’s normal work environment?",
+    "options": [
+      "Rename the user’s folder and delete their profile in the registry",
+      "Boot into Safe Mode and disable all startup applications",
+      "Add the user to the Administrator group",
+      "Update to the latest operating system version"
+    ],
+    "answer": 0,
+    "explanation": "in the registry Problems with a user profile causes display problems on the desktop and user documents to disappear. To recreate the profile, the user's folder is deleted and the profile setting in the registry is deleted. Once the computer is restarted and the user logs in, a new profile will be created."
+  },
+  {
+    "id": "core2-109",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A company’s shipping department maintains ten different computers for printing shipping labels and for tracking outgoing shipments. All of the systems are displaying an error when they access a third-party shipping management website over a secure connection. Which of the following would be the most likely reason for this issue?",
+    "options": [
+      "The computers have not been updated with the latest OS patches",
+      "The website certificate has expired",
+      "The local computer storage drives are not encrypted",
+      "The systems are infected with malware"
+    ],
+    "answer": 1,
+    "explanation": "All of the computers in the department are not able to connect to the third-party web site, so the problem does not appear to be associated with any single device. This points to the website as an issue, and the only available answer not associated with the local computers is a problem with the website encryption certificate."
+  },
+  {
+    "id": "core2-110",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A manufacturing company performs a third-party audit of their accounting records each year. The auditors use laptops provided by the company to access internal resources. When the audit is complete, the auditors should be prevented from logging on until the following audit process begins. Which of the following would be the best way to accomplish this?",
+    "options": [
+      "Uninstall the audit software",
+      "Assign an expiration date to the auditor accounts",
+      "Remove the auditor accounts from all Windows groups",
+      "Require two-factor authentication for the auditor accounts"
+    ],
+    "answer": 1,
+    "explanation": "The auditors only need access during certain times of the year, so a good best practice is to create or enable the accounts with a specific expiration date. After this expiration date, the auditors account remains intact but is disabled from the login process."
+  },
+  {
+    "id": "core2-111",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A manufacturing company is donating some older computers to a local charity. Which of the following should be done to ensure the existing hard drives could still be used but none of the existing data would be recoverable?",
+    "options": [
+      "Degaussing",
+      "Regular format",
+      "Shredder",
+      "Quick format"
+    ],
+    "answer": 1,
+    "explanation": "The Windows operating system supports a quick format and a regular format. The regular format will overwrite every sector with zeros, and this would ensure recovery software will not be able to restore any data on the drive."
+  },
+  {
+    "id": "core2-112",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A user's video editing workstation often performs an overnight rendering process. On some mornings, the user is presented with a login screen instead of the rendering completion page. A technician finds the building occasionally loses power overnight. Which of the following should be used to avoid these issues with the video editing workstation?",
+    "options": [
+      "Use a surge suppressor",
+      "Save the rendered file to an external storage drive",
+      "Create a separate partition for user documents",
+      "Install a UPS"
+    ],
+    "answer": 3,
+    "explanation": "A UPS (Uninterruptible Power Supply) can protect against brownouts, surges, and complete power blackouts. With a UPS, the video editing workstation would be protected against short-term overnight power problems."
+  },
+  {
+    "id": "core2-113",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A desktop administrator is troubleshooting an older computer which has been slowing down as more applications and files are stored on the hard drive. Which of the following commands would be the best choice for increasing the performance of this computer?",
+    "options": [
+      "defrag",
+      "format",
+      "sfc",
+      "xcopy",
+      "winver"
+    ],
+    "answer": 0,
+    "explanation": "As files are stored on a hard drive, the files can be fragmented and stored on different parts of the drive. The defragmentation utility moves the file fragments so they are contiguous, and this process improves the overall read and write times."
+  },
+  {
+    "id": "core2-114",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A user is receiving alerts on their desktop computer stating, \"Access to this PC has been blocked for security reasons.\" A technician has determined this message was not created by the company's security software. Which of the following would be the best next step in this troubleshooting process?",
+    "options": [
+      "Update the desktop computer operating system",
+      "Check the certificate of the corporate web server",
+      "Restart the desktop computer",
+      "Run an anti-malware utility"
+    ],
+    "answer": 3,
+    "explanation": "A false virus alert could be a static page from a third-party website, but it could also be the result of malware. Performing a malware scan should be the first step in determining the root cause of this issue."
+  },
+  {
+    "id": "core2-115",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A system administrator has inadvertently installed a Trojan horse which has deleted a number of files across many Windows file shares. The Trojan also had access to user documents and login credentials and transmitted numerous documents to an off-site file storage system. Which of the following would limit the scope of future exploits?",
+    "options": [
+      "Require multi-factor authentication",
+      "Disable all guest accounts",
+      "Modify the default permissions",
+      "Configure full disk encryption",
+      "Require complex passwords",
+      "Require a screensaver lock"
+    ],
+    "answer": 2,
+    "explanation": "Many system administrators configure their accounts to have full access to the network as their default setting. This means malicious software would also have full access if the administrator's desktop was exploited. Changing the default permissions to have limited access would also limit the scope of a Trojan horse exploit."
+  },
+  {
+    "id": "core2-116",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A technician has created a Windows image which can be used across all of the computers in a test lab. Which of the following would be the best way to deploy these images?",
+    "options": [
+      "Clean install",
+      "Remote network installation",
+      "Repair installation",
+      "Bootable USB"
+    ],
+    "answer": 1,
+    "explanation": "When installing images to multiple systems, it's more efficient to use the network as a distribution method. This process allows for multiple installations to occur simultaneously without any type of human intervention."
+  },
+  {
+    "id": "core2-117",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "Which of the following Windows Share permissions has the priority when assigning access on a mapped drive?",
+    "options": [
+      "Allow",
+      "Full control",
+      "List folder contents",
+      "Deny"
+    ],
+    "answer": 3,
+    "explanation": "In Windows shares, the most restrictive setting has priority over all others. For example, the deny option takes priority over all other permissions."
+  },
+  {
+    "id": "core2-118",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A data center manager would like to ensure any potential power fault on a server would not be harmful to employees. Which of the following would be the best choice for this requirement?",
+    "options": [
+      "Electrical ground",
+      "Battery backup",
+      "Air filter mask",
+      "ESD mat"
+    ],
+    "answer": 0,
+    "explanation": "An electrical ground will divert electrical faults away from people and into a copper grounding rod. An electrical ground is a critical part of any power system and equipment installation."
+  },
+  {
+    "id": "core2-119",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A user in the shipping department has received a call from someone claiming to be from the IT Help Desk. The caller asks the user to disclose their location, employee ID, and login credentials. Which of the following would describe this situation?",
+    "options": [
+      "Denial of service",
+      "Social engineering",
+      "Brute force",
+      "Shoulder surfing"
+    ],
+    "answer": 1,
+    "explanation": "Someone claiming to be from an internal IT support department who knows nothing about an employees location or login credentials is most likely attempting to use the authority principle of social engineering to obtain private information."
+  },
+  {
+    "id": "core2-120",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A desktop administrator has just removed malware from a user’s desktop computer and has configured the system to automatically update antivirus signatures and perform a scan each night. Which of the following should be the next step in the removal process?",
+    "options": [
+      "Enable System Restore",
+      "Educate the end-user",
+      "Quarantine the computer",
+      "Boot to Safe Mode"
+    ],
+    "answer": 0,
+    "explanation": "Before the malware was removed, System Restore was disabled to delete all potentially-infected restore points. Once the malware is removed and the anti-malware process is working again, System Restore can be re-enabled."
+  },
+  {
+    "id": "core2-121",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A user would like to encrypt a small group of files in a shared folder without modifying other files on the drive. Which of the following would be the best way to accomplish this?",
+    "options": [
+      "EFS",
+      "Save the files with Administrator rights",
+      "BitLocker",
+      "Save the files with a dollar sign at the end of the filename"
+    ],
+    "answer": 0,
+    "explanation": "EFS (Encrypting File System) allows a user to encrypt individual objects at the file system level. With EFS, a single file or group of files can be protected without encrypting any other items on the storage drive."
+  },
+  {
+    "id": "core2-122",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "Which of the following partition types limit a Windows installation to a maximum partition size of 2 TB?",
+    "options": [
+      "FAT32",
+      "GPT",
+      "APFS",
+      "MBR"
+    ],
+    "answer": 3,
+    "explanation": "The MBR (Master Boot Record) partition style is an older method partitioning files, and the maximum partition size of an MBR partition is two terabytes in size."
+  },
+  {
+    "id": "core2-123",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A user in the engineering department needs to use some applications written for Windows, but also needs to use applications designed for Linux. Which of the following would be the best way to provide access to these applications?",
+    "options": [
+      "Assign the user multiple computers",
+      "Boot the operating systems from two removable USBs",
+      "Configure the user's PC for multiboot",
+      "Compile the Linux applications in Windows"
+    ],
+    "answer": 2,
+    "explanation": "A computer configured for multiboot will present a list of available operating system options during the startup process. This menu could allow the user to boot Windows or to boot Linux. The user would only need to reboot to switch from one operating system to another."
+  },
+  {
+    "id": "core2-124",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A help desk technician has been tasked with rebuilding an email server which recently crashed. Which of the following would be the best source for the information required to reconstruct this system?",
+    "options": [
+      "Compliance report",
+      "Acceptable use policies",
+      "Network topology map",
+      "Knowledge base"
+    ],
+    "answer": 3,
+    "explanation": "A knowledge base commonly contains information about processes, procedures, and documentation for resolving technical issues. An internal knowledgebase would contain important historical information about the email server and could potentially document the hardware and software specifications for the server."
+  },
+  {
+    "id": "core2-125",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "The employees of a company have direct access to applications and databases from their desktop computers. If the employees are using the company wireless network or the conference room, connectivity is only available after authenticating through a VPN. Which of the following would best describe this policy?",
+    "options": [
+      "Multifactor authentication",
+      "Group Policy",
+      "Least privilege",
+      "Zero trust"
+    ],
+    "answer": 3,
+    "explanation": "Zero trust is a broad strategy for securing all devices, people, and data within an organization. Zero trust requires verification at every level of access, including the internal wireless networks or network access provided in conference rooms."
+  },
+  {
+    "id": "core2-126",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A user has called the help desk to get assistance with random blue screens on their Windows laptop. The technician finds CPU utilization is constantly high, and many network sites are unavailable or only load half of the site content. The user mentions some random pop-up messages have appeared on the desktop during the workday. Which of the following would be the most likely reason for these issues?",
+    "options": [
+      "Storage drive is failing",
+      "Network proxy settings are incorrect",
+      "Operating system needs to be updated",
+      "Laptop has a malware infection",
+      "Video subsystem is faulty"
+    ],
+    "answer": 3,
+    "explanation": "Slow system performance, intermittent connectivity, and random pop-up messages are clear indications of a malware infection."
+  },
+  {
+    "id": "core2-127",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A technician is troubleshooting an issue with an iOS tablet randomly restarting during normal use. A check of the device shows no significant application updates and the operating system was upgraded to a new version three days ago. The user states the tablet was working normally last week. Which of the following would be the most likely reason for these random reboots?",
+    "options": [
+      "Faulty OS upgrade",
+      "Invalid device certificate",
+      "Malware infection",
+      "Faulty battery",
+      "Incorrect network settings"
+    ],
+    "answer": 0,
+    "explanation": "The last change to the tablet was an upgrade just three days ago, and the tablet worked normally before this event. This documented change would be the most likely reason for this issue."
+  },
+  {
+    "id": "core2-128",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A system administrator needs to modify a file in the \\Windows\\Installer directory, but the folder doesn’t appear in the list of available files. Which of these options would help the system administrator with this task?",
+    "options": [
+      "Safe Mode",
+      "File Explorer Options",
+      "User Accounts",
+      "Internet Options"
+    ],
+    "answer": 1,
+    "explanation": "The File Explorer commonly hides operating system files. Unchecking the option for \"Hide protected operating system files (Recommended)\" would display the files to the system administrator."
+  },
+  {
+    "id": "core2-129",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A Linux administrator is modifying a log file and needs to rename the file. Which of the following should be used to make this change?",
+    "options": [
+      "rm",
+      "mv",
+      "mkdir",
+      "pwd"
+    ],
+    "answer": 1,
+    "explanation": "The Linux mv (move) command will move a file from one location to another, or move/rename a file from one name to another."
+  },
+  {
+    "id": "core2-130",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A desktop administrator is troubleshooting poor performance on a user’s laptop computer. The system takes an excessive amount of time during the boot process, and pop up messages appear while using the word processor and spreadsheet applications. Which of the following steps should the technician do next?",
+    "options": [
+      "Educate the end-user",
+      "Schedule periodic anti-virus scans",
+      "Enable System Protection",
+      "Disconnect the laptop from the network"
+    ],
+    "answer": 3,
+    "explanation": "Once malware has been suspected or identified, the first step is to quarantine the system from all other computers. The laptop should be disconnected from the network to prevent communication with other devices."
+  },
+  {
+    "id": "core2-131",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "An executive has a laptop which runs very slowly after login and continues running slowly throughout the day. The user has complained certain applications cannot be started and others will randomly crash. A check of the laptop shows the memory utilization is very close to 100%. Which of the following would provide a short-term fix for this issue?",
+    "options": [
+      "Disable startup items",
+      "Update to the latest OS patches",
+      "Defragment the hard drive",
+      "Reboot the computer"
+    ],
+    "answer": 0,
+    "explanation": "The memory utilization issue appears immediately after the login process, so disabling some startup items may help resolve the issue until a memory upgrade or better laptop is located."
+  },
+  {
+    "id": "core2-132",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A help desk technician needs to view and control the desktop of a Windows computer at a remote location. Which of the following would be the best choice for this task?",
+    "options": [
+      "VPN",
+      "VNC",
+      "SSH",
+      "RDP"
+    ],
+    "answer": 3,
+    "explanation": "The integrated Windows RDP (Remote Desktop Protocol) feature is used to view and control the screen of a remote computer."
+  },
+  {
+    "id": "core2-133",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A technician would like to modify a configuration in a user's UEFI BIOS, but the system will not provide a BIOS configuration hotkey after shutting down and powering on the computer. Which of the following would be the best way to address this issue?",
+    "options": [
+      "Change the File Explorer Options",
+      "Modify the Indexing Options",
+      "Turn off Fast Startup",
+      "Start the computer in Safe Mode",
+      "Modify the Ease of Access settings"
+    ],
+    "answer": 2,
+    "explanation": "Fast Startup can bypass many of the normal startup options, so using the Control Panel Power options for disabling Fast Startup can allow a technician to regain access to the BIOS startup hotkeys."
+  },
+  {
+    "id": "core2-134",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A user has noticed their mouse arrow has been moving around the screen when they are not touching the mouse. The user has watched the mouse opening applications and changing settings in the Control Panel. Which of the following would be the best way for an administrator to resolve this issue?",
+    "options": [
+      "Turn the firewall off and back on again",
+      "Run an anti-virus scan",
+      "Remove all recently installed applications",
+      "Upgrade to the latest OS patches"
+    ],
+    "answer": 1,
+    "explanation": "A system with a mouse moving independently and opening applications and other windows is most likely infected with malware. The best available option is to run an anti-virus scan to determine the scope of the infection."
+  },
+  {
+    "id": "core2-135",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A server administrator has been planning an operating system upgrade for a group of important services. The administrator has provided a detailed scope and risk assessment of the change, and the plan has been documented. However, the risk analysis wasn't completed until Friday afternoon, so the change cannot occur over the weekend. Which of the following is preventing the upgrade from occurring?",
+    "options": [
+      "Upgrade file availability",
+      "Change board approval",
+      "Not enough time to complete the upgrade",
+      "Need more people for the upgrade process"
+    ],
+    "answer": 1,
+    "explanation": "Before a change can proceed, the change board must evaluate and approve the proposal. Most of these boards meet well before the scheduled change to make sure all affected parties have a chance to evaluate the risk and understand the scope of the change. The risk analysis was completed Friday afternoon, but the change board did not have time to properly evaluate and approve the change process for the weekend schedule."
+  },
+  {
+    "id": "core2-136",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A user receives a browser security alert on his laptop when visiting any website which uses HTTPS. If he uses his smartphone, he does not receive any error messages. Which of the following would best describe this situation?",
+    "options": [
+      "The date and time on the laptop is incorrect",
+      "The smartphone is not updated with the latest OS version",
+      "The laptop has an incorrect subnet mask",
+      "The laptop does not have the latest anti-virus signatures"
+    ],
+    "answer": 0,
+    "explanation": "The date and time on a device is important when encryption is involved. If a date is very different between devices, the encryption process may fail or the encryption certificate may appear to be expired."
+  },
+  {
+    "id": "core2-137",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A system administrator would like to create a Windows distribution which can automatically configure itself to connect to the corporate domain and automatically configure individual user email settings. Which of the following would be the best choice for this requirement?",
+    "options": [
+      "Zero-touch deployment",
+      "Recovery partition installation",
+      "Image deployment",
+      "In-place upgrade"
+    ],
+    "answer": 0,
+    "explanation": "A zero-touch deployment allows any user with a customized installation process. This process is a seamless user experience and all domain and account details are automatically configured during the initial installation."
+  },
+  {
+    "id": "core2-138",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A macOS user needs to protect all of the data on their laptop if the laptop is stolen or lost. Which of the following would be the best choice for this requirement?",
+    "options": [
+      "Spaces",
+      "Mission Control",
+      "FileVault",
+      "Keychain"
+    ],
+    "answer": 2,
+    "explanation": "The FileVault utility provides full disk encryption for macOS devices. If the laptop is lost or stolen, all of the data on the laptop will be encrypted and inaccessible to any third-party."
+  },
+  {
+    "id": "core2-139",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A data center manager is installing a new access door which will require multi-factor authentication. Which of the following should be used to meet this requirement? (Select TWO)",
+    "options": [
+      "Cabinet locks",
+      "Key fobs",
+      "Privacy filter",
+      "Palmprint scanner",
+      "USB lock",
+      "Cable lock"
+    ],
+    "answer": [
+      1,
+      3
+    ],
+    "explanation": "The only two devices which provide authentication are the key fobs and the palmprint scanner. The key fobs are something you have, and the palmprint scanner is something you are."
+  },
+  {
+    "id": "core2-140",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A company is deploying a new set of laptops for field service technicians who travel and work at customer locations. The IT department has been asked to create a secure authentication factor for a minimal cost. Which of the following would be the best choice for this security requirement?",
+    "options": [
+      "Retina scanner",
+      "TOTP app",
+      "Keyfob",
+      "Magnetometer"
+    ],
+    "answer": 1,
+    "explanation": "A TOTP ( Time-based One-Time Password algorithm) app runs on an existing mobile phone or tablet, and the cost is usually quite low compared to physical authentication factors."
+  },
+  {
+    "id": "core2-141",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "An administrator has identified and removed malware on a corporate desktop computer. Which of the following malware removal steps should be performed next?",
+    "options": [
+      "Disconnect the computer from the corporate network",
+      "Educate the end-user",
+      "Schedule periodic anti-virus scans",
+      "Disable System Restore"
+    ],
+    "answer": 2,
+    "explanation": "After removing malware and before educating the end-user, it's important to configure the system to find and prevent any future infections."
+  },
+  {
+    "id": "core2-142",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "The clock on an executive's Windows laptop has consistently been losing time and is behind by a few minutes at the end of the week. The executive uses this laptop to monitor an assembly line and needs the time and date to be as accurate as possible. Which of these would be the best way to address this issue?",
+    "options": [
+      "Create a login script to update the date and time",
+      "Configure an NTP server",
+      "Set the clock for a different time zone",
+      "Replace the laptop batteries"
+    ],
+    "answer": 1,
+    "explanation": "A Windows computer can be configured to automatically update the date and time in the Control Panel under Settings > Time & language using NTP (Network Time Protocol)."
+  },
+  {
+    "id": "core2-143",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A network administrator is installing a set of upgraded Internet routers in the data center. Which of the following would be the best choices to secure the access to the internal data center door? (Select TWO)",
+    "options": [
+      "Biometric lock",
+      "ACL",
+      "Bollard",
+      "Additional lighting",
+      "Motion sensor",
+      "Access control vestibule"
+    ],
+    "answer": [
+      0,
+      5
+    ],
+    "explanation": "A biometric door lock provides access based on a fingerprint, handprint, or some other biometric characteristic. An access control vestibule is often used to limit or control the flow of people through a particular area. Often an access control vestibule is used in conjunction with additional authentication factors to allow or prevent access to an area."
+  },
+  {
+    "id": "core2-144",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "An administrator is troubleshooting an error message which appears each time an application is started. The administrator has uninstalled and reinstalled the application, but the error message still appears. Which of the following would be the best next troubleshooting step?",
+    "options": [
+      "Use Performance Monitor to view operational data",
+      "Check the Event Viewer logs",
+      "View the hardware settings in Device Manager",
+      "Disable unneeded background processes in Services"
+    ],
+    "answer": 1,
+    "explanation": "The Windows Event Viewer can provide extensive information about the operating system and the applications. Error messages and application failures are usually logged in the Event Viewer for review."
+  },
+  {
+    "id": "core2-145",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "Four users in the accounting department have received similar emails asking for payment of an outstanding invoice and a link to a third-party payment site. The emails contains purchase information which appears to be correct, but additional research shows the invoice numbers are not valid. Which of the following would best describe this attack type?",
+    "options": [
+      "Spear phishing",
+      "Denial of service",
+      "Shoulder surfing",
+      "Evil twin"
+    ],
+    "answer": 0,
+    "explanation": "A spear phishing attack targets specific individuals or groups, such as accounting department users. These email messages were specific to the accounting team and would not have been applicable to employees in other departments."
+  },
+  {
+    "id": "core2-146",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A user has dropped off their laptop at the repair desk. A message taped to the laptop states: \"Doesn't work.\" Which of the following would be the best next step?",
+    "options": [
+      "Start the laptop and look for any issues",
+      "Call the customer and ask for more information",
+      "Replace the power adapter and try booting the laptop",
+      "Use a diagnostics boot CD to run hardware tests"
+    ],
+    "answer": 1,
+    "explanation": "A problem report of \"Doesn't work\" isn't enough information to begin troubleshooting. A quick call to the customer will allow the technician to ask more specific questions and would ultimately resolve the laptop problem faster."
+  },
+  {
+    "id": "core2-147",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "Which of these describes a free, open-source operating system?",
+    "options": [
+      "macOS",
+      "Linux",
+      "Windows",
+      "iOS"
+    ],
+    "answer": 1,
+    "explanation": "The Linux operating system has become popular through the development in the open source community and free distribution of the operating system software."
+  },
+  {
+    "id": "core2-148",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "An IT manager would like to provide users with the option to recover daily versions of documents and spreadsheets. A user will have the option to roll back to any daily version in the last month. Which of the following would be the best way to implement this feature?",
+    "options": [
+      "Create a file-level backup each day",
+      "Maintain a monthly image level backup",
+      "Store full backup tapes at an off-site facility",
+      "Assign each user a USB flash drive"
+    ],
+    "answer": 0,
+    "explanation": "Given the available options, the best way to create a separate version of every file each day will be to perform a file-level backup every 24 hours."
+  },
+  {
+    "id": "core2-149",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A network administrator has a report showing a single user with numerous visits to a website. This website is known to violate the company’s AUP. Which of the following should the administrator do next?",
+    "options": [
+      "Create a firewall filter to block the website",
+      "Scan all computers with the latest anti-malware signatures",
+      "Contact the company’s security officer",
+      "Change the user’s password"
+    ],
+    "answer": 2,
+    "explanation": "A company's AUP (Acceptable Use Policy) is in place to limit the legal liability of an organization. If a person in the organization is not following the terms of the AUP, the security officer's team should manage the results of this action."
+  },
+  {
+    "id": "core2-150",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "Which of the following script extensions would commonly be used inside of a Microsoft Office application?",
+    "options": [
+      ".vbs",
+      ".py",
+      ".bat",
+      ".js"
+    ],
+    "answer": 0,
+    "explanation": "The .vbs extension is commonly associated with Microsoft Visual Basic Scripting Edition automation. These scripts provide general purpose scripting in Windows, and are common inside of Microsoft Office applications."
+  },
+  {
+    "id": "core2-151",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A system administrator has installed a SOHO network of five Windows computers. The administrator would like to provide a method of sharing documents and spreadsheets between all of the office computers. Which of the following would be the best way to provide this functionality?",
+    "options": [
+      "Domain",
+      "Proxy server",
+      "Workgroup",
+      "Remote Desktop"
+    ],
+    "answer": 2,
+    "explanation": "A Windows Workgroup is a common sharing method for small departments with documents on their own computers."
+  },
+  {
+    "id": "core2-152",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "An employee used their tablet to take pictures of the company's newest product. Those pictures were posted on an industry rumor website the following week. Which of the following should be evaluated as the MOST likely security concern?",
+    "options": [
+      "Cloud storage",
+      "USB flash drive use",
+      "Application updates",
+      "Deleted email messages"
+    ],
+    "answer": 0,
+    "explanation": "Many mobile devices use cloud storage to backup documents, videos, and photos. Anyone with access to the cloud storage would also have access to all of the photos."
+  },
+  {
+    "id": "core2-153",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A manufacturing company in the United States sells monthly subscriptions from their website. Which of the following regulated data types would be the MOST important to manage?",
+    "options": [
+      "Personal government-issued information",
+      "Credit card transactions",
+      "Healthcare data",
+      "Software license terms"
+    ],
+    "answer": 1,
+    "explanation": "The payment card industry has created extensive standards and requirements for accepting and storing credit card transactions."
+  },
+  {
+    "id": "core2-154",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A user is traveling to a conference, and they would like to be sure any messages sent from their phone during the event remain private while using the event’s wireless network. Which of the following should be configured on this user’s phone?",
+    "options": [
+      "VPN",
+      "Strong password",
+      "Network-based firewall",
+      "Multi-factor authentication"
+    ],
+    "answer": 0,
+    "explanation": "A VPN (Virtual Private Network) would allow a remote user to connect to the corporate office over a secure encrypted tunnel."
+  },
+  {
+    "id": "core2-155",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "Last week, a computer on the manufacturing floor was upgraded from 8 GB of RAM to 16 GB. Since the upgrade, the system has rebooted itself randomly every few hours. Which of the following would be the best next troubleshooting step?",
+    "options": [
+      "Run Windows Update",
+      "Perform a hardware diagnostic",
+      "Upgrade the BIOS to the latest version",
+      "Replace the storage drive"
+    ],
+    "answer": 1,
+    "explanation": "If the only change to the system has been the RAM (Random Access Memory) upgrade, it's likely the problem is something related to this new hardware. Running a hardware diagnostic (and especially a RAM diagnostic) would identify any issues with the new memory modules."
+  },
+  {
+    "id": "core2-156",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A server administrator has configured an automated process to backup VM snapshots each evening during non-working hours. The backups will be stored on a series of high-density tape drives. How can the administrator confirm these backups will be useful when a server recovery is needed?",
+    "options": [
+      "Send the backups to an off-site facility",
+      "Connect the tape drives to a battery backup",
+      "Create separate file-level backups",
+      "Perform occasional recovery tests"
+    ],
+    "answer": 3,
+    "explanation": "The best way to see if a backup will be useful when needed is to perform occasional audits of the existing backup media. This important step should be followed for all backup processes."
+  },
+  {
+    "id": "core2-157",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A system administrator needs to configure a laptop to support inbound Remote Desktop services for the help desk team. Which of these Control Panel features provides access to these settings?",
+    "options": [
+      "Internet Options",
+      "Devices and Printers",
+      "Network and Sharing Center",
+      "System"
+    ],
+    "answer": 3,
+    "explanation": "The System applet includes a Remote tab for Remote Assistance and Remote Desktop. The Remote Desktop option is available in non-Home editions of Windows."
+  },
+  {
+    "id": "core2-158",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "An Android phone user is traveling internationally and would like to avoid overage charges for using too much cellular data while overseas. Which of the following would be the best way to control data access?",
+    "options": [
+      "Install a VPN client",
+      "Remove all apps with high data requirements",
+      "Enable data usage notifications",
+      "Connect exclusively through a cellular hotspot"
+    ],
+    "answer": 2,
+    "explanation": "Android includes the option of notifying the user when a data warning usage value is reached. Android can also block ongoing communication when a specific data limit is met. Many mobile companies will charge based on usage, and this feature helps to limit data overages."
+  },
+  {
+    "id": "core2-159",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A technician is upgrading the motherboard in a server. Which of the following should be the first task when beginning this upgrade?",
+    "options": [
+      "Wear safety goggles",
+      "Connect an ESD strap",
+      "Remove any motherboard batteries",
+      "Disconnect from all power sources"
+    ],
+    "answer": 3,
+    "explanation": "When working inside of a computer, it's always important to disconnect the system from the main power source. This should always be the first and most important step when working inside of a device."
+  },
+  {
+    "id": "core2-160",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A system administrator is installing a new video editing application on a user’s workstation from a USB flash drive. However, the installation process fails due to lack of available drive space. Which of the following would be the best way to complete the installation process?",
+    "options": [
+      "Use a share drive for the installation source",
+      "Compress the installation files",
+      "Install the application to a network share",
+      "Manually copy the installation files to the application directory"
+    ],
+    "answer": 2,
+    "explanation": "The installed application files can be much larger than the installation utility, so using a network share with a larger available storage space can be a good alternative until free space is available on the local computer."
+  },
+  {
+    "id": "core2-161",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A user would like to install an image and photo editing program on their home computer, but they would prefer an application without a monthly subscription. Which of the following would be the best licensing option for this requirement?",
+    "options": [
+      "Open-source",
+      "Corporate",
+      "Personal",
+      "DRM"
+    ],
+    "answer": 0,
+    "explanation": "Open-source software is distributed without charge and includes a copy of the source code."
+  },
+  {
+    "id": "core2-162",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A system administrator is troubleshooting an application issue. The application uses an increasing amount of memory until all available RAM is eventually depleted. The computer must be rebooted every few days when this memory issue occurs. Which of the following utilities would show how much RAM is used by this application?",
+    "options": [
+      "Event Viewer",
+      "Device Manager",
+      "Task Manager",
+      "Programs and Features"
+    ],
+    "answer": 2,
+    "explanation": "Task Manager provides a real-time view of system metrics, including CPU utilization, storage use, and memory utilization."
+  },
+  {
+    "id": "core2-163",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "An administrator is troubleshooting a desktop computer experiencing a reboot issue. Before the Windows login screen appears, the system reboots in a continuous loop. Which of the following would be the best way to address this issue?",
+    "options": [
+      "Start Safe Mode and perform a defragmentation",
+      "Reinstall the operating system from the original media",
+      "Update the boot order from the system BIOS",
+      "Run Startup Repair from the Advanced Boot Options"
+    ],
+    "answer": 3,
+    "explanation": "The Windows Startup Repair can resolve many problems with the startup process, including problems with drivers failing and resetting during boot."
+  },
+  {
+    "id": "core2-164",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A user has downloaded a browser add-on which assists with new car purchases. During the installation, the Windows UAC is requesting permissions to continue with the install. Which of these is most likely?",
+    "options": [
+      "The operating system requires an update",
+      "The software is a Trojan horse",
+      "The workstation is already part of a botnet",
+      "A worm will be downloaded and installed"
+    ],
+    "answer": 1,
+    "explanation": "A UAC (User Account Control) prompt is a security feature which asks for additional permissions when an application wants to make significant changes to the operating system. If a relatively simple application is causing the UAC message to appear, then the application may be a Trojan horse trying to install itself by pretending to be something else."
+  },
+  {
+    "id": "core2-165",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A technician is working on many different terminal sessions on their screen from different servers. The technician has also used different authentication credentials on each server. Which of the following would be the best way to display the login name associated with each terminal session?",
+    "options": [
+      "winver",
+      "nslookup",
+      "whoami",
+      "net use"
+    ],
+    "answer": 2,
+    "explanation": "The whoami command displays the name of the currently logged-in user. On a system with many different open windows, it's sometimes useful to confirm the username before making changes at the command line."
+  },
+  {
+    "id": "core2-166",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A system administrator needs a way to deploy new smartphone configurations across four different user groups. Each group will require a different set of email and security configurations. Which of the following would be the best way to setup these smartphones?",
+    "options": [
+      "Assign configuration profiles for each group",
+      "Restore all smartphones from cloud backups",
+      "Provide customized instructions for each user",
+      "Assign separate support teams for each group"
+    ],
+    "answer": 0,
+    "explanation": "Most MDMs (Mobile Device Managers) support the use of configuration profiles to simplify the management of multiple groups of mobile devices. A standard set of configuration parameters can be associated with a single group, and this group can then be applied to multiple mobile devices."
+  },
+  {
+    "id": "core2-167",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A desktop administrator is troubleshooting an error which randomly causes a workstation to spike to 100% utilization. Which of these utilities would help the administrator track and report on system utilization over a 24-hour period?",
+    "options": [
+      "Performance Monitor",
+      "Device Manager",
+      "Services",
+      "Task Scheduler"
+    ],
+    "answer": 0,
+    "explanation": "The Windows Performance Monitor can track and store long-term information on many different system resources, including CPU, memory, network performance, and more."
+  },
+  {
+    "id": "core2-168",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "Which of these would be the best way to prevent an attacker from modifying default routes on a SOHO wireless network?",
+    "options": [
+      "Configure MAC address filtering",
+      "Enable WPS connectivity",
+      "Change the router's default password",
+      "Disable unneeded interfaces"
+    ],
+    "answer": 2,
+    "explanation": "The login credentials to a SOHO (Small Office / Home Office) router protect the device from configuration changes. If the default password is configured on a router, anyone would be able to make changes on the device."
+  },
+  {
+    "id": "core2-169",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A technician has been called to resolve an issue with a desktop computer in a training facility. The computer appears to boot properly to the desktop, but applications take five minutes to load. While using the application, pop-up messages and other windows appear on the desktop. Which of the following should be the best next troubleshooting step?",
+    "options": [
+      "View running processes in Task Manager",
+      "Disable System Restore",
+      "Remove the computer from the network",
+      "Educate the end user"
+    ],
+    "answer": 2,
+    "explanation": "The first step after identifying a potential malware infection is to quarantine the system to prevent the unintended spread of the malware."
+  },
+  {
+    "id": "core2-170",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A system administrator would like to remove the TFTP Client in Windows. Which of the following Control Panel options would be the best choice for this task?",
+    "options": [
+      "Programs and Features",
+      "Services",
+      "Network and Sharing Center",
+      "File Explorer options"
+    ],
+    "answer": 0,
+    "explanation": "The Programs and Features option of the Control Panel is used to view and manage installed applications or to enable or disable individual Windows features."
+  },
+  {
+    "id": "core2-171",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A user has noticed a Bluetooth device currently connected to their tablet, but they don’t recognize the make or model of the connected device. Which of the following would be the first step for troubleshooting this issue?",
+    "options": [
+      "Perform an anti-malware scan",
+      "Research installed apps with an app scanner",
+      "Disable the Wi-Fi network",
+      "Remove the Bluetooth device"
+    ],
+    "answer": 3,
+    "explanation": "Before continuing, the most important step is to ensure the connected device no longer has access to the system. Removing the Bluetooth device from the list of paired devices would be the safest first option."
+  },
+  {
+    "id": "core2-172",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A user has recently been assigned a new tablet, but each time she tries to read her email the tablet reboots. The user has reinstalled the email client, but the problem continues to occur. Which of the following would be the best next troubleshooting step?",
+    "options": [
+      "Replace the battery",
+      "Perform a factory reset",
+      "Run a hardware diagnostic",
+      "Disable Wi-Fi"
+    ],
+    "answer": 2,
+    "explanation": "A new tablet would not commonly exhibit random reboots, so checking the hardware would be a good first step."
+  },
+  {
+    "id": "core2-173",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A computer technician has been asked to verify a set of new Active Directory policy settings on computers at a remote site. Which of the following commands should be used to validate the last policy update on the systems?",
+    "options": [
+      "net use",
+      "sfc",
+      "gpresult",
+      "netstat",
+      "tracert"
+    ],
+    "answer": 2,
+    "explanation": "The gpresult (Group Policy Results) utility will display the Active Directory policy settings associated with a computer or user."
+  },
+  {
+    "id": "core2-174",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A system administrator needs to modify the Linux group associated with a file. Which of the following would provide this functionality?",
+    "options": [
+      "ps",
+      "df",
+      "chown",
+      "grep"
+    ],
+    "answer": 2,
+    "explanation": "The chown (Change Owner) command will modify the owner or group associated with a file system object."
+  },
+  {
+    "id": "core2-175",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A user has brought their laptop to the help desk because of an issue during startup. The laptop screen remains black when powering on, and no status lights appear on the system. The user is traveling tomorrow to a remote site in another country and needs the laptop while they are on the road. Which of the following would be the best option?",
+    "options": [
+      "Provide the user with the option to repair, replace, or rent a new system",
+      "Assign the user to the standard seven-day repair agreement",
+      "Replace the external power cable and close the repair ticket",
+      "Recommend the user cancel their travel plans"
+    ],
+    "answer": 0,
+    "explanation": "or rent a new system Given the short timeframe available for repair, it would be useful to provide some options for traveling internationally with a working laptop. The user can then decide the best way to proceed."
+  },
+  {
+    "id": "core2-176",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A home user provides numerous online presentations during the day. However, the power in the area is not stable and there will often be short outages. Which of the following would help with this issue?",
+    "options": [
+      "Cloud backups",
+      "External storage device",
+      "Battery backup",
+      "Surge suppressor"
+    ],
+    "answer": 2,
+    "explanation": "A battery backup can provide ongoing backup power when the main power source is unavailable. This is especially useful for areas where power outages may be numerous and ongoing."
+  },
+  {
+    "id": "core2-177",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A system administrator is planning to upgrade two physical servers in the corporate data center to external cloud-based platforms. Which of the following would provide information on connectivity and the plans for remote site access?",
+    "options": [
+      "Change scope",
+      "End-user acceptance",
+      "Backout plan",
+      "Risk analysis"
+    ],
+    "answer": 0,
+    "explanation": "When making a change, the details of the modifications must be well documented as part of the change scope. The change scope would include all of the systems affected by the change, the timeframe for completing the change, and any other important details about the modification."
+  },
+  {
+    "id": "core2-178",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A system administrator is concerned about the security of devices in the field and would like to encrypt all data on company laptops. Which of these Windows features would provide this functionality?",
+    "options": [
+      "EFS",
+      "Domain Services",
+      "WPA3",
+      "BitLocker"
+    ],
+    "answer": 3,
+    "explanation": "BitLocker is a Windows feature providing full disk encryption of entire volumes. All data stored on a laptop using BitLocker is encrypted by default."
+  },
+  {
+    "id": "core2-179",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A user has just installed a driver update from a laptop manufacturer. After restarting, their system shows a Windows Stop Error before the login prompt is displayed. Each subsequent reboot causes the same error to be displayed. Which of the following should the system administrator follow to best resolve this issue?",
+    "options": [
+      "Modify the BIOS boot order",
+      "Boot to Safe Mode and perform a Windows Reset",
+      "Perform a System Restore",
+      "Reinstall the patch files"
+    ],
+    "answer": 2,
+    "explanation": "A System Restore can be launched from the Advanced Boot Options under Repair Your Computer. From there, you can select an existing restore point to restore the computer to a previous configuration."
+  },
+  {
+    "id": "core2-180",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A user in the shipping department is authenticating to a third-party package tracking service. After providing a username and password, the site sends an email to the user with a six-digit code to complete the login process. Which of the following would best describe this process?",
+    "options": [
+      "SPF",
+      "ACL",
+      "SMS",
+      "OTP"
+    ],
+    "answer": 3,
+    "explanation": "An OTP (One-Time Password) is used to provide an additional authentication factor during the login process. These one-time passwords will commonly be provided through some type of personal communication method, such as email or text-message."
+  },
+  {
+    "id": "core2-181",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A user has opened a help desk ticket with a problem related to email spell checks. A browser-based email client normally checks and corrects the user's grammar and spelling, but the automated checks are no longer working and messages are being sent to customers with grammatical mistakes. Which of the following should the technician check first?",
+    "options": [
+      "Proxy settings",
+      "Browser extensions",
+      "Memory utilization",
+      "Web server certificate"
+    ],
+    "answer": 1,
+    "explanation": "Browser extensions are used to add new features into an existing browser. Many browser-based spell check and grammar features require the installation of a browser extension to enable this functionality."
+  },
+  {
+    "id": "core2-182",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "An attacker has gained access to a password hash file. Which of the following will the attacker use to obtain the passwords?",
+    "options": [
+      "DoS",
+      "Decryption",
+      "Brute force",
+      "Phishing"
+    ],
+    "answer": 2,
+    "explanation": "Since a hash is a one-way cryptographic method, the only way to determine the original plaintext is to try every possible combination until the hash is matched. This brute force method is the only way to determine the original source of the hash."
+  },
+  {
+    "id": "core2-183",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A server administrator needs to create a folder on a Windows server to store weekly status report documents. Which of the following commandline tools would provide this functionality?",
+    "options": [
+      "md",
+      "net use",
+      "cd",
+      "dir",
+      "ls"
+    ],
+    "answer": 0,
+    "explanation": "The md (Make Directory) command is used to create a subdirectory or folder on the file system."
+  },
+  {
+    "id": "core2-184",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A desktop administrator has received a notification of a deployed RSR update. Which of the following would be most affected by this update?",
+    "options": [
+      "macOS laptops",
+      "Linux database servers",
+      "Android tablets",
+      "Windows desktops"
+    ],
+    "answer": 0,
+    "explanation": "A macOS system can be configured to receive RSR (Rapid Security Response) updates. These RSR updates will push patches to all macOS, iOS, and iPadOS systems automatically when critical security changes or zero-day updates are required."
+  },
+  {
+    "id": "core2-185",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A desktop administrator is removing a virus from a laptop computer in a shared lab. The computer has been removed from the network and the System Restore feature has been disabled. When the administrator attempts to update to the latest anti-virus signatures, the anti-virus utility disables itself. Which of the following would be the best next step?",
+    "options": [
+      "Boot to Safe Mode and use signatures downloaded from a separate computer",
+      "Roll back to a previous configuration",
+      "Schedule periodic updates and reconnect to the network",
+      "Discuss anti-virus strategies with the end user"
+    ],
+    "answer": 0,
+    "explanation": "from a separate computer It's not uncommon for viruses to disable access to recovery software. To work around this issue, a technician may often need to restart in Safe Mode and copy utilities and recovery files from a different computer."
+  },
+  {
+    "id": "core2-186",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A Windows computer has one application which crashes randomly throughout the day. Other applications work normally, and the operating system itself runs without any errors. Which of the following would be the best way to address these application crashes?",
+    "options": [
+      "Perform a full backup",
+      "Reload the Active Directory profile",
+      "Defragment the hard drive",
+      "Uninstall and reinstall the application"
+    ],
+    "answer": 3,
+    "explanation": "Once an application is installed, it's important to avoid overwriting any of the application files or libraries. Maintaining the state of configuration files and registry entries are also important, since any changes can create application instability. Uninstalling the application and installing a fresh version can often resolve these stability issues."
+  },
+  {
+    "id": "core2-187",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "An app on a user’s corporate smartphone has stopped updating. Which of the following would be the best way to resolve this issue?",
+    "options": [
+      "Connect the smartphone to a power source",
+      "Restart the smartphone",
+      "Disable rotation lock",
+      "Disable Bluetooth"
+    ],
+    "answer": 1,
+    "explanation": "The update process for the app may need to be restarted, and the easiest way to reinitialize the process is to restart the smartphone."
+  },
+  {
+    "id": "core2-188",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A technician has been asked to replace a faulty adapter card in a server. The technician doesn't have an anti-static strap, but they have removed the server from the power source. Which of the following would be the best way to safely complete this repair?",
+    "options": [
+      "Store the faulty card in an anti-static bag",
+      "Periodically touch the server's metal chassis",
+      "Wear safety goggles",
+      "Have a carbon dioxide extinguisher nearby"
+    ],
+    "answer": 1,
+    "explanation": "If a an anti-static strap isn't available to maintain a constant connection between a person and the equipment they're working on, the next-best option would be to occasionally touch some metal on the device to equalize the electrical potential and prevent ESD (electrostatic discharge)."
+  },
+  {
+    "id": "core2-189",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "Which of the following would be the best choice for a system administrator to manage an Active Directory database?",
+    "options": [
+      "Batch file",
+      "PowerShell",
+      "JavaScript",
+      "Visual Basic Scripting"
+    ],
+    "answer": 1,
+    "explanation": "PowerShell is Microsoft's command line scripting environment for the Windows operating system. PowerShell provides integrations to automate almost every aspect of Windows."
+  },
+  {
+    "id": "core2-190",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A user has started their computer and received this message on the screen: “Your important files are encrypted. If you want to decrypt all of your files, you need to pay.” A desktop administrator has confirmed the user can no longer access his desktop, and none of his installed applications are available in the system menus. The user also notices a payment link is posted at the bottom of the screen. Which of the following would best describe this scenario?",
+    "options": [
+      "Spyware",
+      "Boot sector virus",
+      "Rootkit",
+      "Ransomware"
+    ],
+    "answer": 3,
+    "explanation": "Ransomware is malware which encrypts data files and requires payment before the files can be decrypted."
+  },
+  {
+    "id": "core2-191",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A desktop technician has received a complaint that a remotely-hosted application has stopped working. The technician believes a network outage at the application provider is the root cause of the issue. Which of the following tools would be the best way to confirm the location of the outage?",
+    "options": [
+      "ping",
+      "nslookup",
+      "netstat",
+      "tracert"
+    ],
+    "answer": 3,
+    "explanation": "The tracert (traceroute) utility will show the network routes between two devices. If the route is disrupted between those two devices, the last available router will be identified."
+  },
+  {
+    "id": "core2-192",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "Users on the corporate network authenticate once at the beginning of the day, and are not prompted again for authentication until the following day. Which of the following would BEST describe this functionality?",
+    "options": [
+      "NTFS",
+      "SSO",
+      "Inherited permissions",
+      "EFS"
+    ],
+    "answer": 1,
+    "explanation": "SSO (Single Sign-On) requires the user to authenticate one time and have continued access to resources without requiring subsequent authentication requests. Windows Active Domain manages this SSO process through the use of the Kerberos network authentication protocol."
+  },
+  {
+    "id": "core2-193",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A server technician is removing the memory from a web server and adding new memory modules to the motherboard. The old memory modules will be used to upgrade a server in a different data center. Which of the following would be the best way to protect the old memory modules?",
+    "options": [
+      "Padded envelope",
+      "Cotton fabric",
+      "Molded foam packing material",
+      "Anti-static bag"
+    ],
+    "answer": 3,
+    "explanation": "An anti-static bag will protect sensitive electronic components from ESD (Electrostatic Discharge). This is important when moving components from one location to another, especially when an anti-static strap or antistatic pad cannot be used."
+  },
+  {
+    "id": "core2-194",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A Linux administrator is using the grep command while monitoring a database application. Which of the following would best describe this activity?",
+    "options": [
+      "Search through a file for specific text",
+      "View a list of running processes",
+      "Change the permissions of a file",
+      "View the name of the working directory"
+    ],
+    "answer": 0,
+    "explanation": "The grep command is used to search through a file or set of files for a specific text string."
+  },
+  {
+    "id": "core2-195",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "The upgrade process for Windows requires the installation of TPM hardware. Which of the following would best describe the reason for this system requirement?",
+    "options": [
+      "Wired networking",
+      "64-bit compatibility",
+      "USB support",
+      "Cryptographic features"
+    ],
+    "answer": 3,
+    "explanation": "A TPM (Trusted Platform Module) is a hardware feature on the motherboard which supports security features such as BitLocker, Windows Hello, and other cryptographic functions. Full Windows 11 support requires the installation of hardware supporting TPM version 2.0."
+  },
+  {
+    "id": "core2-196",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A medical center's hospital staff uses shared computer systems installed in hallways and patient rooms. However, hospital administrators are concerned patient information might be visible if someone leaves the computer without logging out. Which of the following would help prevent this type of issue?",
+    "options": [
+      "Multi-factor authentication",
+      "Password expiration policy",
+      "Login time restrictions",
+      "Screensaver passwords"
+    ],
+    "answer": 3,
+    "explanation": "Screensaver passwords would ensure the information on the computer would be protected if someone walks away and leaves the system unattended. Other security enhancements might include a proximity monitor to automatically lock the system when someone walks away, making the screensaver password a good secondary security option."
+  },
+  {
+    "id": "core2-197",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A user has a smartphone to assist with maps and directions when traveling to other company locations. At a remote site, the user finds his phone attempting to contact a third-party website to share location information. Which of the following would be the best way to address this issue?",
+    "options": [
+      "Disable the GPS",
+      "Perform a soft reset",
+      "Run an anti-malware scan",
+      "Use the cellular network instead of Wi-Fi"
+    ],
+    "answer": 2,
+    "explanation": "The symptom of the phone contacting a third-party website would commonly be associated with malware. None of the other options would provide any mitigation of the potential issue."
+  },
+  {
+    "id": "core2-198",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A company requires all users to authenticate to a proxy before communicating to external websites. Which of the following should be used to integrate the proxy authentication with the existing Active Directory credentials?",
+    "options": [
+      "AES",
+      "TKIP",
+      "RADIUS",
+      "WPA3"
+    ],
+    "answer": 2,
+    "explanation": "RADIUS (Remote Authentication Dial-in User Service) is an authentication protocol used to integrate with many existing databases. It's common to use RADIUS to connect a service with an Active Directory database to use for centralized authentication."
+  },
+  {
+    "id": "core2-199",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A desktop administrator has been tasked with removing malware from an executive’s laptop computer. The system has been removed from the network, but the Windows startup process now shows a Stop Error and reboots into a repeating cycle. Which of the following would be the best next step in the malware removal process?",
+    "options": [
+      "Perform a Windows Repair installation",
+      "Boot with a pre-installation environment",
+      "Schedule periodic scans",
+      "Create a restore point"
+    ],
+    "answer": 1,
+    "explanation": "A Windows PE (Pre-installation Environment) can be used to boot into the Windows Recovery Console to resolve problems with the primary operating system. This is a common task when the primary operating system has been corrupted or will not boot properly."
+  },
+  {
+    "id": "core2-200",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A security administrator is deploying a new application to users in the field, but the administrator is concerned simply using a username and password does not provide enough security. Which of the following would be the best way to address this issue?",
+    "options": [
+      "Enable Windows Firewall",
+      "Block all login attempts at the Internet firewall",
+      "Create a Group Policy",
+      "Require multi-factor authentication",
+      "Enable BitLocker on all remote systems"
+    ],
+    "answer": 3,
+    "explanation": "Multi-factor authentication requires additional login credentials, and this process should provide the security required for remote device logins."
+  },
+  {
+    "id": "core2-201",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A system administrator would like to upgrade a user's Windows video editing application to the latest version, but the upgrade utility fails with the error \"Not enough free space.\" Which of the following utilities would allow the system administrator to resolve this issue?",
+    "options": [
+      "cleanmgr",
+      "perfmon",
+      "eventvwr",
+      "taskschd",
+      "diskmgmt"
+    ],
+    "answer": 0,
+    "explanation": "The cleanmgr.exe (Disk Cleanup) utility will find unused or unneeded files and remove them from the file system. This might include temporary Internet files, error reports, downloaded program files, and others."
+  },
+  {
+    "id": "core2-202",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A user in the shipping department is using a tracking app on a tablet. The app normally takes 10 seconds to load, but now takes over a minute before it can be used. Tracking searches which normally take seconds are taking almost a minute to show the tracking details. Other tablets are not experiencing this slowdown. Which of the following would be the best next troubleshooting step?",
+    "options": [
+      "Reinstall the tracking app",
+      "Check the app battery usage",
+      "Roll back to the previous tablet OS version",
+      "Perform a reboot"
+    ],
+    "answer": 3,
+    "explanation": "Before making any significant changes, a reboot should be used to clear memory space and reset any potential conflicts."
+  },
+  {
+    "id": "core2-203",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "Which of the following fire extinguishers would be most appropriate to use in a data center?",
+    "options": [
+      "Foam",
+      "Carbon Dioxide",
+      "Saline",
+      "Water"
+    ],
+    "answer": 1,
+    "explanation": "A fire extinguisher with carbon dioxide, FM-200, or other dry chemicals would be the best choice for electronic equipment."
+  },
+  {
+    "id": "core2-204",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "The Human Resources department is installing a shared computer in the company lobby to use for electronic job applications. The kiosk should start automatically without requiring any network login prompt, and the kiosk should only have access to the job application modules. Which of the following account types would be the best choice for this system?",
+    "options": [
+      "SSO user",
+      "Administrator",
+      "Guest",
+      "Power User"
+    ],
+    "answer": 2,
+    "explanation": "The Guest account is the only account which should be available on a public computer running applications for multiple users."
+  },
+  {
+    "id": "core2-205",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A Windows administrator needs to define a minimum password length for all network users. Which of the following should be used to complete this task?",
+    "options": [
+      "Device Manager",
+      "Certificate Manager",
+      "Group Policy Editor",
+      "Performance Monitor"
+    ],
+    "answer": 2,
+    "explanation": "The Group Policy Editor works with Active Directory services to manage almost any aspect of a client system."
+  },
+  {
+    "id": "core2-206",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A user in the shipping department is able to view order information, but they cannot modify or delete any order details. Which of the following would best describe this security principle?",
+    "options": [
+      "Multi-factor authentication",
+      "Least privilege",
+      "Group Policy",
+      "Organizational Units"
+    ],
+    "answer": 1,
+    "explanation": "The principle of least privilege ensures rights and permissions are set to the bare minimum to perform assigned duties. Users can only run applications within the scope of their job function, and application usage outside of this scope would be administratively prohibited."
+  },
+  {
+    "id": "core2-207",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A user is receiving this message on their Windows desktop: \"The controller does not have enough resources for this device.\" Which of the following would be the most likely reason for this issue?",
+    "options": [
+      "Remote printer has been disabled",
+      "Wireless network bandwidth exceeded",
+      "USB endpoints are exceeded",
+      "The system clock is incorrect"
+    ],
+    "answer": 2,
+    "explanation": "USB devices contain buffers called \"endpoints,\" and if those endpoints exceed the capacity of the USB controllers, a \"resources exceeded\" message will appear. To resolve this issue, move a USB device to a different interface."
+  },
+  {
+    "id": "core2-208",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A small company is located in a large office building shared by fifty different companies. A network administrator would like to limit the possibility of someone else in the building accidentally connecting to their wireless network. Which of these configuration settings would prevent their wireless network from appearing in a list of available networks?",
+    "options": [
+      "MAC filtering",
+      "Static IP addressing",
+      "WPA3 encryption",
+      "SSID suppression"
+    ],
+    "answer": 3,
+    "explanation": "Disabling the SSID (Service Set Identifier) broadcast will prevent the wireless network name from appearing in lists of available networks. Users who know the name can still connect to the network manually."
+  },
+  {
+    "id": "core2-209",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A manager in the accounting department would like to upgrade to Windows 11, but she doesn’t want to lose access to any of the currently installed applications or data. Which of the following methods would be the best choice for these requirements?",
+    "options": [
+      "Clean install",
+      "Image deployment",
+      "Remote network installation",
+      "In-place upgrade"
+    ],
+    "answer": 3,
+    "explanation": "An in-place upgrade keeps all of the existing data, applications, and configurations in place during the upgrade process."
+  },
+  {
+    "id": "core2-210",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A network administrator has modified all wireless access points to use WPA3 instead of WPA2. Which of the following would be a reason for this change?",
+    "options": [
+      "Additional frequency choices",
+      "Lower power consumption",
+      "Larger usable range",
+      "Stronger encryption"
+    ],
+    "answer": 3,
+    "explanation": "The encryption used in WPA3 is the Galois/Counter Mode Protocol and is considered to be a stronger encryption than WPA2."
+  },
+  {
+    "id": "core2-211",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A help desk is receiving reports associated with a group of devices not able to communicate outside of their local IP subnet. A technician can ping devices on the same network, but does not receive a response when pinging the IP address of external devices. Which of the following would be the most likely cause of this issue?",
+    "options": [
+      "Default gateway",
+      "DNS server",
+      "Proxy server",
+      "Metered connection"
+    ],
+    "answer": 0,
+    "explanation": "The default gateway is the router providing connectivity between the local IP subnet and the rest of the world. If the default gateway isn't working, users will not be able to access services outside of the local subnet."
+  },
+  {
+    "id": "core2-212",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A user created some documents on their laptop SSD yesterday, but today has reported a problem accessing the files. They are receiving the message, \"You require permission to make changes to this file.\" Which of the following would be the best next troubleshooting step?",
+    "options": [
+      "Scan for malware",
+      "Change the boot drive in the BIOS",
+      "Restart the operating system",
+      "Defragment the drive"
+    ],
+    "answer": 0,
+    "explanation": "Since these files were created by the user and stored on their own laptop, it would be unusual for the permissions to change overnight. Although it's possible this issue could be related to a corruption on the storage drive, it's also important to check for any external factors such as malware or viruses."
+  },
+  {
+    "id": "core2-213",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "While working at a customer's desk, a technician’s mobile phone begins to ring. Which of the following would be the most appropriate response?",
+    "options": [
+      "Take the call and address the caller's requests before continuing",
+      "Take the call and ask the caller if you can return their call later",
+      "Send the call to voicemail and apologize for the interruption",
+      "Politely excuse yourself and step out to take the call"
+    ],
+    "answer": 2,
+    "explanation": "When actively working on a problem with a customer, it's important to avoid interruptions, distractions, and anything else which would change focus from the current task."
+  },
+  {
+    "id": "core2-214",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A user’s workstation has been identified as participating in a DDoS to a large Internet service provider. The computer has been powered down and stored in a locked area until investigators arrive. Which of these procedures would be the most important to follow in the meantime?",
+    "options": [
+      "Create documentation of the storage area",
+      "Retrieve logs from the workstation Event Viewer",
+      "Obtain the purchase records of the workstation",
+      "Maintain integrity of the workstation data"
+    ],
+    "answer": 3,
+    "explanation": "When a security event occurs, it's important to maintain the integrity of the evidence and create a chain of custody. The data currently stored on the workstation should not be modified in any way."
+  },
+  {
+    "id": "core2-215",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A system administrator has configured EFS on a user’s workstation. Which of the following would describe this functionality?",
+    "options": [
+      "Encryption of individual files and folders",
+      "Secure wireless communication",
+      "Encrypted network tunnel",
+      "Full disk encryption"
+    ],
+    "answer": 0,
+    "explanation": "EFS (Encrypting File System) is a feature of NTFS (NT File System) and can encrypt individual files and folders on a drive without encrypting other parts of the file system."
+  },
+  {
+    "id": "core2-216",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A technician has been tasked with updating the BIOS of any Windows device using an older BIOS version. The technician cannot reboot these systems to check the BIOS versions currently in use. Which of the following would be the best way to proceed?",
+    "options": [
+      "Install the BIOS upgrade regardless of the version",
+      "View BIOS information in Group Policy Editor",
+      "Run a report using Performance Monitor",
+      "Use System Information to view the BIOS version"
+    ],
+    "answer": 3,
+    "explanation": "The Windows System Information utility can provide extensive information about hardware, device drivers, software, and more. The BIOS information and version numbers are included in the System Summary screen of System Information."
+  },
+  {
+    "id": "core2-217",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A technician has been asked to work on an urgent computer repair while the user is at lunch. When the technician arrives, they notice paperwork on the desk which may contain private customer information. Which of the following would be the best next step?",
+    "options": [
+      "Complete the repair as quickly as possible",
+      "Ask an associate in the department for assistance",
+      "Move the papers somewhere out of sight",
+      "Leave without repairing the computer"
+    ],
+    "answer": 1,
+    "explanation": "The technician has a job to complete, but privacy and access to sensitive information is an important consideration. In these situations, it's best to work with others to remove any of these concerns from the work area."
+  },
+  {
+    "id": "core2-218",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A company has recently been the victim of a storm with large-scale flooding, and all systems and backups at the corporate data center were completely destroyed. Which of the following would be the best way to avoid this loss of data in the future?",
+    "options": [
+      "Battery backup",
+      "Cloud storage",
+      "RADIUS administration servers",
+      "Image-level backups"
+    ],
+    "answer": 1,
+    "explanation": "Cloud storage would provide a separate and off-site storage of backups, files, and other important documents. One significant advantage of any off-site backup or storage is access to the data if the primary site was to have any type of disaster."
+  },
+  {
+    "id": "core2-219",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A user commonly stores large graphic image files in a shared folder on a network server. After logging in one morning, the user notices the shared folders are no longer in the list of available storage drives. The user confirms they are logged in properly to the Windows Domain. Which of the following would be the most likely reason for this issue?",
+    "options": [
+      "User’s permissions have been modified",
+      "User is running untrusted software",
+      "Network is using IP filtering",
+      "Port security is enabled"
+    ],
+    "answer": 0,
+    "explanation": "The login process and Windows desktop are working normally without any identified errors, so the operating system is most likely working normally. Since the normal list of shares has changed, then it's most likely something has been modified with the user or group permissions."
+  },
+  {
+    "id": "core2-220",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A company deploys a suite of commercial software onto every workstation in the organization. Which of the following would best describe this licensing?",
+    "options": [
+      "Personal licenses",
+      "Corporate license",
+      "Open-source license",
+      "End user licensing agreement"
+    ],
+    "answer": 1,
+    "explanation": "An enterprise software license is commonly used for large-scale licensing of software, and often covers every device on the organization's network."
+  },
+  {
+    "id": "core2-221",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A client’s desktop computer is randomly rebooting throughout the workday without any warnings or error messages. Which of the following would be the best next troubleshooting step?",
+    "options": [
+      "Update the system BIOS",
+      "Reinstall the Windows operating system",
+      "Boot to Safe Mode and disable all startup applications",
+      "Perform a full system diagnostic"
+    ],
+    "answer": 3,
+    "explanation": "A reboot issue occurring randomly and without any type of repeatable process is difficult to troubleshoot, so it would be useful to know if the hardware in the system is working as expected."
+  },
+  {
+    "id": "core2-222",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A user is working with a .dmg file on their macOS desktop. Which of the following would describe the contents of this file?",
+    "options": [
+      "Debug information",
+      "Disk image",
+      "Application library",
+      "Disk maintenance utility"
+    ],
+    "answer": 1,
+    "explanation": "The macOS equivalent to an ISO file is a DMG (Disk Image) file. Disk images can be created and managed from the macOS Disk Utility."
+  },
+  {
+    "id": "core2-223",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A laptop in the accounting department has been infected with malware, and the technician has just completed the removal process. Which of the following would be the best way to verify the integrity of the core operating system files?",
+    "options": [
+      "Perform a clean Windows install",
+      "Run the system file check utility",
+      "Rebuild the Windows profile",
+      "Roll back the last Windows update"
+    ],
+    "answer": 1,
+    "explanation": "Running SFC (System File Check) will scan all of the core operating system files and will verify no changes have been made since the installation. This would be a common check after malware has been removed."
+  },
+  {
+    "id": "core2-224",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A user has noticed his computer begins to slow down during daily use and eventually locks up completely. During the lock up, the keyboard and mouse do not respond and the screen does not show any error messages. Which of the following tasks should a technician follow to best troubleshoot this issue? (Choose TWO)",
+    "options": [
+      "Start the computer in Safe Mode",
+      "Perform a hardware diagnostic",
+      "Connect the computer to a different VLAN",
+      "Update the OS to the latest patches",
+      "Roll back to a previous configuration",
+      "Scan for viruses and malware"
+    ],
+    "answer": 1,
+    "explanation": "F. Scan for viruses and malware Without knowing the root cause of the issue, it will be important to gather as much information without making any changes to the operating system or applications. A diagnostic would provide information about the health of the hardware, and scanning for viruses would check for any malicious software. Neither of those options would make any changes to the configuration of the system."
+  },
+  {
+    "id": "core2-225",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A user receives this message each time they visit a secure website: “The site’s security certificate is not trusted.” A technician investigates the issue and finds the problem only occurs on this user’s computer and not with other computers in the same office. Which of the following would be the best next troubleshooting task?",
+    "options": [
+      "Disable Windows Firewall for all HTTPS traffic",
+      "Create a new certificate for the user's computer",
+      "Check the date and time on the user's computer",
+      "Release and refresh the IP address configuration"
+    ],
+    "answer": 2,
+    "explanation": "The message regarding the website's security certificate is shown because the local computer can't validate the certificate on the server. The server's certificate has a specific issuing and expiration date and time, so time drift on the workstation could cause the validation to fail on the workstation."
+  },
+  {
+    "id": "core2-226",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A user’s smartphone contains company confidential information which should not be shared outside of the organization. Which of the following would be the best way to limit access to this data if the smartphone was lost or stolen?",
+    "options": [
+      "Locator application",
+      "Remote wipe",
+      "Authenticator app",
+      "Cloud backup"
+    ],
+    "answer": 1,
+    "explanation": "The remote wipe feature of a smartphone or tablet allows the administrator or owner of the device to delete all information on the device from a website or secure app. If the device is lost or stolen, all of the data on the device can be immediately erased and recovery of the data would not be possible."
+  },
+  {
+    "id": "core2-227",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A user would like to configure their local printer to be accessible to anyone on the corporate network. Which of the following would be the best way to configure this connection?",
+    "options": [
+      "Configure a VPN connection",
+      "Create a share name in printer properties",
+      "Configure a metered connection",
+      "Use a static IP address"
+    ],
+    "answer": 1,
+    "explanation": "The printer properties includes a sharing tab with the option to \"Share this printer\" and create the name for the printer share."
+  },
+  {
+    "id": "core2-228",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A computer on a manufacturing floor has a virus, and the system administrator has removed the system from the company network. Which of the following virus removal tasks should occur next?",
+    "options": [
+      "Discuss virus prevention with the end user",
+      "Install the latest anti-virus signatures",
+      "Schedule a virus scan to run each morning",
+      "Disable System Restore"
+    ],
+    "answer": 3,
+    "explanation": "Before making any updates or changes to the system, it's important to remove any potentially infected restore points by disabling the System Restore feature."
+  },
+  {
+    "id": "core2-229",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A user in the marketing department needs to move data between macOS and Windows computers using a USB flash drive. Which of the following file systems would be the best way to easily transfer files between these operating systems?",
+    "options": [
+      "exFAT",
+      "APFS",
+      "NTFS",
+      "ext4"
+    ],
+    "answer": 0,
+    "explanation": "The exFAT (Extended File Allocation Table) file system is designed for flash drives and is compatible across Windows, Linux, macOS, and other operating systems."
+  },
+  {
+    "id": "core2-230",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "When a user starts their desktop computer, the Windows splash screen is shown with a rotating circle, but the login screen is never displayed. A technician researches the issue and finds the computer was just updated to the latest set of Windows patches. Which of the following would be the next step the technician should follow to help solve this issue?",
+    "options": [
+      "Restart the computer",
+      "Perform a Startup Repair",
+      "Start in VGA mode",
+      "Rebuild the user's profile"
+    ],
+    "answer": 1,
+    "explanation": "The Windows Startup Repair is an automated feature which will examine each phase of the startup process and reconfigure any invalid or incorrect settings. This is a common repair to use when the startup process is not working properly after an application or operating system update."
+  },
+  {
+    "id": "core2-231",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A desktop technician is moving hard drives from one set of training room computers to another. Which of the following would allow the drives to be used in the new computers but prevent any of the existing data from being recovered?",
+    "options": [
+      "Shredder",
+      "Quick format",
+      "Drill",
+      "Standard format"
+    ],
+    "answer": 3,
+    "explanation": "The Windows standard format will overwrite each sector of the drive and prevent any recovery tools from restoring any of the previous data."
+  },
+  {
+    "id": "core2-232",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A workstation technician manages a training center with thirty student computers in each room. All of the computers have the same hardware configurations. Which of these installation methods would be the best choice for quickly resetting the training rooms at the end of each week?",
+    "options": [
+      "In-place upgrade",
+      "Image installation",
+      "Repair installation",
+      "Clean install"
+    ],
+    "answer": 1,
+    "explanation": "An image installation can install an operating system, applications, and customized system configurations to multiple devices in a single step. With a pre-built images, a large training room of computers can be updated with a specific configuration very efficiently."
+  },
+  {
+    "id": "core2-233",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A user would like to use their smartphone for a payment during checkout at the grocery store, but the smartphone is not seen by the payment system. Which of the following would be the best next troubleshooting step?",
+    "options": [
+      "Restart the smartphone",
+      "Replace the battery",
+      "Perform a factory reset",
+      "Enable Wi-Fi"
+    ],
+    "answer": 0,
+    "explanation": "There are limited troubleshooting options available for NFC (Near Field Communication) connections, and most smartphones enable the NFC feature by default. If the NFC feature is not seen at all, a restart of the smartphone may enable the functionality."
+  },
+  {
+    "id": "core2-234",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A technician is troubleshooting a problem with user’s laptop and very high utilization, even with no activity on the screen or user input to the operating system. Task Manager shows the CPU is operating at 100% utilization, memory utilization is slightly elevated, and there is a large amount of outbound network communication. Which of the following would be the most likely reason for these issues?",
+    "options": [
+      "System RAM is faulty",
+      "User has not properly authenticated",
+      "Laptop is part of a DDoS attack",
+      "Network adapter is faulty"
+    ],
+    "answer": 2,
+    "explanation": "High CPU utilization, memory use, and network traffic with no user intervention indicates a possible malware infection and participation in a DDoS (Distributed Denial of Service) attack. Of the available options, this would be the most likely reason for these symptoms."
+  },
+  {
+    "id": "core2-235",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A user's smartphone app shows a splash screen but disappears after a few seconds. Which of the following would be the best way for a technician to view logs and memory statistics for the app?",
+    "options": [
+      "Developer mode",
+      "Cloud storage",
+      "Jailbreaking",
+      "Application spoofing"
+    ],
+    "answer": 0,
+    "explanation": "Developer mode enables features commonly used by developers. Fortunately, this feature can be used by anyone to help with troubleshooting and information gathering."
+  },
+  {
+    "id": "core2-236",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A company has created an internal process to ensure all PII is encrypted. Which of the following would be the most likely reason for adding this additional security?",
+    "options": [
+      "Helps prevent identity theft",
+      "Improves application performance",
+      "Allows customer data to be easily deleted",
+      "Uses less storage space"
+    ],
+    "answer": 0,
+    "explanation": "PII (Personally Identifiable Information) is any information which can identify an individual. This information can be an address, phone number, or date of birth. Encrypting PII will help prevent the unintended release of personal data and would assist with preventing identity theft."
+  },
+  {
+    "id": "core2-237",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A user has purchased a computer which uses a 32-bit version of an operating system. Which of the following would be the maximum amount of RAM supported in this OS?",
+    "options": [
+      "32 GB",
+      "2 TB",
+      "512 GB",
+      "128 GB",
+      "4 GB",
+      "16 GB"
+    ],
+    "answer": 4,
+    "explanation": "A 32-bit operating system can store 232 values, or approximately 4 GB of address space."
+  },
+  {
+    "id": "core2-238",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A financial services company is upgrading the storage drives in their SAN and need to dispose of one hundred older storage drives. The security administrator would like to permanently disable the drive and guarantee the data on the drives could not be recovered. Which of the following methods would be the best way to accomplish this goal?",
+    "options": [
+      "Standard format",
+      "Full disk encryption",
+      "Shredder",
+      "Delete the master boot record"
+    ],
+    "answer": 2,
+    "explanation": "A shredder will cut a storage drive into small pieces, and larger shredders can completely destroy a drive in just a few seconds. It would not take long to dispose of one hundred drives."
+  },
+  {
+    "id": "core2-239",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A company is updating all of their UPS systems with new batteries. Which of the following would be the best way to dispose of the old batteries?",
+    "options": [
+      "Take to a local hazardous waste facility",
+      "Throw out with the paper trash",
+      "Ship to a battery wholesaler",
+      "Bury in a landfill"
+    ],
+    "answer": 0,
+    "explanation": "Batteries contain chemicals which are dangerous to humans and the environment. The best disposal method is to deliver the batteries to professionals at a local hazardous waste facility."
+  },
+  {
+    "id": "core2-240",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "Which of the following should a company use to reduce their legal liability if an employee is dismissed?",
+    "options": [
+      "End user licensing agreement",
+      "Acceptable use policy",
+      "Standard operating procedures",
+      "Regulatory compliance documentation"
+    ],
+    "answer": 1,
+    "explanation": "An Acceptable Use Policy (AUP) provides detailed documentation on the correct and expected use of company assets. If someone is dismissed, this document will provide a well-documented set of reasons to legally justify the dismissal."
+  },
+  {
+    "id": "core2-241",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A healthcare administrator stores sensitive data on his laptop computer. His desk is in an open area near a busy hallway. Which of the following would add additional security to the administrator's work area?",
+    "options": [
+      "Door lock",
+      "Fingerprint scanner",
+      "Magnetometer",
+      "Bollards"
+    ],
+    "answer": 1,
+    "explanation": "A laptop with a fingerprint scanner can limit access to everyone except those individuals with a registered fingerprint."
+  },
+  {
+    "id": "core2-242",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A technician has received a help desk ticket asking for help with a broken laptop keyboard. After calling the user, the technician learns the laptop is scheduled to be used for a press event the following day. Which of the following would be the best next step with the ticket?",
+    "options": [
+      "Refer the ticket to the laptop group",
+      "Escalate the issue with management",
+      "Add the event information to the problem description",
+      "Assign the ticket to the \"laptop\" category"
+    ],
+    "answer": 1,
+    "explanation": "The time constraint associated with this issue needs to get the visibility of someone higher in the organization. Escalating the ticket to management will provide additional options for resolution."
+  },
+  {
+    "id": "core2-243",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A network administrator has been asked to manage the router configurations at all company locations. Which of the following would be the best choice for this task?",
+    "options": [
+      "SSH",
+      "VNC",
+      "NFC",
+      "RDP"
+    ],
+    "answer": 0,
+    "explanation": "SSH (Secure Shell) is a secure protocol for encrypted console communication to a remote device. SSH is commonly used to manage remote devices using their command line interfaces."
+  },
+  {
+    "id": "core2-244",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A user is browsing to their corporate home page, but a different website appears instead. The user tries to connect with other browsers on the same computer, but the result is identical. Which of the following would be the best next troubleshooting step?",
+    "options": [
+      "Try connecting to the site in Safe Mode",
+      "Perform an anti-malware scan",
+      "View all browsing results in the Event Viewer",
+      "Roll back to a previous configuration"
+    ],
+    "answer": 1,
+    "explanation": "If the browsers on a computer are redirected to a different website, then malware would be a likely suspect. Since all of the browsers are being redirected, there's most likely something malicious on the computer."
+  },
+  {
+    "id": "core2-245",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A technician has just received fifty boxes of used laser printer toner cartridges removed during an annual preventive maintenance project. Which of the following would be the best NEXT step for managing these used cartridges?",
+    "options": [
+      "Refer to the MSDS",
+      "Ship the cartridges to the printer manufacturer",
+      "Incinerate the cartridges",
+      "Drill a hole in each cartridge"
+    ],
+    "answer": 0,
+    "explanation": "The MSDS (Material Safety Data Sheets) provide information about the safety and health associated with products in the workplace. The MSDS will document hazard information, first aid measures, handling and storage, and more."
+  },
+  {
+    "id": "core2-246",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A system administrator has been notified a serious security vulnerability has been identified in software used by the company. In order to quickly patch this vulnerability, the administrator has created change management documentation for the change control board. Which part of the documentation would explain the disadvantages of not quickly patching this software?",
+    "options": [
+      "Backout plan",
+      "End-user acceptance",
+      "Detailed change plan",
+      "Risk analysis"
+    ],
+    "answer": 3,
+    "explanation": "The risk analysis provides documentation for the change control board to understand the risk with making the change, and the risk if the change is not made. The board can then decide if the change is worth those risks."
+  },
+  {
+    "id": "core2-247",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A company is donating ten laptop computers to a local community center. Which of the following processes should be followed before making this donation?",
+    "options": [
+      "Inventory management",
+      "Acceptable use policy",
+      "Password policy",
+      "Knowledge base article"
+    ],
+    "answer": 0,
+    "explanation": "The donated systems must be removed from the inventory system and documentation needs to detail the donation process."
+  },
+  {
+    "id": "core2-248",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A technician is troubleshooting a problem on a Linux server and needs to view the real-time CPU and memory utilization for each operating system process. Which of the following would provide this functionality?",
+    "options": [
+      "dig",
+      "df",
+      "cat",
+      "top"
+    ],
+    "answer": 3,
+    "explanation": "The Linux top command is a common method of viewing real-time information about CPU, RAM, and resource utilizations. This information is updated every second by default and can quickly identify highly utilized processes."
+  },
+  {
+    "id": "core2-249",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A technician has just installed a new device driver and restarted a Windows laptop, but now the system shows a Windows Stop Error before the login screen is displayed. Which of the following would be the best way to resolve this issue?",
+    "options": [
+      "Start in Safe Mode",
+      "Replace the system memory",
+      "Reinstall Windows from the original media",
+      "Perform a full backup"
+    ],
+    "answer": 0,
+    "explanation": "Windows Safe Mode can be used to bypass issues during startup and allow a technician to make changes to the configuration in a minimally functional Windows environment."
+  },
+  {
+    "id": "core2-250",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A company is moving three computer racks of equipment from an old data center to a new facility. Which of these safety features should be the most important requirement at the new location?",
+    "options": [
+      "Air filter masks",
+      "Anti-static mat",
+      "Equipment grounding",
+      "Surge protectors"
+    ],
+    "answer": 2,
+    "explanation": "Electrical safety is one of the most important considerations in a data center, and the equipment racks used in the data center should always be connected to an electrical ground. If an electrical fault occurs, the power will be sent to the electrical ground instead of a person."
+  },
+  {
+    "id": "core2-251",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A company has configured a server for daily backups, and a full backup is created each Sunday based on the previous incremental backups. Which of the following would best describe this backup strategy?",
+    "options": [
+      "Differential",
+      "GFS",
+      "Synthetic",
+      "3-2-1"
+    ],
+    "answer": 2,
+    "explanation": "A synthetic backup combines a previously taken full backup with a series of updates to build a completely new full backup based on the most recent changes."
+  },
+  {
+    "id": "core2-252",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "Which of the following would allow someone else in the room to maliciously obtain a username and password?",
+    "options": [
+      "Spoofing",
+      "Tailgating",
+      "DoS",
+      "Shoulder surfing"
+    ],
+    "answer": 3,
+    "explanation": "Shoulder surfing is a low-tech method of obtaining login credentials and other sensitive information. With shoulder surfing, the attacker simply watches over the shoulder of someone else to obtain the information they need."
+  }
+]

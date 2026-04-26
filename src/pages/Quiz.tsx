@@ -39,9 +39,7 @@ function QuizInner({ config }: { config: QuizConfig }) {
   }
 
   function finish() {
-    const missedIds = quiz.results
-      .filter(r => !r.correct)
-      .map(r => r.question.id)
+    const missedIds = quiz.results.filter(r => !r.correct).map(r => r.question.id)
     saveMissedIds(missedIds)
     navigate('/results', { state: { results: quiz.results, elapsed: quiz.elapsedSeconds, config } })
   }
@@ -66,7 +64,11 @@ function QuizInner({ config }: { config: QuizConfig }) {
             <QuestionCard
               question={quiz.current}
               selected={quiz.selected}
-              onSelect={quiz.choose}
+              confirmed={quiz.isAnswered}
+              onToggle={quiz.toggle}
+              onConfirm={quiz.confirm}
+              canConfirm={quiz.canConfirm}
+              requiredCount={quiz.requiredCount}
             />
           )}
         </div>
