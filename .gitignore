@@ -1,3 +1,6 @@
+# PDF source material (large binaries, not tracked in git)
+pdfs/
+
 # Logs
 logs
 *.log

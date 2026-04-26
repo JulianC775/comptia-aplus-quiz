@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(C:/Users/jcate/AppData/Local/Microsoft/WinGet/Packages/oschwartz10612.Poppler_Microsoft.Winget.Source_8wekyb3d8bbwe/poppler-25.07.0/Library/bin/pdftotext.exe c:/Users/jcate/repos/comptia-aplus-quiz/pdfs/professor-messer-comptia-220-1202-a-plus-course-notes-v140.pdf c:/Users/jcate/repos/comptia-aplus-quiz/pdfs/core2-notes.txt)",
+      "Bash(C:/Users/jcate/AppData/Local/Microsoft/WinGet/Packages/oschwartz10612.Poppler_Microsoft.Winget.Source_8wekyb3d8bbwe/poppler-25.07.0/Library/bin/pdftotext.exe c:/Users/jcate/repos/comptia-aplus-quiz/pdfs/professor-messer-a-plus-220-1202-core-2-practice-exams-v111.pdf c:/Users/jcate/repos/comptia-aplus-quiz/pdfs/core2-practice-exams.txt)",
+      "Bash(npm run *)"
+    ]
+  }
+}
