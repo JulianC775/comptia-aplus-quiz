@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Quiz from './pages/Quiz'
 import Results from './pages/Results'
+import PBQ from './pages/PBQ'
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/quiz" element={<Quiz />} />
+          <Route path="/pbq" element={<PBQ />} />
           <Route path="/results" element={<Results />} />
         </Routes>
       </div>

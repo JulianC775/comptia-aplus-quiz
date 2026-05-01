@@ -11,7 +11,11 @@ export default function Home() {
   })
 
   function start() {
-    navigate('/quiz', { state: { config } })
+    if (config.mode === 'pbq-core1' || config.mode === 'pbq-core2') {
+      navigate('/pbq', { state: { config } })
+    } else {
+      navigate('/quiz', { state: { config } })
+    }
   }
 
   return (

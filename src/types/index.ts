@@ -8,7 +8,35 @@ export interface Question {
   explanation?: string;
 }
 
-export type QuizMode = 'quick' | 'full' | 'domain' | 'missed';
+export type QuizMode = 'quick' | 'full' | 'domain' | 'missed' | 'recent-core1' | 'recent-core2' | 'pbq-core1' | 'pbq-core2';
+
+export interface CategorizePBQ {
+  id: string;
+  exam: 'core1' | 'core2';
+  domain: string;
+  type: 'categorize';
+  question: string;
+  categories: string[];
+  items: { label: string; correct: string }[];
+  explanation?: string;
+}
+
+export interface SequencePBQ {
+  id: string;
+  exam: 'core1' | 'core2';
+  domain: string;
+  type: 'sequence';
+  question: string;
+  steps: string[];
+  explanation?: string;
+}
+
+export type PerformanceQuestion = CategorizePBQ | SequencePBQ;
+
+export interface PBQResult {
+  question: PerformanceQuestion;
+  correct: boolean;
+}
 
 export interface QuizConfig {
   mode: QuizMode;

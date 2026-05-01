@@ -481,7 +481,7 @@
     "id": "core2-035",
     "exam": "core2",
     "domain": "Operating Systems",
-    "question": "A system administrator needs to view a set of application log files contained in a folder named “logs.” Which of the following commands should be used to make this folder the current directory?",
+    "question": "A system administrator needs to view a set of application log files contained in a folder named \u201clogs.\u201d Which of the following commands should be used to make this folder the current directory?",
     "options": [
       "cd logs",
       "mv logs",
@@ -607,7 +607,7 @@
     "id": "core2-044",
     "exam": "core2",
     "domain": "Operational Procedures",
-    "question": "A technician has been called to resolve an issue with a networked laser printer not printing. When the technician arrives on-site, they find the printer will require a hardware replacement. All hardware is managed by a third-party and will take a week before the printer is operational again. Which of the following would be the technician’s best next step?",
+    "question": "A technician has been called to resolve an issue with a networked laser printer not printing. When the technician arrives on-site, they find the printer will require a hardware replacement. All hardware is managed by a third-party and will take a week before the printer is operational again. Which of the following would be the technician\u2019s best next step?",
     "options": [
       "Work on the next ticket in the queue",
       "Add a follow-up event for one week later",
@@ -776,7 +776,7 @@
     "id": "core2-056",
     "exam": "core2",
     "domain": "Software Troubleshooting",
-    "question": "A user on the research and development team reports her computer displays the message “Missing operating system” during boot. A technician runs hardware diagnostics and finds the RAM, CPU, storage drive, and power supply all pass the tests. The technician then finds a connected USB flash drive was causing the issue. Which of the following would prevent this issue from occurring in the future?",
+    "question": "A user on the research and development team reports her computer displays the message \u201cMissing operating system\u201d during boot. A technician runs hardware diagnostics and finds the RAM, CPU, storage drive, and power supply all pass the tests. The technician then finds a connected USB flash drive was causing the issue. Which of the following would prevent this issue from occurring in the future?",
     "options": [
       "Create a login script",
       "Install the latest OS patches",
@@ -804,7 +804,7 @@
     "id": "core2-058",
     "exam": "core2",
     "domain": "Operational Procedures",
-    "question": "In which of the following file types would a system administrator expect to see the command, “cd c:\\source”?",
+    "question": "In which of the following file types would a system administrator expect to see the command, \u201ccd c:\\source\u201d?",
     "options": [
       ".sh",
       ".vbs",
@@ -1092,12 +1092,12 @@
     "id": "core2-078",
     "exam": "core2",
     "domain": "Software Troubleshooting",
-    "question": "A user in the accounting department has opened a help desk ticket due to problems accessing the website of the company’s payroll service provider. While testing other website connections on the computer, the technician finds many pop-up windows are displayed. Which of the following would be the best way for the technician to resolve this issue?",
+    "question": "A user in the accounting department has opened a help desk ticket due to problems accessing the website of the company\u2019s payroll service provider. While testing other website connections on the computer, the technician finds many pop-up windows are displayed. Which of the following would be the best way for the technician to resolve this issue?",
     "options": [
       "Uninstall the browser and reinstall with a different version",
       "Restore the workstation from a known good backup",
       "Start in Safe Mode and connect to the payroll website",
-      "Modify the browser’s proxy settings"
+      "Modify the browser\u2019s proxy settings"
     ],
     "answer": 1,
     "explanation": "The help desk technician would reasonably believe the pop-up windows indicated a malware infection. Given the available answers, the only one which would provide a resolution is to restore the system from a known good backup."
@@ -1106,7 +1106,7 @@
     "id": "core2-079",
     "exam": "core2",
     "domain": "Security",
-    "question": "A business partner in a different country needs to access an internal company server during the very early morning hours. The internal firewall will limit the partner’s access to this single server. Which of these would be the most important security task to perform on this server?",
+    "question": "A business partner in a different country needs to access an internal company server during the very early morning hours. The internal firewall will limit the partner\u2019s access to this single server. Which of these would be the most important security task to perform on this server?",
     "options": [
       "Restrict log-in times for the partner account",
       "Remove the server from the Active Directory domain",
@@ -1205,7 +1205,7 @@
     "id": "core2-086",
     "exam": "core2",
     "domain": "Security",
-    "question": "A technician is delivering a new laptop to a user and moving the older laptop to a different user. Which of the following would allow the existing hard drive to be used but prevent recovery of any of the previous user’s data?",
+    "question": "A technician is delivering a new laptop to a user and moving the older laptop to a different user. Which of the following would allow the existing hard drive to be used but prevent recovery of any of the previous user\u2019s data?",
     "options": [
       "Perform a regular format",
       "Run a defragmentation",
@@ -1331,7 +1331,7 @@
     "id": "core2-095",
     "exam": "core2",
     "domain": "Operating Systems",
-    "question": "A system administrator is analyzing a problem with a USB flash drive on a Windows computer. When the flash drive is inserted, the CPU utilization increases to 100%. The administrator would like to disable one of the computer’s USB controllers for troubleshooting. Which of the following would provide this functionality?",
+    "question": "A system administrator is analyzing a problem with a USB flash drive on a Windows computer. When the flash drive is inserted, the CPU utilization increases to 100%. The administrator would like to disable one of the computer\u2019s USB controllers for troubleshooting. Which of the following would provide this functionality?",
     "options": [
       "Services",
       "Performance Monitor",
@@ -1515,9 +1515,9 @@
     "id": "core2-108",
     "exam": "core2",
     "domain": "Software Troubleshooting",
-    "question": "A user in the shipping department has logged into the Windows domain. However, the desktop does not show the user’s normal wallpaper and all of the user’s spreadsheets and documents in the “My Documents” folder are missing. Which of these would be the best way to restore the user’s normal work environment?",
+    "question": "A user in the shipping department has logged into the Windows domain. However, the desktop does not show the user\u2019s normal wallpaper and all of the user\u2019s spreadsheets and documents in the \u201cMy Documents\u201d folder are missing. Which of these would be the best way to restore the user\u2019s normal work environment?",
     "options": [
-      "Rename the user’s folder and delete their profile in the registry",
+      "Rename the user\u2019s folder and delete their profile in the registry",
       "Boot into Safe Mode and disable all startup applications",
       "Add the user to the Administrator group",
       "Update to the latest operating system version"
@@ -1529,7 +1529,7 @@
     "id": "core2-109",
     "exam": "core2",
     "domain": "Software Troubleshooting",
-    "question": "A company’s shipping department maintains ten different computers for printing shipping labels and for tracking outgoing shipments. All of the systems are displaying an error when they access a third-party shipping management website over a secure connection. Which of the following would be the most likely reason for this issue?",
+    "question": "A company\u2019s shipping department maintains ten different computers for printing shipping labels and for tracking outgoing shipments. All of the systems are displaying an error when they access a third-party shipping management website over a secure connection. Which of the following would be the most likely reason for this issue?",
     "options": [
       "The computers have not been updated with the latest OS patches",
       "The website certificate has expired",
@@ -1686,7 +1686,7 @@
     "id": "core2-120",
     "exam": "core2",
     "domain": "Security",
-    "question": "A desktop administrator has just removed malware from a user’s desktop computer and has configured the system to automatically update antivirus signatures and perform a scan each night. Which of the following should be the next step in the removal process?",
+    "question": "A desktop administrator has just removed malware from a user\u2019s desktop computer and has configured the system to automatically update antivirus signatures and perform a scan each night. Which of the following should be the next step in the removal process?",
     "options": [
       "Enable System Restore",
       "Educate the end-user",
@@ -1800,7 +1800,7 @@
     "id": "core2-128",
     "exam": "core2",
     "domain": "Operating Systems",
-    "question": "A system administrator needs to modify a file in the \\Windows\\Installer directory, but the folder doesn’t appear in the list of available files. Which of these options would help the system administrator with this task?",
+    "question": "A system administrator needs to modify a file in the \\Windows\\Installer directory, but the folder doesn\u2019t appear in the list of available files. Which of these options would help the system administrator with this task?",
     "options": [
       "Safe Mode",
       "File Explorer Options",
@@ -1828,7 +1828,7 @@
     "id": "core2-130",
     "exam": "core2",
     "domain": "Security",
-    "question": "A desktop administrator is troubleshooting poor performance on a user’s laptop computer. The system takes an excessive amount of time during the boot process, and pop up messages appear while using the word processor and spreadsheet applications. Which of the following steps should the technician do next?",
+    "question": "A desktop administrator is troubleshooting poor performance on a user\u2019s laptop computer. The system takes an excessive amount of time during the boot process, and pop up messages appear while using the word processor and spreadsheet applications. Which of the following steps should the technician do next?",
     "options": [
       "Educate the end-user",
       "Schedule periodic anti-virus scans",
@@ -2105,12 +2105,12 @@
     "id": "core2-149",
     "exam": "core2",
     "domain": "Operational Procedures",
-    "question": "A network administrator has a report showing a single user with numerous visits to a website. This website is known to violate the company’s AUP. Which of the following should the administrator do next?",
+    "question": "A network administrator has a report showing a single user with numerous visits to a website. This website is known to violate the company\u2019s AUP. Which of the following should the administrator do next?",
     "options": [
       "Create a firewall filter to block the website",
       "Scan all computers with the latest anti-malware signatures",
-      "Contact the company’s security officer",
-      "Change the user’s password"
+      "Contact the company\u2019s security officer",
+      "Change the user\u2019s password"
     ],
     "answer": 2,
     "explanation": "A company's AUP (Acceptable Use Policy) is in place to limit the legal liability of an organization. If a person in the organization is not following the terms of the AUP, the security officer's team should manage the results of this action."
@@ -2175,7 +2175,7 @@
     "id": "core2-154",
     "exam": "core2",
     "domain": "Operational Procedures",
-    "question": "A user is traveling to a conference, and they would like to be sure any messages sent from their phone during the event remain private while using the event’s wireless network. Which of the following should be configured on this user’s phone?",
+    "question": "A user is traveling to a conference, and they would like to be sure any messages sent from their phone during the event remain private while using the event\u2019s wireless network. Which of the following should be configured on this user\u2019s phone?",
     "options": [
       "VPN",
       "Strong password",
@@ -2259,7 +2259,7 @@
     "id": "core2-160",
     "exam": "core2",
     "domain": "Operating Systems",
-    "question": "A system administrator is installing a new video editing application on a user’s workstation from a USB flash drive. However, the installation process fails due to lack of available drive space. Which of the following would be the best way to complete the installation process?",
+    "question": "A system administrator is installing a new video editing application on a user\u2019s workstation from a USB flash drive. However, the installation process fails due to lack of available drive space. Which of the following would be the best way to complete the installation process?",
     "options": [
       "Use a share drive for the installation source",
       "Compress the installation files",
@@ -2413,7 +2413,7 @@
     "id": "core2-171",
     "exam": "core2",
     "domain": "Software Troubleshooting",
-    "question": "A user has noticed a Bluetooth device currently connected to their tablet, but they don’t recognize the make or model of the connected device. Which of the following would be the first step for troubleshooting this issue?",
+    "question": "A user has noticed a Bluetooth device currently connected to their tablet, but they don\u2019t recognize the make or model of the connected device. Which of the following would be the first step for troubleshooting this issue?",
     "options": [
       "Perform an anti-malware scan",
       "Research installed apps with an app scanner",
@@ -2639,7 +2639,7 @@
     "id": "core2-187",
     "exam": "core2",
     "domain": "Software Troubleshooting",
-    "question": "An app on a user’s corporate smartphone has stopped updating. Which of the following would be the best way to resolve this issue?",
+    "question": "An app on a user\u2019s corporate smartphone has stopped updating. Which of the following would be the best way to resolve this issue?",
     "options": [
       "Connect the smartphone to a power source",
       "Restart the smartphone",
@@ -2681,7 +2681,7 @@
     "id": "core2-190",
     "exam": "core2",
     "domain": "Security",
-    "question": "A user has started their computer and received this message on the screen: “Your important files are encrypted. If you want to decrypt all of your files, you need to pay.” A desktop administrator has confirmed the user can no longer access his desktop, and none of his installed applications are available in the system menus. The user also notices a payment link is posted at the bottom of the screen. Which of the following would best describe this scenario?",
+    "question": "A user has started their computer and received this message on the screen: \u201cYour important files are encrypted. If you want to decrypt all of your files, you need to pay.\u201d A desktop administrator has confirmed the user can no longer access his desktop, and none of his installed applications are available in the system menus. The user also notices a payment link is posted at the bottom of the screen. Which of the following would best describe this scenario?",
     "options": [
       "Spyware",
       "Boot sector virus",
@@ -2807,7 +2807,7 @@
     "id": "core2-199",
     "exam": "core2",
     "domain": "Security",
-    "question": "A desktop administrator has been tasked with removing malware from an executive’s laptop computer. The system has been removed from the network, but the Windows startup process now shows a Stop Error and reboots into a repeating cycle. Which of the following would be the best next step in the malware removal process?",
+    "question": "A desktop administrator has been tasked with removing malware from an executive\u2019s laptop computer. The system has been removed from the network, but the Windows startup process now shows a Stop Error and reboots into a repeating cycle. Which of the following would be the best next step in the malware removal process?",
     "options": [
       "Perform a Windows Repair installation",
       "Boot with a pre-installation environment",
@@ -2949,7 +2949,7 @@
     "id": "core2-209",
     "exam": "core2",
     "domain": "Operating Systems",
-    "question": "A manager in the accounting department would like to upgrade to Windows 11, but she doesn’t want to lose access to any of the currently installed applications or data. Which of the following methods would be the best choice for these requirements?",
+    "question": "A manager in the accounting department would like to upgrade to Windows 11, but she doesn\u2019t want to lose access to any of the currently installed applications or data. Which of the following methods would be the best choice for these requirements?",
     "options": [
       "Clean install",
       "Image deployment",
@@ -3005,7 +3005,7 @@
     "id": "core2-213",
     "exam": "core2",
     "domain": "Operational Procedures",
-    "question": "While working at a customer's desk, a technician’s mobile phone begins to ring. Which of the following would be the most appropriate response?",
+    "question": "While working at a customer's desk, a technician\u2019s mobile phone begins to ring. Which of the following would be the most appropriate response?",
     "options": [
       "Take the call and address the caller's requests before continuing",
       "Take the call and ask the caller if you can return their call later",
@@ -3019,7 +3019,7 @@
     "id": "core2-214",
     "exam": "core2",
     "domain": "Operational Procedures",
-    "question": "A user’s workstation has been identified as participating in a DDoS to a large Internet service provider. The computer has been powered down and stored in a locked area until investigators arrive. Which of these procedures would be the most important to follow in the meantime?",
+    "question": "A user\u2019s workstation has been identified as participating in a DDoS to a large Internet service provider. The computer has been powered down and stored in a locked area until investigators arrive. Which of these procedures would be the most important to follow in the meantime?",
     "options": [
       "Create documentation of the storage area",
       "Retrieve logs from the workstation Event Viewer",
@@ -3033,7 +3033,7 @@
     "id": "core2-215",
     "exam": "core2",
     "domain": "Security",
-    "question": "A system administrator has configured EFS on a user’s workstation. Which of the following would describe this functionality?",
+    "question": "A system administrator has configured EFS on a user\u2019s workstation. Which of the following would describe this functionality?",
     "options": [
       "Encryption of individual files and folders",
       "Secure wireless communication",
@@ -3091,7 +3091,7 @@
     "domain": "Security",
     "question": "A user commonly stores large graphic image files in a shared folder on a network server. After logging in one morning, the user notices the shared folders are no longer in the list of available storage drives. The user confirms they are logged in properly to the Windows Domain. Which of the following would be the most likely reason for this issue?",
     "options": [
-      "User’s permissions have been modified",
+      "User\u2019s permissions have been modified",
       "User is running untrusted software",
       "Network is using IP filtering",
       "Port security is enabled"
@@ -3117,7 +3117,7 @@
     "id": "core2-221",
     "exam": "core2",
     "domain": "Software Troubleshooting",
-    "question": "A client’s desktop computer is randomly rebooting throughout the workday without any warnings or error messages. Which of the following would be the best next troubleshooting step?",
+    "question": "A client\u2019s desktop computer is randomly rebooting throughout the workday without any warnings or error messages. Which of the following would be the best next troubleshooting step?",
     "options": [
       "Update the system BIOS",
       "Reinstall the Windows operating system",
@@ -3175,7 +3175,7 @@
     "id": "core2-225",
     "exam": "core2",
     "domain": "Software Troubleshooting",
-    "question": "A user receives this message each time they visit a secure website: “The site’s security certificate is not trusted.” A technician investigates the issue and finds the problem only occurs on this user’s computer and not with other computers in the same office. Which of the following would be the best next troubleshooting task?",
+    "question": "A user receives this message each time they visit a secure website: \u201cThe site\u2019s security certificate is not trusted.\u201d A technician investigates the issue and finds the problem only occurs on this user\u2019s computer and not with other computers in the same office. Which of the following would be the best next troubleshooting task?",
     "options": [
       "Disable Windows Firewall for all HTTPS traffic",
       "Create a new certificate for the user's computer",
@@ -3189,7 +3189,7 @@
     "id": "core2-226",
     "exam": "core2",
     "domain": "Security",
-    "question": "A user’s smartphone contains company confidential information which should not be shared outside of the organization. Which of the following would be the best way to limit access to this data if the smartphone was lost or stolen?",
+    "question": "A user\u2019s smartphone contains company confidential information which should not be shared outside of the organization. Which of the following would be the best way to limit access to this data if the smartphone was lost or stolen?",
     "options": [
       "Locator application",
       "Remote wipe",
@@ -3301,7 +3301,7 @@
     "id": "core2-234",
     "exam": "core2",
     "domain": "Security",
-    "question": "A technician is troubleshooting a problem with user’s laptop and very high utilization, even with no activity on the screen or user input to the operating system. Task Manager shows the CPU is operating at 100% utilization, memory utilization is slightly elevated, and there is a large amount of outbound network communication. Which of the following would be the most likely reason for these issues?",
+    "question": "A technician is troubleshooting a problem with user\u2019s laptop and very high utilization, even with no activity on the screen or user input to the operating system. Task Manager shows the CPU is operating at 100% utilization, memory utilization is slightly elevated, and there is a large amount of outbound network communication. Which of the following would be the most likely reason for these issues?",
     "options": [
       "System RAM is faulty",
       "User has not properly authenticated",

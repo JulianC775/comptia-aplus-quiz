@@ -4,10 +4,24 @@ import { shuffle } from '../utils/shuffle'
 import { getMissedIds } from '../utils/scoring'
 import core1Questions from '../data/questions/core1.json'
 import core2Questions from '../data/questions/core2.json'
+import core1Recent from '../data/questions/core1-recent.json'
+import core2Recent from '../data/questions/core2-recent.json'
 
-const all = [...(core1Questions as Question[]), ...(core2Questions as Question[])]
+const all = [
+  ...(core1Questions as Question[]),
+  ...(core2Questions as Question[]),
+  ...(core1Recent as Question[]),
+  ...(core2Recent as Question[]),
+]
 
 function buildDeck(config: QuizConfig): Question[] {
+  if (config.mode === 'recent-core1') {
+    return shuffle(core1Recent as Question[])
+  }
+  if (config.mode === 'recent-core2') {
+    return shuffle(core2Recent as Question[])
+  }
+
   let pool = config.exam === 'both'
     ? all
     : all.filter(q => q.exam === config.exam)

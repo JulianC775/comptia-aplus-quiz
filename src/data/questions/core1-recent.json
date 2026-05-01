@@ -1,0 +1,702 @@
+[
+  {
+    "id": "core1-249",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A network technician is deploying wireless access points in a high-density office environment. Which Wi-Fi 6 (802.11ax) technology specifically improves performance by dividing a channel into smaller resource units and assigning them to different clients simultaneously?",
+    "options": [
+      "MU-MIMO",
+      "OFDMA (Orthogonal Frequency Division Multiple Access)",
+      "BSS Coloring",
+      "Target Wake Time (TWT)"
+    ],
+    "answer": 1,
+    "explanation": "OFDMA is the key Wi-Fi 6 technology for dense environments. It divides each channel into smaller subcarriers called resource units and assigns different resource units to different clients at the same time, allowing multiple clients to transmit simultaneously rather than taking turns."
+  },
+  {
+    "id": "core1-250",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "Which Wi-Fi standard is the first to operate in the 6 GHz frequency band, providing additional spectrum and significantly reduced interference from legacy devices?",
+    "options": [
+      "Wi-Fi 5 (802.11ac)",
+      "Wi-Fi 6 (802.11ax)",
+      "Wi-Fi 6E (802.11ax extended)",
+      "Wi-Fi 4 (802.11n)"
+    ],
+    "answer": 2,
+    "explanation": "Wi-Fi 6E extends the 802.11ax standard to include the 6 GHz band, making it the first Wi-Fi generation to operate there. This band provides wider channels (up to 160 MHz), dramatically less interference from legacy 2.4 GHz and 5 GHz devices, and higher throughput \u2014 though at shorter range."
+  },
+  {
+    "id": "core1-251",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A user wants to connect a new external SSD for maximum transfer performance. Which interface standard provides up to 40 Gbps and is backward compatible with USB 3.2 and Thunderbolt 3?",
+    "options": [
+      "USB 3.2 Gen 2x2 (20 Gbps)",
+      "USB4",
+      "eSATA",
+      "FireWire 800"
+    ],
+    "answer": 1,
+    "explanation": "USB4 supports up to 40 Gbps and is designed to be backward compatible with USB 3.2, USB 2.0, and Thunderbolt 3/4 devices. It uses the USB-C connector and tunnels multiple protocols including DisplayPort and PCIe."
+  },
+  {
+    "id": "core1-252",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A technician is replacing a laptop's M.2 storage drive. The M.2 slot is labeled '2280'. What do the numbers 22 and 80 represent?",
+    "options": [
+      "The drive's maximum speed in MB/s and read IOPS",
+      "The drive's width (22mm) and length (80mm)",
+      "The PCIe generation and number of lanes",
+      "The drive capacity in GB and cache size in MB"
+    ],
+    "answer": 1,
+    "explanation": "M.2 form factor designations use physical dimensions. '2280' means the module is 22mm wide and 80mm long. Common M.2 sizes include 2230, 2242, 2260, and 2280 \u2014 with 2280 being the most common for SSDs in laptops and desktops."
+  },
+  {
+    "id": "core1-253",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A technician is recommending a storage upgrade to maximize application load times on a workstation. Which storage interface provides the highest sequential read performance?",
+    "options": [
+      "SATA III SSD (connected via SATA cable)",
+      "NVMe SSD in an M.2 slot using the PCIe interface",
+      "2.5-inch SSD connected via USB 3.0",
+      "mSATA SSD in a mini PCIe slot"
+    ],
+    "answer": 1,
+    "explanation": "NVMe SSDs using the PCIe interface via an M.2 slot offer the highest performance. PCIe Gen 3 NVMe drives reach ~3,500 MB/s sequential read; PCIe Gen 4 NVMe drives exceed 7,000 MB/s. SATA III SSDs are limited to ~550 MB/s regardless of form factor."
+  },
+  {
+    "id": "core1-254",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "A company wants to migrate on-premises servers to the cloud while retaining full control over the operating system and installed applications. Which cloud service model best meets this requirement?",
+    "options": [
+      "Software as a Service (SaaS)",
+      "Platform as a Service (PaaS)",
+      "Infrastructure as a Service (IaaS)",
+      "Desktop as a Service (DaaS)"
+    ],
+    "answer": 2,
+    "explanation": "IaaS provides virtualized compute resources (VMs, storage, networking) over the internet. The customer manages the OS, middleware, and applications, while the provider manages the underlying hardware and virtualization. This mirrors running on-premises servers but in the cloud."
+  },
+  {
+    "id": "core1-255",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "A company wants to replace physical desktops with thin clients that stream a full Windows desktop from the cloud, managed entirely by a third-party provider. Which cloud model best describes this solution?",
+    "options": [
+      "Infrastructure as a Service (IaaS)",
+      "Platform as a Service (PaaS)",
+      "Software as a Service (SaaS)",
+      "Desktop as a Service (DaaS)"
+    ],
+    "answer": 3,
+    "explanation": "Desktop as a Service (DaaS) delivers virtual desktop environments streamed from the cloud to thin clients or other endpoints. The provider manages the virtual desktop infrastructure including compute, storage, and the desktop OS. This reduces the need for powerful local hardware."
+  },
+  {
+    "id": "core1-256",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "An organization runs customer-facing applications on a public cloud provider but keeps sensitive financial data on a private cloud it manages internally. What type of cloud deployment model is this?",
+    "options": [
+      "Community cloud",
+      "Multi-cloud",
+      "Hybrid cloud",
+      "Private cloud"
+    ],
+    "answer": 2,
+    "explanation": "A hybrid cloud combines private and public cloud environments, allowing data and applications to be shared between them. This approach gives businesses flexibility \u2014 keeping sensitive workloads on a private cloud while leveraging public cloud scalability for other workloads."
+  },
+  {
+    "id": "core1-257",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A data center technician is cabling two adjacent equipment racks with fiber optic patch cables. Which fiber optic connector is preferred in high-density environments due to its small form factor?",
+    "options": [
+      "SC (Subscriber Connector)",
+      "ST (Straight Tip)",
+      "LC (Lucent Connector)",
+      "FC (Ferrule Connector)"
+    ],
+    "answer": 2,
+    "explanation": "LC (Lucent Connector) connectors are roughly half the size of SC connectors. Their compact size makes them the standard choice for high-density data center patch panels, transceivers (SFP/SFP+), and switches where maximizing port density is critical."
+  },
+  {
+    "id": "core1-258",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A technician needs to run a fiber optic cable between two buildings 15 kilometers apart. Which type of fiber should be used for this distance?",
+    "options": [
+      "Multimode OM1 fiber",
+      "Multimode OM4 fiber",
+      "Single-mode OS2 fiber",
+      "Multimode OM3 fiber"
+    ],
+    "answer": 2,
+    "explanation": "Single-mode fiber (OS1/OS2) is designed for long-distance transmissions and can span tens of kilometers with minimal signal loss using a laser light source and a small 9-micron core. Multimode fiber is limited to shorter runs \u2014 typically 550 meters to 2 km depending on the grade \u2014 and is unsuitable for 15 km."
+  },
+  {
+    "id": "core1-259",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A VoIP deployment requires Power over Ethernet for IP phones that each need up to 25.5 watts. Which PoE standard must the switches support?",
+    "options": [
+      "IEEE 802.3af (PoE) \u2014 up to 15.4W per port",
+      "IEEE 802.3at (PoE+) \u2014 up to 30W per port",
+      "IEEE 802.3bt Type 3 (PoE++) \u2014 up to 60W per port",
+      "IEEE 802.3bt Type 4 (PoE++) \u2014 up to 100W per port"
+    ],
+    "answer": 1,
+    "explanation": "IEEE 802.3at (PoE+) delivers up to 30W per port, sufficient for the 25.5W phones. Standard 802.3af PoE only provides 15.4W and would be insufficient. PoE++ (802.3bt) would work but is over-specified and more expensive for this use case."
+  },
+  {
+    "id": "core1-260",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A technician is upgrading a workstation to DDR5 RAM. Compared to DDR4, which accurately describes a key improvement of DDR5?",
+    "options": [
+      "DDR5 uses a higher operating voltage of 1.8V compared to DDR4's 1.2V",
+      "DDR5 offers higher base clock speeds and lower operating voltage (1.1V) compared to DDR4",
+      "DDR5 is compatible with DDR4 memory slots using an adapter",
+      "DDR5 uses fewer pins than DDR4 to simplify installation"
+    ],
+    "answer": 1,
+    "explanation": "DDR5 improvements over DDR4 include higher base clock speeds (starting at 4800 MT/s vs DDR4's 2133 MT/s), lower operating voltage (1.1V vs 1.2V), doubled channel count per DIMM (two 32-bit subchannels), and on-die ECC. DDR5 uses a different slot and is not backward compatible with DDR4 motherboards."
+  },
+  {
+    "id": "core1-261",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A technician recommends a 5G mmWave connection for a user. Which characteristic of mmWave 5G must the technician communicate to set proper expectations?",
+    "options": [
+      "mmWave provides excellent indoor coverage and penetrates walls easily",
+      "mmWave 5G provides very high bandwidth but has limited range and poor building penetration",
+      "mmWave 5G operates at the same frequencies as standard Wi-Fi",
+      "mmWave is ideal for rural areas due to its long-range coverage"
+    ],
+    "answer": 1,
+    "explanation": "mmWave 5G (24 GHz and above) offers extremely high bandwidth (multi-gigabit speeds) but has very limited range \u2014 often under 300 meters \u2014 and is easily blocked by buildings, trees, and even rain. It is best suited for dense urban deployments with line-of-sight access, not rural coverage."
+  },
+  {
+    "id": "core1-262",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "A user wants to switch cellular carriers on their new smartphone without physically swapping a SIM card. Which technology enables this?",
+    "options": [
+      "NFC (Near Field Communication)",
+      "eSIM (Embedded SIM)",
+      "VoLTE (Voice over LTE)",
+      "UICC (Universal Integrated Circuit Card)"
+    ],
+    "answer": 1,
+    "explanation": "An eSIM is a programmable SIM chip soldered directly to the device's motherboard. It can be remotely provisioned with carrier profiles, allowing users to switch carriers or add data plans without a physical SIM card swap. Modern smartphones, smartwatches, and laptops commonly support eSIM."
+  },
+  {
+    "id": "core1-263",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "Wireless clients in an office are experiencing interference from overlapping neighboring Wi-Fi networks. Which Wi-Fi 6 feature helps devices distinguish signals from their own network vs. neighboring networks to reduce unnecessary collision avoidance?",
+    "options": [
+      "OFDMA",
+      "Target Wake Time (TWT)",
+      "BSS Coloring",
+      "MU-MIMO"
+    ],
+    "answer": 2,
+    "explanation": "BSS Coloring assigns a color identifier to each Basic Service Set (BSS). Devices that detect a frame with a different color know it originates from a neighboring BSS rather than their own, and can determine it won't cause an actual collision \u2014 so they don't unnecessarily defer transmission, improving efficiency in overlapping network environments."
+  },
+  {
+    "id": "core1-264",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "A user reports that their Wi-Fi 6 enabled laptop battery drains quickly even when the laptop is idle but connected to a Wi-Fi 6 access point. Which Wi-Fi 6 feature, if properly supported, is specifically designed to reduce this battery drain?",
+    "options": [
+      "OFDMA",
+      "MU-MIMO",
+      "BSS Coloring",
+      "Target Wake Time (TWT)"
+    ],
+    "answer": 3,
+    "explanation": "Target Wake Time (TWT) allows an access point to negotiate scheduled wake times with each client device. Devices can stay in a sleep state between their scheduled windows instead of continuously listening for transmissions, significantly reducing power consumption on Wi-Fi 6 compatible devices."
+  },
+  {
+    "id": "core1-265",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A network administrator needs to separate the finance department's network traffic from other departments without purchasing additional physical switches. Which technology provides logical network segmentation on existing switches?",
+    "options": [
+      "NAT (Network Address Translation)",
+      "VLAN (Virtual Local Area Network)",
+      "QoS (Quality of Service)",
+      "DMZ (Demilitarized Zone)"
+    ],
+    "answer": 1,
+    "explanation": "VLANs allow a single physical switch to be logically divided into multiple isolated network segments. By assigning switch ports to different VLANs, traffic from the finance department is separated from other departments without additional hardware. A Layer 3 switch or router is needed for inter-VLAN communication."
+  },
+  {
+    "id": "core1-266",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A laptop manufacturer is designing a thin-and-light model optimized for battery life above all else. Which processor architecture is most likely chosen for this goal?",
+    "options": [
+      "x86-64 (AMD64) desktop architecture",
+      "x86 32-bit architecture",
+      "ARM (Advanced RISC Machine) architecture",
+      "MIPS architecture"
+    ],
+    "answer": 2,
+    "explanation": "ARM processors use a RISC architecture that prioritizes power efficiency over raw per-clock performance, making them ideal for mobile and thin-and-light designs. Devices using ARM-based chips (such as Apple Silicon M1/M2/M3 in MacBooks) achieve exceptional battery life. x86/x86-64 processors historically consume more power."
+  },
+  {
+    "id": "core1-267",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "A network engineer wants to manage the entire corporate network from a centralized controller by separating the routing decision logic from the hardware that physically forwards traffic. Which technology enables this approach?",
+    "options": [
+      "VDI (Virtual Desktop Infrastructure)",
+      "SDN (Software Defined Networking)",
+      "NFV (Network Functions Virtualization)",
+      "VLAN trunking"
+    ],
+    "answer": 1,
+    "explanation": "SDN (Software Defined Networking) separates the control plane (deciding how to route traffic) from the data plane (actually forwarding traffic). A centralized SDN controller programs the forwarding behavior of all network devices, enabling dynamic, programmable network management without configuring each switch or router individually."
+  },
+  {
+    "id": "core1-268",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A video editing workstation is being upgraded to a PCIe Gen 4 NVMe SSD. How does PCIe Gen 4 improve storage performance compared to PCIe Gen 3?",
+    "options": [
+      "PCIe Gen 4 doubles the bandwidth per lane compared to PCIe Gen 3",
+      "PCIe Gen 4 reduces the lane count required to achieve equivalent bandwidth",
+      "PCIe Gen 4 uses a different physical connector incompatible with PCIe Gen 3 slots",
+      "PCIe Gen 4 only improves SATA drive performance, not NVMe"
+    ],
+    "answer": 0,
+    "explanation": "PCIe Gen 4 doubles the throughput per lane: Gen 3 provides ~1 GB/s per lane (8 GT/s) while Gen 4 provides ~2 GB/s per lane (16 GT/s). For an x4 M.2 NVMe slot, this means ~4 GB/s for Gen 3 and ~8 GB/s for Gen 4. PCIe Gen 4 is backward compatible with Gen 3 slots and devices at reduced speeds."
+  },
+  {
+    "id": "core1-269",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "A company wants to deploy virtual desktops for call center employees but requires the infrastructure to remain fully on-premises and under internal IT control. Which solution best fits this requirement?",
+    "options": [
+      "DaaS from a public cloud provider such as Amazon WorkSpaces",
+      "SaaS applications delivered through a web browser",
+      "VDI (Virtual Desktop Infrastructure) hosted on on-premises servers",
+      "Remote Desktop Services running in a public cloud"
+    ],
+    "answer": 2,
+    "explanation": "VDI (Virtual Desktop Infrastructure) hosts virtual desktop instances on servers the company manages in its own data center, giving full control over the infrastructure. DaaS delivers similar functionality but is hosted and managed by a third-party cloud provider \u2014 which does not meet this company's on-premises requirement."
+  },
+  {
+    "id": "core1-270",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A workstation experiences slow, intermittent network performance. Investigation reveals the workstation's NIC is manually set to 1000 Mbps full-duplex while the connected switch port auto-negotiated to 1000 Mbps half-duplex. What is this condition called?",
+    "options": [
+      "IP address conflict",
+      "VLAN mismatch",
+      "Duplex mismatch",
+      "MTU mismatch"
+    ],
+    "answer": 2,
+    "explanation": "A duplex mismatch occurs when two connected network devices use different duplex settings. The full-duplex side sends and receives simultaneously, causing the half-duplex side to detect collisions and retransmit, severely degrading throughput. Both devices should use the same duplex mode, either both configured manually or both set to auto-negotiate."
+  },
+  {
+    "id": "core1-271",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A wireless administrator wants to verify which Wi-Fi 6 feature supports simultaneous communication with multiple clients using multiple antenna streams in both uplink and downlink directions.",
+    "options": [
+      "Beamforming",
+      "OFDMA",
+      "MU-MIMO (Multi-User MIMO)",
+      "DFS (Dynamic Frequency Selection)"
+    ],
+    "answer": 2,
+    "explanation": "MU-MIMO (Multi-User Multiple Input Multiple Output) allows an access point to communicate with multiple client devices simultaneously using multiple antenna streams. Wi-Fi 6 improves MU-MIMO to support up to 8 simultaneous spatial streams in both uplink and downlink, compared to Wi-Fi 5 which only supported downlink MU-MIMO with up to 4 streams."
+  },
+  {
+    "id": "core1-272",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "A company wants to deploy a web application in the cloud without managing the underlying servers, OS patches, or runtime environment \u2014 only the application code and data. Which cloud model best fits this requirement?",
+    "options": [
+      "IaaS (Infrastructure as a Service)",
+      "PaaS (Platform as a Service)",
+      "SaaS (Software as a Service)",
+      "DaaS (Desktop as a Service)"
+    ],
+    "answer": 1,
+    "explanation": "PaaS provides a managed platform for application deployment without managing the underlying infrastructure. The provider handles hardware, OS, runtime, middleware, and scaling. Developers only manage the application and data. Examples include AWS Elastic Beanstalk, Google App Engine, and Azure App Service."
+  },
+  {
+    "id": "core1-273",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "A user's new smartphone can make contactless payments at retail stores and read information from NFC-enabled access badges. Which wireless technology enables both of these capabilities?",
+    "options": [
+      "Bluetooth Low Energy (BLE)",
+      "Near Field Communication (NFC)",
+      "Wi-Fi Direct",
+      "Zigbee"
+    ],
+    "answer": 1,
+    "explanation": "NFC (Near Field Communication) operates at 13.56 MHz with a range of typically less than 4 cm. It supports contactless payments (Apple Pay, Google Pay), access card emulation, and NFC tag reading. Its intentionally short range serves as a security feature \u2014 devices must be very close to communicate."
+  },
+  {
+    "id": "core1-274",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A wireless administrator is upgrading the corporate Wi-Fi to support WPA3 personal mode. Which authentication mechanism does WPA3-Personal use to replace the WPA2 4-way handshake and resist offline dictionary attacks?",
+    "options": [
+      "PSK (Pre-Shared Key) using TKIP",
+      "SAE (Simultaneous Authentication of Equals)",
+      "EAP-TLS with certificates",
+      "RADIUS authentication"
+    ],
+    "answer": 1,
+    "explanation": "WPA3-Personal uses SAE (Simultaneous Authentication of Equals) instead of the traditional PSK handshake. SAE provides forward secrecy and is resistant to offline dictionary attacks because the password is never transmitted, even in encrypted form, during authentication."
+  },
+  {
+    "id": "core1-275",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "A user travels internationally and needs a smartphone that can be used on most carriers worldwide. Which cellular technology is the global standard used by the majority of international carriers?",
+    "options": [
+      "CDMA (Code Division Multiple Access)",
+      "GSM (Global System for Mobile Communications)",
+      "iDEN (Integrated Digital Enhanced Network)",
+      "TDMA (Time Division Multiple Access)"
+    ],
+    "answer": 1,
+    "explanation": "GSM is the dominant cellular standard internationally and uses SIM cards for subscriber identity, making device portability between carriers easier. CDMA was historically used by some U.S. carriers (Verizon, Sprint) but is being phased out in favor of LTE/5G, which are based on GSM-family technologies."
+  },
+  {
+    "id": "core1-276",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "A user reports their smartphone cannot get a cellular signal in an area where it previously worked fine. The carrier suggests updating the PRL. What does updating the PRL accomplish?",
+    "options": [
+      "It updates the phone's operating system to the latest version",
+      "It refreshes the Preferred Roaming List so the device knows current tower priorities and partner networks",
+      "It performs a factory reset of the cellular radio",
+      "It updates the device's IMEI number with the carrier"
+    ],
+    "answer": 1,
+    "explanation": "The PRL (Preferred Roaming List) is a database stored on a cellular device that tells it which towers and partner networks to prefer when roaming. Carriers periodically push PRL updates as their tower partnerships and coverage maps change. An out-of-date PRL can cause poor signal selection or roaming problems."
+  },
+  {
+    "id": "core1-277",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "A user wants to share their smartphone's cellular internet connection with a laptop over Wi-Fi. What is this functionality called?",
+    "options": [
+      "Bluetooth tethering",
+      "Mobile hotspot (Wi-Fi tethering)",
+      "Airplane mode",
+      "USB OTG (On-The-Go)"
+    ],
+    "answer": 1,
+    "explanation": "A mobile hotspot, sometimes called Wi-Fi tethering, allows a smartphone to broadcast its cellular data connection as a Wi-Fi network that other devices can connect to. Tethering more broadly refers to sharing the cellular connection \u2014 it can also be done over Bluetooth or USB cable, but Wi-Fi hotspot is the most common method for laptops."
+  },
+  {
+    "id": "core1-278",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "A user complains that an outline of the application interface remains visible on their OLED smartphone screen even when displaying a different image. What is this issue called?",
+    "options": [
+      "Dead pixels",
+      "Screen burn-in (image persistence)",
+      "Backlight bleed",
+      "Refresh rate mismatch"
+    ],
+    "answer": 1,
+    "explanation": "Screen burn-in (image persistence) is a known characteristic of OLED displays caused by uneven aging of individual pixels. When static elements like status bars or app interfaces are shown for extended periods, those pixels degrade faster, leaving a faint permanent ghost of the image. Modern OLED devices use pixel shifting and brightness limiting to mitigate this."
+  },
+  {
+    "id": "core1-279",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "A technician is selecting touchscreen technology for a new tablet design. The customer wants support for multi-touch gestures and high responsiveness to light finger touches. Which touchscreen technology should be used?",
+    "options": [
+      "Resistive touchscreen",
+      "Capacitive touchscreen",
+      "Surface acoustic wave",
+      "Infrared touchscreen"
+    ],
+    "answer": 1,
+    "explanation": "Capacitive touchscreens detect changes in the electrical field caused by a conductive object (like a finger). They support multi-touch, are highly responsive to light touches, and provide excellent image clarity. Resistive screens require pressure and typically only support single-touch \u2014 they're used in industrial or stylus-only applications."
+  },
+  {
+    "id": "core1-280",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A retailer is comparing RFID and NFC for tracking inventory. Which statement accurately distinguishes the two technologies?",
+    "options": [
+      "RFID and NFC operate on the same frequencies and have identical read ranges",
+      "NFC is a specific subset of RFID that operates at 13.56 MHz with very short range (typically under 4 cm)",
+      "RFID requires line-of-sight; NFC does not",
+      "NFC supports longer ranges than RFID, making it ideal for warehouse inventory"
+    ],
+    "answer": 1,
+    "explanation": "NFC is technically a subset of RFID. NFC operates at 13.56 MHz with very short range (typically under 4 cm) and supports two-way communication, which is used for payments and badge access. General RFID can use various frequencies (LF, HF, UHF) and read ranges from a few centimeters up to several meters, making UHF RFID more suitable for inventory tracking."
+  },
+  {
+    "id": "core1-281",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A rural customer cannot get cable or DSL service. A wireless ISP installs an antenna on the customer's roof and connects it to a fixed point-to-point radio link several kilometers away. What type of internet connection is this?",
+    "options": [
+      "Cellular hotspot",
+      "Fixed wireless / WISP (Wireless Internet Service Provider)",
+      "Satellite internet",
+      "Wi-Fi 6E mesh network"
+    ],
+    "answer": 1,
+    "explanation": "Fixed wireless service from a WISP (Wireless Internet Service Provider) uses directional antennas to create a point-to-point or point-to-multipoint link between the customer's location and the provider's tower. This is commonly used in rural or underserved areas where wired broadband isn't available. It differs from cellular and from satellite (which uses geostationary or LEO satellites)."
+  },
+  {
+    "id": "core1-282",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "A data center administrator is selecting a hypervisor for production servers running directly on dedicated hardware with no host operating system. Which type of hypervisor is appropriate?",
+    "options": [
+      "Type 1 (bare-metal) hypervisor such as VMware ESXi or Microsoft Hyper-V Server",
+      "Type 2 (hosted) hypervisor such as VMware Workstation or VirtualBox",
+      "Application virtualization platform such as Citrix XenApp",
+      "Container runtime such as Docker"
+    ],
+    "answer": 0,
+    "explanation": "Type 1 (bare-metal) hypervisors such as VMware ESXi, Microsoft Hyper-V Server, and Xen run directly on the hardware without an underlying operating system. They are used in production data centers because they are more efficient and secure. Type 2 hypervisors run as applications on top of an existing OS and are used for development or desktop virtualization."
+  },
+  {
+    "id": "core1-283",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "A SaaS provider experiences a sudden 10x spike in traffic during a marketing campaign. The cloud platform automatically provisions additional servers within minutes to handle the load, then deprovisions them once demand drops. Which essential cloud characteristic does this demonstrate?",
+    "options": [
+      "Resource pooling",
+      "Rapid elasticity",
+      "Measured service",
+      "Broad network access"
+    ],
+    "answer": 1,
+    "explanation": "Rapid elasticity is the cloud characteristic that enables compute resources to be quickly provisioned and de-provisioned (often automatically) to scale with demand. It's what makes cloud services able to handle bursty workloads efficiently. The customer effectively sees an unlimited pool of resources available on demand."
+  },
+  {
+    "id": "core1-284",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "A company is billed monthly by its cloud provider based on the exact amount of CPU, storage, and bandwidth consumed. Which essential cloud characteristic does this billing model demonstrate?",
+    "options": [
+      "Resource pooling",
+      "Rapid elasticity",
+      "Measured service (pay-as-you-go)",
+      "On-demand self-service"
+    ],
+    "answer": 2,
+    "explanation": "Measured service is the cloud characteristic where resource usage is monitored, controlled, and reported, and customers are billed for exactly what they consume. This pay-as-you-go pricing is one of cloud computing's defining benefits compared to fixed-cost on-premises infrastructure."
+  },
+  {
+    "id": "core1-285",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "A cloud provider hosts thousands of customers on shared physical infrastructure, dynamically allocating compute, storage, and network resources to each customer as needed. Which essential cloud characteristic best describes this model?",
+    "options": [
+      "Resource pooling (multi-tenancy)",
+      "On-demand self-service",
+      "Broad network access",
+      "Rapid elasticity"
+    ],
+    "answer": 0,
+    "explanation": "Resource pooling describes the cloud model where the provider's compute, storage, and network resources are pooled to serve multiple customers (multi-tenancy) using a multi-tenant model. Resources are dynamically assigned and reassigned according to consumer demand, with the customer generally having no awareness of the exact physical location."
+  },
+  {
+    "id": "core1-286",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A user prints a document and the output is unreadable, with stray characters and code-like text. The user previously printed successfully to a different printer. What is the most likely cause?",
+    "options": [
+      "The printer's toner cartridge is empty",
+      "The page description language (PCL vs PostScript) configured in the driver does not match the printer",
+      "The printer's network cable is loose",
+      "The user is sending too many print jobs at once"
+    ],
+    "answer": 1,
+    "explanation": "When a printer driver's page description language (such as PCL or PostScript) doesn't match what the printer expects, the printer prints the raw command codes as text rather than rendering them. The fix is to install or select a driver that matches the printer's supported language."
+  },
+  {
+    "id": "core1-287",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "Which step of the laser printer imaging process applies a uniform negative charge to the photosensitive drum before the laser writes the page image?",
+    "options": [
+      "Exposing",
+      "Charging",
+      "Developing",
+      "Fusing"
+    ],
+    "answer": 1,
+    "explanation": "The seven-step laser imaging process is: Processing, Charging, Exposing, Developing, Transferring, Fusing, and Cleaning. During the Charging step, the primary charge roller (or corona wire) applies a uniform negative charge to the photosensitive drum so the laser can later selectively neutralize areas to attract toner."
+  },
+  {
+    "id": "core1-288",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A 3D printer using FDM (Fused Deposition Modeling) technology requires what type of consumable to produce printed objects?",
+    "options": [
+      "Liquid photopolymer resin cured by UV light",
+      "Thermoplastic filament heated and extruded layer-by-layer",
+      "Powdered metal sintered by a laser",
+      "Aerosol ink ejected from a print head"
+    ],
+    "answer": 1,
+    "explanation": "FDM (Fused Deposition Modeling) 3D printers use spools of thermoplastic filament \u2014 commonly PLA, ABS, or PETG \u2014 which is fed into a heated extruder and deposited layer-by-layer to build the object. Resin printers (SLA/DLP/MSLA) use liquid photopolymer, while SLS printers use powdered materials."
+  },
+  {
+    "id": "core1-289",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A user reports that their inkjet printer's output has horizontal white streaks running through colored areas, and certain colors are missing entirely. Which troubleshooting step should the technician try first?",
+    "options": [
+      "Replace the entire printer",
+      "Run the printer's print head cleaning utility, then check ink cartridges",
+      "Reinstall the printer driver from scratch",
+      "Replace the fuser assembly"
+    ],
+    "answer": 1,
+    "explanation": "Streaking and missing colors on an inkjet printer are typically caused by clogged print head nozzles or low ink. Running the built-in head cleaning utility usually clears the clog. If that doesn't resolve it, check ink levels and replace empty cartridges. Fusers are laser printer components and don't apply to inkjets."
+  },
+  {
+    "id": "core1-290",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A workstation has begun experiencing read errors and slow file access. A technician runs a diagnostic that reports the drive's S.M.A.R.T. status. What does S.M.A.R.T. monitor?",
+    "options": [
+      "Software vulnerabilities and missing patches",
+      "Self-Monitoring, Analysis, and Reporting Technology \u2014 internal drive health metrics that can predict drive failure",
+      "Network throughput and packet loss between endpoints",
+      "CPU temperature and clock speed under load"
+    ],
+    "answer": 1,
+    "explanation": "S.M.A.R.T. (Self-Monitoring, Analysis, and Reporting Technology) is built into HDDs and SSDs to track health metrics such as reallocated sectors, read error rates, drive temperature, and power-on hours. A failing S.M.A.R.T. status often precedes drive failure by days or weeks, giving administrators time to back up data and replace the drive."
+  },
+  {
+    "id": "core1-291",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A technician is selecting Ethernet cabling for a 10 Gbps run of approximately 80 meters in an office. Which cable category supports 10GBASE-T at this distance?",
+    "options": [
+      "Cat 5",
+      "Cat 5e",
+      "Cat 6",
+      "Cat 6a"
+    ],
+    "answer": 3,
+    "explanation": "Cat 6a (augmented Cat 6) supports 10GBASE-T (10 Gbps) at the full 100-meter run length. Cat 6 only supports 10GBASE-T up to about 55 meters. Cat 5 tops out at 100 Mbps and Cat 5e at 1 Gbps. Cat 7 and Cat 8 also support 10 Gbps and beyond but are less commonly used in standard office environments."
+  },
+  {
+    "id": "core1-292",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A network installer is running Ethernet cable through the air-handling space above a drop ceiling that returns air to the HVAC system. What type of cable jacket is required by code?",
+    "options": [
+      "PVC (polyvinyl chloride) jacketed cable",
+      "Plenum-rated (CMP) cable with low-smoke fluoropolymer jacket",
+      "Direct-burial outdoor-rated cable",
+      "Shielded twisted pair (STP) cable"
+    ],
+    "answer": 1,
+    "explanation": "Plenum-rated cable (CMP) is required by fire codes for use in plenum spaces \u2014 areas used to circulate HVAC air, such as above drop ceilings and below raised floors. Plenum jackets use fluoropolymer materials that produce less smoke and toxic fumes when burning. Standard PVC jackets release toxic gases that can spread through air handling and are prohibited in plenum spaces."
+  },
+  {
+    "id": "core1-293",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A user wants to connect a gaming PC to a 4K display at 120 Hz with HDR using a single cable. Which video standard supports this combination natively?",
+    "options": [
+      "HDMI 1.4",
+      "HDMI 2.0",
+      "HDMI 2.1",
+      "VGA"
+    ],
+    "answer": 2,
+    "explanation": "HDMI 2.1 supports up to 48 Gbps bandwidth and natively handles 4K at 120 Hz, 8K at 60 Hz, and HDR with Dynamic HDR metadata. It also supports features like Variable Refresh Rate (VRR) and Auto Low Latency Mode (ALLM), making it preferred for modern gaming and high-end displays. HDMI 2.0 is limited to 4K at 60 Hz."
+  },
+  {
+    "id": "core1-294",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A residential customer has fiber-to-the-home (FTTH) service installed. Which device terminates the fiber optic line at the customer premises and converts the optical signal to Ethernet for the home router?",
+    "options": [
+      "DSL modem",
+      "Cable modem (DOCSIS)",
+      "Optical Network Terminal (ONT)",
+      "Patch panel"
+    ],
+    "answer": 2,
+    "explanation": "An Optical Network Terminal (ONT), sometimes called an Optical Network Unit (ONU), terminates the fiber optic line at the subscriber's premises and converts the optical signal to electrical signals (typically Ethernet) that consumer routers and devices can use. ONTs are the fiber equivalent of a cable or DSL modem."
+  },
+  {
+    "id": "core1-295",
+    "exam": "core1",
+    "domain": "Networking",
+    "question": "A network administrator is deploying high-power PTZ security cameras and outdoor wireless access points that each require up to 90 watts. Which PoE standard supports this wattage?",
+    "options": [
+      "IEEE 802.3af (PoE) \u2014 15.4W",
+      "IEEE 802.3at (PoE+) \u2014 30W",
+      "IEEE 802.3bt Type 3 (PoE++) \u2014 60W",
+      "IEEE 802.3bt Type 4 (PoE++) \u2014 100W"
+    ],
+    "answer": 3,
+    "explanation": "IEEE 802.3bt Type 4 (sometimes branded as PoE++ or 4PPoE) delivers up to 100W per port using all 4 pairs of wires in the Ethernet cable. Type 3 supports up to 60W, Type 4 supports up to 100W. The 90W requirement requires Type 4. This standard powers higher-draw devices like outdoor APs, PTZ cameras, and small displays."
+  },
+  {
+    "id": "core1-296",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A laptop displays exceptional contrast with deep blacks and per-pixel brightness control, but exhibits the risk of permanent image retention with prolonged static content. Which display technology is most likely in use?",
+    "options": [
+      "Standard LCD with CCFL backlight",
+      "LED-backlit LCD with TN panel",
+      "OLED",
+      "E-ink (electrophoretic display)"
+    ],
+    "answer": 2,
+    "explanation": "OLED (Organic Light Emitting Diode) displays generate light per-pixel, allowing pixels to turn off completely for true black and infinite contrast ratios. They also have the well-known drawback of potential burn-in (image persistence) when static content is displayed for very long periods. LCDs require a backlight and cannot achieve true black."
+  },
+  {
+    "id": "core1-297",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A new external storage enclosure advertises support for both USB4 and Thunderbolt 4. The technician verifies the enclosure achieves 40 Gbps when connected to a Thunderbolt 4 port. What does this tell the technician about the cable being used?",
+    "options": [
+      "Any USB-C cable will achieve 40 Gbps automatically",
+      "The cable must be a certified Thunderbolt 4 or USB4 40 Gbps cable, since lower-grade USB-C cables are limited to lower speeds",
+      "Only Thunderbolt 3 cables work, not USB4 cables",
+      "The cable must be no longer than 10 cm"
+    ],
+    "answer": 1,
+    "explanation": "While USB-C is the physical connector, not all USB-C cables support the same speeds. To achieve 40 Gbps over Thunderbolt 4 or USB4, a certified Thunderbolt 4 or USB4 40 Gbps cable is required. Lower-grade USB-C cables (USB 2.0 or USB 3.x) will function but cap throughput at much lower speeds, regardless of the ports on either end."
+  },
+  {
+    "id": "core1-298",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "Several users on the same Wi-Fi access point report intermittent slow speeds and disconnections, while users on a different AP report no issues. Which is the BEST first troubleshooting step?",
+    "options": [
+      "Replace the affected access point immediately",
+      "Use a Wi-Fi analyzer to check for channel overlap, signal strength, and interference around the affected AP",
+      "Reset every user's device to factory defaults",
+      "Disable Wi-Fi roaming on all client devices"
+    ],
+    "answer": 1,
+    "explanation": "When a single AP is affected, the most likely causes are channel interference (from other APs or non-Wi-Fi devices), signal strength issues from coverage gaps, or AP-side configuration problems. A Wi-Fi analyzer reveals channel utilization, neighboring SSIDs, and signal strength so the technician can change channels, adjust transmit power, or relocate the AP without unnecessarily replacing hardware."
+  }
+]

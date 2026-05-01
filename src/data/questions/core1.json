@@ -45,7 +45,7 @@
     "id": "core1-004",
     "exam": "core1",
     "domain": "Networking",
-    "question": "A network connection in a conference room was installed years ago, and there’s no documentation for the cable run. Connecting a device to the cable results in a successful Ethernet connection, so the other end of the cable should terminate somewhere in the wiring closet. Which of these tools would be the best choice to find the other end of the network connection?",
+    "question": "A network connection in a conference room was installed years ago, and there\u2019s no documentation for the cable run. Connecting a device to the cable results in a successful Ethernet connection, so the other end of the cable should terminate somewhere in the wiring closet. Which of these tools would be the best choice to find the other end of the network connection?",
     "options": [
       "Cable tester",
       "Tone generator",
@@ -73,7 +73,7 @@
     "id": "core1-006",
     "exam": "core1",
     "domain": "Hardware and Network Troubleshooting",
-    "question": "A user has powered on their computer and received the message “Operating system not found.” A check of the system shows the SATA drive cables are properly connected. Which of the following would be the next best troubleshooting step?",
+    "question": "A user has powered on their computer and received the message \u201cOperating system not found.\u201d A check of the system shows the SATA drive cables are properly connected. Which of the following would be the next best troubleshooting step?",
     "options": [
       "Boot to Safe Mode",
       "Replace the boot drive",
@@ -101,7 +101,7 @@
     "id": "core1-008",
     "exam": "core1",
     "domain": "Hardware",
-    "question": "A client’s laptop appears to boot normally, but nothing ever appears on the LCD. After closer inspection, you notice the output is visible but it's too faint to clearly see anything. What is the most likely cause of this issue?",
+    "question": "A client\u2019s laptop appears to boot normally, but nothing ever appears on the LCD. After closer inspection, you notice the output is visible but it's too faint to clearly see anything. What is the most likely cause of this issue?",
     "options": [
       "Video card",
       "Inverter",
@@ -109,7 +109,7 @@
       "Power adapter"
     ],
     "answer": 1,
-    "explanation": "The inverter powers the CCFL (Cold Cathode Fluorescent Lamp) LCD (Liquid Crystal Display) backlight, allowing you to easily view the pixels on the display. Most newer laptops will use LED (Light Emitting Diode) backlights with existing DC (Direct Current) power and these LED lights don’t require an inverter."
+    "explanation": "The inverter powers the CCFL (Cold Cathode Fluorescent Lamp) LCD (Liquid Crystal Display) backlight, allowing you to easily view the pixels on the display. Most newer laptops will use LED (Light Emitting Diode) backlights with existing DC (Direct Current) power and these LED lights don\u2019t require an inverter."
   },
   {
     "id": "core1-009",
@@ -275,7 +275,7 @@
     "id": "core1-020",
     "exam": "core1",
     "domain": "Networking",
-    "question": "A system administrator has tripped over an Ethernet cable and the cable’s RJ45 connector has broken. Which of the following should be used to resolve this issue?",
+    "question": "A system administrator has tripped over an Ethernet cable and the cable\u2019s RJ45 connector has broken. Which of the following should be used to resolve this issue?",
     "options": [
       "Punch-down tool",
       "Tone generator and probe",
@@ -334,7 +334,7 @@
     "question": "A network administrator would like to enable DHCP on a laptop, but they would like the same IP address to be assigned to the laptop each time it starts. Which of the following would provide this functionality?",
     "options": [
       "Create an IP reservation on the DHCP server",
-      "Administratively configure the laptop’s MAC address",
+      "Administratively configure the laptop\u2019s MAC address",
       "Use APIPA addressing",
       "Assign the laptop to a static IP VLAN"
     ],
@@ -443,7 +443,7 @@
     "id": "core1-032",
     "exam": "core1",
     "domain": "Mobile Devices",
-    "question": "A user would like to access email from their Windows 11 laptop using a smartphone’s Internet connection. Which of these technologies needs to be enabled on the laptop?",
+    "question": "A user would like to access email from their Windows 11 laptop using a smartphone\u2019s Internet connection. Which of these technologies needs to be enabled on the laptop?",
     "options": [
       "5G",
       "802.11",
@@ -584,7 +584,7 @@
     "id": "core1-042",
     "exam": "core1",
     "domain": "Mobile Devices",
-    "question": "A manager’s computer is able to connect to Internet sites while in conference rooms or in the building courtyard. When the laptop is brought back to the manager’s desk and placed into the docking station, the Internet access is unavailable but all other features are working. Which of the following should be the first troubleshooting task for this issue?",
+    "question": "A manager\u2019s computer is able to connect to Internet sites while in conference rooms or in the building courtyard. When the laptop is brought back to the manager\u2019s desk and placed into the docking station, the Internet access is unavailable but all other features are working. Which of the following should be the first troubleshooting task for this issue?",
     "options": [
       "Replace the docking station power supply",
       "Upgrade the laptop BIOS",
@@ -654,7 +654,7 @@
     "id": "core1-047",
     "exam": "core1",
     "domain": "Hardware and Network Troubleshooting",
-    "question": "A user in the accounting department has turned on their computer and received the message “Date and Time not set.” Which of the following would be the most likely reason for this message?",
+    "question": "A user in the accounting department has turned on their computer and received the message \u201cDate and Time not set.\u201d Which of the following would be the most likely reason for this message?",
     "options": [
       "The motherboard battery has discharged",
       "Windows update has rebooted the computer",
@@ -837,7 +837,7 @@
     "id": "core1-060",
     "exam": "core1",
     "domain": "Hardware and Network Troubleshooting",
-    "question": "A desktop computer has just abruptly shut off, and pressing the power button doesn’t restart the system. There are no fans spinning, no lights are on, and no messages appear on the display. Which of these would be the most likely cause of this issue?",
+    "question": "A desktop computer has just abruptly shut off, and pressing the power button doesn\u2019t restart the system. There are no fans spinning, no lights are on, and no messages appear on the display. Which of these would be the most likely cause of this issue?",
     "options": [
       "The BIOS is configured with a startup password",
       "The LCD display backlight has failed",
@@ -1008,7 +1008,7 @@
     "id": "core1-072",
     "exam": "core1",
     "domain": "Hardware and Network Troubleshooting",
-    "question": "A user’s tablet has stopped responding to any type of finger input on the screen. The clock and other tablet functions appear to be working. Which of the following would be the best way to correct this issue?",
+    "question": "A user\u2019s tablet has stopped responding to any type of finger input on the screen. The clock and other tablet functions appear to be working. Which of the following would be the best way to correct this issue?",
     "options": [
       "Replace the screen",
       "Reset the wireless network",
@@ -1078,7 +1078,7 @@
     "id": "core1-077",
     "exam": "core1",
     "domain": "Hardware",
-    "question": "A system administrator made some BIOS changes to a desktop computer running Windows 11, and now this message appears when starting the computer: “This drive can only boot in UEFI mode.” Which of the following would be the BEST next troubleshooting step?",
+    "question": "A system administrator made some BIOS changes to a desktop computer running Windows 11, and now this message appears when starting the computer: \u201cThis drive can only boot in UEFI mode.\u201d Which of the following would be the BEST next troubleshooting step?",
     "options": [
       "Modify the boot drive sequence",
       "Enable Secure Boot",
@@ -1218,7 +1218,7 @@
     "id": "core1-087",
     "exam": "core1",
     "domain": "Hardware and Network Troubleshooting",
-    "question": "The computers in the shipping department are receiving the message “No connectivity” on their computers. The ipconfig output on one of the computers provides this information: IPv4 Address: 192.168.1.22 Subnet Mask: 255.255.255.0 Default Gateway: 192.168.1.1 From this device, a technician is able to successfully ping 127.0.0.1 and 192.168.1.22. The technician can also ping other devices in the shipping department, but cannot receive a ping response from servers in the data center or from the 192.168.1.1 address. Which of these would be the most likely cause of this issue?",
+    "question": "The computers in the shipping department are receiving the message \u201cNo connectivity\u201d on their computers. The ipconfig output on one of the computers provides this information: IPv4 Address: 192.168.1.22 Subnet Mask: 255.255.255.0 Default Gateway: 192.168.1.1 From this device, a technician is able to successfully ping 127.0.0.1 and 192.168.1.22. The technician can also ping other devices in the shipping department, but cannot receive a ping response from servers in the data center or from the 192.168.1.1 address. Which of these would be the most likely cause of this issue?",
     "options": [
       "The DHCP server is down",
       "The wireless network is experiencing interference",
@@ -1320,8 +1320,8 @@
     "question": "While working at their desk, a laptop user would like to use a full-size keyboard and external mouse. They would also like to connect to a monitor and wired network without connecting and disconnecting cables each time they leave the desk. Which of these would be the best way to provide this functionality?",
     "options": [
       "Use separate desktop and laptop computers",
-      "Install a docking station at the user’s desk",
-      "Use a wireless access point at the user’s desk",
+      "Install a docking station at the user\u2019s desk",
+      "Use a wireless access point at the user\u2019s desk",
       "Install a USB hub for the laptop"
     ],
     "answer": 1,
@@ -1936,7 +1936,7 @@
     "id": "core1-138",
     "exam": "core1",
     "domain": "Networking",
-    "question": "A user is reporting after starting their desktop, they receive the message “Windows has detected an IP address conflict.” Which of the following would be the BEST way to resolve this issue?",
+    "question": "A user is reporting after starting their desktop, they receive the message \u201cWindows has detected an IP address conflict.\u201d Which of the following would be the BEST way to resolve this issue?",
     "options": [
       "Replace the Ethernet patch cable",
       "Enable DHCP on the workstation",
@@ -2188,7 +2188,7 @@
     "id": "core1-156",
     "exam": "core1",
     "domain": "Hardware and Network Troubleshooting",
-    "question": "A user’s desktop computer does not start in the morning when the power button is pressed. A technician notices that the screen remains dark, but fans are spinning inside of the computer case. No messages are displayed and no beeps are heard. Which of the following would be the most likely reason for this issue?",
+    "question": "A user\u2019s desktop computer does not start in the morning when the power button is pressed. A technician notices that the screen remains dark, but fans are spinning inside of the computer case. No messages are displayed and no beeps are heard. Which of the following would be the most likely reason for this issue?",
     "options": [
       "Faulty RAM",
       "No boot drive found",
@@ -2231,7 +2231,7 @@
     "id": "core1-159",
     "exam": "core1",
     "domain": "Networking",
-    "question": "A workstation administrator has been asked to troubleshoot an issue with Internet connectivity on a laptop computer. The network status in the taskbar shows a yellow exclamation mark with the message “No Internet access.” When examining the Ethernet connection on the laptop, the cable sheath is an inch short and individual copper wires are visibly disconnected from the RJ45 connector. Which of the following should be used to correct this issue?",
+    "question": "A workstation administrator has been asked to troubleshoot an issue with Internet connectivity on a laptop computer. The network status in the taskbar shows a yellow exclamation mark with the message \u201cNo Internet access.\u201d When examining the Ethernet connection on the laptop, the cable sheath is an inch short and individual copper wires are visibly disconnected from the RJ45 connector. Which of the following should be used to correct this issue?",
     "options": [
       "Crimper",
       "Punch-down tool",
@@ -2331,13 +2331,13 @@
     "domain": "Hardware and Network Troubleshooting",
     "question": "A systems administrator has added a new video adapter to a desktop computer, installed the latest video driver, and rebooted the system. When the system starts, it shows a Windows Stop Error before it reaches the login prompt. Which of the following would be the best next troubleshooting step?",
     "options": [
-      "Press F8 during startup and choose “Boot from last known working configuration”",
+      "Press F8 during startup and choose \u201cBoot from last known working configuration\u201d",
       "Upgrade the system BIOS using an update file from the motherboard manufacturer",
       "Disconnect all USB storage devices and restart the system",
       "Reinstall the operating system"
     ],
     "answer": 0,
-    "explanation": "“Boot from last known working configuration” If a recent configuration causes a boot issue, Windows can restart the operating system using the last known working configuration. Each time Windows successfully boots, it makes a backup of that configuration. If the startup option to \"boot from last known working configuration\" is selected, that working backup is used instead of the current Windows configuration. This can help resolve Windows Stop Error issues like those detailed in this question."
+    "explanation": "\u201cBoot from last known working configuration\u201d If a recent configuration causes a boot issue, Windows can restart the operating system using the last known working configuration. Each time Windows successfully boots, it makes a backup of that configuration. If the startup option to \"boot from last known working configuration\" is selected, that working backup is used instead of the current Windows configuration. This can help resolve Windows Stop Error issues like those detailed in this question."
   },
   {
     "id": "core1-167",
@@ -2413,7 +2413,7 @@
     "id": "core1-172",
     "exam": "core1",
     "domain": "Hardware and Network Troubleshooting",
-    "question": "A system administrator has just completed a memory upgrade on a database server. When starting the system, this message is displayed: “Boot Device Not Found.” The BIOS configuration does not show any hard drives in the system. Which of the following would be the next best troubleshooting step?",
+    "question": "A system administrator has just completed a memory upgrade on a database server. When starting the system, this message is displayed: \u201cBoot Device Not Found.\u201d The BIOS configuration does not show any hard drives in the system. Which of the following would be the next best troubleshooting step?",
     "options": [
       "Replace the hard drive",
       "Upgrade the BIOS",
@@ -2441,7 +2441,7 @@
     "id": "core1-174",
     "exam": "core1",
     "domain": "Hardware",
-    "question": "What is the most common use for the switch on a computer’s power supply?",
+    "question": "What is the most common use for the switch on a computer\u2019s power supply?",
     "options": [
       "Sets the input voltage",
       "Controls the speed of the CPU",
@@ -3042,7 +3042,7 @@
     "id": "core1-216",
     "exam": "core1",
     "domain": "Hardware",
-    "question": "A systems administrator has just installed a new server in a data center. When pressing the power button, there’s no response from the server, no lights appear on the front display, and no fans are spinning. Which of the following would be the most likely reason for this issue?",
+    "question": "A systems administrator has just installed a new server in a data center. When pressing the power button, there\u2019s no response from the server, no lights appear on the front display, and no fans are spinning. Which of the following would be the most likely reason for this issue?",
     "options": [
       "An operating system is not installed on the server",
       "The power supply switch is set to the wrong input voltage",
@@ -3393,7 +3393,7 @@
     "id": "core1-241",
     "exam": "core1",
     "domain": "Hardware and Network Troubleshooting",
-    "question": "A technician is troubleshooting a mobile phone that turns off after about an hour of normal use. Before powering off, the phone displays the message, “High temperature detected.” The phone is used inside the building at room temperature, and is not used in direct sunlight. Which of the following would be the most likely reason for this issue?",
+    "question": "A technician is troubleshooting a mobile phone that turns off after about an hour of normal use. Before powering off, the phone displays the message, \u201cHigh temperature detected.\u201d The phone is used inside the building at room temperature, and is not used in direct sunlight. Which of the following would be the most likely reason for this issue?",
     "options": [
       "An app is using a large amount of CPU",
       "The Wi-Fi network is overloaded",

@@ -1,0 +1,145 @@
+[
+  {
+    "id": "core1-pbq-001",
+    "exam": "core1",
+    "domain": "Hardware",
+    "type": "sequence",
+    "question": "Place the seven steps of the laser printer imaging process in the correct order, beginning with the first step.",
+    "steps": [
+      "Processing",
+      "Charging",
+      "Exposing",
+      "Developing",
+      "Transferring",
+      "Fusing",
+      "Cleaning"
+    ],
+    "explanation": "Laser imaging order: Processing (rasterize the page in the formatter), Charging (apply uniform negative charge to the drum), Exposing (laser writes the image by selectively discharging areas), Developing (toner adheres to the discharged areas), Transferring (toner moves from drum to paper), Fusing (heat and pressure bond toner to paper), Cleaning (residual toner is removed from drum)."
+  },
+  {
+    "id": "core1-pbq-002",
+    "exam": "core1",
+    "domain": "Networking",
+    "type": "categorize",
+    "question": "Match each TCP/UDP port number to its associated protocol.",
+    "categories": ["FTP", "SSH", "SMTP", "DNS", "HTTP", "HTTPS", "SMB/CIFS", "RDP"],
+    "items": [
+      { "label": "21", "correct": "FTP" },
+      { "label": "22", "correct": "SSH" },
+      { "label": "25", "correct": "SMTP" },
+      { "label": "53", "correct": "DNS" },
+      { "label": "80", "correct": "HTTP" },
+      { "label": "443", "correct": "HTTPS" },
+      { "label": "445", "correct": "SMB/CIFS" },
+      { "label": "3389", "correct": "RDP" }
+    ],
+    "explanation": "Core well-known ports for the A+ exam: FTP=21, SSH=22, Telnet=23, SMTP=25, DNS=53, HTTP=80, POP3=110, NetBIOS/NetBT=137-139, IMAP=143, HTTPS=443, SMB/CIFS=445, RDP=3389."
+  },
+  {
+    "id": "core1-pbq-003",
+    "exam": "core1",
+    "domain": "Networking",
+    "type": "categorize",
+    "question": "Categorize each Ethernet cable category by the highest standard speed it reliably supports at the full 100m run length.",
+    "categories": ["100 Mbps (Fast Ethernet)", "1 Gbps", "10 Gbps"],
+    "items": [
+      { "label": "Cat 5", "correct": "100 Mbps (Fast Ethernet)" },
+      { "label": "Cat 5e", "correct": "1 Gbps" },
+      { "label": "Cat 6", "correct": "1 Gbps" },
+      { "label": "Cat 6a", "correct": "10 Gbps" },
+      { "label": "Cat 7", "correct": "10 Gbps" },
+      { "label": "Cat 8", "correct": "10 Gbps" }
+    ],
+    "explanation": "Cat 5 = 100BASE-TX (100 Mbps). Cat 5e and Cat 6 reliably handle 1 Gbps at 100m — Cat 6 supports 10 Gbps but only up to ~55m. Cat 6a is the lowest category that supports 10GBASE-T at the full 100m. Cat 7 also supports 10 Gbps at 100m. Cat 8 supports up to 40 Gbps but at very short runs (~30m), so its 100m-rated throughput is generally listed as 10 Gbps."
+  },
+  {
+    "id": "core1-pbq-004",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "type": "sequence",
+    "question": "Place the six steps of the CompTIA troubleshooting methodology in the correct order.",
+    "steps": [
+      "Identify the problem",
+      "Establish a theory of probable cause",
+      "Test the theory to determine cause",
+      "Establish a plan of action and implement the solution",
+      "Verify full system functionality and implement preventive measures",
+      "Document findings, actions, and outcomes"
+    ],
+    "explanation": "The CompTIA 6-step troubleshooting methodology must be followed in this order. If testing the theory fails to confirm the cause, you re-establish a new theory (or escalate). Documentation is the final step, not optional — it builds the knowledge base for future incidents."
+  },
+  {
+    "id": "core1-pbq-005",
+    "exam": "core1",
+    "domain": "Networking",
+    "type": "categorize",
+    "question": "Match each Wi-Fi standard to the frequency band(s) it operates on.",
+    "categories": ["2.4 GHz only", "5 GHz only", "2.4 and 5 GHz", "2.4, 5, and 6 GHz"],
+    "items": [
+      { "label": "802.11a", "correct": "5 GHz only" },
+      { "label": "802.11b", "correct": "2.4 GHz only" },
+      { "label": "802.11g", "correct": "2.4 GHz only" },
+      { "label": "802.11n (Wi-Fi 4)", "correct": "2.4 and 5 GHz" },
+      { "label": "802.11ac (Wi-Fi 5)", "correct": "5 GHz only" },
+      { "label": "802.11ax (Wi-Fi 6)", "correct": "2.4 and 5 GHz" },
+      { "label": "802.11ax (Wi-Fi 6E)", "correct": "2.4, 5, and 6 GHz" }
+    ],
+    "explanation": "802.11a operates in 5 GHz only (~54 Mbps). 802.11b/g are 2.4 GHz only (11/54 Mbps). 802.11n/Wi-Fi 4 is dual-band. 802.11ac/Wi-Fi 5 is 5 GHz only. Wi-Fi 6 (ax) restored dual-band operation. Wi-Fi 6E adds the 6 GHz band on top of Wi-Fi 6's spec."
+  },
+  {
+    "id": "core1-pbq-006",
+    "exam": "core1",
+    "domain": "Hardware",
+    "type": "categorize",
+    "question": "Match each RAID level to its key characteristic.",
+    "categories": [
+      "Striping with no redundancy (performance only)",
+      "Mirroring (full duplicate copy)",
+      "Striping with distributed parity",
+      "Mirroring plus striping (combined)"
+    ],
+    "items": [
+      { "label": "RAID 0", "correct": "Striping with no redundancy (performance only)" },
+      { "label": "RAID 1", "correct": "Mirroring (full duplicate copy)" },
+      { "label": "RAID 5", "correct": "Striping with distributed parity" },
+      { "label": "RAID 10", "correct": "Mirroring plus striping (combined)" }
+    ],
+    "explanation": "RAID 0 stripes data for speed but offers no fault tolerance. RAID 1 mirrors data to two drives — full redundancy but only 50% capacity efficiency. RAID 5 stripes data with distributed parity — survives one drive failure, requires minimum 3 drives. RAID 10 (1+0) mirrors first then stripes the mirrors — combines redundancy and speed, requires minimum 4 drives."
+  },
+  {
+    "id": "core1-pbq-007",
+    "exam": "core1",
+    "domain": "Virtualization and Cloud Computing",
+    "type": "categorize",
+    "question": "Match each cloud service example to its service model.",
+    "categories": ["IaaS (Infrastructure)", "PaaS (Platform)", "SaaS (Software)", "DaaS (Desktop)"],
+    "items": [
+      { "label": "Amazon EC2 virtual machines", "correct": "IaaS (Infrastructure)" },
+      { "label": "Microsoft 365 (web Outlook, Word online)", "correct": "SaaS (Software)" },
+      { "label": "AWS Elastic Beanstalk / Azure App Service", "correct": "PaaS (Platform)" },
+      { "label": "Amazon WorkSpaces / Azure Virtual Desktop", "correct": "DaaS (Desktop)" },
+      { "label": "Google Workspace (Gmail, Docs)", "correct": "SaaS (Software)" },
+      { "label": "Azure Virtual Machines", "correct": "IaaS (Infrastructure)" }
+    ],
+    "explanation": "IaaS provides raw VMs/storage/networking — you manage the OS and up. PaaS abstracts the OS — you only manage the app and data. SaaS is finished software delivered over the internet — you only consume it. DaaS delivers a hosted virtual desktop environment streamed to a thin client."
+  },
+  {
+    "id": "core1-pbq-008",
+    "exam": "core1",
+    "domain": "Hardware",
+    "type": "categorize",
+    "question": "Match each connector to the interface it is associated with.",
+    "categories": ["Video output", "Storage interface", "Networking", "Power"],
+    "items": [
+      { "label": "HDMI", "correct": "Video output" },
+      { "label": "DisplayPort", "correct": "Video output" },
+      { "label": "RJ45", "correct": "Networking" },
+      { "label": "SATA data cable", "correct": "Storage interface" },
+      { "label": "M.2 (key M)", "correct": "Storage interface" },
+      { "label": "LC fiber connector", "correct": "Networking" },
+      { "label": "24-pin ATX", "correct": "Power" },
+      { "label": "8-pin EPS", "correct": "Power" }
+    ],
+    "explanation": "HDMI and DisplayPort carry video (and audio). RJ45 (twisted pair) and LC (fiber) are network connectors. SATA and M.2 are storage interfaces. 24-pin ATX is the main motherboard power connector; 8-pin EPS supplies the CPU."
+  }
+]

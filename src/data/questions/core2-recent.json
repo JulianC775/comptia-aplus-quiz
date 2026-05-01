@@ -1,0 +1,674 @@
+[
+  {
+    "id": "core2-253",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A technician is checking whether existing PCs are eligible for a Windows 11 upgrade. Which security chip version does Windows 11 require that was not required for Windows 10?",
+    "options": [
+      "TPM 1.2 or newer",
+      "TPM 2.0",
+      "Intel PTT (Platform Trust Technology) only",
+      "A dedicated hardware security key"
+    ],
+    "answer": 1,
+    "explanation": "Windows 11 requires TPM 2.0 (Trusted Platform Module version 2.0). Windows 10 could function with TPM 1.2 or no TPM for most features, but Windows 11 mandates TPM 2.0 as a baseline security requirement for features including Windows Hello, BitLocker, and Secure Boot. TPM 1.2 is not sufficient for Windows 11 installation."
+  },
+  {
+    "id": "core2-254",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A user wants to upgrade to Windows 11. Their PC has a 64-bit dual-core 1.2 GHz CPU, 4 GB RAM, and a 32 GB hard drive. Which component does NOT meet the Windows 11 minimum hardware requirements?",
+    "options": [
+      "The processor speed (1.2 GHz)",
+      "The amount of RAM (4 GB)",
+      "The storage capacity (32 GB)",
+      "The 64-bit dual-core processor type"
+    ],
+    "answer": 2,
+    "explanation": "Windows 11 requires a minimum of 64 GB of storage. A 32 GB drive does not meet this requirement. The other specs do qualify: Windows 11 needs a 1 GHz or faster CPU with 2+ cores (1.2 GHz dual-core passes), 4 GB RAM (meets minimum), and a 64-bit processor (qualifies)."
+  },
+  {
+    "id": "core2-255",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A technician is setting up a new Windows 11 PC and needs to enable Secure Boot. Where is Secure Boot configured?",
+    "options": [
+      "Windows Security app in the Control Panel",
+      "The UEFI firmware settings accessed at system startup",
+      "Windows Defender Firewall settings",
+      "BitLocker Drive Encryption settings"
+    ],
+    "answer": 1,
+    "explanation": "Secure Boot is configured in the system's UEFI firmware settings (accessed during POST, sometimes labeled BIOS setup), not within Windows itself. It verifies that the bootloader and boot software are digitally signed by trusted parties before executing them. Windows 11 requires Secure Boot to be enabled."
+  },
+  {
+    "id": "core2-256",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A developer wants to run Linux command-line tools and shell scripts on their Windows 11 machine without setting up a separate virtual machine or dual-boot configuration. Which Windows feature enables this natively?",
+    "options": [
+      "Hyper-V with a full Linux VM",
+      "Windows Subsystem for Linux (WSL)",
+      "Cygwin emulation layer",
+      "Docker Desktop with a Linux container"
+    ],
+    "answer": 1,
+    "explanation": "Windows Subsystem for Linux (WSL) allows users to run a Linux distribution directly on Windows without a traditional VM or dual-boot. WSL 2 includes a full Linux kernel and supports running most Linux command-line tools, scripts, and applications natively alongside Windows applications."
+  },
+  {
+    "id": "core2-257",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A Windows 11 user wants to quickly arrange multiple open application windows into a grid layout without manually resizing each window. Which Windows 11 feature provides predefined window arrangement options?",
+    "options": [
+      "Virtual Desktops",
+      "Task View",
+      "Snap Layouts",
+      "Focus Sessions"
+    ],
+    "answer": 2,
+    "explanation": "Snap Layouts is a Windows 11 feature that appears when you hover over the maximize button of any window, showing predefined layout grids (side-by-side, quadrant, thirds, etc.). Clicking a zone snaps the current window to that position and prompts you to fill the remaining zones. This was significantly enhanced compared to Windows 10's basic snap."
+  },
+  {
+    "id": "core2-258",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "An organization's security policy requires that all disk encryption keys be protected by hardware. A technician configures BitLocker on Windows 11 workstations. Which hardware component stores the BitLocker encryption keys and validates system integrity at each boot?",
+    "options": [
+      "The UEFI firmware chip",
+      "A FIDO2 hardware security key",
+      "TPM (Trusted Platform Module)",
+      "The CPU's secure execution environment"
+    ],
+    "answer": 2,
+    "explanation": "The TPM stores BitLocker encryption keys and measures system integrity during startup. When BitLocker uses a TPM, the TPM verifies that the boot environment (bootloader, firmware, etc.) hasn't changed before releasing the volume encryption key. If the hardware configuration changes unexpectedly, the TPM withholds the key and requires recovery."
+  },
+  {
+    "id": "core2-259",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A security architect redesigns the company's model so that every user, device, and application must be authenticated and authorized for every access request, regardless of whether they are inside or outside the corporate network. Which security model describes this approach?",
+    "options": [
+      "Defense in Depth",
+      "Zero Trust",
+      "Perimeter Security (castle-and-moat)",
+      "Role-Based Access Control (RBAC)"
+    ],
+    "answer": 1,
+    "explanation": "Zero Trust is a security model built on 'never trust, always verify.' Unlike traditional perimeter security that trusts everything inside the network, Zero Trust assumes breach and requires continuous verification of every access request regardless of network location. It enforces strict identity verification, least-privilege access, and micro-segmentation."
+  },
+  {
+    "id": "core2-260",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A company deploys a solution that continuously monitors endpoint behavior, records detailed telemetry for forensic investigation, and provides both automated and analyst-driven capabilities to contain and remediate threats. What type of security solution is this?",
+    "options": [
+      "Traditional antivirus (AV) software",
+      "Host-based Intrusion Detection System (HIDS)",
+      "Endpoint Detection and Response (EDR)",
+      "SIEM (Security Information and Event Management)"
+    ],
+    "answer": 2,
+    "explanation": "EDR (Endpoint Detection and Response) provides continuous behavioral monitoring of endpoints, records detailed activity telemetry, and offers response tools for both automated and analyst-driven threat containment. Unlike traditional antivirus which relies primarily on signature-based detection, EDR detects advanced threats through behavior analysis and supports incident response workflows."
+  },
+  {
+    "id": "core2-261",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "An IT admin needs to manage company-owned Windows 11 devices and enforce security policies without joining devices to an on-premises Active Directory domain. Which solution enables cloud-based device management?",
+    "options": [
+      "Joining devices to a traditional on-premises Active Directory domain",
+      "Using local Group Policy Objects (GPOs) on each device",
+      "Azure Active Directory (Azure AD) join with Microsoft Intune MDM enrollment",
+      "Creating a workgroup and using local administrator accounts"
+    ],
+    "answer": 2,
+    "explanation": "Azure AD Join with Microsoft Intune allows devices to be registered with Azure Active Directory and managed via Intune MDM (Mobile Device Management) without an on-premises AD domain. Policies, apps, and security configurations are deployed from the cloud, making this ideal for remote workforces and cloud-first organizations."
+  },
+  {
+    "id": "core2-262",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "An organization creates a BYOD policy allowing employees to use personal smartphones for work email and corporate apps. Which security concern is most critical to address in this policy?",
+    "options": [
+      "Personal devices may have larger storage capacity than corporate devices",
+      "Personal devices may not comply with corporate security policies and could expose sensitive data if lost or compromised",
+      "Personal devices will consume more network bandwidth than corporate-issued devices",
+      "Personal devices may have incompatible hardware connectors for accessories"
+    ],
+    "answer": 1,
+    "explanation": "BYOD (Bring Your Own Device) policies introduce significant risk because personal devices may lack required encryption, MDM enrollment, current security patches, or access controls. A lost or malware-infected personal device could expose corporate data. MDM solutions and containerization (isolating corporate data from personal apps) are typically implemented to mitigate these risks."
+  },
+  {
+    "id": "core2-263",
+    "exam": "core2",
+    "domain": "Software Troubleshooting",
+    "question": "A user's files are being encrypted without their knowledge and a message appears demanding payment to restore access. What should the technician do FIRST?",
+    "options": [
+      "Pay the ransom to restore file access quickly",
+      "Run a full antivirus scan while leaving the system connected to the network",
+      "Immediately disconnect the system from the network to prevent the malware from spreading",
+      "Reboot the computer to clear the ransomware from memory"
+    ],
+    "answer": 2,
+    "explanation": "When ransomware is detected, the immediate priority is containment. The infected system must be disconnected from all networks (wired and wireless) to prevent the ransomware from spreading to shared drives and other networked systems. Only after isolating the system should the technician proceed with identification, forensic preservation, and recovery \u2014 which may involve restoring from clean backups."
+  },
+  {
+    "id": "core2-264",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A junior IT technician wants to automate a task that monitors disk space on Windows servers and alerts when space drops below 20%. Which scripting language is the standard choice for Windows server administration and Active Directory automation?",
+    "options": [
+      "Python",
+      "Bash",
+      "PowerShell",
+      "JavaScript"
+    ],
+    "answer": 2,
+    "explanation": "PowerShell is Microsoft's task automation framework designed specifically for Windows administration. It provides cmdlets for managing Windows systems, Active Directory, Exchange, Azure, and more. While Python is cross-platform and also used for automation, PowerShell is the standard tool for Windows server and AD administration."
+  },
+  {
+    "id": "core2-265",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A systems administrator needs to write a server health-check script that will run identically on both Windows and Linux servers. Which scripting language is the best choice for this cross-platform requirement?",
+    "options": [
+      "PowerShell (Windows Server only by default)",
+      "Python",
+      "Batch/CMD scripting",
+      "VBScript"
+    ],
+    "answer": 1,
+    "explanation": "Python is a cross-platform language that runs on Windows, Linux, and macOS with identical syntax. It is well-suited for system automation, network scripting, and file processing across platforms. Batch/CMD and VBScript are Windows-only. PowerShell Core (v6+) is also cross-platform but Python has a broader ecosystem for system automation."
+  },
+  {
+    "id": "core2-266",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A technician is deploying automation scripts to Windows servers. Which file extension identifies a PowerShell script file?",
+    "options": [
+      ".bat",
+      ".sh",
+      ".py",
+      ".ps1"
+    ],
+    "answer": 3,
+    "explanation": "PowerShell scripts use the .ps1 file extension. Other common scripting extensions: .bat/.cmd for Windows batch files, .sh for Bash/shell scripts, and .py for Python scripts. Note that PowerShell's execution policy may need to be configured to allow .ps1 scripts to run on a system."
+  },
+  {
+    "id": "core2-267",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A technician is administering servers running Ubuntu. Which command is used to download and install available package updates on an Ubuntu system?",
+    "options": [
+      "yum update",
+      "apt update && apt upgrade",
+      "rpm -Uvh",
+      "pacman -Syu"
+    ],
+    "answer": 1,
+    "explanation": "Ubuntu is Debian-based and uses APT (Advanced Package Tool). 'apt update' refreshes the local package list from repositories, and 'apt upgrade' installs available updates. Red Hat-based distributions (CentOS, RHEL, Fedora) use 'yum' or 'dnf'. Arch Linux uses 'pacman'. Using the correct package manager for the distribution is essential."
+  },
+  {
+    "id": "core2-268",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A macOS user upgraded to macOS Ventura and cannot find the 'System Preferences' application they used to configure settings. What happened to it?",
+    "options": [
+      "It was moved to the Applications folder under a new name 'Preferences'",
+      "System Preferences was renamed to 'System Settings' and redesigned with a new interface in macOS Ventura",
+      "System Preferences was removed; settings are now configured only via Terminal commands",
+      "System Preferences still exists but now requires admin credentials to open for the first time"
+    ],
+    "answer": 1,
+    "explanation": "In macOS Ventura (released 2022), Apple renamed 'System Preferences' to 'System Settings' and redesigned the interface to mirror the Settings app on iOS/iPadOS. System Settings remains accessible from the Apple menu and Dock and provides access to all the same system configuration options in the new layout."
+  },
+  {
+    "id": "core2-269",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "An IT department receives a request to modify production firewall rules. According to standard change management practices, what must happen before implementing this change?",
+    "options": [
+      "The technician should implement the change immediately to reduce security exposure",
+      "The change should be submitted, reviewed, and approved by the Change Advisory Board (CAB)",
+      "The change can skip review since it is a security improvement",
+      "The change should be tested directly in production first to assess real-world impact"
+    ],
+    "answer": 1,
+    "explanation": "Change management requires significant changes to production systems to be documented, reviewed, and approved before implementation. The Change Advisory Board (CAB) evaluates the risk, impact, rollback plan, and timing of proposed changes. This process minimizes unplanned outages and ensures changes are properly communicated and documented."
+  },
+  {
+    "id": "core2-270",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A help desk receives a ticket about one user who cannot log in. Shortly after, five more tickets arrive with the same symptom, pointing to a broader authentication system failure. In ITSM terminology, each individual user's login failure is classified as what?",
+    "options": [
+      "Problem",
+      "Change",
+      "Incident",
+      "Service Request"
+    ],
+    "answer": 2,
+    "explanation": "In ITSM, an incident is an unplanned interruption or degradation of an IT service. Each individual user's inability to log in is a separate incident. When investigation reveals a common root cause linking multiple incidents, a Problem record is created to drive root cause analysis. Resolving the problem prevents future recurrences of the same incidents."
+  },
+  {
+    "id": "core2-271",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A technician is disposing of lithium-ion batteries from a laptop refresh project. What is the correct disposal method?",
+    "options": [
+      "Place them in regular trash since small batteries are non-hazardous",
+      "Incinerate them to neutralize the chemicals safely",
+      "Return them to a certified e-waste or battery recycling facility",
+      "Fully discharge them and place them in standard recycling bins"
+    ],
+    "answer": 2,
+    "explanation": "Lithium-ion batteries contain hazardous materials and must not go into regular trash or be incinerated. They should be returned to a certified e-waste recycling facility or a retailer/manufacturer battery take-back program. Improper disposal can cause fires (especially if punctured) and environmental contamination. Many localities have regulations governing rechargeable battery disposal."
+  },
+  {
+    "id": "core2-272",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A technician discovers a workstation has been compromised and the attacker may have moved laterally to other systems. Which immediate action best limits further damage while preserving evidence?",
+    "options": [
+      "Delete the user account on the compromised workstation immediately",
+      "Reimage the compromised workstation right away",
+      "Isolate the compromised workstation from the network while preserving its current state",
+      "Change the user's password and monitor the system for further activity"
+    ],
+    "answer": 2,
+    "explanation": "When a system is confirmed compromised, it should be immediately isolated from the network to stop further lateral movement or data exfiltration, while preserving its state for forensic analysis. Reimaging destroys evidence and should only occur after forensics. Changing a password alone does not remove malware already installed on the system."
+  },
+  {
+    "id": "core2-273",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "An organization requires all remote VPN connections to use a second verification step beyond username and password to reduce the risk of credential theft. Which security control meets this requirement?",
+    "options": [
+      "RADIUS authentication server",
+      "Multi-Factor Authentication (MFA)",
+      "Single Sign-On (SSO)",
+      "Certificate-based authentication only"
+    ],
+    "answer": 1,
+    "explanation": "MFA (Multi-Factor Authentication) requires users to provide two or more verification factors. For VPN, this typically combines something you know (password) with something you have (authenticator app, hardware token, SMS code) or something you are (biometrics). MFA dramatically reduces unauthorized access risk even when credentials are stolen or phished."
+  },
+  {
+    "id": "core2-274",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A MacBook user accidentally deleted important project files and needs to restore them. Which built-in macOS feature provides versioned backups that allow restoring individual files from a previous point in time?",
+    "options": [
+      "macOS Recovery Mode",
+      "Time Machine",
+      "FileVault",
+      "Spotlight"
+    ],
+    "answer": 1,
+    "explanation": "Time Machine is macOS's built-in backup application that automatically creates incremental backups to an external drive or network location. It keeps hourly backups for the past 24 hours, daily backups for the past month, and weekly backups beyond that. Users can browse snapshots and restore individual files, folders, or the entire system."
+  },
+  {
+    "id": "core2-275",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A developer installed a package on Ubuntu using 'apt install' but later wants to remove it along with all of its configuration files. Which command accomplishes a complete removal including configuration files?",
+    "options": [
+      "apt remove <package>",
+      "apt purge <package>",
+      "apt uninstall <package>",
+      "apt delete <package>"
+    ],
+    "answer": 1,
+    "explanation": "'apt purge' removes a package and its associated configuration files from a Debian/Ubuntu system. 'apt remove' only removes the package binaries but leaves configuration files behind (useful if reinstalling later). 'apt uninstall' and 'apt delete' are not valid apt commands and will produce an error."
+  },
+  {
+    "id": "core2-276",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "An organization is upgrading its corporate Wi-Fi from WPA2 to WPA3. Which improvement does WPA3 provide over WPA2?",
+    "options": [
+      "WPA3 uses a shorter encryption key for faster authentication",
+      "WPA3 uses SAE (Simultaneous Authentication of Equals), providing forward secrecy and resistance to offline dictionary attacks",
+      "WPA3 removes the requirement for a wireless password",
+      "WPA3 reverts to TKIP encryption for backward compatibility"
+    ],
+    "answer": 1,
+    "explanation": "WPA3 replaces the WPA2 4-way handshake with SAE (Simultaneous Authentication of Equals), which provides forward secrecy and prevents offline dictionary attacks against captured handshakes. WPA3 also uses stronger 192-bit encryption in Enterprise mode and provides Opportunistic Wireless Encryption (OWE) for open networks."
+  },
+  {
+    "id": "core2-277",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A user receives a text message claiming to be from their bank, asking them to click a link to verify a suspicious charge. What type of social engineering attack is this?",
+    "options": [
+      "Phishing",
+      "Vishing",
+      "Smishing",
+      "Whaling"
+    ],
+    "answer": 2,
+    "explanation": "Smishing (SMS + phishing) is phishing conducted via text message. Vishing is phishing via voice call. Whaling is a targeted phishing attack against high-value targets like executives. All are social engineering attacks designed to trick users into revealing credentials or installing malware."
+  },
+  {
+    "id": "core2-278",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "An attacker calls an employee impersonating IT support and asks them to read out their password to 'verify the account.' What type of social engineering attack is this?",
+    "options": [
+      "Phishing",
+      "Vishing (voice phishing)",
+      "Smishing",
+      "Tailgating"
+    ],
+    "answer": 1,
+    "explanation": "Vishing (voice phishing) is a social engineering attack conducted over the phone. Attackers impersonate trusted entities (IT support, banks, government agencies) to manipulate victims into revealing credentials, financial info, or installing malware. Modern vishing increasingly uses spoofed caller IDs and AI-generated voices."
+  },
+  {
+    "id": "core2-279",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "An employee badges into a secure data center, and an unfamiliar person closely follows behind them through the door before it closes, without badging in themselves. What type of physical security attack is this?",
+    "options": [
+      "Shoulder surfing",
+      "Tailgating",
+      "Dumpster diving",
+      "Impersonation"
+    ],
+    "answer": 1,
+    "explanation": "Tailgating (or piggybacking) is when an unauthorized person follows an authorized employee through a controlled access point without independently authenticating. It exploits politeness and social norms. Mantraps, security guards, and turnstiles are physical controls that mitigate tailgating."
+  },
+  {
+    "id": "core2-280",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A coffee shop visitor's laptop connects to a Wi-Fi network with the same name as the legitimate shop's network. The attacker's network is actually relaying traffic so they can capture credentials. What type of attack is this?",
+    "options": [
+      "DDoS attack",
+      "SQL injection",
+      "Evil twin attack",
+      "Brute force attack"
+    ],
+    "answer": 2,
+    "explanation": "An evil twin attack uses a rogue access point with the same SSID as a legitimate Wi-Fi network to lure victims into connecting. Once connected, the attacker can intercept traffic, harvest credentials, and inject malicious content. Defenses include using VPNs on public Wi-Fi and verifying network certificates."
+  },
+  {
+    "id": "core2-281",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "An attacker compromises a popular industry forum website, knowing that employees of a target company frequently visit it. Malware is planted on the forum so visitors are infected on contact. What type of attack is this?",
+    "options": [
+      "Watering hole attack",
+      "Spear phishing",
+      "On-path (man-in-the-middle) attack",
+      "Zero-day exploit"
+    ],
+    "answer": 0,
+    "explanation": "A watering hole attack compromises a third-party website that the attacker knows the target group visits regularly. Visitors are then infected through drive-by-download or browser exploits. The name comes from predators waiting at watering holes for prey. This bypasses the difficulty of attacking the target organization directly."
+  },
+  {
+    "id": "core2-282",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A web application takes user input and constructs database queries by string concatenation. An attacker enters specially-crafted text that causes the database to dump the entire user table. What type of attack is this?",
+    "options": [
+      "Cross-Site Scripting (XSS)",
+      "SQL injection",
+      "DNS poisoning",
+      "Buffer overflow"
+    ],
+    "answer": 1,
+    "explanation": "SQL injection occurs when user-supplied input is concatenated directly into SQL queries without proper sanitization or parameterization. Attackers can inject SQL syntax that alters the query's logic to extract data, modify records, or bypass authentication. The defense is to use parameterized queries (prepared statements) and validate input."
+  },
+  {
+    "id": "core2-283",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "An attacker injects malicious JavaScript into a comments field on a web forum. When other users view the page, the script runs in their browsers and steals their session cookies. What type of attack is this?",
+    "options": [
+      "SQL injection",
+      "Cross-Site Scripting (XSS)",
+      "Cross-Site Request Forgery (CSRF)",
+      "Privilege escalation"
+    ],
+    "answer": 1,
+    "explanation": "Cross-Site Scripting (XSS) injects malicious client-side scripts into web pages viewed by other users. Stored (persistent) XSS embeds the script in the database (e.g., in a comment); reflected XSS bounces it through a URL parameter. Defenses include output encoding, Content Security Policy (CSP), and input sanitization."
+  },
+  {
+    "id": "core2-284",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "An attacker researches a specific company's CFO using LinkedIn and sends them a personalized email impersonating the CEO, requesting an urgent wire transfer. What type of attack is this?",
+    "options": [
+      "Generic phishing",
+      "Spear phishing (with whaling characteristics)",
+      "Smishing",
+      "Watering hole attack"
+    ],
+    "answer": 1,
+    "explanation": "Spear phishing is a targeted phishing attack against a specific individual or group, customized using research about the target. When the target is a high-profile executive (like a CEO or CFO), it's often called whaling. The personalized nature makes spear phishing far more successful than generic phishing campaigns."
+  },
+  {
+    "id": "core2-285",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "An attacker on a local network sends forged ARP messages to associate their MAC address with the IP address of the default gateway. All traffic destined for the gateway is now routed through the attacker's machine first. What type of attack is this?",
+    "options": [
+      "DNS poisoning",
+      "ARP spoofing (ARP poisoning)",
+      "DHCP starvation",
+      "MAC flooding"
+    ],
+    "answer": 1,
+    "explanation": "ARP spoofing (ARP poisoning) tricks devices on a local network into associating the attacker's MAC address with another host's IP \u2014 typically the default gateway. This enables on-path (man-in-the-middle) attacks, allowing the attacker to intercept, modify, or block traffic. Mitigations include dynamic ARP inspection (DAI) on switches and using HTTPS/encryption end-to-end."
+  },
+  {
+    "id": "core2-286",
+    "exam": "core2",
+    "domain": "Security",
+    "question": "A security analyst is comparing brute force and dictionary password attacks. Which statement accurately distinguishes them?",
+    "options": [
+      "Brute force tries every possible character combination; dictionary attacks try a list of likely passwords (common words, leaked passwords)",
+      "Brute force only works against locally stored hashes; dictionary attacks only work over the network",
+      "Brute force is always faster than a dictionary attack",
+      "Dictionary attacks are a type of denial-of-service attack"
+    ],
+    "answer": 0,
+    "explanation": "A brute force attack systematically tries every possible character combination until the correct password is found \u2014 guaranteed to succeed eventually but extremely slow against long passwords. A dictionary attack tries a list of likely passwords (common words, names, leaked password lists, common patterns) \u2014 much faster and effective against weak passwords. Hybrid attacks combine both."
+  },
+  {
+    "id": "core2-287",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A Linux administrator runs the command 'chmod 755 script.sh' on a shell script. What permissions does this set?",
+    "options": [
+      "Read, write, and execute for everyone (777 equivalent)",
+      "Owner: read/write/execute; Group and Others: read/execute (no write)",
+      "Owner only has access; group and others have none",
+      "All permissions removed"
+    ],
+    "answer": 1,
+    "explanation": "Linux chmod uses octal notation where each digit represents a permission set: 7 = rwx (4+2+1), 5 = r-x (4+0+1). The three digits represent owner, group, and others. So 755 grants the owner full read/write/execute, and the group and other users read/execute (no write). This is a common permission set for executable scripts that everyone can run but only the owner can modify."
+  },
+  {
+    "id": "core2-288",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A Linux user wants to run a single command with elevated (root) privileges without switching to a full root shell. Which command achieves this?",
+    "options": [
+      "su (substitute user)",
+      "sudo (superuser do)",
+      "chmod 777",
+      "passwd"
+    ],
+    "answer": 1,
+    "explanation": "'sudo' (superuser do) runs a single command with elevated privileges, prompting for the user's own password (provided they're listed in /etc/sudoers). 'su' switches to another user's full shell session \u2014 typically root if no user is specified \u2014 requiring that user's password. sudo is preferred for administrative tasks because it logs each command and limits the duration of elevated privileges."
+  },
+  {
+    "id": "core2-289",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A macOS user wants to quickly find a file by name, search the contents of documents, or launch an application without browsing through Finder. Which built-in macOS feature provides this system-wide search functionality?",
+    "options": [
+      "Mission Control",
+      "Spotlight",
+      "Time Machine",
+      "Finder Sidebar"
+    ],
+    "answer": 1,
+    "explanation": "Spotlight is macOS's system-wide search tool, accessed via Cmd+Space or the magnifying glass icon in the menu bar. It indexes files, document contents, applications, system settings, and even integrates web searches and unit conversions. Mission Control shows open windows and desktops; Time Machine handles backups."
+  },
+  {
+    "id": "core2-290",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "An Active Directory administrator wants to organize user accounts into containers based on department to apply different Group Policies to each. Which AD object should be used for this purpose?",
+    "options": [
+      "Security Group",
+      "Domain Controller",
+      "Organizational Unit (OU)",
+      "Forest"
+    ],
+    "answer": 2,
+    "explanation": "Organizational Units (OUs) are AD containers used to organize objects (users, computers, groups) hierarchically within a domain. GPOs (Group Policy Objects) can be linked to OUs, allowing different policies for different departments, locations, or computer types. OUs are also a delegation boundary \u2014 you can grant admin rights over a specific OU without granting domain-wide admin."
+  },
+  {
+    "id": "core2-291",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A Windows administrator pushes new Group Policy settings to client computers but the changes aren't taking effect. Which command run on the client immediately refreshes Group Policy from the domain controller?",
+    "options": [
+      "gpresult /r",
+      "gpupdate /force",
+      "secpol.msc",
+      "regedit"
+    ],
+    "answer": 1,
+    "explanation": "'gpupdate /force' immediately reapplies all Group Policy settings from the domain controller, including those that haven't changed. By default, GP refreshes every 90 minutes (with a random offset), so administrators use gpupdate to apply changes right away. 'gpresult /r' shows the resultant policy applied to the user/computer (useful for troubleshooting which policies are in effect)."
+  },
+  {
+    "id": "core2-292",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "An IT department handles credit card payment data in its retail systems. Which compliance standard specifically governs the storage and transmission of this data?",
+    "options": [
+      "HIPAA (Health Insurance Portability and Accountability Act)",
+      "GDPR (General Data Protection Regulation)",
+      "PCI-DSS (Payment Card Industry Data Security Standard)",
+      "FERPA (Family Educational Rights and Privacy Act)"
+    ],
+    "answer": 2,
+    "explanation": "PCI-DSS governs the handling of credit and debit card data. It defines requirements for network security, encryption of cardholder data, access controls, vulnerability management, and regular auditing. HIPAA covers protected health information (PHI), GDPR covers EU personal data, and FERPA covers student educational records."
+  },
+  {
+    "id": "core2-293",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A company's website collects personal information from visitors in the European Union. Which regulation governs how this data must be handled, and grants EU residents rights such as data access and deletion?",
+    "options": [
+      "PCI-DSS",
+      "HIPAA",
+      "GDPR (General Data Protection Regulation)",
+      "SOX (Sarbanes-Oxley Act)"
+    ],
+    "answer": 2,
+    "explanation": "GDPR (General Data Protection Regulation) is the EU's comprehensive data privacy law. It requires explicit consent for data collection, grants individuals rights including access, correction, deletion ('right to be forgotten'), and data portability, and mandates breach notification within 72 hours. Penalties can reach 4% of global annual revenue. GDPR applies to any organization handling EU residents' data."
+  },
+  {
+    "id": "core2-294",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "During an incident response investigation, every person who handles a piece of evidence (such as a hard drive image) must sign a form documenting receipt, transfer, and storage of that evidence. What is this documentation called?",
+    "options": [
+      "Acceptable Use Policy (AUP)",
+      "Chain of custody",
+      "Service Level Agreement (SLA)",
+      "End User License Agreement (EULA)"
+    ],
+    "answer": 1,
+    "explanation": "Chain of custody is the documentation that tracks every person who has handled a piece of evidence, when, and why, from collection through disposition. Maintaining an unbroken chain of custody is essential for evidence to be admissible in legal proceedings. Any gap or unaccounted access can result in the evidence being thrown out."
+  },
+  {
+    "id": "core2-295",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A small office wants protection so that desktop computers can shut down gracefully during a power outage rather than losing data. Which device should be installed?",
+    "options": [
+      "Surge suppressor (surge protector)",
+      "Uninterruptible Power Supply (UPS)",
+      "Voltage regulator",
+      "Standard power strip"
+    ],
+    "answer": 1,
+    "explanation": "A UPS (Uninterruptible Power Supply) contains a battery that provides short-term power during outages, allowing computers to shut down gracefully or run until a generator takes over. Most UPS units also provide surge suppression and voltage regulation. A surge suppressor only protects against voltage spikes \u2014 it doesn't provide power during an outage."
+  },
+  {
+    "id": "core2-296",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "An IT manager reviewing the company's backup strategy wants to follow the widely-recommended 3-2-1 rule. What does this rule specify?",
+    "options": [
+      "3 backups taken daily, 2 weekly, 1 monthly",
+      "3 copies of data, on 2 different media types, with 1 stored offsite",
+      "3 servers, 2 sites, 1 administrator",
+      "3 retention years, 2 backup tools, 1 audit"
+    ],
+    "answer": 1,
+    "explanation": "The 3-2-1 backup rule states: keep 3 copies of your data (1 primary + 2 backups), on 2 different media types (e.g., disk and tape, or local and cloud), with at least 1 copy stored offsite. This protects against single-point failures, natural disasters, and ransomware that could destroy local backups along with primary data."
+  },
+  {
+    "id": "core2-297",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A backup system periodically combines an existing full backup with subsequent incremental backups to produce a new full backup, without re-reading source data. What is this backup method called?",
+    "options": [
+      "Differential backup",
+      "Incremental backup",
+      "Synthetic full backup",
+      "Snapshot backup"
+    ],
+    "answer": 2,
+    "explanation": "A synthetic full backup creates a new full backup by combining a previous full backup with subsequent incrementals at the backup repository \u2014 without reading the source data again. This reduces backup window and source-system load while still providing the fast restore characteristics of a full backup. It's commonly used in modern enterprise backup software."
+  },
+  {
+    "id": "core2-298",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A managed service provider (MSP) supports hundreds of remote endpoints across many client companies. They need a single platform to remotely monitor system health, deploy patches, and run scripts on all those endpoints. What category of software is this?",
+    "options": [
+      "EDR (Endpoint Detection and Response)",
+      "RMM (Remote Monitoring and Management)",
+      "MDM (Mobile Device Management)",
+      "SIEM (Security Information and Event Management)"
+    ],
+    "answer": 1,
+    "explanation": "RMM (Remote Monitoring and Management) software is designed for MSPs and IT departments to remotely manage endpoints at scale. It provides agent-based monitoring, patch management, scripting/automation, remote control, and ticketing integration. Common RMM platforms include ConnectWise Automate, NinjaOne, and Datto RMM."
+  },
+  {
+    "id": "core2-299",
+    "exam": "core2",
+    "domain": "Operational Procedures",
+    "question": "A help desk technician needs to remotely view and assist a non-technical user who is having trouble. The user must be at the computer to accept the connection request. Which Windows tool is specifically designed for this 'invitation-based' assistance scenario?",
+    "options": [
+      "Remote Desktop (RDP)",
+      "Microsoft Remote Assistance / Quick Assist (MSRA)",
+      "Telnet",
+      "PowerShell Remoting"
+    ],
+    "answer": 1,
+    "explanation": "Microsoft Remote Assistance and its successor Quick Assist allow a technician to view or control a user's session after the user accepts the invitation. The user remains logged in and can see what the technician is doing. RDP (Remote Desktop), in contrast, disconnects the local session \u2014 it's designed for unattended remote access, not collaborative help-desk troubleshooting."
+  },
+  {
+    "id": "core2-300",
+    "exam": "core2",
+    "domain": "Operating Systems",
+    "question": "A Linux administrator needs to change the ownership of a file from one user to another. Which command accomplishes this?",
+    "options": [
+      "chmod",
+      "chown",
+      "chgrp",
+      "passwd"
+    ],
+    "answer": 1,
+    "explanation": "'chown' (change owner) modifies the ownership of a file or directory. Syntax: 'chown newuser file.txt' or 'chown newuser:newgroup file.txt' to change owner and group together. 'chmod' modifies permission bits but not ownership. 'chgrp' changes only the group ownership. Root privileges (or sudo) are typically required to change ownership to another user."
+  }
+]

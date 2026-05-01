@@ -14,11 +14,15 @@ const EXAMS = [
   { value: 'both', label: 'Both Exams' },
 ] as const
 
-const MODES: { value: QuizMode; label: string; desc: string }[] = [
+const MODES: { value: QuizMode; label: string; desc: string; disabled?: boolean }[] = [
   { value: 'quick', label: 'Quick Quiz', desc: '10 random questions' },
   { value: 'full', label: 'Full Exam Sim', desc: '90 questions, timed' },
   { value: 'domain', label: 'Domain Focus', desc: 'Pick a specific domain' },
   { value: 'missed', label: 'Missed Questions', desc: 'Re-quiz questions you got wrong' },
+  { value: 'recent-core1', label: 'Recent Core 1 Questions', desc: 'Newest 220-1201 topics only' },
+  { value: 'recent-core2', label: 'Recent Core 2 Questions', desc: 'Newest 220-1202 topics only' },
+  { value: 'pbq-core1', label: 'Performance-Based (Core 1)', desc: 'Sequence and categorize tasks' },
+  { value: 'pbq-core2', label: 'Performance-Based (Core 2)', desc: 'Coming soon', disabled: true },
 ]
 
 export default function ModeSelector({ config, onChange, onStart }: Props) {
@@ -56,7 +60,7 @@ export default function ModeSelector({ config, onChange, onStart }: Props) {
             <button
               key={m.value}
               onClick={() => onChange({ ...config, mode: m.value, domain: undefined })}
-              disabled={m.value === 'missed' && missedCount === 0}
+              disabled={m.disabled || (m.value === 'missed' && missedCount === 0)}
               className={`flex items-center justify-between w-full py-3 px-4 rounded-lg border text-left transition-colors disabled:opacity-40 disabled:cursor-not-allowed ${
                 config.mode === m.value
                   ? 'bg-blue-600 border-blue-500 text-white'
