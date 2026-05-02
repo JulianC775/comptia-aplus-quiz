@@ -22,16 +22,49 @@
     "domain": "Networking",
     "type": "categorize",
     "question": "Match each TCP/UDP port number to its associated protocol.",
-    "categories": ["FTP", "SSH", "SMTP", "DNS", "HTTP", "HTTPS", "SMB/CIFS", "RDP"],
+    "categories": [
+      "FTP",
+      "SSH",
+      "SMTP",
+      "DNS",
+      "HTTP",
+      "HTTPS",
+      "SMB/CIFS",
+      "RDP"
+    ],
     "items": [
-      { "label": "21", "correct": "FTP" },
-      { "label": "22", "correct": "SSH" },
-      { "label": "25", "correct": "SMTP" },
-      { "label": "53", "correct": "DNS" },
-      { "label": "80", "correct": "HTTP" },
-      { "label": "443", "correct": "HTTPS" },
-      { "label": "445", "correct": "SMB/CIFS" },
-      { "label": "3389", "correct": "RDP" }
+      {
+        "label": "21",
+        "correct": "FTP"
+      },
+      {
+        "label": "22",
+        "correct": "SSH"
+      },
+      {
+        "label": "25",
+        "correct": "SMTP"
+      },
+      {
+        "label": "53",
+        "correct": "DNS"
+      },
+      {
+        "label": "80",
+        "correct": "HTTP"
+      },
+      {
+        "label": "443",
+        "correct": "HTTPS"
+      },
+      {
+        "label": "445",
+        "correct": "SMB/CIFS"
+      },
+      {
+        "label": "3389",
+        "correct": "RDP"
+      }
     ],
     "explanation": "Core well-known ports for the A+ exam: FTP=21, SSH=22, Telnet=23, SMTP=25, DNS=53, HTTP=80, POP3=110, NetBIOS/NetBT=137-139, IMAP=143, HTTPS=443, SMB/CIFS=445, RDP=3389."
   },
@@ -41,16 +74,38 @@
     "domain": "Networking",
     "type": "categorize",
     "question": "Categorize each Ethernet cable category by the highest standard speed it reliably supports at the full 100m run length.",
-    "categories": ["100 Mbps (Fast Ethernet)", "1 Gbps", "10 Gbps"],
-    "items": [
-      { "label": "Cat 5", "correct": "100 Mbps (Fast Ethernet)" },
-      { "label": "Cat 5e", "correct": "1 Gbps" },
-      { "label": "Cat 6", "correct": "1 Gbps" },
-      { "label": "Cat 6a", "correct": "10 Gbps" },
-      { "label": "Cat 7", "correct": "10 Gbps" },
-      { "label": "Cat 8", "correct": "10 Gbps" }
+    "categories": [
+      "100 Mbps (Fast Ethernet)",
+      "1 Gbps",
+      "10 Gbps"
     ],
-    "explanation": "Cat 5 = 100BASE-TX (100 Mbps). Cat 5e and Cat 6 reliably handle 1 Gbps at 100m — Cat 6 supports 10 Gbps but only up to ~55m. Cat 6a is the lowest category that supports 10GBASE-T at the full 100m. Cat 7 also supports 10 Gbps at 100m. Cat 8 supports up to 40 Gbps but at very short runs (~30m), so its 100m-rated throughput is generally listed as 10 Gbps."
+    "items": [
+      {
+        "label": "Cat 5",
+        "correct": "100 Mbps (Fast Ethernet)"
+      },
+      {
+        "label": "Cat 5e",
+        "correct": "1 Gbps"
+      },
+      {
+        "label": "Cat 6",
+        "correct": "1 Gbps"
+      },
+      {
+        "label": "Cat 6a",
+        "correct": "10 Gbps"
+      },
+      {
+        "label": "Cat 7",
+        "correct": "10 Gbps"
+      },
+      {
+        "label": "Cat 8",
+        "correct": "10 Gbps"
+      }
+    ],
+    "explanation": "Cat 5 = 100BASE-TX (100 Mbps). Cat 5e and Cat 6 reliably handle 1 Gbps at 100m \u2014 Cat 6 supports 10 Gbps but only up to ~55m. Cat 6a is the lowest category that supports 10GBASE-T at the full 100m. Cat 7 also supports 10 Gbps at 100m. Cat 8 supports up to 40 Gbps but at very short runs (~30m), so its 100m-rated throughput is generally listed as 10 Gbps."
   },
   {
     "id": "core1-pbq-004",
@@ -66,7 +121,7 @@
       "Verify full system functionality and implement preventive measures",
       "Document findings, actions, and outcomes"
     ],
-    "explanation": "The CompTIA 6-step troubleshooting methodology must be followed in this order. If testing the theory fails to confirm the cause, you re-establish a new theory (or escalate). Documentation is the final step, not optional — it builds the knowledge base for future incidents."
+    "explanation": "The CompTIA 6-step troubleshooting methodology must be followed in this order. If testing the theory fails to confirm the cause, you re-establish a new theory (or escalate). Documentation is the final step, not optional \u2014 it builds the knowledge base for future incidents."
   },
   {
     "id": "core1-pbq-005",
@@ -74,15 +129,41 @@
     "domain": "Networking",
     "type": "categorize",
     "question": "Match each Wi-Fi standard to the frequency band(s) it operates on.",
-    "categories": ["2.4 GHz only", "5 GHz only", "2.4 and 5 GHz", "2.4, 5, and 6 GHz"],
+    "categories": [
+      "2.4 GHz only",
+      "5 GHz only",
+      "2.4 and 5 GHz",
+      "2.4, 5, and 6 GHz"
+    ],
     "items": [
-      { "label": "802.11a", "correct": "5 GHz only" },
-      { "label": "802.11b", "correct": "2.4 GHz only" },
-      { "label": "802.11g", "correct": "2.4 GHz only" },
-      { "label": "802.11n (Wi-Fi 4)", "correct": "2.4 and 5 GHz" },
-      { "label": "802.11ac (Wi-Fi 5)", "correct": "5 GHz only" },
-      { "label": "802.11ax (Wi-Fi 6)", "correct": "2.4 and 5 GHz" },
-      { "label": "802.11ax (Wi-Fi 6E)", "correct": "2.4, 5, and 6 GHz" }
+      {
+        "label": "802.11a",
+        "correct": "5 GHz only"
+      },
+      {
+        "label": "802.11b",
+        "correct": "2.4 GHz only"
+      },
+      {
+        "label": "802.11g",
+        "correct": "2.4 GHz only"
+      },
+      {
+        "label": "802.11n (Wi-Fi 4)",
+        "correct": "2.4 and 5 GHz"
+      },
+      {
+        "label": "802.11ac (Wi-Fi 5)",
+        "correct": "5 GHz only"
+      },
+      {
+        "label": "802.11ax (Wi-Fi 6)",
+        "correct": "2.4 and 5 GHz"
+      },
+      {
+        "label": "802.11ax (Wi-Fi 6E)",
+        "correct": "2.4, 5, and 6 GHz"
+      }
     ],
     "explanation": "802.11a operates in 5 GHz only (~54 Mbps). 802.11b/g are 2.4 GHz only (11/54 Mbps). 802.11n/Wi-Fi 4 is dual-band. 802.11ac/Wi-Fi 5 is 5 GHz only. Wi-Fi 6 (ax) restored dual-band operation. Wi-Fi 6E adds the 6 GHz band on top of Wi-Fi 6's spec."
   },
@@ -99,12 +180,24 @@
       "Mirroring plus striping (combined)"
     ],
     "items": [
-      { "label": "RAID 0", "correct": "Striping with no redundancy (performance only)" },
-      { "label": "RAID 1", "correct": "Mirroring (full duplicate copy)" },
-      { "label": "RAID 5", "correct": "Striping with distributed parity" },
-      { "label": "RAID 10", "correct": "Mirroring plus striping (combined)" }
+      {
+        "label": "RAID 0",
+        "correct": "Striping with no redundancy (performance only)"
+      },
+      {
+        "label": "RAID 1",
+        "correct": "Mirroring (full duplicate copy)"
+      },
+      {
+        "label": "RAID 5",
+        "correct": "Striping with distributed parity"
+      },
+      {
+        "label": "RAID 10",
+        "correct": "Mirroring plus striping (combined)"
+      }
     ],
-    "explanation": "RAID 0 stripes data for speed but offers no fault tolerance. RAID 1 mirrors data to two drives — full redundancy but only 50% capacity efficiency. RAID 5 stripes data with distributed parity — survives one drive failure, requires minimum 3 drives. RAID 10 (1+0) mirrors first then stripes the mirrors — combines redundancy and speed, requires minimum 4 drives."
+    "explanation": "RAID 0 stripes data for speed but offers no fault tolerance. RAID 1 mirrors data to two drives \u2014 full redundancy but only 50% capacity efficiency. RAID 5 stripes data with distributed parity \u2014 survives one drive failure, requires minimum 3 drives. RAID 10 (1+0) mirrors first then stripes the mirrors \u2014 combines redundancy and speed, requires minimum 4 drives."
   },
   {
     "id": "core1-pbq-007",
@@ -112,16 +205,39 @@
     "domain": "Virtualization and Cloud Computing",
     "type": "categorize",
     "question": "Match each cloud service example to its service model.",
-    "categories": ["IaaS (Infrastructure)", "PaaS (Platform)", "SaaS (Software)", "DaaS (Desktop)"],
-    "items": [
-      { "label": "Amazon EC2 virtual machines", "correct": "IaaS (Infrastructure)" },
-      { "label": "Microsoft 365 (web Outlook, Word online)", "correct": "SaaS (Software)" },
-      { "label": "AWS Elastic Beanstalk / Azure App Service", "correct": "PaaS (Platform)" },
-      { "label": "Amazon WorkSpaces / Azure Virtual Desktop", "correct": "DaaS (Desktop)" },
-      { "label": "Google Workspace (Gmail, Docs)", "correct": "SaaS (Software)" },
-      { "label": "Azure Virtual Machines", "correct": "IaaS (Infrastructure)" }
+    "categories": [
+      "IaaS (Infrastructure)",
+      "PaaS (Platform)",
+      "SaaS (Software)",
+      "DaaS (Desktop)"
     ],
-    "explanation": "IaaS provides raw VMs/storage/networking — you manage the OS and up. PaaS abstracts the OS — you only manage the app and data. SaaS is finished software delivered over the internet — you only consume it. DaaS delivers a hosted virtual desktop environment streamed to a thin client."
+    "items": [
+      {
+        "label": "Amazon EC2 virtual machines",
+        "correct": "IaaS (Infrastructure)"
+      },
+      {
+        "label": "Microsoft 365 (web Outlook, Word online)",
+        "correct": "SaaS (Software)"
+      },
+      {
+        "label": "AWS Elastic Beanstalk / Azure App Service",
+        "correct": "PaaS (Platform)"
+      },
+      {
+        "label": "Amazon WorkSpaces / Azure Virtual Desktop",
+        "correct": "DaaS (Desktop)"
+      },
+      {
+        "label": "Google Workspace (Gmail, Docs)",
+        "correct": "SaaS (Software)"
+      },
+      {
+        "label": "Azure Virtual Machines",
+        "correct": "IaaS (Infrastructure)"
+      }
+    ],
+    "explanation": "IaaS provides raw VMs/storage/networking \u2014 you manage the OS and up. PaaS abstracts the OS \u2014 you only manage the app and data. SaaS is finished software delivered over the internet \u2014 you only consume it. DaaS delivers a hosted virtual desktop environment streamed to a thin client."
   },
   {
     "id": "core1-pbq-008",
@@ -129,17 +245,220 @@
     "domain": "Hardware",
     "type": "categorize",
     "question": "Match each connector to the interface it is associated with.",
-    "categories": ["Video output", "Storage interface", "Networking", "Power"],
+    "categories": [
+      "Video output",
+      "Storage interface",
+      "Networking",
+      "Power"
+    ],
     "items": [
-      { "label": "HDMI", "correct": "Video output" },
-      { "label": "DisplayPort", "correct": "Video output" },
-      { "label": "RJ45", "correct": "Networking" },
-      { "label": "SATA data cable", "correct": "Storage interface" },
-      { "label": "M.2 (key M)", "correct": "Storage interface" },
-      { "label": "LC fiber connector", "correct": "Networking" },
-      { "label": "24-pin ATX", "correct": "Power" },
-      { "label": "8-pin EPS", "correct": "Power" }
+      {
+        "label": "HDMI",
+        "correct": "Video output"
+      },
+      {
+        "label": "DisplayPort",
+        "correct": "Video output"
+      },
+      {
+        "label": "RJ45",
+        "correct": "Networking"
+      },
+      {
+        "label": "SATA data cable",
+        "correct": "Storage interface"
+      },
+      {
+        "label": "M.2 (key M)",
+        "correct": "Storage interface"
+      },
+      {
+        "label": "LC fiber connector",
+        "correct": "Networking"
+      },
+      {
+        "label": "24-pin ATX",
+        "correct": "Power"
+      },
+      {
+        "label": "8-pin EPS",
+        "correct": "Power"
+      }
     ],
     "explanation": "HDMI and DisplayPort carry video (and audio). RJ45 (twisted pair) and LC (fiber) are network connectors. SATA and M.2 are storage interfaces. 24-pin ATX is the main motherboard power connector; 8-pin EPS supplies the CPU."
+  },
+  {
+    "id": "core1-pbq-009",
+    "exam": "core1",
+    "domain": "Networking",
+    "type": "sequence",
+    "question": "Place the seven layers of the OSI model in the correct order, starting with Layer 1 at the top.",
+    "steps": [
+      "Layer 1 \u2014 Physical",
+      "Layer 2 \u2014 Data Link",
+      "Layer 3 \u2014 Network",
+      "Layer 4 \u2014 Transport",
+      "Layer 5 \u2014 Session",
+      "Layer 6 \u2014 Presentation",
+      "Layer 7 \u2014 Application"
+    ],
+    "explanation": "OSI layers top-to-bottom (1\u21927): Physical (cables, signals), Data Link (MAC addresses, switches), Network (IP addresses, routing), Transport (TCP/UDP, port numbers), Session (maintaining connections), Presentation (encryption, compression, format translation), Application (HTTP, FTP, DNS \u2014 user-facing protocols). Memory aid: 'Please Do Not Throw Sausage Pizza Away.'"
+  },
+  {
+    "id": "core1-pbq-010",
+    "exam": "core1",
+    "domain": "Networking",
+    "type": "categorize",
+    "question": "Classify each IPv4 address as private (RFC 1918 \u2014 not routable on the public internet) or public.",
+    "categories": [
+      "Private (RFC 1918)",
+      "Public (routable)"
+    ],
+    "items": [
+      {
+        "label": "10.0.0.1",
+        "correct": "Private (RFC 1918)"
+      },
+      {
+        "label": "172.16.5.10",
+        "correct": "Private (RFC 1918)"
+      },
+      {
+        "label": "172.31.255.254",
+        "correct": "Private (RFC 1918)"
+      },
+      {
+        "label": "192.168.100.5",
+        "correct": "Private (RFC 1918)"
+      },
+      {
+        "label": "8.8.8.8",
+        "correct": "Public (routable)"
+      },
+      {
+        "label": "172.32.0.1",
+        "correct": "Public (routable)"
+      },
+      {
+        "label": "192.169.1.1",
+        "correct": "Public (routable)"
+      },
+      {
+        "label": "1.1.1.1",
+        "correct": "Public (routable)"
+      }
+    ],
+    "explanation": "RFC 1918 private ranges: 10.0.0.0/8 (10.x.x.x), 172.16.0.0/12 (172.16.x.x \u2013 172.31.x.x), and 192.168.0.0/16 (192.168.x.x). Anything outside these three ranges is public. Common traps: 172.32.x.x looks like private but is outside the /12 range; 192.169.x.x looks like private but is above 192.168."
+  },
+  {
+    "id": "core1-pbq-011",
+    "exam": "core1",
+    "domain": "Hardware",
+    "type": "categorize",
+    "question": "Match each USB / interface standard to its maximum theoretical transfer speed.",
+    "categories": [
+      "480 Mbps",
+      "5 Gbps",
+      "10 Gbps",
+      "20 Gbps",
+      "40 Gbps"
+    ],
+    "items": [
+      {
+        "label": "USB 2.0 (Hi-Speed)",
+        "correct": "480 Mbps"
+      },
+      {
+        "label": "USB 3.2 Gen 1 (formerly USB 3.0)",
+        "correct": "5 Gbps"
+      },
+      {
+        "label": "USB 3.2 Gen 2 (formerly USB 3.1)",
+        "correct": "10 Gbps"
+      },
+      {
+        "label": "USB 3.2 Gen 2x2",
+        "correct": "20 Gbps"
+      },
+      {
+        "label": "USB4 Gen 3x2 / Thunderbolt 4",
+        "correct": "40 Gbps"
+      }
+    ],
+    "explanation": "USB speed tiers: USB 2.0 = 480 Mbps, USB 3.2 Gen 1 = 5 Gbps, USB 3.2 Gen 2 = 10 Gbps, USB 3.2 Gen 2x2 = 20 Gbps (uses two lanes). USB4 Gen 2x2 = 20 Gbps; USB4 Gen 3x2 = 40 Gbps. Thunderbolt 4 is certified at 40 Gbps minimum. The USB naming scheme was renumbered multiple times \u2014 the 'Gen X\u00d7Y' format shows speed tier \u00d7 lane count."
+  },
+  {
+    "id": "core1-pbq-012",
+    "exam": "core1",
+    "domain": "Hardware",
+    "type": "categorize",
+    "question": "Classify each memory or storage type as volatile (loses all data when power is removed) or non-volatile (retains data without power).",
+    "categories": [
+      "Volatile",
+      "Non-volatile"
+    ],
+    "items": [
+      {
+        "label": "DRAM (system RAM)",
+        "correct": "Volatile"
+      },
+      {
+        "label": "SRAM (CPU cache)",
+        "correct": "Volatile"
+      },
+      {
+        "label": "GPU VRAM (GDDR)",
+        "correct": "Volatile"
+      },
+      {
+        "label": "NAND Flash SSD",
+        "correct": "Non-volatile"
+      },
+      {
+        "label": "Hard disk drive (HDD)",
+        "correct": "Non-volatile"
+      },
+      {
+        "label": "ROM / EEPROM (BIOS chip)",
+        "correct": "Non-volatile"
+      },
+      {
+        "label": "USB flash drive",
+        "correct": "Non-volatile"
+      }
+    ],
+    "explanation": "Volatile memory requires constant power to maintain data \u2014 DRAM, SRAM, and GDDR are all volatile. Non-volatile storage retains data after power is removed \u2014 HDDs, SSDs, ROM chips, and flash drives are all non-volatile. This distinction matters when troubleshooting: a power loss destroys anything in RAM but leaves disk data intact."
+  },
+  {
+    "id": "core1-pbq-013",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "type": "categorize",
+    "question": "Match each display symptom to its most likely cause.",
+    "categories": [
+      "Failed or failing backlight (LCD)",
+      "Damaged video cable or loose connection",
+      "Dead or stuck pixel (manufacturing defect)",
+      "Image burn-in (OLED / plasma)"
+    ],
+    "items": [
+      {
+        "label": "Screen is very dim \u2014 image is barely visible in direct light but present",
+        "correct": "Failed or failing backlight (LCD)"
+      },
+      {
+        "label": "A tiny fixed dot that stays one color regardless of what is displayed on screen",
+        "correct": "Dead or stuck pixel (manufacturing defect)"
+      },
+      {
+        "label": "A faint ghost of a previously displayed UI element is permanently visible on-screen",
+        "correct": "Image burn-in (OLED / plasma)"
+      },
+      {
+        "label": "Display shows distorted or partial image that clears temporarily when the cable is wiggled",
+        "correct": "Damaged video cable or loose connection"
+      }
+    ],
+    "explanation": "LCD backlight failure leaves the panel dark but functional \u2014 shining a flashlight at an angle reveals the image. Dead/stuck pixels are fixed-color dots caused by a transistor failure during manufacturing. Burn-in is permanent pixel degradation from static images on OLED or plasma displays. Cable damage or a loose connector creates intermittent signal artifacts that change when the cable is moved."
   }
 ]

@@ -51,8 +51,14 @@ export interface QuizSession {
   startTime: number;
 }
 
+export type AnyQuestion = Question | PerformanceQuestion
+
+export function isPBQ(q: AnyQuestion): q is PerformanceQuestion {
+  return 'type' in q
+}
+
 export interface QuizResult {
-  question: Question;
+  question: AnyQuestion;
   selectedAnswer: number | number[] | null;
   correct: boolean;
 }

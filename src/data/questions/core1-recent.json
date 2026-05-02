@@ -698,5 +698,145 @@
     ],
     "answer": 1,
     "explanation": "When a single AP is affected, the most likely causes are channel interference (from other APs or non-Wi-Fi devices), signal strength issues from coverage gaps, or AP-side configuration problems. A Wi-Fi analyzer reveals channel utilization, neighboring SSIDs, and signal strength so the technician can change channels, adjust transmit power, or relocate the AP without unnecessarily replacing hardware."
+  },
+  {
+    "id": "core1-299",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A technician installs new RAM and powers on the PC. The system shows no display and emits repeating beep codes, but the fans spin. What is the most likely cause?",
+    "options": [
+      "The RAM is not seated fully in the slot or is in the wrong slot",
+      "The hard drive failed during the install",
+      "The CPU was damaged by static discharge",
+      "The power supply is underpowered for the new RAM"
+    ],
+    "answer": 0,
+    "explanation": "Repeating POST beep codes with no video output immediately after a RAM install almost always indicate unseated or improperly slotted RAM. The fix is to reseat each stick firmly, ensure the clips latch on both sides, and confirm the sticks are in the correct slots for dual-channel operation per the motherboard manual."
+  },
+  {
+    "id": "core1-300",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A laptop displays vertical colored lines across the screen. When connected to an external monitor, the external display is perfect. What is the most likely cause?",
+    "options": [
+      "The graphics driver is outdated and needs updating",
+      "The LCD panel ribbon cable is damaged or loose",
+      "The OS installation is corrupt",
+      "The battery voltage is too low for the display"
+    ],
+    "answer": 1,
+    "explanation": "When a display defect appears on the built-in screen but not on an external monitor, the GPU itself is fine. The issue is isolated to the internal display path \u2014 most commonly a damaged or partially disconnected ribbon cable connecting the display to the motherboard. It can also be a failed LCD panel, but the cable is the first thing to check."
+  },
+  {
+    "id": "core1-301",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A desktop PC runs at full speed on startup but slows dramatically after a few minutes of load. CPU usage shows 100% then drops to near 0% in a pattern. What is the most likely cause?",
+    "options": [
+      "A virus is consuming CPU resources intermittently",
+      "Thermal throttling caused by overheating \u2014 dried thermal paste or blocked airflow",
+      "The RAM is insufficient, causing excessive paging",
+      "The CPU is defective and needs replacement"
+    ],
+    "answer": 1,
+    "explanation": "This pattern \u2014 normal performance initially, then severe slowdown under load \u2014 is the classic signature of thermal throttling. Modern CPUs automatically reduce clock speed to protect themselves when temperature exceeds a threshold. Common causes: dried/missing thermal paste between CPU and heatsink, a clogged or failed cooling fan, or blocked case airflow."
+  },
+  {
+    "id": "core1-302",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "After a technician installs a second hard drive, the computer shows 'No bootable device found' on startup even though the original drive with the OS is still present. What should be checked first?",
+    "options": [
+      "The BIOS boot order changed to prioritize the new empty drive over the OS drive",
+      "The power supply cannot support two drives simultaneously",
+      "The original OS drive was corrupted during the installation",
+      "The new drive requires a BIOS firmware update to be recognized"
+    ],
+    "answer": 0,
+    "explanation": "Adding a new drive can shift the BIOS boot order if the new drive is detected first. The system then tries to boot from the new unformatted/empty drive and fails. The fix is to enter BIOS setup and move the original OS drive back to the top of the boot priority list."
+  },
+  {
+    "id": "core1-303",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A user's laptop shows an IP address of 169.254.14.22 and cannot reach any network resources or the internet. What does this address indicate?",
+    "options": [
+      "The router assigned a reserved static IP from the DHCP exclusion range",
+      "The device failed to obtain a DHCP lease and self-assigned an APIPA address",
+      "The device is using a valid IPv6 link-local address instead of IPv4",
+      "The IP address is from the ISP's CGNAT range"
+    ],
+    "answer": 1,
+    "explanation": "169.254.0.0/16 is the APIPA (Automatic Private IP Addressing) range. Windows automatically assigns an address in this range when the network adapter cannot reach a DHCP server. Common causes: DHCP server is down or unreachable, wrong VLAN, bad cable or switch port, or Wi-Fi not associated. Run ipconfig /release and ipconfig /renew after fixing the underlying connectivity issue."
+  },
+  {
+    "id": "core1-304",
+    "exam": "core1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A user reports intermittent packet loss to one specific website, while all other internet traffic works fine. Which tool best identifies where in the network path the packet loss is occurring?",
+    "options": [
+      "ipconfig /release",
+      "tracert (traceroute)",
+      "nslookup",
+      "ping 127.0.0.1"
+    ],
+    "answer": 1,
+    "explanation": "tracert (Windows) / traceroute (Linux/macOS) sends probes with incrementally increasing TTL values to map each hop between source and destination. It shows latency and packet loss at each router along the path, making it easy to identify exactly which hop is causing the problem. ipconfig deals with local adapter config; nslookup tests DNS resolution only; ping localhost only tests the local stack."
+  },
+  {
+    "id": "core1-305",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A technician is installing an Intel Core CPU. The processor has flat contact pads instead of pins on its underside, and the pins are inside the motherboard socket. What socket type is this?",
+    "options": [
+      "PGA (Pin Grid Array)",
+      "LGA (Land Grid Array)",
+      "BGA (Ball Grid Array)",
+      "ZIF (Zero Insertion Force)"
+    ],
+    "answer": 1,
+    "explanation": "LGA (Land Grid Array) sockets have the pins on the motherboard socket, and the CPU has flat contact pads. Intel desktop CPUs (LGA1700, LGA1851, etc.) use LGA. AMD traditionally uses PGA (Pin Grid Array), where the pins are on the CPU and the socket has holes \u2014 though recent AMD desktop platforms have also moved to LGA. BGA is soldered directly to the board (common in laptops/mobile)."
+  },
+  {
+    "id": "core1-306",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A laptop advertisement highlights its Mini-LED display with 1000+ local dimming zones. How does Mini-LED backlighting differ from a standard LED-backlit LCD?",
+    "options": [
+      "Mini-LED emits light per individual pixel like OLED \u2014 no backlight is used",
+      "Mini-LED uses thousands of tiny LEDs arranged into dimming zones, enabling much better contrast while still using an LCD panel",
+      "Mini-LED is a budget alternative with lower color accuracy than standard LED LCD",
+      "Mini-LED cannot display HDR content due to its lower brightness ceiling"
+    ],
+    "answer": 1,
+    "explanation": "Mini-LED still uses a traditional LCD panel, but replaces the standard LED backlight with thousands of much smaller LEDs grouped into independent dimming zones. This allows localized control of brightness \u2014 dark areas can dim independently from bright areas \u2014 dramatically improving contrast and HDR performance compared to standard edge-lit or full-array LED LCDs. OLED improves further by controlling brightness per pixel."
+  },
+  {
+    "id": "core1-307",
+    "exam": "core1",
+    "domain": "Hardware",
+    "question": "A power supply is labeled '80 PLUS Gold.' What does this certification indicate?",
+    "options": [
+      "The PSU delivers 80% more wattage than its rated label under load",
+      "The PSU is 87\u201390% efficient, converting at least that percentage of AC input to usable DC output",
+      "The PSU has 80 individual modular cable connectors",
+      "The PSU is rated for operating temperatures up to 80\u00b0C"
+    ],
+    "answer": 1,
+    "explanation": "The 80 PLUS certification program rates PSU efficiency. 80 PLUS standard = 80% efficiency; Bronze = 82\u201385%; Silver = 85\u201388%; Gold = 87\u201390%; Platinum = 90\u201392%; Titanium = 90\u201394%. Higher efficiency means less electricity wasted as heat at the PSU. Gold is a common choice for mid-to-high-end builds balancing cost and efficiency."
+  },
+  {
+    "id": "core1-308",
+    "exam": "core1",
+    "domain": "Mobile Devices",
+    "question": "A user's smartphone camera app crashes immediately when opened, and several other apps are sluggish. The phone has been in use for two years and was never cleared. What is the most likely cause and first fix?",
+    "options": [
+      "The phone's battery needs replacement \u2014 a failing battery causes app crashes",
+      "The phone's internal storage is nearly full \u2014 free space by clearing app caches and removing unused apps",
+      "The phone's RAM is defective and needs hardware repair",
+      "The mobile OS requires a full factory reset to fix app instability"
+    ],
+    "answer": 1,
+    "explanation": "On both iOS and Android, extremely low internal storage causes widespread app instability \u2014 apps crash, the camera can't write files, and the OS itself behaves erratically. The fix is to free storage: clear app caches (Settings > App > Storage > Clear Cache), delete unused apps, and move photos/videos to cloud storage. This is the first step before escalating to OS-level fixes or hardware."
   }
 ]

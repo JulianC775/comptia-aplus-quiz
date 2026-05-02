@@ -1,4 +1,5 @@
-import type { QuizResult } from '../types'
+import type { QuizResult, Question } from '../types'
+import { isPBQ } from '../types'
 import { calcScore, calcPercent, formatTime } from '../utils/scoring'
 
 interface Props {
@@ -34,27 +35,42 @@ export default function ResultsSummary({ results, elapsedSeconds, onRestart, onH
           <p className="text-sm font-semibold text-gray-400 uppercase tracking-wide">
             Missed questions
           </p>
-          {missed.map(({ question, selectedAnswer }) => (
-            <div key={question.id} className="bg-gray-900 border border-gray-800 rounded-lg p-4 text-sm">
-              <p className="text-gray-200 mb-2">{question.question}</p>
-              <p className="text-red-400">
-                Your answer:{' '}
-                {selectedAnswer === null ? '—'
-                  : Array.isArray(selectedAnswer)
-                    ? selectedAnswer.map(i => question.options[i]).join(', ')
-                    : question.options[selectedAnswer]}
-              </p>
-              <p className="text-green-400">
-                Correct:{' '}
-                {Array.isArray(question.answer)
-                  ? question.answer.map(i => question.options[i]).join(', ')
-                  : question.options[question.answer]}
-              </p>
-              {question.explanation && (
-                <p className="text-gray-400 mt-2 leading-relaxed">{question.explanation}</p>
-              )}
-            </div>
-          ))}
+          {missed.map(({ question, selectedAnswer }) => {
+            const perf = isPBQ(question)
+            const mc = perf ? null : question as Question
+            return (
+              <div key={question.id} className="bg-gray-900 border border-gray-800 rounded-lg p-4 text-sm">
+                {perf && (
+                  <span className="inline-block text-xs bg-purple-900 text-purple-300 px-2 py-0.5 rounded-full font-medium mb-2">
+                    Performance Question
+                  </span>
+                )}
+                <p className="text-gray-200 mb-2">{question.question}</p>
+                {perf ? (
+                  <p className="text-gray-500 italic">Review this in Performance-Based mode to practice interactively.</p>
+                ) : (
+                  <>
+                    <p className="text-red-400">
+                      Your answer:{' '}
+                      {selectedAnswer === null ? '—'
+                        : Array.isArray(selectedAnswer)
+                          ? selectedAnswer.map(i => mc!.options[i]).join(', ')
+                          : mc!.options[selectedAnswer as number]}
+                    </p>
+                    <p className="text-green-400">
+                      Correct:{' '}
+                      {Array.isArray(mc!.answer)
+                        ? (mc!.answer as number[]).map(i => mc!.options[i]).join(', ')
+                        : mc!.options[mc!.answer as number]}
+                    </p>
+                  </>
+                )}
+                {question.explanation && (
+                  <p className="text-gray-400 mt-2 leading-relaxed">{question.explanation}</p>
+                )}
+              </div>
+            )
+          })}
         </div>
       )}
 

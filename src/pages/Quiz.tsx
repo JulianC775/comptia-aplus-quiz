@@ -4,6 +4,7 @@ import { useQuiz } from '../hooks/useQuiz'
 import { saveMissedIds } from '../utils/scoring'
 import ProgressBar from '../components/ProgressBar'
 import QuestionCard from '../components/QuestionCard'
+import PBQCard from '../components/PBQCard'
 
 export default function Quiz() {
   const location = useLocation()
@@ -61,15 +62,24 @@ function QuizInner({ config }: { config: QuizConfig }) {
 
         <div className="bg-gray-900 border border-gray-800 rounded-2xl p-6">
           {quiz.current && (
-            <QuestionCard
-              question={quiz.current}
-              selected={quiz.selected}
-              confirmed={quiz.isAnswered}
-              onToggle={quiz.toggle}
-              onConfirm={quiz.confirm}
-              canConfirm={quiz.canConfirm}
-              requiredCount={quiz.requiredCount}
-            />
+            quiz.currentIsPBQ ? (
+              <PBQCard
+                key={quiz.current.id}
+                question={quiz.current as import('../types').PerformanceQuestion}
+                submitted={quiz.isAnswered}
+                onSubmit={quiz.confirmPBQ}
+              />
+            ) : (
+              <QuestionCard
+                question={quiz.current as import('../types').Question}
+                selected={quiz.selected}
+                confirmed={quiz.isAnswered}
+                onToggle={quiz.toggle}
+                onConfirm={quiz.confirm}
+                canConfirm={quiz.canConfirm}
+                requiredCount={quiz.requiredCount}
+              />
+            )
           )}
         </div>
 
